@@ -1,4 +1,4 @@
 
 class TesttyDB:
-    def __init__:
-        pass
+    def __init__(self):
+        self.database_id = None
