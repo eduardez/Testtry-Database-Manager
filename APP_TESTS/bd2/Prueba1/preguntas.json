@@ -1,0 +1,631 @@
+{
+    "Preguntas": [
+        {
+            "enunciado": "\u00bfQu\u00e9 clase de sistema operativo es necesario para un conjunto de computadores con un procesador cada uno, m\u00faltiples usuarios que usan terminales alfanum\u00e9ricos o gr\u00e1ficos y que utilizan aplicaciones servidoras en algunos computadores y aplicaciones cliente en el resto? Elija el sistema operativo con la menor complejidad posible para atender las necesidades indicadas.",
+            "respuestas": [
+                " Sistema operativo de red ",
+                " Sistema operativo localizado ",
+                " Sistema operativo distribuido ",
+                " Sistema operativo multiprocesador ",
+                " Sistema operativo basado en middleware "
+            ],
+            "verdadera": "La respuesta correcta es: Sistema operativo de red"
+        },
+        {
+            "enunciado": "Si se desea un sistema capaz de ejecutar concurrentemente aplicaciones de distintos sistemas operativos es aconsejable utilizar",
+            "respuestas": [
+                " Un sistema operativo distribuido ",
+                " Un sistema operativo estructurado en niveles ",
+                " Un sistema operativo monol\u00edtico ",
+                " Un sistema operativo basado en m\u00e1quinas virtuales ",
+                " Un sistema operativo basado en un micron\u00facleo "
+            ],
+            "verdadera": "La respuesta correcta es: Un sistema operativo basado en m\u00e1quinas virtuales"
+        },
+        {
+            "enunciado": "Un sistema operativo distribuido",
+            "respuestas": [
+                " Necesita obligatoriamente de una red de comunicaciones de alta velocidad ",
+                " Necesita obligatoriamente de una red de comunicaciones de \u00e1rea extensa ",
+                " Necesita obligatoriamente de procesadores con un dise\u00f1o espec\u00edfico para estos sistemas ",
+                " Opera obligatoriamente en un sistema con m\u00faltiples procesadores id\u00e9nticos ",
+                " Opera en un sistema con m\u00faltiples procesadores que no comparten un reloj com\u00fan "
+            ],
+            "verdadera": "La respuesta correcta es: Opera en un sistema con m\u00faltiples procesadores que no comparten un reloj com\u00fan"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1les son las ventajas del modelo de paso de mensajes para la comunicaci\u00f3n entre procesos?",
+            "respuestas": [
+                " La facilidad en su utilizaci\u00f3n y la velocidad de comunicaci\u00f3n ",
+                " La velocidad de comunicaci\u00f3n en sistemas multiprocesador ",
+                " La velocidad de comunicaci\u00f3n en sistemas monoprocesador ",
+                " La facilidad de su implementaci\u00f3n y que no existen problemas en la coordinaci\u00f3n entre procesos ",
+                " La facilidad de su implementaci\u00f3n y la velocidad de comunicaci\u00f3n "
+            ],
+            "verdadera": "La respuesta correcta es: La facilidad de su implementaci\u00f3n y que no existen problemas en la coordinaci\u00f3n entre procesos"
+        },
+        {
+            "enunciado": "El concepto de directorio actual es com\u00fan en las siguientes estructuras de directorio",
+            "respuestas": [
+                " Estructura de grafo ac\u00edclico y de grafo general ",
+                " Estructura de dos niveles y estructura de \u00e1rbol ",
+                " Estructura de \u00e1rbol ",
+                " Estructura de \u00e1rbol, de grafo ac\u00edclico y de grafo general ",
+                " En todas las estructuras de directorio "
+            ],
+            "verdadera": "La respuesta correcta es: Estructura de \u00e1rbol, de grafo ac\u00edclico y de grafo general"
+        },
+        {
+            "enunciado": "La apertura de archivos en un sistema multiusuario",
+            "respuestas": [
+                " Se implementa en el sistema operativo con un solo nivel de tablas: nivel de sistema ",
+                " Se implementa en el sistema operativo con dos niveles de tablas: nivel de sistema y nivel de proceso ",
+                " Implica forzosamente el bloqueo de los procesos que intentan acceder a una misma zona de un archivo ",
+                " Implica forzosamente la compartici\u00f3n del puntero de un mismo archivo por todos los procesos ",
+                " Exige llamadas de sistema distintas a un sistema monousuario "
+            ],
+            "verdadera": "La respuesta correcta es: Se implementa en el sistema operativo con dos niveles de tablas: nivel de sistema y nivel de proceso"
+        },
+        {
+            "enunciado": "Queremos ver el \u00edndice del contenido de un fichero p1.tar creado mediante la utilidad tar sin deserializarlo. La orden que deber\u00e1 usarse es",
+            "respuestas": [
+                " tar -xv p1.tar ",
+                " tar -tf p1.tar ",
+                " tar -pf p1.tar ",
+                " tar -t  p1.tar ",
+                " tar -vf p1.tar "
+            ],
+            "verdadera": "La respuesta correcta es: tar -tf p1.tar"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l es la orden del shell que permite copiar recursivamente en el directorio /tmp los nodos descendientes del directorio /etc cuyo nombre no termine en el car\u00e1cter ``d'' o en el car\u00e1cter ``r''",
+            "respuestas": [
+                " cp -R /etc/*[dr] /tmp ",
+                " copy -r /etc/?[dr] /tmp ",
+                " cp -r /tmp /etc/*[dr] ",
+                " cp -r /etc/*[!dr] /tmp ",
+                " cp -r /etc/?[-dr] /tmp "
+            ],
+            "verdadera": "La respuesta correcta es: cp -r /etc/*[!dr] /tmp"
+        },
+        {
+            "enunciado": "Qu\u00e9 archivo genera la orden  gcc -S prueba.c",
+            "respuestas": [
+                " Un archivo objeto llamado prueba.o ",
+                " Un archivo en lenguaje ensamblador llamado prueba.s ",
+                " Un archivo equivalente a prueba.c pero preprocesado ",
+                " Un archivo en lenguaje ensamblador llamado a.s ",
+                " Un error, porque no le damos el nombre del archivo de salida "
+            ],
+            "verdadera": "La respuesta correcta es: Un archivo en lenguaje ensamblador llamado prueba.s"
+        },
+        {
+            "enunciado": "La orden gcc -E problema.c",
+            "respuestas": [
+                " Generar\u00e1, si no hay errores, un archivo en ensamblador, con el c\u00f3digo correspondiente al archivo problema.c ",
+                " Generar\u00e1, si no hay errores, un archivo objeto de nombre problema.o ",
+                " Producir\u00e1, si no hay errores, un archivo ejecutable sin generar ning\u00fan informe de errores o warnings ",
+                " Generar\u00e1, si no hay errores, un archivo preprocesado, con el c\u00f3digo correspondiente al archivo problema.c que ser\u00e1 enviado a la salida est\u00e1ndar ",
+                " Intentar\u00e1 producir, si no hay errores, un archivo ejecutable sin usar ninguna biblioteca y sin incluir ninguna cabecera "
+            ],
+            "verdadera": "La respuesta correcta es: Generar\u00e1, si no hay errores, un archivo preprocesado, con el c\u00f3digo correspondiente al archivo problema.c que ser\u00e1 enviado a la salida est\u00e1ndar"
+        },
+        {
+            "enunciado": "La planificaci\u00f3n a largo plazo del procesador",
+            "respuestas": [
+                " Expulsa del procesador a aquellos procesos que consumen m\u00e1s tiempo del asignado ",
+                " Debe consumir muy poco tiempo pues se ejecuta con mucha frecuencia ",
+                " Selecciona un proceso de la lista de procesos preparados al que se le ceder\u00e1 el uso del procesador ",
+                " Expulsa temporalmente de memoria a algunos procesos para cargar otros ",
+                " Controla el grado de multiprogramaci\u00f3n del sistema "
+            ],
+            "verdadera": "La respuesta correcta es: Controla el grado de multiprogramaci\u00f3n del sistema"
+        },
+        {
+            "enunciado": "Los planificadores por turno rotatorio tienen normalmente una lista de todos los procesos preparados, cada uno de los cuales aparece una sola vez en la misma. \u00bfQu\u00e9 suceder\u00eda si un proceso apareciese dos veces en la lista?",
+            "respuestas": [
+                " Se asignar\u00eda medio cuanto de tiempo de CPU a ese proceso por cada ronda de ejecuci\u00f3n ",
+                " Se asignar\u00edan dos cuantos de tiempo de CPU a ese proceso por cada ronda de ejecuci\u00f3n ",
+                " Se producir\u00eda una excepci\u00f3n en el algoritmo de planificaci\u00f3n y el proceso terminar\u00eda por error de ejecuci\u00f3n ",
+                " En sistemas con dos o m\u00e1s procesadores se podr\u00eda ejecutar en paralelo ese proceso sin requerir ninguna modificaci\u00f3n en el programa del proceso ",
+                " Se producir\u00eda un bucle en el algoritmo de planificaci\u00f3n y el sistema operativo se bloquear\u00eda "
+            ],
+            "verdadera": "La respuesta correcta es: Se asignar\u00edan dos cuantos de tiempo de CPU a ese proceso por cada ronda de ejecuci\u00f3n"
+        },
+        {
+            "enunciado": "La diferencia entre las llamadas al sistema execlp y execv para el recubrimiento de procesos en UNIX",
+            "respuestas": [
+                " Consiste en la utilizaci\u00f3n de una lista en vez de una matriz de punteros para pasar los argumentos y utilizar los mismos valores de las variables de entorno para el nuevo programa ",
+                " Consiste en la utilizaci\u00f3n de una lista en vez de una matriz de punteros para pasar los argumentos y en la utilizaci\u00f3n de la variable de entorno PATH para la b\u00fasqueda del nuevo programa ",
+                " Consiste en la comprobaci\u00f3n de los permisos de ejecuci\u00f3n del nuevo programa ",
+                " Consiste en la utilizaci\u00f3n de una lista en vez de una matriz de punteros para pasar los argumentos y la definici\u00f3n de las variables de entorno del nuevo programa ",
+                " Consiste en el cierre de todos los descriptores de archivo antes de la ejecuci\u00f3n del nuevo programa "
+            ],
+            "verdadera": "La respuesta correcta es: Consiste en la utilizaci\u00f3n de una lista en vez de una matriz de punteros para pasar los argumentos y en la utilizaci\u00f3n de la variable de entorno PATH para la b\u00fasqueda del nuevo programa"
+        },
+        {
+            "enunciado": "El registro de reubicaci\u00f3n de una unidad de gesti\u00f3n de memoria principal (MMU) tiene un valor",
+            "respuestas": [
+                " Que es calculado por el compilador para el programa que se va a ejecutar ",
+                " Que es cargado por la parte del c\u00f3digo del sistema operativo que se ejecuta en la unidad de gesti\u00f3n de memoria principal (MMU), con un valor que depende del programa que se va a ejecutar ",
+                " Que es calculado por el enlazador cuando se genera el archivo con el c\u00f3digo reubicable del programa que se va a ejecutar ",
+                " Que es fijo en un sistema operativo multiprogramado y s\u00f3lo depende del tama\u00f1o del n\u00facleo del sistema operativo ",
+                " Que es cargado por el c\u00f3digo del sistema operativo con un valor que depende del programa que se va a ejecutar "
+            ],
+            "verdadera": "La respuesta correcta es: Que es cargado por el c\u00f3digo del sistema operativo con un valor que depende del programa que se va a ejecutar"
+        },
+        {
+            "enunciado": "La fragmentaci\u00f3n externa de memoria",
+            "respuestas": [
+                " Disminuye utilizando un sistema de segmentaci\u00f3n de memoria ",
+                " Es la memoria libre dentro de una partici\u00f3n asignada a un proceso ",
+                " Es la divisi\u00f3n interna de la memoria asignada a un proceso en las zonas de c\u00f3digo, datos y pila ",
+                " Es la memoria no asignada a procesos que no puede ser utilizada porque est\u00e1 dispersa ",
+                " Se reduce dividiendo los huecos libres de memoria "
+            ],
+            "verdadera": "La respuesta correcta es: Es la memoria no asignada a procesos que no puede ser utilizada porque est\u00e1 dispersa"
+        },
+        {
+            "enunciado": "El modo de funcionamiento de un controlador DMA por robo de ciclos",
+            "respuestas": [
+                " Toma el control del bus durante un solo ciclo y m\u00e1s tarde repite la operaci\u00f3n ",
+                " Transfiere datos de varias operaciones a diferentes dispositivos intercal\u00e1ndolos entre s\u00ed ",
+                " Est\u00e1 dise\u00f1ado para utilizar ciclos s\u00f3lo cuando el procesador no necesita el bus del sistema ",
+                " Est\u00e1 dise\u00f1ado para sistemas operativos monoprogramados ",
+                " Toma el control del bus y no lo libera hasta que termina la operaci\u00f3n de transferencia "
+            ],
+            "verdadera": "La respuesta correcta es: Toma el control del bus durante un solo ciclo y m\u00e1s tarde repite la operaci\u00f3n"
+        },
+        {
+            "enunciado": "Una funci\u00f3n t\u00edpica del nivel de manejador de dispositivo es",
+            "respuestas": [
+                " El control de acceso a los dispositivos por parte de los procesos ",
+                " La asignaci\u00f3n de nombres de alto nivel a los dispositivos ",
+                " La reactivaci\u00f3n del manejador del dispositivo cuando se completa una operaci\u00f3n de entrada/salida ",
+                " La lectura y escritura en los registros de los controladores ",
+                " La implementaci\u00f3n del modelo de programaci\u00f3n de entrada/salida controlada por interrupciones "
+            ],
+            "verdadera": "La respuesta correcta es: La lectura y escritura en los registros de los controladores"
+        },
+        {
+            "enunciado": "El descriptor de un archivo en UNIX es",
+            "respuestas": [
+                " Ninguna de las otras respuestas es correcta ",
+                " El \u00edndice que se comunica a un proceso hijo para la creaci\u00f3n de tuber\u00edas ",
+                " El puntero a una estructura que sirve para referenciar el archivo en las operaciones realizadas por el proceso ",
+                " El \u00edndice en la tabla de archivos abiertos de un proceso que sirve para referenciar al archivo en las operaciones realizadas por el proceso ",
+                " El identificador \u00fanico del archivo en el sistema "
+            ],
+            "verdadera": "La respuesta correcta es: El \u00edndice en la tabla de archivos abiertos de un proceso que sirve para referenciar al archivo en las operaciones realizadas por el proceso"
+        },
+        {
+            "enunciado": "El descriptor de un archivo en UNIX es",
+            "respuestas": [
+                " El n\u00ba de i-nodo del archivo que sirve para referenciar el archivo en las operaciones realizadas por el proceso ",
+                " El puntero a una estructura que sirve para referenciar el archivo en las operaciones realizadas por el proceso ",
+                " El \u00edndice en la tabla de archivos abiertos de un proceso que sirve para referenciar el archivo en las operaciones realizadas por el proceso ",
+                " El contador del n\u00ba de archivos abiertos por un proceso ",
+                " El identificador \u00fanico de un archivo en una partici\u00f3n "
+            ],
+            "verdadera": "La respuesta correcta es: El \u00edndice en la tabla de archivos abiertos de un proceso que sirve para referenciar el archivo en las operaciones realizadas por el proceso"
+        },
+        {
+            "enunciado": "Si se desea un sistema capaz de ejecutar concurrentemente aplicaciones de distintos sistemas operativos es aconsejable utilizar",
+            "respuestas": [
+                " Un sistema operativo basado en m\u00e1quinas virtuales ",
+                " Un sistema operativo basado en un micron\u00facleo ",
+                " Un sistema operativo monol\u00edtico ",
+                " Un sistema operativo distribuido ",
+                " Un sistema operativo estructurado en niveles "
+            ],
+            "verdadera": "La respuesta correcta es: Un sistema operativo basado en m\u00e1quinas virtuales"
+        },
+        {
+            "enunciado": "Generalmente, cuando se termina el tratamiento de una excepci\u00f3n",
+            "respuestas": [
+                " Ninguna de las otras respuestas es correcta ",
+                " Se termina el programa interrumpido ",
+                " Se ejecuta la instrucci\u00f3n-m\u00e1quina del programa interrumpido ",
+                " Se ejecuta la instrucci\u00f3n-m\u00e1quina indicada en la tabla de vectores de interrupci\u00f3n ",
+                " Se ejecuta la siguiente instrucci\u00f3n-m\u00e1quina del programa interrumpido "
+            ],
+            "verdadera": "La respuesta correcta es: Se termina el programa interrumpido"
+        },
+        {
+            "enunciado": "No se genera una excepci\u00f3n del procesador cuando",
+            "respuestas": [
+                " En una instrucci\u00f3n-m\u00e1quina se realiza una llamada al sistema ",
+                " El c\u00f3digo de operaci\u00f3n de una instrucci\u00f3n-m\u00e1quina es incorrecto ",
+                " La direcci\u00f3n de un operando de una instrucci\u00f3n-m\u00e1quina es incorrecta ",
+                " Se intenta ejecutar una instrucci\u00f3n-m\u00e1quina privilegiada en el modo de ejecuci\u00f3n usuario del procesador ",
+                " Se intentar dividir por cero "
+            ],
+            "verdadera": "La respuesta correcta es: En una instrucci\u00f3n-m\u00e1quina se realiza una llamada al sistema"
+        },
+        {
+            "enunciado": "Un sistema operativo es",
+            "respuestas": [
+                " Un programa que controla todos los recursos del computador y establece la base sobre la que pueden escribirse los programas de aplicaci\u00f3n ",
+                " El mecanismo de protecci\u00f3n basado en software para el uso de un computador ",
+                " Un programa de sistema para optimizar el uso del procesador, la memoria y la entrada/salida ",
+                " Un programa de sistema para ofrecer una m\u00e1quina virtual al desarrollador de aplicaciones ",
+                " El interfaz del usuario de la computadora "
+            ],
+            "verdadera": "La respuesta correcta es: Un programa que controla todos los recursos del computador y establece la base sobre la que pueden escribirse los programas de aplicaci\u00f3n"
+        },
+        {
+            "enunciado": "Una llamada al sistema operativo para el cierre de un archivo permite",
+            "respuestas": [
+                " Eliminar la informaci\u00f3n sobre el archivo de la tabla de archivos del proceso ",
+                " Desbloquear el acceso de otros procesos al archivo ",
+                " Redirigir el archivo a una tuber\u00eda abierta por el proceso ",
+                " Evitar m\u00faltiples b\u00fasquedas del nombre del archivo en el directorio ",
+                " Inicializar el puntero de lectura/escritura al comienzo del archivo "
+            ],
+            "verdadera": "La respuesta correcta es: Eliminar la informaci\u00f3n sobre el archivo de la tabla de archivos del proceso"
+        },
+        {
+            "enunciado": "El objetivo de la llamada al sistema operativo para la apertura de un archivo es",
+            "respuestas": [
+                " Bloquear el acceso de otros procesos al archivo ",
+                " Acelerar la lectura/escritura f\u00edsica de los datos del archivo ",
+                " Compartir el archivo con los procesos hijos ",
+                " Ninguna de las otras respuestas es correcta ",
+                " Cargar el archivo en memoria principal para su acceso m\u00e1s r\u00e1pido "
+            ],
+            "verdadera": "La respuesta correcta es: Ninguna de las otras respuestas es correcta"
+        },
+        {
+            "enunciado": "Si en la l\u00ednea de \u00f3rdenes del shell ejecutamos  grep -n VBox /etc/[a-c]*  obtendremos",
+            "respuestas": [
+                " Las l\u00edneas (con su n\u00famero de l\u00ednea) de los archivos del directorio /etc, recorrido recursivamente, cuyo nombre comienza por cualquiera de las letras 'a', '-', o 'c' que contengan la palabra VBox ",
+                " Las l\u00edneas (con su n\u00famero de l\u00ednea) de los archivos del directorio /etc cuyo nombre comienza por cualquiera de las letras 'a', 'b', o 'c' que contengan la palabra VBox ",
+                " Un error, porque el patr\u00f3n de b\u00fasqueda VBox deber\u00eda ir entre comillas simples ",
+                " Las l\u00edneas (con su n\u00famero de l\u00ednea) de los archivos del directorio /etc, recorrido recursivamente, cuyo nombre comienza por cualquiera de las letras 'a', 'b', o 'c' que contengan la palabra VBox ",
+                " Las l\u00edneas (con su n\u00famero de l\u00ednea) de los archivos del directorio /etc cuyo nombre comienza por cualquiera de los caracteres 'a', '-', o 'c' que contengan la palabra VBox "
+            ],
+            "verdadera": "La respuesta correcta es: Las l\u00edneas (con su n\u00famero de l\u00ednea) de los archivos del directorio /etc cuyo nombre comienza por cualquiera de las letras 'a', 'b', o 'c' que contengan la palabra VBox"
+        },
+        {
+            "enunciado": "De un archivo de 550 l\u00edneas, numeradas de la 1 a la 550, denominado unArchivo, se desea obtener en la salida est\u00e1ndar un listado que contenga las l\u00edneas comprendidas entre la n\u00ba 300 y la n\u00ba 320 ambas inclusive. La orden adecuada del shell ser\u00eda",
+            "respuestas": [
+                " touch -n550 unArchivo > head -n320 ",
+                " head -n320 unArchivo | tail -n21 ",
+                " head -n550 unArchivo | tail -n320 ",
+                " tail -n300 unArchivo | head -n20 ",
+                " head -n300 unArchivo | tail -n20 "
+            ],
+            "verdadera": "La respuesta correcta es: head -n320 unArchivo | tail -n21"
+        },
+        {
+            "enunciado": "Un archivo makefile es un un archivo de texto en el que se distinguen varios tipos b\u00e1sicos de declaraciones. \u00bfCu\u00e1l de las siguientes no lo es?",
+            "respuestas": [
+                " F\u00f3rmulas ",
+                " Comentarios ",
+                " Comandos ",
+                " Etiquetas ",
+                " Variables "
+            ],
+            "verdadera": "La respuesta correcta es: F\u00f3rmulas"
+        },
+        {
+            "enunciado": "Al ejecutar la orden  gcc -E prueba.c",
+            "respuestas": [
+                " Se crea un archivo ensamblador con los m\u00f3dulos de la biblioteca est\u00e1ndar que sean necesarios ya incorporados ",
+                " Se produce (si no hay errores) a partir de un archivo fuente prueba.c un archivo preprocesado que se env\u00eda a la salida est\u00e1ndar ",
+                " Se realiza una compilaci\u00f3n de prueba.c produciendo un archivo objeto si no hay errores ",
+                " Se produce (si no hay errores) un archivo de cabecera denominado prueba.h ",
+                " Se genera un archivo ejecutable a partir de prueba.c sin enlazar "
+            ],
+            "verdadera": "La respuesta correcta es: Se produce (si no hay errores) a partir de un archivo fuente prueba.c un archivo preprocesado que se env\u00eda a la salida est\u00e1ndar"
+        },
+        {
+            "enunciado": "\u00bfQu\u00e9 informaci\u00f3n no suele almacenarse en el bloque de control de proceso?",
+            "respuestas": [
+                " El estado del proceso ",
+                " El contenido de la pila del proceso ",
+                " Informaci\u00f3n sobre el uso de recursos del sistema por parte del proceso ",
+                " Informaci\u00f3n para realizar el cambio de contexto del proceso ",
+                " Informaci\u00f3n sobre la planificaci\u00f3n del proceso "
+            ],
+            "verdadera": "La respuesta correcta es: El contenido de la pila del proceso"
+        },
+        {
+            "enunciado": "Una se\u00f1al UNIX",
+            "respuestas": [
+                " Provoca un cambio de estado en el proceso emisor ",
+                " Puede ser bloqueada, ignorada o atendida por una funci\u00f3n del proceso receptor de la se\u00f1al (no en todos los casos se pueden realizar estas acciones) ",
+                " Provoca un cambio de estado en el proceso emisor y receptor ",
+                " Puede ser mandada a cualquier proceso del sistema ",
+                " Provoca un cambio de estado en el proceso receptor "
+            ],
+            "verdadera": "La respuesta correcta es: Puede ser bloqueada, ignorada o atendida por una funci\u00f3n del proceso receptor de la se\u00f1al (no en todos los casos se pueden realizar estas acciones)"
+        },
+        {
+            "enunciado": "La diferencia entre las llamadas al sistema execlp y execv para el recubrimiento de procesos en UNIX",
+            "respuestas": [
+                " Consiste en la comprobaci\u00f3n de los permisos de ejecuci\u00f3n del nuevo programa ",
+                " Consiste en la utilizaci\u00f3n de una lista en vez de una matriz de punteros para pasar los argumentos y en la utilizaci\u00f3n de la variable de entorno PATH para la b\u00fasqueda del nuevo programa ",
+                " Consiste en el cierre de todos los descriptores de archivo antes de la ejecuci\u00f3n del nuevo programa ",
+                " Consiste en la utilizaci\u00f3n de una lista en vez de una matriz de punteros para pasar los argumentos y la definici\u00f3n de las variables de entorno del nuevo programa ",
+                " Consiste en la utilizaci\u00f3n de una lista en vez de una matriz de punteros para pasar los argumentos y utilizar los mismos valores de las variables de entorno para el nuevo programa "
+            ],
+            "verdadera": "La respuesta correcta es: Consiste en la utilizaci\u00f3n de una lista en vez de una matriz de punteros para pasar los argumentos y en la utilizaci\u00f3n de la variable de entorno PATH para la b\u00fasqueda del nuevo programa"
+        },
+        {
+            "enunciado": "La t\u00e9cnica de gesti\u00f3n de memoria basada en intercambios (swap-in - swap-out)",
+            "respuestas": [
+                " No necesita el soporte del sistema operativo para su implementaci\u00f3n ",
+                " Permite disminuir el grado de multiprogramaci\u00f3n del sistema ",
+                " Consiste en expulsar procesos a memoria secundaria para cargar nuevos procesos ",
+                " Consiste en mantener en memoria s\u00f3lo las instrucciones y datos que son necesarios en cada momento ",
+                " Consiste en c\u00f3digo para localizar las funciones de la biblioteca en memoria que es sustituido por la direcci\u00f3n en memoria de la funci\u00f3n "
+            ],
+            "verdadera": "La respuesta correcta es: Consiste en expulsar procesos a memoria secundaria para cargar nuevos procesos"
+        },
+        {
+            "enunciado": "El registro de reubicaci\u00f3n de una unidad de gesti\u00f3n de memoria principal (MMU) tiene un valor",
+            "respuestas": [
+                " Que es cargado por la parte del c\u00f3digo del sistema operativo que se ejecuta en la unidad de gesti\u00f3n de memoria principal (MMU), con un valor que depende del programa que se va a ejecutar ",
+                " Que es cargado por el c\u00f3digo del sistema operativo con un valor que depende del programa que se va a ejecutar ",
+                " Que es calculado por el compilador para el programa que se va a ejecutar ",
+                " Que es fijo en un sistema operativo multiprogramado y s\u00f3lo depende del tama\u00f1o del n\u00facleo del sistema operativo ",
+                " Que es calculado por el enlazador cuando se genera el archivo con el c\u00f3digo reubicable del programa que se va a ejecutar "
+            ],
+            "verdadera": "La respuesta correcta es: Que es cargado por el c\u00f3digo del sistema operativo con un valor que depende del programa que se va a ejecutar"
+        },
+        {
+            "enunciado": "Supongamos que el tiempo medio que el brazo de un disco tarda en cambiar de posici\u00f3n desde una pista a otra adyacente es 1 ms. El disco tiene 200 pistas numeradas de 0 a 199. El brazo del disco se encuentra colocado sobre la pista 50 y la \u00faltima vez se ha movido en sentido ascendente (hacia las pistas de \u00edndice mayor). Al manejador del disco le han llegado, por este orden, peticiones para operaciones en las pistas siguientes: 30, 90 y 150. \u00bfCu\u00e1l es el tiempo total necesario para satisfacer todas las operaciones con el algoritmo de planificaci\u00f3n FCFS?",
+            "respuestas": [
+                " 140 ms ",
+                " 220 ms ",
+                " 170 ms ",
+                " 318 ms ",
+                " 378 ms "
+            ],
+            "verdadera": "La respuesta correcta es: 140 ms"
+        },
+        {
+            "enunciado": "El modelo de programaci\u00f3n de entrada/salida controlada por interrupciones",
+            "respuestas": [
+                " Utiliza direccionamiento a trav\u00e9s de puertos de entrada/salida mapeados en memoria ",
+                " No tiene un bucle de espera activa ",
+                " Tiene un bajo rendimiento de utilizaci\u00f3n del procesador ",
+                " Es el \u00fanico adecuado para sistemas operativos monoprogramados ",
+                " Es m\u00e1s sencillo de programar que el modelo de programaci\u00f3n de entrada/salida controlada por programa "
+            ],
+            "verdadera": "La respuesta correcta es: No tiene un bucle de espera activa"
+        },
+        {
+            "enunciado": "En UNIX, la llamada al sistema chroot permite",
+            "respuestas": [
+                " Crear una \u00fanica jerarqu\u00eda de archivos independiente del n\u00famero de dispositivos de almacenamiento ",
+                " Activar la protecci\u00f3n discrecional del sistema de archivos ",
+                " Cambiar el directorio ra\u00edz para el proceso solicitante y los procesos hijos que genere ",
+                " Dividir o agrupar dispositivos de almacenamiento en particiones ",
+                " Cambiar el directorio ra\u00edz del sistema "
+            ],
+            "verdadera": "La respuesta correcta es: Cambiar el directorio ra\u00edz para el proceso solicitante y los procesos hijos que genere"
+        },
+        {
+            "enunciado": "st_mode es un campo de la estructura stat que representa",
+            "respuestas": [
+                " st_mode no es un campo de la estructura stat ",
+                " El tama\u00f1o del nodo en bloques ",
+                " El tipo de nodo y sus permisos ",
+                " La fecha y hora de la \u00faltima modificaci\u00f3n del nodo ",
+                " El n\u00famero de enlaces del nodo "
+            ],
+            "verdadera": "La respuesta correcta es: El tipo de nodo y sus permisos"
+        },
+        {
+            "enunciado": "En un sistema de tiempo compartido, el tiempo que tarda en ejecutarse un proceso depende",
+            "respuestas": [
+                " De la memoria total del sistema ",
+                " Del n\u00famero de terminales del sistema ",
+                " De la cantidad de memoria que necesite el proceso ",
+                " Del n\u00famero de procesos existentes en el sistema ",
+                " De la distribuci\u00f3n de procesos en la memoria del sistema "
+            ],
+            "verdadera": "La respuesta correcta es: Del n\u00famero de procesos existentes en el sistema"
+        },
+        {
+            "enunciado": "Una diferencia entre una instrucci\u00f3n de llamada a funci\u00f3n y una de llamada al sistema es",
+            "respuestas": [
+                " Las instrucciones de llamada al sistema alteran el contador de programa y las de llamada a funci\u00f3n no ",
+                " Ninguna de las otras respuestas es correcta ",
+                " Las instrucciones de llamada a funci\u00f3n no alteran la pila ",
+                " Las instrucciones de llamada al sistema no conocen la direcci\u00f3n de la subrutina llamada ",
+                " Las instrucciones de llamada a funci\u00f3n son m\u00e1s lentas que las de llamada al sistema "
+            ],
+            "verdadera": "La respuesta correcta es: Las instrucciones de llamada al sistema no conocen la direcci\u00f3n de la subrutina llamada"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l de los siguientes componentes no es t\u00edpico de un sistema operativo?",
+            "respuestas": [
+                " Gestor de procesos ",
+                " Int\u00e9rprete de comandos ",
+                " Gestor de comunicaciones de red ",
+                " Enlazador de m\u00f3dulos objeto ",
+                " Gestor de memoria principal "
+            ],
+            "verdadera": "La respuesta correcta es: Enlazador de m\u00f3dulos objeto"
+        },
+        {
+            "enunciado": "Generalmente, cuando se termina el tratamiento de una interrupci\u00f3n",
+            "respuestas": [
+                " Se ejecuta la instrucci\u00f3n-m\u00e1quina que estaba ejecutando el programa interrumpido ",
+                " Se termina el programa interrumpido ",
+                " Se ejecuta la instrucci\u00f3n-m\u00e1quina indicada en la tabla de vectores de interrupci\u00f3n ",
+                " Se ejecuta otro programa cargado en memoria principal ",
+                " Se ejecuta la siguiente instrucci\u00f3n-m\u00e1quina del programa interrumpido "
+            ],
+            "verdadera": "La respuesta correcta es: Se ejecuta la siguiente instrucci\u00f3n-m\u00e1quina del programa interrumpido"
+        },
+        {
+            "enunciado": "El m\u00e9todo de acceso directo a los archivos",
+            "respuestas": [
+                " Obliga a incluir un n\u00ba de registro en los archivos creados para usar este m\u00e9todo ",
+                " Es una simulaci\u00f3n del acceso secuencial en archivos con almacenamiento en disco ",
+                " Permite el acceso a los registros del archivo a trav\u00e9s de un \u00edndice ",
+                " Permite acceder aleatoriamente a los registros del archivo ",
+                " S\u00f3lo es utilizado en sistemas operativos multiprogramados "
+            ],
+            "verdadera": "La respuesta correcta es: Permite acceder aleatoriamente a los registros del archivo"
+        },
+        {
+            "enunciado": "Un sistema de archivos con estructura de grafo ac\u00edclico permite",
+            "respuestas": [
+                " Tener nombres de archivo de longitud ilimitada ",
+                " Tener varios nombres asociados a un mismo archivo ",
+                " Acelerar los accesos directos de datos dentro de un archivo ",
+                " Implementar los m\u00e9todos de acceso indexados en los archivos ",
+                " Acelerar los accesos secuenciales de datos dentro de un archivo "
+            ],
+            "verdadera": "La respuesta correcta es: Tener varios nombres asociados a un mismo archivo"
+        },
+        {
+            "enunciado": "Si queremos encontrar los archivos que contienen (en su interior) una frase determinada debemos utilizar la orden del shell",
+            "respuestas": [
+                " tee ",
+                " grep ",
+                " which ",
+                " find ",
+                " locate "
+            ],
+            "verdadera": "La respuesta correcta es: grep"
+        },
+        {
+            "enunciado": "Si necesitamos cambiar la fecha y hora del \u00faltimo acceso al archivo ejemplo.txt, presente en nuestro directorio de trabajo actual, para que pasen a ser la fecha y hora actuales, la orden del shell que debemos usar es",
+            "respuestas": [
+                " touch -a ejemplo.txt ",
+                " touch -m ejemplo.txt ",
+                " change -a ejemplo.txt ",
+                " change -t ejemplo.txt ",
+                " change -m ejemplo.txt "
+            ],
+            "verdadera": "La respuesta correcta es: touch -a ejemplo.txt"
+        },
+        {
+            "enunciado": "Si al utilizar el gestor de compilaci\u00f3n gcc para procesar un archivo fuente programa.c necesitamos especificar un directorio en el que buscar ciertas bibliotecas, debemos usar la(s) opci\u00f3n(es)",
+            "respuestas": [
+                " -c -I ",
+                " -L ",
+                " -I ",
+                " -l -o ",
+                " -S "
+            ],
+            "verdadera": "La respuesta correcta es: -L"
+        },
+        {
+            "enunciado": "Si queremos preprocesar un archivo denominado asunto.c, pero no compilar ni enlazar debemos utilizar la orden",
+            "respuestas": [
+                " gcc -S asunto.c ",
+                " gcc -I asunto.c ",
+                " gcc -O asunto.c ",
+                " gcc -E asunto.c ",
+                " gcc -L asunto.c "
+            ],
+            "verdadera": "La respuesta correcta es: gcc -E asunto.c"
+        },
+        {
+            "enunciado": "Cu\u00e1l de los siguientes elementos no es un componente de un proceso",
+            "respuestas": [
+                " La actividad actual (representada normalmente en registros del procesador) e informaci\u00f3n de control del proceso ",
+                " La pila en memoria con datos temporales ",
+                " La secci\u00f3n de datos con variables est\u00e1ticas ",
+                " El c\u00f3digo del programa en lenguaje de alto nivel ",
+                " El c\u00f3digo-m\u00e1quina del programa "
+            ],
+            "verdadera": "La respuesta correcta es: El c\u00f3digo del programa en lenguaje de alto nivel"
+        },
+        {
+            "enunciado": "En una planificaci\u00f3n de turno rotatorio, si se aumenta demasiado el quantum de tiempo",
+            "respuestas": [
+                " El tiempo medio de respuesta disminuye ",
+                " Se tienen caracter\u00edsticas semejantes a la planificaci\u00f3n de promedio exponencial ",
+                " La eficiencia del procesador se reduce ",
+                " Ninguna de las otras respuestas es correcta ",
+                " Se tienen caracter\u00edsticas semejantes a la planificaci\u00f3n SJF no apropiativa "
+            ],
+            "verdadera": "La respuesta correcta es: Ninguna de las otras respuestas es correcta"
+        },
+        {
+            "enunciado": "Una se\u00f1al UNIX",
+            "respuestas": [
+                " Puede ser bloqueada, ignorada o atendida por una funci\u00f3n del proceso receptor de la se\u00f1al (no en todos los casos se pueden realizar estas acciones) ",
+                " Provoca un cambio de estado en el proceso emisor y receptor ",
+                " Provoca un cambio de estado en el proceso emisor ",
+                " Puede ser mandada a cualquier proceso del sistema ",
+                " Provoca un cambio de estado en el proceso receptor "
+            ],
+            "verdadera": "La respuesta correcta es: Puede ser bloqueada, ignorada o atendida por una funci\u00f3n del proceso receptor de la se\u00f1al (no en todos los casos se pueden realizar estas acciones)"
+        },
+        {
+            "enunciado": "En un sistema de segmentaci\u00f3n con una tabla de segmentos de un s\u00f3lo nivel almacenada en memoria, si una referencia a memoria f\u00edsica se efect\u00faa en 40 nanosegundos, \u00bfen cu\u00e1ntos nanosegundos se realizar\u00e1 una referencia a memoria segmentada?",
+            "respuestas": [
+                " 40 ",
+                " 80 ",
+                " 10 ",
+                " 120 ",
+                " 20 "
+            ],
+            "verdadera": "La respuesta correcta es: 80"
+        },
+        {
+            "enunciado": "Considerar la siguiente tabla de segmentos SegmentoBaseLongitud 0219600 1230014 290100 31327580 4195296\u00bfCu\u00e1l es la direcci\u00f3n f\u00edsica correspondiente a la direcci\u00f3n l\u00f3gica (2, 95) que tiene el formato (p\u00e1gina, desplazamiento) con n\u00fameros en base decimal?",
+            "respuestas": [
+                " 95 ",
+                " Excepci\u00f3n ",
+                " 285 ",
+                " 195 ",
+                " 185 "
+            ],
+            "verdadera": "La respuesta correcta es: 185"
+        },
+        {
+            "enunciado": "Un proceso en un sistema UNIX que desee recibir datos de un dispositivo de entrada/salida debe utilizar la siguiente llamada al sistema",
+            "respuestas": [
+                " iowrite ",
+                " read ",
+                " write ",
+                " sendmsg ",
+                " ioctl "
+            ],
+            "verdadera": "La respuesta correcta es: read"
+        },
+        {
+            "enunciado": "La planificaci\u00f3n de dispositivos compartidos",
+            "respuestas": [
+                " Asigna el uso del dispositivo al proceso solicitante con mayor prioridad ",
+                " Consiste en utilizar una t\u00e9cnica de spooling ",
+                " Permite no bloquear a los procesos que utilizan concurrentemente un dispositivo ",
+                " Consiste en mantener una cola de peticiones pendientes de ejecutar y aplicar un algoritmo de ordenaci\u00f3n para su ejecuci\u00f3n ",
+                " Es utilizada por el sistema operativo para la gesti\u00f3n de procesos en el estado de ejecuci\u00f3n "
+            ],
+            "verdadera": "La respuesta correcta es: Consiste en mantener una cola de peticiones pendientes de ejecutar y aplicar un algoritmo de ordenaci\u00f3n para su ejecuci\u00f3n"
+        },
+        {
+            "enunciado": "Para la funci\u00f3n opendir()  DIR *opendir(const char *nombre);  es falso que",
+            "respuestas": [
+                " Devuelve un puntero al flujo de directorio ",
+                " Abre un flujo de directorio correspondiente al directorio nombre ",
+                " El flujo se sit\u00faa en la primera entrada del directorio ",
+                " En caso de error devuelve NULL ",
+                " Lee la primera entrada de un directorio "
+            ],
+            "verdadera": "La respuesta correcta es: Lee la primera entrada de un directorio"
+        },
+        {
+            "enunciado": "El truncamiento de un archivo en UNIX es",
+            "respuestas": [
+                " La compresi\u00f3n del contenido de un archivo para reducir su tama\u00f1o ",
+                " La eliminaci\u00f3n incondicional de un archivo del sistema ",
+                " El borrado del contenido de un archivo, manteniendo sus atributos excepto la longitud del archivo que pasa a ser 0 ",
+                " La escritura del valor 0 en todo el contenido del archivo ",
+                " La divisi\u00f3n del contenido de un archivo en m\u00faltiples archivos "
+            ],
+            "verdadera": "La respuesta correcta es: El borrado del contenido de un archivo, manteniendo sus atributos excepto la longitud del archivo que pasa a ser 0"
+        }
+    ]
+}

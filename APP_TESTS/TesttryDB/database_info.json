@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "nombre_categoria": "API",
+            "numero_preguntas": 0
+        },
+        {
+            "nombre_categoria": "Operativos",
+            "numero_preguntas": 0
+        }
+    ],
+    "database_id": "9f32f06dae8b0c097227",
+    "database_name": "TesttryDB",
+    "num_preguntas": 0,
+    "ultima_actualizacion": "19:04:39"
+}

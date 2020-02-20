@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-import Presentacion.VIEW_UI_Principal as ui_principal
+import Presentacion.CONTROLLER_UI_Principal as ui_principal
 import Utils.Logger as Logger
 
 if __name__ == "__main__":

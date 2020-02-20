@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "nombre_categoria": "Prueba1",
+            "numero_preguntas": 0
+        },
+        {
+            "nombre_categoria": "Prueba2",
+            "numero_preguntas": 0
+        }
+    ],
+    "database_id": "e6e61ec4090df783b8cd",
+    "database_name": "bd2",
+    "num_preguntas": 0,
+    "ultima_actualizacion": "09:42:44"
+}

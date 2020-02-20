@@ -1,4 +1,5 @@
 import termcolor
+import traceback
 from datetime import datetime
 
 COLOR_TYPE = {
@@ -27,6 +28,7 @@ class Logger():
 
     def error(self, msg):
         self.customPrint(msg, 'ERROR')
+        traceback.print_exc()
 
     def info(self, msg):
         self.customPrint(msg, 'INFO')

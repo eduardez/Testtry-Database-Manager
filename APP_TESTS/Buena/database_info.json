@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "nombre_categoria": "API",
+            "numero_preguntas": 0
+        },
+        {
+            "nombre_categoria": "Operativos",
+            "numero_preguntas": 0
+        }
+    ],
+    "database_id": "8ed53de70b353ebe96f3",
+    "database_name": "Buena",
+    "num_preguntas": 0,
+    "ultima_actualizacion": "01:30:52"
+}

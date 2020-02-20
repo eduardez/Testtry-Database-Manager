@@ -1,0 +1,204 @@
+{
+    "Preguntas": [
+        {
+            "enunciado": "\u00bfEn qu\u00e9 grupo de procesos de direcci\u00f3n de proyectos se crea el presupuesto detallado del proyecto?",
+            "respuestas": [
+                "Antes del proceso de direcci\u00f3n de proyectos.",
+                "Inicio.",
+                "Ejecuci\u00f3n.",
+                "Planificaci\u00f3n."
+            ],
+            "verdadera": "Planificaci\u00f3n."
+        },
+        {
+            "enunciado": "Comprender la cultura, las pol\u00edticas y los procedimientos de la organizaci\u00f3n en la que se lleva a cabo el proyecto es M\u00c1S dif\u00edcil en:",
+            "respuestas": [
+                "Organizaciones peque\u00f1as.",
+                "Organizaciones globales.",
+                "Organizaciones de fabricaci\u00f3n.",
+                "Organizaciones \u00e1giles."
+            ],
+            "verdadera": "Organizaciones globales."
+        },
+        {
+            "enunciado": "\u00bfEn qu\u00e9 grupo de procesos de direcci\u00f3n de proyectos se crea el acta de constituci\u00f3n del proyecto?",
+            "respuestas": [
+                "Inicio.",
+                "Planificaci\u00f3n.",
+                "Cierre.",
+                "Ejecuci\u00f3n."
+            ],
+            "verdadera": "Inicio."
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l de las siguientes es una caracter\u00edstica de los procesos de direcci\u00f3n de proyectos?",
+            "respuestas": [
+                "Innecesario.",
+                "Estandarizado.",
+                "Iterativo.",
+                "\u00danico."
+            ],
+            "verdadera": "Iterativo."
+        },
+        {
+            "enunciado": "Un director de proyectos est\u00e1 intentando completar un proyecto de desarrollo de software, pero no puede captar atenci\u00f3n suficiente para el proyecto. Los recursos est\u00e1n enfocados en la finalizaci\u00f3n del trabajo relativo al proceso y el director del proyecto tiene poca autoridad para hacer una asignaci\u00f3n de recursos. \u00bfEn qu\u00e9 tipo de organizaci\u00f3n est\u00e1 trabajando el director del proyecto?",
+            "respuestas": [
+                "Matricial.",
+                "Funcional.",
+                "Coordinador.",
+                "Expedidor."
+            ],
+            "verdadera": "Funcional."
+        },
+        {
+            "enunciado": "La consideraci\u00f3n de las operaciones del d\u00eda a d\u00eda y del mantenimiento es de crucial importancia para los productos de los proyectos. Las operaciones del d\u00eda a d\u00eda y el mantenimiento deben:",
+            "respuestas": [
+                "Estar incluidos en las actividades que habr\u00e1n de llevarse a cabo durante el cierre del proyecto.",
+                "Ser vistos como un proyecto separado.",
+                "Tener una fase distinta en el ciclo de vida del proyecto, pues se gasta una parte importante de los costos del ciclo de vida en mantenimiento y operaciones.",
+                "No ser vistos como parte del proyecto."
+            ],
+            "verdadera": "No ser vistos como parte del proyecto."
+        },
+        {
+            "enunciado": "El ciclo de vida del proyecto difiere del proceso de la direcci\u00f3n de proyectos en que el proceso de la direcci\u00f3n de proyectos:",
+            "respuestas": [
+                "Puede generar muchos proyectos.",
+                "Es diferente para cada industria.",
+                "Es igual para todos los proyectos.",
+                "No incorpora una metodolog\u00eda."
+            ],
+            "verdadera": "Es igual para todos los proyectos."
+        },
+        {
+            "enunciado": "El MEJOR momento para asignar un proyecto al director del proyecto es durante:",
+            "respuestas": [
+                "Planificaci\u00f3n.",
+                "Inicio.",
+                "Selecci\u00f3n de proyectos.",
+                "Integraci\u00f3n."
+            ],
+            "verdadera": "Inicio."
+        },
+        {
+            "enunciado": "Lo MEJOR ser\u00eda que las lecciones aprendidas fueran completadas por:",
+            "respuestas": [
+                "El director del proyecto.",
+                "Los interesados.",
+                "El patrocinador.",
+                "El equipo."
+            ],
+            "verdadera": "Los interesados."
+        },
+        {
+            "enunciado": "Durante una reuni\u00f3n del equipo, un miembro hace una pregunta respecto de las medidas que se utiliz\u00e1n en el proyecto para evaluar el desempe\u00f1o. El miembro del equipo siente que algunas de las medidas relacionadas con las actividades que le han sido asignadas no son medidas v\u00e1lidas. \u00bfEn qu\u00e9 parte de los grupos de procesos de direcci\u00f3n de proyectos ocurre esta situaci\u00f3n?",
+            "respuestas": [
+                "Ejecuci\u00f3n.",
+                "Seguimiento y Control.",
+                "Cierre.",
+                "Inicio."
+            ],
+            "verdadera": "Ejecuci\u00f3n."
+        },
+        {
+            "enunciado": "En un proyecto se est\u00e1 utilizando un diccionario de la EDT. \u00bfPara qu\u00e9 sirve esto?",
+            "respuestas": [
+                "Definir las actividades del proyecto",
+                "Analizar las expectativas de los interesados",
+                "Desarrollar el enunciado del alcance",
+                "Proporcionar informaci\u00f3n detallada de cada componente de la EDT"
+            ],
+            "verdadera": "Proporcionar informaci\u00f3n detallada de cada componente de la EDT"
+        },
+        {
+            "enunciado": "El patrocinador est\u00e1 presionando al director de proyecto para que entregue el proyecto dos semanas antes de lo acordado en el plan de direcci\u00f3n del proyecto. \u00bfQu\u00e9 es lo primero que deber\u00eda hacer el director del proyecto?",
+            "respuestas": [
+                "Notificar al patrocinador el nuevo cronograma y su impacto en el coste",
+                "Evaluar el impacto que tendr\u00e1 dicho cambio en el proyecto",
+                "Conseguir la aprobaci\u00f3n del comit\u00e9 de cambios",
+                "Buscar alternativas para acortar la duraci\u00f3n del proyecto"
+            ],
+            "verdadera": "Evaluar el impacto que tendr\u00e1 dicho cambio en el proyecto"
+        },
+        {
+            "enunciado": "El acta de constituci\u00f3n del proyecto acaba de ser firmado. Este documento ha sido formalmente aceptado por el director del proyecto y su equipo de trabajo, qui\u00e9nes tambi\u00e9n han firmado el documento. En el acta de constituci\u00f3n hay una descripci\u00f3n del lugar donde va a desarrollarse el proyecto como as\u00ed tambi\u00e9n limitaciones de coste y tiempo. Estas descripciones del acta de constituci\u00f3n son",
+            "respuestas": [
+                "Supuestos",
+                "Compromiso formal de los interesados",
+                "Restricciones",
+                "Plan estrat\u00e9gico"
+            ],
+            "verdadera": "Restricciones"
+        },
+        {
+            "enunciado": "Una empresa est\u00e1 operando en un mercado muy din\u00e1mico. \u00bfCu\u00e1l de los siguientes cambios deber\u00eda ser el m\u00e1s importante para el comit\u00e9 del control integrado de cambios? Un cambio originado en",
+            "respuestas": [
+                "La empresa contratista",
+                "El equipo de trabajo",
+                "El mercado",
+                "El alcance del proyecto"
+            ],
+            "verdadera": "El mercado"
+        },
+        {
+            "enunciado": "Se est\u00e1 finalizando el proceso de crear la estructura de desglose del trabajo. Uno de los resultados que se obtendr\u00e1 de este proceso ser\u00e1 establecer la l\u00ednea base del alcance. Los siguientes enunciados forman parte de la l\u00ednea base del alcance a excepci\u00f3n de",
+            "respuestas": [
+                "Estructura de desglose del trabajo (EDT)",
+                "Documentaci\u00f3n de requisitos",
+                "Enunciado del alcance",
+                "Diccionario de la EDT"
+            ],
+            "verdadera": "Documentaci\u00f3n de requisitos"
+        },
+        {
+            "enunciado": "El director del proyecto y su equipo han finalizado el proceso de definir el alcance. Durante la siguiente etapa del proyecto, \u00bfCu\u00e1l de las siguientes afirmaciones no es cierta?",
+            "respuestas": [
+                "El equipo y el director del proyecto deber\u00edan participar de la pr\u00f3xima etapa",
+                "Se tiene que descomponer el proyecto en paquetes de trabajo",
+                "Se debe verificar que el grado de descomposici\u00f3n del trabajo sea suficiente",
+                "Se debe controlar el alcance"
+            ],
+            "verdadera": "Se debe controlar el alcance"
+        },
+        {
+            "enunciado": "En un sistema de control de cambios de un proyecto peque\u00f1o no se suele utilizar",
+            "respuestas": [
+                "Procedimientos",
+                "Reuniones",
+                "Normas",
+                "Lecciones aprendidas"
+            ],
+            "verdadera": "Lecciones aprendidas"
+        },
+        {
+            "enunciado": "Este documento identifica el prop\u00f3sito del proyecto y la descripci\u00f3n del producto e hitos m\u00e1s relevantes, \u00bfde qu\u00e9 documento estamos hablando?",
+            "respuestas": [
+                "El Plan de Direcci\u00f3n del Proyecto",
+                "El Enunciado del Trabajo",
+                "El Acta de Constituci\u00f3n",
+                "El Presupuesto del Proyecto"
+            ],
+            "verdadera": "El Acta de Constituci\u00f3n"
+        },
+        {
+            "enunciado": "En un proyecto, el principal entregable y los resultados del plan de pruebas fueron enviados al cliente para conseguir su aprobaci\u00f3n formal. Sin embargo, han pasado 25 d\u00edas y el cliente no contesta a ninguna solicitud de nuestra parte. \u00bfQu\u00e9 es lo mejor que puede hacer?",
+            "respuestas": [
+                "Detener el proyecto hasta que el cliente apruebe los entregables formalmente",
+                "Ninguna de las anteriores",
+                "Documentar los hechos en el registro de problemas",
+                "Solicitar ayuda a la direcci\u00f3n general"
+            ],
+            "verdadera": "Solicitar ayuda a la direcci\u00f3n general"
+        },
+        {
+            "enunciado": "Un proyecto est\u00e1 sufriendo demasiados cambios en el acta de constituci\u00f3n del proyecto. \u00bfQu\u00eden es el principal responsable para decidir si esos cambios son necesarios?",
+            "respuestas": [
+                "El director del proyecto",
+                "Todos los interesados del proyecto",
+                "El interesado principal del proyecto",
+                "El patrocinador"
+            ],
+            "verdadera": "El patrocinador"
+        }
+    ]
+}
