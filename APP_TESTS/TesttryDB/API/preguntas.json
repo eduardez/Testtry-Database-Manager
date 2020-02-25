@@ -199,6 +199,106 @@
                 "El patrocinador"
             ],
             "verdadera": "El patrocinador"
+        },
+        {
+            "enunciado": "Si el estimado optimista para una actividad es de 12 d\u00edas y el estimado pesimista es de 18 d\u00edas, \u00bfcu\u00e1l esla desviaci\u00f3n est\u00e1ndar de esta actividad?",
+            "respuestas": [
+                "6",
+                "1,3",
+                "1",
+                "3"
+            ],
+            "verdadera": "1"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l de las siguientes describe MEJOR la relaci\u00f3n entre la desviaci\u00f3n est\u00e1ndar y los riesgos?",
+            "respuestas": [
+                "No hay relaci\u00f3n",
+                "La desviaci\u00f3n est\u00e1ndar te dice si\u00a0la estimaci\u00f3n\u00a0incluye un relleno (padding)",
+                "La desviaci\u00f3n est\u00e1ndar te dice qu\u00e9 tan incierta es una estimaci\u00f3n",
+                "La desviaci\u00f3n est\u00e1ndar te dice si la estimaci\u00f3n\u00a0es precisa"
+            ],
+            "verdadera": "La desviaci\u00f3n est\u00e1ndar te dice qu\u00e9 tan incierta es una estimaci\u00f3n"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1ndo se utiliza un diagrama de hitos en lugar de un diagrama de barras?",
+            "respuestas": [
+                "Cuando se realiza el an\u00e1lisis de riesgos",
+                "Cuando se reporta a los miembros del equipo",
+                "Cuando se reporta a la gerencia",
+                "Cuando se realiza la planificaci\u00f3n del proyecto"
+            ],
+            "verdadera": "Cuando se reporta a la gerencia"
+        },
+        {
+            "enunciado": "Un miembro del equipo de investigaci\u00f3n y desarrollo te dice que su trabajo es muy creativo como para proporcionarte un s\u00f3lo estimado fijo para la actividad. Entre los dos deciden usar las horas de trabajo promedio para desarrollar un prototipo (de proyectos anteriores). \u00bf\u00c9ste es un ejemplo de cu\u00e1l de las siguientes?",
+            "respuestas": [
+                "Estimaci\u00f3n por analog\u00eda",
+                "Estimaci\u00f3n por tres valores",
+                "Estimaci\u00f3n param\u00e9trica",
+                "An\u00e1lisis Monte Carlo"
+            ],
+            "verdadera": "Estimaci\u00f3n param\u00e9trica"
+        },
+        {
+            "enunciado": "Si el tiempo y costes del proyecto no son tan importantes como el n\u00famero de recursos utilizados cadames, \u00bfcu\u00e1l de las siguientes es lo MEJOR\u00a0que se puede\u00a0hacer?",
+            "respuestas": [
+                "Analizar los costos del ciclo de vida",
+                "Realizar el an\u00e1lisis Monte Carlo",
+                "Realizar la optimizaci\u00f3n de los recursos",
+                "Implementar la t\u00e9cnica de ejecuci\u00f3n r\u00e1pida"
+            ],
+            "verdadera": "Realizar la optimizaci\u00f3n de los recursos"
+        },
+        {
+            "enunciado": "Eres un director de proyectos en un proyecto de desarrollo de software de 5.000.000 \u20ac. Mientras trabajas con tu equipo del proyecto para desarrollar un diagrama de red, te das cuenta de una serie de actividades que se pueden trabajar en paralelo pero deben terminar en una secuencia espec\u00edfica. \u00bfQu\u00e9 tipo de m\u00e9todo de secuencia de actividades se necesita para estas actividades?",
+            "respuestas": [
+                "M\u00e9todo de diagramaci\u00f3n con flechas",
+                "M\u00e9todo de diagramaci\u00f3n por precedencia",
+                "M\u00e9todo de la ruta cr\u00edtica",
+                "M\u00e9todo de diagramaci\u00f3n operacional"
+            ],
+            "verdadera": "M\u00e9todo de diagramaci\u00f3n por precedencia"
+        },
+        {
+            "enunciado": "Un proyecto tiene tres rutas cr\u00edticas. \u00bfCu\u00e1l de las siguientes describe MEJOR c\u00f3mo afecta esto elproyecto?",
+            "respuestas": [
+                "Requiere de m\u00e1s personas",
+                "Incrementa los riesgos del proyecto",
+                "Lo hace m\u00e1s caro",
+                "Lo hace m\u00e1s f\u00e1cil de dirigir"
+            ],
+            "verdadera": "Incrementa los riesgos del proyecto"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1nto dura un hito?",
+            "respuestas": [
+                "Es m\u00e1s corto que la duraci\u00f3n de la actividad m\u00e1s larga.",
+                "Tiene la misma duraci\u00f3n que la actividad que representa.",
+                "No tiene duraci\u00f3n.",
+                "Es m\u00e1s corto que la actividad que representa."
+            ],
+            "verdadera": "No tiene duraci\u00f3n."
+        },
+        {
+            "enunciado": "La EDT, las estimaciones\u00a0de cada paquete de trabajo y el diagrama de red est\u00e1n concluidos. LoSIGUIENTE que debe hacer el director del proyecto es:",
+            "respuestas": [
+                "Crear un cronograma preliminar y obtener la aprobaci\u00f3n del equipo",
+                "Secuenciar las actividades",
+                "Validar que tengan el alcance correcto",
+                "Completar la gesti\u00f3n de los riesgos"
+            ],
+            "verdadera": "Crear un cronograma preliminar y obtener la aprobaci\u00f3n del equipo"
+        },
+        {
+            "enunciado": "Tienes un proyecto con las siguientes actividades: La actividad A\u00a0dura 40 horas y puede comenzar despu\u00e9s del inicio del proyecto. La actividad B\u00a0dura 25 horas y debe ocurrir despu\u00e9s del inicio del proyecto. La actividad C debe ocurrir despu\u00e9s de la actividad A y\u00a0dura 35 horas. La actividad D debe ocurrir despu\u00e9s de las actividades B y C, y\u00a0dura 30 horas. La actividad E debe realizarse despu\u00e9s de la actividad C y\u00a0dura 10 horas. La actividad F se realiza despu\u00e9s de la Actividad E y\u00a0dura 22 horas. Las actividades F y D son las \u00faltimas actividades del proyecto. \u00bfCu\u00e1l de las siguientes es VERDADERA si la actividad B\u00a0tuviese una duraci\u00f3n de\u00a037 horas?",
+            "respuestas": [
+                "La ruta cr\u00edtica ser\u00eda Inicio, A, C, E, F, Final",
+                "La ruta cr\u00edtica ser\u00eda de 67 horas",
+                "La ruta cr\u00edtica cambiar\u00eda a Inicio, B, D, Final",
+                "La ruta cr\u00edtica se incrementar\u00eda 12 horas"
+            ],
+            "verdadera": "La ruta cr\u00edtica ser\u00eda Inicio, A, C, E, F, Final"
         }
     ]
 }
