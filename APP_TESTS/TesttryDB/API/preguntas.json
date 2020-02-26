@@ -301,26 +301,6 @@
             "verdadera": "La ruta cr\u00edtica ser\u00eda Inicio, A, C, E, F, Final"
         },
         {
-            "enunciado": "El ciclo de vida del proyecto difiere del proceso de la direcci\u00f3n de proyectos en que el proceso de la direcci\u00f3n de proyectos:",
-            "respuestas": [
-                "No incorpora una metodolog\u00eda.",
-                "Es diferente para cada industria.",
-                "Es igual para todos los proyectos.",
-                "Puede generar muchos proyectos."
-            ],
-            "verdadera": "Es igual para todos los proyectos."
-        },
-        {
-            "enunciado": "El MEJOR momento para asignar un proyecto al director del proyecto es durante:",
-            "respuestas": [
-                "Selecci\u00f3n de proyectos.",
-                "Inicio.",
-                "Planificaci\u00f3n.",
-                "Integraci\u00f3n."
-            ],
-            "verdadera": "Inicio."
-        },
-        {
             "enunciado": "Las siguientes son caracter\u00edsticas de un proyecto, EXCEPTO:",
             "respuestas": [
                 "Tiene actividades interrelacionadas.",
@@ -341,16 +321,6 @@
             "verdadera": "La oficina de direcci\u00f3n de proyectos (PMO)."
         },
         {
-            "enunciado": "\u00bfEn qu\u00e9 grupo de procesos de direcci\u00f3n de proyectos se crea el presupuesto detallado del proyecto?",
-            "respuestas": [
-                "Antes del proceso de direcci\u00f3n de proyectos.",
-                "Ejecuci\u00f3n.",
-                "Inicio.",
-                "Planificaci\u00f3n."
-            ],
-            "verdadera": "Planificaci\u00f3n."
-        },
-        {
             "enunciado": "\u00bfCu\u00e1l de las siguientes opciones describe MEJOR las principales restricciones en un proyecto?",
             "respuestas": [
                 "Alcance, n\u00famero de recursos y costes.",
@@ -361,26 +331,6 @@
             "verdadera": "Alcance, tiempo, costes, calidad, riesgos, recursos y satisfacci\u00f3n del cliente."
         },
         {
-            "enunciado": "\u00bfEn qu\u00e9 grupo de procesos de direcci\u00f3n de proyectos se crea el acta de constituci\u00f3n del proyecto?",
-            "respuestas": [
-                "Ejecuci\u00f3n.",
-                "Cierre.",
-                "Inicio.",
-                "Planificaci\u00f3n."
-            ],
-            "verdadera": "Inicio."
-        },
-        {
-            "enunciado": "Durante una reuni\u00f3n del equipo, un miembro hace una pregunta respecto de las medidas que se utiliz\u00e1n en el proyecto para evaluar el desempe\u00f1o. El miembro del equipo siente que algunas de las medidas relacionadas con las actividades que le han sido asignadas no son medidas v\u00e1lidas. \u00bfEn qu\u00e9 parte de los grupos de procesos de direcci\u00f3n de proyectos ocurre esta situaci\u00f3n?",
-            "respuestas": [
-                "Cierre.",
-                "Seguimiento y Control.",
-                "Inicio.",
-                "Ejecuci\u00f3n."
-            ],
-            "verdadera": "Ejecuci\u00f3n."
-        },
-        {
             "enunciado": "\u00bfQu\u00e9 grupo de procesos de direcci\u00f3n de proyectos es el que generalmente consume M\u00c1S tiempo y recursos del proyecto?",
             "respuestas": [
                 "Integraci\u00f3n.",
@@ -389,96 +339,6 @@
                 "Ejecuci\u00f3n."
             ],
             "verdadera": "Ejecuci\u00f3n."
-        },
-        {
-            "enunciado": "Comprender la cultura, las pol\u00edticas y los procedimientos de la organizaci\u00f3n en la que se lleva a cabo el proyecto es M\u00c1S dif\u00edcil en:",
-            "respuestas": [
-                "Organizaciones de fabricaci\u00f3n.",
-                "Organizaciones \u00e1giles.",
-                "Organizaciones peque\u00f1as.",
-                "Organizaciones globales."
-            ],
-            "verdadera": "Organizaciones globales."
-        },
-        {
-            "enunciado": "Este documento identifica el prop\u00f3sito del proyecto y la descripci\u00f3n del producto e hitos m\u00e1s relevantes, \u00bfde qu\u00e9 documento estamos hablando?",
-            "respuestas": [
-                "El Enunciado del Trabajo",
-                "El Plan de Direcci\u00f3n del Proyecto",
-                "El Acta de Constituci\u00f3n",
-                "El Presupuesto del Proyecto"
-            ],
-            "verdadera": "El Acta de Constituci\u00f3n"
-        },
-        {
-            "enunciado": "En un proyecto se est\u00e1 utilizando un diccionario de la EDT. \u00bfPara qu\u00e9 sirve esto?",
-            "respuestas": [
-                "Desarrollar el enunciado del alcance",
-                "Analizar las expectativas de los interesados",
-                "Definir las actividades del proyecto",
-                "Proporcionar informaci\u00f3n detallada de cada componente de la EDT"
-            ],
-            "verdadera": "Proporcionar informaci\u00f3n detallada de cada componente de la EDT"
-        },
-        {
-            "enunciado": "En un proyecto, el principal entregable y los resultados del plan de pruebas fueron enviados al cliente para conseguir su aprobaci\u00f3n formal. Sin embargo, han pasado 25 d\u00edas y el cliente no contesta a ninguna solicitud de nuestra parte. \u00bfQu\u00e9 es lo mejor que puede hacer?",
-            "respuestas": [
-                "Ninguna de las anteriores",
-                "Detener el proyecto hasta que el cliente apruebe los entregables formalmente",
-                "Documentar los hechos en el registro de problemas",
-                "Solicitar ayuda a la direcci\u00f3n general"
-            ],
-            "verdadera": "Solicitar ayuda a la direcci\u00f3n general"
-        },
-        {
-            "enunciado": "El director del proyecto y su equipo han finalizado el proceso de definir el alcance. Durante la siguiente etapa del proyecto, \u00bfCu\u00e1l de las siguientes afirmaciones no es cierta?",
-            "respuestas": [
-                "El equipo y el director del proyecto deber\u00edan participar de la pr\u00f3xima etapa",
-                "Se tiene que descomponer el proyecto en paquetes de trabajo",
-                "Se debe verificar que el grado de descomposici\u00f3n del trabajo sea suficiente",
-                "Se debe controlar el alcance"
-            ],
-            "verdadera": "Se debe controlar el alcance"
-        },
-        {
-            "enunciado": "El acta de constituci\u00f3n del proyecto acaba de ser firmado. Este documento ha sido formalmente aceptado por el director del proyecto y su equipo de trabajo, qui\u00e9nes tambi\u00e9n han firmado el documento. En el acta de constituci\u00f3n hay una descripci\u00f3n del lugar donde va a desarrollarse el proyecto como as\u00ed tambi\u00e9n limitaciones de coste y tiempo. Estas descripciones del acta de constituci\u00f3n son",
-            "respuestas": [
-                "Plan estrat\u00e9gico",
-                "Compromiso formal de los interesados",
-                "Restricciones",
-                "Supuestos"
-            ],
-            "verdadera": "Restricciones"
-        },
-        {
-            "enunciado": "Se est\u00e1 finalizando el proceso de crear la estructura de desglose del trabajo. Uno de los resultados que se obtendr\u00e1 de este proceso ser\u00e1 establecer la l\u00ednea base del alcance. Los siguientes enunciados forman parte de la l\u00ednea base del alcance a excepci\u00f3n de",
-            "respuestas": [
-                "Enunciado del alcance",
-                "Diccionario de la EDT",
-                "Documentaci\u00f3n de requisitos",
-                "Estructura de desglose del trabajo (EDT)"
-            ],
-            "verdadera": "Documentaci\u00f3n de requisitos"
-        },
-        {
-            "enunciado": "El patrocinador est\u00e1 presionando al director de proyecto para que entregue el proyecto dos semanas antes de lo acordado en el plan de direcci\u00f3n del proyecto. \u00bfQu\u00e9 es lo primero que deber\u00eda hacer el director del proyecto?",
-            "respuestas": [
-                "Notificar al patrocinador el nuevo cronograma y su impacto en el coste",
-                "Evaluar el impacto que tendr\u00e1 dicho cambio en el proyecto",
-                "Conseguir la aprobaci\u00f3n del comit\u00e9 de cambios",
-                "Buscar alternativas para acortar la duraci\u00f3n del proyecto"
-            ],
-            "verdadera": "Evaluar el impacto que tendr\u00e1 dicho cambio en el proyecto"
-        },
-        {
-            "enunciado": "Un proyecto est\u00e1 sufriendo demasiados cambios en el acta de constituci\u00f3n del proyecto. \u00bfQu\u00eden es el principal responsable para decidir si esos cambios son necesarios?",
-            "respuestas": [
-                "Todos los interesados del proyecto",
-                "El patrocinador",
-                "El director del proyecto",
-                "El interesado principal del proyecto"
-            ],
-            "verdadera": "El patrocinador"
         },
         {
             "enunciado": "El principal rol de un patrocinador comprometido con un proyecto deber\u00eda ser",
@@ -511,26 +371,6 @@
             "verdadera": "Actividad C"
         },
         {
-            "enunciado": "Si el estimado optimista para una actividad es de 12 d\u00edas y el estimado pesimista es de 18 d\u00edas, \u00bfcu\u00e1l esla desviaci\u00f3n est\u00e1ndar de esta actividad?",
-            "respuestas": [
-                "1",
-                "6",
-                "3",
-                "1,3"
-            ],
-            "verdadera": "1"
-        },
-        {
-            "enunciado": "Si el tiempo y costes del proyecto no son tan importantes como el n\u00famero de recursos utilizados cadames, \u00bfcu\u00e1l de las siguientes es lo MEJOR\u00a0que se puede\u00a0hacer?",
-            "respuestas": [
-                "Analizar los costos del ciclo de vida",
-                "Realizar la optimizaci\u00f3n de los recursos",
-                "Realizar el an\u00e1lisis Monte Carlo",
-                "Implementar la t\u00e9cnica de ejecuci\u00f3n r\u00e1pida"
-            ],
-            "verdadera": "Realizar la optimizaci\u00f3n de los recursos"
-        },
-        {
             "enunciado": "Una dependencia que necesita que el dise\u00f1o se finalice antes de que se pueda iniciar la implementaci\u00f3n esun ejemplo de:",
             "respuestas": [
                 "Dependencia discrecional",
@@ -541,16 +381,6 @@
             "verdadera": "Dependencia obligatoria"
         },
         {
-            "enunciado": "\u00bfCu\u00e1nto dura un hito?",
-            "respuestas": [
-                "Es m\u00e1s corto que la actividad que representa.",
-                "Tiene la misma duraci\u00f3n que la actividad que representa.",
-                "Es m\u00e1s corto que la duraci\u00f3n de la actividad m\u00e1s larga.",
-                "No tiene duraci\u00f3n."
-            ],
-            "verdadera": "No tiene duraci\u00f3n."
-        },
-        {
             "enunciado": "\u00bfCu\u00e1l de las siguientes GENERALMENTE se ilustra MEJOR mediante diagramas de barras que mediante diagramas de red?",
             "respuestas": [
                 "Compensaciones de recursos",
@@ -559,16 +389,6 @@
                 "Avance o Estado"
             ],
             "verdadera": "Avance o Estado"
-        },
-        {
-            "enunciado": "\u00bfCu\u00e1l de las siguientes describe MEJOR la relaci\u00f3n entre la desviaci\u00f3n est\u00e1ndar y los riesgos?",
-            "respuestas": [
-                "La desviaci\u00f3n est\u00e1ndar te dice qu\u00e9 tan incierta es una estimaci\u00f3n",
-                "No hay relaci\u00f3n",
-                "La desviaci\u00f3n est\u00e1ndar te dice si\u00a0la estimaci\u00f3n\u00a0incluye un relleno (padding)",
-                "La desviaci\u00f3n est\u00e1ndar te dice si la estimaci\u00f3n\u00a0es precisa"
-            ],
-            "verdadera": "La desviaci\u00f3n est\u00e1ndar te dice qu\u00e9 tan incierta es una estimaci\u00f3n"
         },
         {
             "enunciado": "Tu plan para la direcci\u00f3n del proyecto resulta en un cronograma del proyecto que es demasiado largo. Si el diagrama de red del proyecto no puede cambiar pero tienes recursos de personal adicionales, \u00bfqu\u00e9 es lo MEJOR que puedes hacer?",
@@ -599,6 +419,106 @@
                 "El resultado de un recorrido hacia adelante y hacia atr\u00e1s."
             ],
             "verdadera": "Tiempo de espera."
+        },
+        {
+            "enunciado": "Realizando el control de los costos de un proyecto que supera los 20 millones de euros, el principal resultado que obtendr\u00e1 de este proceso ser\u00e1",
+            "respuestas": [
+                "Coste estimado a la conclusi\u00f3n",
+                "Presupuesto",
+                "Requisitos de financiamiento",
+                "Costes estimados de las actividades"
+            ],
+            "verdadera": "Coste estimado a la conclusi\u00f3n"
+        },
+        {
+            "enunciado": "Un proyecto est\u00e1 informando un \u00edndice de rendimiento de coste de 0,72. Podr\u00edamos decir que",
+            "respuestas": [
+                "Se espera que el coste total del proyecto sea un 72% superior al valor planificado",
+                "El proyecto ha realizado s\u00f3lo un 72% de lo planificado",
+                "El proyecto est\u00e1 un 28% por debajo del valor planificado",
+                "El proyecto obtiene 0,72 euros por cada euro gastado"
+            ],
+            "verdadera": "El proyecto obtiene 0,72 euros por cada euro gastado"
+        },
+        {
+            "enunciado": "\u00bfQu\u00e9 significa la estimaci\u00f3n an\u00e1loga de costes?",
+            "respuestas": [
+                "Sumar costes de arriba hacia abajo",
+                "Agregar una reserva de coste adicional para contingencias",
+                "Sumar costes de abajo hacia arriba",
+                "Utilizar costes de proyectos hist\u00f3ricos similares para estimar costes futuros"
+            ],
+            "verdadera": "Utilizar costes de proyectos hist\u00f3ricos similares para estimar costes futuros"
+        },
+        {
+            "enunciado": "Una forma simple y r\u00e1pida para calcular la estimaci\u00f3n hasta la conclusi\u00f3n (EAC) del proyecto, ser\u00eda tomar el presupuesto hasta la conclusi\u00f3n (BAC) y luego dividirlo por",
+            "respuestas": [
+                "Variaci\u00f3n del coste",
+                "\u00cdndice de desempe\u00f1o del trabajo por completar",
+                "\u00cdndice de desempe\u00f1o del coste",
+                "\u00cdndice de desempe\u00f1o del cronograma"
+            ],
+            "verdadera": "\u00cdndice de desempe\u00f1o del coste"
+        },
+        {
+            "enunciado": "Quiere realizar un viaje en autom\u00f3vil y conoce que la distancia a recorrer es de 1100 km, que el precio actual de la gasolina es de 1 euro/litro y que su veh\u00edculo consume 10 litros cada 100 km. Con esta informaci\u00f3n decide estimar el coste en combustible de ese viaje. \u00bfQu\u00e9 t\u00e9cnica de estimaci\u00f3n estar\u00eda utilizando?",
+            "respuestas": [
+                "Definitiva",
+                "Param\u00e9trica",
+                "Por orden de magnitud (ROM)",
+                "An\u00e1loga"
+            ],
+            "verdadera": "Param\u00e9trica"
+        },
+        {
+            "enunciado": "Si el valor ganado (Earned Value, EV) es de 400, el coste real (Actual Cost, AC) es de 450 y el valor planificado (Planned Value, PV) es de 300, \u00bfcu\u00e1l es la variaci\u00f3n del coste?",
+            "respuestas": [
+                "100",
+                "-100",
+                "50",
+                "-50"
+            ],
+            "verdadera": "-50"
+        },
+        {
+            "enunciado": "Le han encargado que plante 10 pinos a m\u00e1s tardar el 15 de diciembre. El valor planificado para cada pino es de 5 euros, por lo que el presupuesto total asciende a 50 euros. El 15 de diciembre todos los pinos fueron plantados a un coste de 40 euros. \u00bfCu\u00e1l ser\u00e1 el \u00edndice de rendimiento del cronograma?",
+            "respuestas": [
+                "1,25",
+                "0,00",
+                "1,00",
+                "0,80"
+            ],
+            "verdadera": "1,00"
+        },
+        {
+            "enunciado": "El director de proyectos en una empresa termina habitualmente sus proyectos gastando m\u00e1s de lo presupuestado y retrasando su finalizaci\u00f3n. Por tal motivo, ha decidido mejorar los procesos de planificaci\u00f3n, seguimiento y control. \u00bfQu\u00e9 herramienta utilizar\u00e1 para evaluar la eficiencia en el progreso del cronograma?",
+            "respuestas": [
+                "Estimaci\u00f3n hasta la conclusi\u00f3n",
+                "Diagrama de Gantt",
+                "\u00cdndice de desempe\u00f1o del cronograma",
+                "Variaci\u00f3n del cronograma"
+            ],
+            "verdadera": "\u00cdndice de desempe\u00f1o del cronograma"
+        },
+        {
+            "enunciado": "El valor planificado para la actividad A es de 600 euros, est\u00e1 completada en un 50% y su coste real es de 200 euros. La actividad B se hab\u00eda planificado con un valor de 400 euros, el avance real es del 75% y su coste real asciende a 350 euros. Por \u00faltimo, la actividad C con un valor planificado de 100 euros, ya ha finalizado y su coste real fue de 100 euros. \u00bfCu\u00e1l es el \u00edndice de desempe\u00f1o del coste (CPI)?",
+            "respuestas": [
+                "700 / 650",
+                "700 / 1100",
+                "650 / 700",
+                "1100 / 700"
+            ],
+            "verdadera": "700 / 650"
+        },
+        {
+            "enunciado": "El director del proyecto junto a su equipo establecieron la l\u00ednea base de un proyecto industrial en 105 millones de euros y un plazo estimado de 3 a\u00f1os. \u00bfEn qu\u00e9 caso ser\u00eda aceptable cambiar la l\u00ednea base cuando el proyecto est\u00e9 en ejecuci\u00f3n?",
+            "respuestas": [
+                "La productividad en el departamento de ingenier\u00eda est\u00e1 siendo un 30% inferior a lo esperado",
+                "El cliente y el patrocinador han autorizado un cambio en el alcance del proyecto por 25000 euros",
+                "La empresa contratista ha incrementado su presupuesto para la gesti\u00f3n de calidad en un 50%",
+                "El precio de varios productos que utiliza el proyecto se ha incrementado un 45%"
+            ],
+            "verdadera": "El cliente y el patrocinador han autorizado un cambio en el alcance del proyecto por 25000 euros"
         }
     ]
 }

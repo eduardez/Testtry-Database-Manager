@@ -1,0 +1,304 @@
+{
+    "Preguntas": [
+        {
+            "enunciado": "Si el estimado optimista para una actividad es de 12 d\u00edas y el estimado pesimista es de 18 d\u00edas, \u00bfcu\u00e1l esla desviaci\u00f3n est\u00e1ndar de esta actividad?",
+            "respuestas": [
+                "6",
+                "1,3",
+                "1",
+                "3"
+            ],
+            "verdadera": "1"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l de las siguientes describe MEJOR la relaci\u00f3n entre la desviaci\u00f3n est\u00e1ndar y los riesgos?",
+            "respuestas": [
+                "No hay relaci\u00f3n",
+                "La desviaci\u00f3n est\u00e1ndar te dice si\u00a0la estimaci\u00f3n\u00a0incluye un relleno (padding)",
+                "La desviaci\u00f3n est\u00e1ndar te dice qu\u00e9 tan incierta es una estimaci\u00f3n",
+                "La desviaci\u00f3n est\u00e1ndar te dice si la estimaci\u00f3n\u00a0es precisa"
+            ],
+            "verdadera": "La desviaci\u00f3n est\u00e1ndar te dice qu\u00e9 tan incierta es una estimaci\u00f3n"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1ndo se utiliza un diagrama de hitos en lugar de un diagrama de barras?",
+            "respuestas": [
+                "Cuando se realiza el an\u00e1lisis de riesgos",
+                "Cuando se reporta a los miembros del equipo",
+                "Cuando se reporta a la gerencia",
+                "Cuando se realiza la planificaci\u00f3n del proyecto"
+            ],
+            "verdadera": "Cuando se reporta a la gerencia"
+        },
+        {
+            "enunciado": "Un miembro del equipo de investigaci\u00f3n y desarrollo te dice que su trabajo es muy creativo como para proporcionarte un s\u00f3lo estimado fijo para la actividad. Entre los dos deciden usar las horas de trabajo promedio para desarrollar un prototipo (de proyectos anteriores). \u00bf\u00c9ste es un ejemplo de cu\u00e1l de las siguientes?",
+            "respuestas": [
+                "Estimaci\u00f3n por analog\u00eda",
+                "Estimaci\u00f3n por tres valores",
+                "Estimaci\u00f3n param\u00e9trica",
+                "An\u00e1lisis Monte Carlo"
+            ],
+            "verdadera": "Estimaci\u00f3n param\u00e9trica"
+        },
+        {
+            "enunciado": "Si el tiempo y costes del proyecto no son tan importantes como el n\u00famero de recursos utilizados cadames, \u00bfcu\u00e1l de las siguientes es lo MEJOR\u00a0que se puede\u00a0hacer?",
+            "respuestas": [
+                "Analizar los costos del ciclo de vida",
+                "Realizar el an\u00e1lisis Monte Carlo",
+                "Realizar la optimizaci\u00f3n de los recursos",
+                "Implementar la t\u00e9cnica de ejecuci\u00f3n r\u00e1pida"
+            ],
+            "verdadera": "Realizar la optimizaci\u00f3n de los recursos"
+        },
+        {
+            "enunciado": "Eres un director de proyectos en un proyecto de desarrollo de software de 5.000.000 \u20ac. Mientras trabajas con tu equipo del proyecto para desarrollar un diagrama de red, te das cuenta de una serie de actividades que se pueden trabajar en paralelo pero deben terminar en una secuencia espec\u00edfica. \u00bfQu\u00e9 tipo de m\u00e9todo de secuencia de actividades se necesita para estas actividades?",
+            "respuestas": [
+                "M\u00e9todo de diagramaci\u00f3n con flechas",
+                "M\u00e9todo de diagramaci\u00f3n por precedencia",
+                "M\u00e9todo de la ruta cr\u00edtica",
+                "M\u00e9todo de diagramaci\u00f3n operacional"
+            ],
+            "verdadera": "M\u00e9todo de diagramaci\u00f3n por precedencia"
+        },
+        {
+            "enunciado": "Un proyecto tiene tres rutas cr\u00edticas. \u00bfCu\u00e1l de las siguientes describe MEJOR c\u00f3mo afecta esto elproyecto?",
+            "respuestas": [
+                "Requiere de m\u00e1s personas",
+                "Incrementa los riesgos del proyecto",
+                "Lo hace m\u00e1s caro",
+                "Lo hace m\u00e1s f\u00e1cil de dirigir"
+            ],
+            "verdadera": "Incrementa los riesgos del proyecto"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1nto dura un hito?",
+            "respuestas": [
+                "Es m\u00e1s corto que la duraci\u00f3n de la actividad m\u00e1s larga.",
+                "Tiene la misma duraci\u00f3n que la actividad que representa.",
+                "No tiene duraci\u00f3n.",
+                "Es m\u00e1s corto que la actividad que representa."
+            ],
+            "verdadera": "No tiene duraci\u00f3n."
+        },
+        {
+            "enunciado": "La EDT, las estimaciones\u00a0de cada paquete de trabajo y el diagrama de red est\u00e1n concluidos. LoSIGUIENTE que debe hacer el director del proyecto es:",
+            "respuestas": [
+                "Crear un cronograma preliminar y obtener la aprobaci\u00f3n del equipo",
+                "Secuenciar las actividades",
+                "Validar que tengan el alcance correcto",
+                "Completar la gesti\u00f3n de los riesgos"
+            ],
+            "verdadera": "Crear un cronograma preliminar y obtener la aprobaci\u00f3n del equipo"
+        },
+        {
+            "enunciado": "Tienes un proyecto con las siguientes actividades: La actividad A\u00a0dura 40 horas y puede comenzar despu\u00e9s del inicio del proyecto. La actividad B\u00a0dura 25 horas y debe ocurrir despu\u00e9s del inicio del proyecto. La actividad C debe ocurrir despu\u00e9s de la actividad A y\u00a0dura 35 horas. La actividad D debe ocurrir despu\u00e9s de las actividades B y C, y\u00a0dura 30 horas. La actividad E debe realizarse despu\u00e9s de la actividad C y\u00a0dura 10 horas. La actividad F se realiza despu\u00e9s de la Actividad E y\u00a0dura 22 horas. Las actividades F y D son las \u00faltimas actividades del proyecto. \u00bfCu\u00e1l de las siguientes es VERDADERA si la actividad B\u00a0tuviese una duraci\u00f3n de\u00a037 horas?",
+            "respuestas": [
+                "La ruta cr\u00edtica ser\u00eda Inicio, A, C, E, F, Final",
+                "La ruta cr\u00edtica ser\u00eda de 67 horas",
+                "La ruta cr\u00edtica cambiar\u00eda a Inicio, B, D, Final",
+                "La ruta cr\u00edtica se incrementar\u00eda 12 horas"
+            ],
+            "verdadera": "La ruta cr\u00edtica ser\u00eda Inicio, A, C, E, F, Final"
+        },
+        {
+            "enunciado": "Realizando el control de los costos de un proyecto que supera los 20 millones de euros, el principal resultado que obtendr\u00e1 de este proceso ser\u00e1",
+            "respuestas": [
+                "Coste estimado a la conclusi\u00f3n",
+                "Presupuesto",
+                "Requisitos de financiamiento",
+                "Costes estimados de las actividades"
+            ],
+            "verdadera": "Coste estimado a la conclusi\u00f3n"
+        },
+        {
+            "enunciado": "Un proyecto est\u00e1 informando un \u00edndice de rendimiento de coste de 0,72. Podr\u00edamos decir que",
+            "respuestas": [
+                "Se espera que el coste total del proyecto sea un 72% superior al valor planificado",
+                "El proyecto ha realizado s\u00f3lo un 72% de lo planificado",
+                "El proyecto est\u00e1 un 28% por debajo del valor planificado",
+                "El proyecto obtiene 0,72 euros por cada euro gastado"
+            ],
+            "verdadera": "El proyecto obtiene 0,72 euros por cada euro gastado"
+        },
+        {
+            "enunciado": "\u00bfQu\u00e9 significa la estimaci\u00f3n an\u00e1loga de costes?",
+            "respuestas": [
+                "Sumar costes de arriba hacia abajo",
+                "Agregar una reserva de coste adicional para contingencias",
+                "Sumar costes de abajo hacia arriba",
+                "Utilizar costes de proyectos hist\u00f3ricos similares para estimar costes futuros"
+            ],
+            "verdadera": "Utilizar costes de proyectos hist\u00f3ricos similares para estimar costes futuros"
+        },
+        {
+            "enunciado": "Una forma simple y r\u00e1pida para calcular la estimaci\u00f3n hasta la conclusi\u00f3n (EAC) del proyecto, ser\u00eda tomar el presupuesto hasta la conclusi\u00f3n (BAC) y luego dividirlo por",
+            "respuestas": [
+                "Variaci\u00f3n del coste",
+                "\u00cdndice de desempe\u00f1o del trabajo por completar",
+                "\u00cdndice de desempe\u00f1o del coste",
+                "\u00cdndice de desempe\u00f1o del cronograma"
+            ],
+            "verdadera": "\u00cdndice de desempe\u00f1o del coste"
+        },
+        {
+            "enunciado": "Quiere realizar un viaje en autom\u00f3vil y conoce que la distancia a recorrer es de 1100 km, que el precio actual de la gasolina es de 1 euro/litro y que su veh\u00edculo consume 10 litros cada 100 km. Con esta informaci\u00f3n decide estimar el coste en combustible de ese viaje. \u00bfQu\u00e9 t\u00e9cnica de estimaci\u00f3n estar\u00eda utilizando?",
+            "respuestas": [
+                "Definitiva",
+                "Param\u00e9trica",
+                "Por orden de magnitud (ROM)",
+                "An\u00e1loga"
+            ],
+            "verdadera": "Param\u00e9trica"
+        },
+        {
+            "enunciado": "Si el valor ganado (Earned Value, EV) es de 400, el coste real (Actual Cost, AC) es de 450 y el valor planificado (Planned Value, PV) es de 300, \u00bfcu\u00e1l es la variaci\u00f3n del coste?",
+            "respuestas": [
+                "100",
+                "-100",
+                "50",
+                "-50"
+            ],
+            "verdadera": "-50"
+        },
+        {
+            "enunciado": "Le han encargado que plante 10 pinos a m\u00e1s tardar el 15 de diciembre. El valor planificado para cada pino es de 5 euros, por lo que el presupuesto total asciende a 50 euros. El 15 de diciembre todos los pinos fueron plantados a un coste de 40 euros. \u00bfCu\u00e1l ser\u00e1 el \u00edndice de rendimiento del cronograma?",
+            "respuestas": [
+                "1,25",
+                "0,00",
+                "1,00",
+                "0,80"
+            ],
+            "verdadera": "1,00"
+        },
+        {
+            "enunciado": "El director de proyectos en una empresa termina habitualmente sus proyectos gastando m\u00e1s de lo presupuestado y retrasando su finalizaci\u00f3n. Por tal motivo, ha decidido mejorar los procesos de planificaci\u00f3n, seguimiento y control. \u00bfQu\u00e9 herramienta utilizar\u00e1 para evaluar la eficiencia en el progreso del cronograma?",
+            "respuestas": [
+                "Estimaci\u00f3n hasta la conclusi\u00f3n",
+                "Diagrama de Gantt",
+                "\u00cdndice de desempe\u00f1o del cronograma",
+                "Variaci\u00f3n del cronograma"
+            ],
+            "verdadera": "\u00cdndice de desempe\u00f1o del cronograma"
+        },
+        {
+            "enunciado": "El valor planificado para la actividad A es de 600 euros, est\u00e1 completada en un 50% y su coste real es de 200 euros. La actividad B se hab\u00eda planificado con un valor de 400 euros, el avance real es del 75% y su coste real asciende a 350 euros. Por \u00faltimo, la actividad C con un valor planificado de 100 euros, ya ha finalizado y su coste real fue de 100 euros. \u00bfCu\u00e1l es el \u00edndice de desempe\u00f1o del coste (CPI)?",
+            "respuestas": [
+                "700 / 650",
+                "700 / 1100",
+                "650 / 700",
+                "1100 / 700"
+            ],
+            "verdadera": "700 / 650"
+        },
+        {
+            "enunciado": "El director del proyecto junto a su equipo establecieron la l\u00ednea base de un proyecto industrial en 105 millones de euros y un plazo estimado de 3 a\u00f1os. \u00bfEn qu\u00e9 caso ser\u00eda aceptable cambiar la l\u00ednea base cuando el proyecto est\u00e9 en ejecuci\u00f3n?",
+            "respuestas": [
+                "La productividad en el departamento de ingenier\u00eda est\u00e1 siendo un 30% inferior a lo esperado",
+                "El cliente y el patrocinador han autorizado un cambio en el alcance del proyecto por 25000 euros",
+                "La empresa contratista ha incrementado su presupuesto para la gesti\u00f3n de calidad en un 50%",
+                "El precio de varios productos que utiliza el proyecto se ha incrementado un 45%"
+            ],
+            "verdadera": "El cliente y el patrocinador han autorizado un cambio en el alcance del proyecto por 25000 euros"
+        },
+        {
+            "enunciado": "Realizando el control de los costos de un proyecto que supera los 20 millones de euros, el principal resultado que obtendr\u00e1 de este proceso ser\u00e1",
+            "respuestas": [
+                "Coste estimado a la conclusi\u00f3n",
+                "Presupuesto",
+                "Requisitos de financiamiento",
+                "Costes estimados de las actividades"
+            ],
+            "verdadera": "Coste estimado a la conclusi\u00f3n"
+        },
+        {
+            "enunciado": "Un proyecto est\u00e1 informando un \u00edndice de rendimiento de coste de 0,72. Podr\u00edamos decir que",
+            "respuestas": [
+                "Se espera que el coste total del proyecto sea un 72% superior al valor planificado",
+                "El proyecto ha realizado s\u00f3lo un 72% de lo planificado",
+                "El proyecto est\u00e1 un 28% por debajo del valor planificado",
+                "El proyecto obtiene 0,72 euros por cada euro gastado"
+            ],
+            "verdadera": "El proyecto obtiene 0,72 euros por cada euro gastado"
+        },
+        {
+            "enunciado": "\u00bfQu\u00e9 significa la estimaci\u00f3n an\u00e1loga de costes?",
+            "respuestas": [
+                "Sumar costes de arriba hacia abajo",
+                "Agregar una reserva de coste adicional para contingencias",
+                "Sumar costes de abajo hacia arriba",
+                "Utilizar costes de proyectos hist\u00f3ricos similares para estimar costes futuros"
+            ],
+            "verdadera": "Utilizar costes de proyectos hist\u00f3ricos similares para estimar costes futuros"
+        },
+        {
+            "enunciado": "Una forma simple y r\u00e1pida para calcular la estimaci\u00f3n hasta la conclusi\u00f3n (EAC) del proyecto, ser\u00eda tomar el presupuesto hasta la conclusi\u00f3n (BAC) y luego dividirlo por",
+            "respuestas": [
+                "Variaci\u00f3n del coste",
+                "\u00cdndice de desempe\u00f1o del trabajo por completar",
+                "\u00cdndice de desempe\u00f1o del coste",
+                "\u00cdndice de desempe\u00f1o del cronograma"
+            ],
+            "verdadera": "\u00cdndice de desempe\u00f1o del coste"
+        },
+        {
+            "enunciado": "Quiere realizar un viaje en autom\u00f3vil y conoce que la distancia a recorrer es de 1100 km, que el precio actual de la gasolina es de 1 euro/litro y que su veh\u00edculo consume 10 litros cada 100 km. Con esta informaci\u00f3n decide estimar el coste en combustible de ese viaje. \u00bfQu\u00e9 t\u00e9cnica de estimaci\u00f3n estar\u00eda utilizando?",
+            "respuestas": [
+                "Definitiva",
+                "Param\u00e9trica",
+                "Por orden de magnitud (ROM)",
+                "An\u00e1loga"
+            ],
+            "verdadera": "Param\u00e9trica"
+        },
+        {
+            "enunciado": "Si el valor ganado (Earned Value, EV) es de 400, el coste real (Actual Cost, AC) es de 450 y el valor planificado (Planned Value, PV) es de 300, \u00bfcu\u00e1l es la variaci\u00f3n del coste?",
+            "respuestas": [
+                "100",
+                "-100",
+                "50",
+                "-50"
+            ],
+            "verdadera": "-50"
+        },
+        {
+            "enunciado": "Le han encargado que plante 10 pinos a m\u00e1s tardar el 15 de diciembre. El valor planificado para cada pino es de 5 euros, por lo que el presupuesto total asciende a 50 euros. El 15 de diciembre todos los pinos fueron plantados a un coste de 40 euros. \u00bfCu\u00e1l ser\u00e1 el \u00edndice de rendimiento del cronograma?",
+            "respuestas": [
+                "1,25",
+                "0,00",
+                "1,00",
+                "0,80"
+            ],
+            "verdadera": "1,00"
+        },
+        {
+            "enunciado": "El director de proyectos en una empresa termina habitualmente sus proyectos gastando m\u00e1s de lo presupuestado y retrasando su finalizaci\u00f3n. Por tal motivo, ha decidido mejorar los procesos de planificaci\u00f3n, seguimiento y control. \u00bfQu\u00e9 herramienta utilizar\u00e1 para evaluar la eficiencia en el progreso del cronograma?",
+            "respuestas": [
+                "Estimaci\u00f3n hasta la conclusi\u00f3n",
+                "Diagrama de Gantt",
+                "\u00cdndice de desempe\u00f1o del cronograma",
+                "Variaci\u00f3n del cronograma"
+            ],
+            "verdadera": "\u00cdndice de desempe\u00f1o del cronograma"
+        },
+        {
+            "enunciado": "El valor planificado para la actividad A es de 600 euros, est\u00e1 completada en un 50% y su coste real es de 200 euros. La actividad B se hab\u00eda planificado con un valor de 400 euros, el avance real es del 75% y su coste real asciende a 350 euros. Por \u00faltimo, la actividad C con un valor planificado de 100 euros, ya ha finalizado y su coste real fue de 100 euros. \u00bfCu\u00e1l es el \u00edndice de desempe\u00f1o del coste (CPI)?",
+            "respuestas": [
+                "700 / 650",
+                "700 / 1100",
+                "650 / 700",
+                "1100 / 700"
+            ],
+            "verdadera": "700 / 650"
+        },
+        {
+            "enunciado": "El director del proyecto junto a su equipo establecieron la l\u00ednea base de un proyecto industrial en 105 millones de euros y un plazo estimado de 3 a\u00f1os. \u00bfEn qu\u00e9 caso ser\u00eda aceptable cambiar la l\u00ednea base cuando el proyecto est\u00e9 en ejecuci\u00f3n?",
+            "respuestas": [
+                "La productividad en el departamento de ingenier\u00eda est\u00e1 siendo un 30% inferior a lo esperado",
+                "El cliente y el patrocinador han autorizado un cambio en el alcance del proyecto por 25000 euros",
+                "La empresa contratista ha incrementado su presupuesto para la gesti\u00f3n de calidad en un 50%",
+                "El precio de varios productos que utiliza el proyecto se ha incrementado un 45%"
+            ],
+            "verdadera": "El cliente y el patrocinador han autorizado un cambio en el alcance del proyecto por 25000 euros"
+        }
+    ]
+}

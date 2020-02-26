@@ -41,6 +41,7 @@ class Ui_Principal(QtWidgets.QMainWindow, Ui_frm_principal):
         self.btn_print_database_object.clicked.connect(lambda: self.printDBObject())
         self.btn_analizar_html.clicked.connect(lambda: self.newHTMLAnalisis())
         self.btn_guardar_bbdd.clicked.connect(lambda: self.saveBBDD())
+        self.btn_clean_database.clicked.connect(lambda: self.cleanDatabase())
     
     # --- UI Methods -----
     def updateBDInfoValues(self):
@@ -191,7 +192,13 @@ class Ui_Principal(QtWidgets.QMainWindow, Ui_frm_principal):
             item = QtWidgets.QTableWidgetItem()
             item.setText(str(info[x]))
             table.setItem(num_fila, x, item)
-                        
+
+    def cleanDatabase(self):
+        for cat in self.testtry_db_object.categories:
+            self.logger.info('Cleaning database. Category: %s' %cat.get('nombre_categoria'))
+            name = cat.get('nombre_categoria')
+            utilsDatabase.buscarPreguntasRepetidas(self.testtry_database_path, name)
+            
     # --- Dialogs ----
     def fileDialog(self, _type):
         if _type == 'open':

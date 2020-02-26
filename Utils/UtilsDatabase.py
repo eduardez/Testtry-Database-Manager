@@ -119,14 +119,16 @@ def jsonWrite(json_data, path):
         logger.success('JSON file write successful -> ' + path)
 
 # ------------------- MISC -------------------------
-def buscarPreguntasRepetidas():
-    json = jsonRead()
+def buscarPreguntasRepetidas(path, cat_name):
+    question_path = path + '/' + cat_name + '/' + QUESTION_JSON_FILENAME
+    json = jsonRead(question_path)
     no_repetidas = {}
     for pregunta in json['Preguntas']:
         enunciado = pregunta['enunciado']
         if not enunciado in no_repetidas:
             no_repetidas[enunciado] = pregunta
-    print('Preguntas duplicadas: %s\nEliminando...' % str(len(json['Preguntas']) - len(no_repetidas)))
+    logger.info('Preguntas duplicadas: %s\nEliminando...' % str(len(json['Preguntas']) - len(no_repetidas)))
     json['Preguntas'] = list(no_repetidas.values())
-    jsonWrite(json)
+    jsonWrite(json, question_path)
+    
 

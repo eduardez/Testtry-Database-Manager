@@ -524,7 +524,7 @@ background-color: rgb(198, 198, 198);</string>
         <x>10</x>
         <y>70</y>
         <width>221</width>
-        <height>241</height>
+        <height>301</height>
        </rect>
       </property>
       <property name="frameShape">
@@ -605,6 +605,24 @@ background-color: rgb(198, 198, 198);</string>
         <string>Imprimir objeto</string>
        </property>
       </widget>
+      <widget class="QPushButton" name="btn_clean_database">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>220</y>
+         <width>200</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Limpiar preguntas</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QLabel" name="label_13">
       <property name="geometry">
@@ -631,7 +649,7 @@ background-color: rgb(198, 198, 198);</string>
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>340</y>
+        <y>420</y>
         <width>221</width>
         <height>231</height>
        </rect>
@@ -719,7 +737,7 @@ background-color: rgb(198, 198, 198);</string>
       <property name="geometry">
        <rect>
         <x>30</x>
-        <y>330</y>
+        <y>410</y>
         <width>81</width>
         <height>20</height>
        </rect>
