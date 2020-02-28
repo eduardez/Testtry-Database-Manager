@@ -519,6 +519,246 @@
                 "El precio de varios productos que utiliza el proyecto se ha incrementado un 45%"
             ],
             "verdadera": "El cliente y el patrocinador han autorizado un cambio en el alcance del proyecto por 25000 euros"
+        },
+        {
+            "enunciado": "Un director de proyectos est\u00e1 dirigiendo su segundo proyecto. Empez\u00f3 un mes despu\u00e9s del primero, y ambos est\u00e1n en proceso de ejecuci\u00f3n. A pesar de que el primer proyecto es peque\u00f1o, parece que el segundo crece cada d\u00eda. Conforme pasan los d\u00edas, el director del proyecto empieza a sentir que necesita m\u00e1s y m\u00e1s ayuda. El director del proyecto acaba de escuchar noticias de otro proyecto en la compa\u00f1\u00eda, realizado el a\u00f1o pasado, similar a su segundo proyecto. \u00bfQu\u00e9 debe hacer?",
+            "respuestas": [
+                "Asegurarse de que el alcance del proyecto sea acordado por todos los interesados.",
+                "Obtener registros hist\u00f3ricos y orientaci\u00f3n de parte de la oficina de direcci\u00f3n de proyectos (PMO).",
+                "Contactar al otro director del proyecto para pedirle asistencia.",
+                "Esperar para ver si el proyecto es impactado por el crecimiento del alcance."
+            ],
+            "verdadera": "Obtener registros hist\u00f3ricos y orientaci\u00f3n de parte de la oficina de direcci\u00f3n de proyectos (PMO)."
+        },
+        {
+            "enunciado": "La diferencia entre un proyecto, un programa y un portafolio es que:",
+            "respuestas": [
+                "Un proyecto es una tarea temporal con un principio y un final, un programa puede incluir otro trabajo no relacionado con el proyecto, y un portafolio incluye todos los proyectos de un determinado departamento o divisi\u00f3n.",
+                "Un proyecto es una tarea contratada con un principio y un final, un portafolio es un grupo de proyectos con fechas de conclusi\u00f3n de final m\u00e1s abierto, y un programa combina dos o m\u00e1s portafolios.",
+                "Un proyecto es una tarea temporal con un principio y un final, un programa es un conjunto de proyectos relacionados, y un portafolio es un grupo de proyectos y programas relacionados con un objetivo estrat\u00e9gico espec\u00edfico.",
+                "Un proyecto es una tarea prolongada con un principio y un final, un programa combina dos o m\u00e1s proyectos no relacionados, y un portafolio combina dos o m\u00e1s programas."
+            ],
+            "verdadera": "Un proyecto es una tarea temporal con un principio y un final, un programa es un conjunto de proyectos relacionados, y un portafolio es un grupo de proyectos y programas relacionados con un objetivo estrat\u00e9gico espec\u00edfico."
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l de las siguientes opciones es CORRECTA?",
+            "respuestas": [
+                "La ruta cr\u00edtica ayuda a determinar cu\u00e1nto tiempo llevar\u00e1 el proyecto.",
+                "Un proyecto nunca puede tener una holgura negativa.",
+                "El diagrama de red cambiar\u00e1 cada vez que cambie la fecha de finalizaci\u00f3n.",
+                "S\u00f3lo puede haber una ruta cr\u00edtica."
+            ],
+            "verdadera": "La ruta cr\u00edtica ayuda a determinar cu\u00e1nto tiempo llevar\u00e1 el proyecto."
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l de los siguientes proyectos tiene mejores \u00edndices de rendimiento?\n\n\n\n\nProyecto\n\n\nCPI\n\n\nSPI\n\n\n\n\nA\n\n\n1,05\n\n\n0,90\n\n\n\n\nB\n\n\n0,90\n\n\n1,20\n\n\n\n\nC\n\n\n1,10\n\n\n1,20\n\n\n\n\nD\n\n\n0,85\n\n\n0,95\n\n\n\n\n\u00a0\n\u00a0",
+            "respuestas": [
+                "Proyecto C",
+                "Proyecto D",
+                "Proyecto A",
+                "Proyecto B"
+            ],
+            "verdadera": "Proyecto C"
+        },
+        {
+            "enunciado": "El director de un proyecto de consultor\u00eda inform\u00e1tica debe calcular el presupuesto de ese proyecto. \u00bfCu\u00e1l de las siguientes afirmaciones es falsa?",
+            "respuestas": [
+                "El presupuesto del proyecto puede incluir una reserva de gesti\u00f3n para imprevistos",
+                "La cuenta de control estar\u00e1 a un nivel de jerarqu\u00eda superior a los paquetes de trabajo",
+                "El presupuesto del proyecto generalmente incluye una reserva para contingencias",
+                "La reserva de gesti\u00f3n se tiene en cuenta en los c\u00e1lculos del valor ganado"
+            ],
+            "verdadera": "La reserva de gesti\u00f3n se tiene en cuenta en los c\u00e1lculos del valor ganado"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l de los siguientes \u00edtems ser\u00e1 el menos utilizado para comenzar a estimar los costes de las actividades de un proyecto?",
+            "respuestas": [
+                "Cronograma del proyecto",
+                "Plan de gesti\u00f3n de costes",
+                "Registro de riesgos",
+                "L\u00ednea base del coste"
+            ],
+            "verdadera": "L\u00ednea base del coste"
+        },
+        {
+            "enunciado": "La estimaci\u00f3n ascendente utiliza",
+            "respuestas": [
+                "Se utiliza para imputar las horas realmente dedicadas en la fase de ejecuci\u00f3n",
+                "La suma de los costes individuales de cada actividad y paquetes de trabajo",
+                "Datos de proyectos similares",
+                "Utiliza par\u00e1metros estad\u00edsticos y simulaciones de Montecarlo"
+            ],
+            "verdadera": "La suma de los costes individuales de cada actividad y paquetes de trabajo"
+        },
+        {
+            "enunciado": "Durante la implementaci\u00f3n de un m\u00f3dulo en un proyecto, validar el alcance ser\u00eda",
+            "respuestas": [
+                "Descomponer la EDT en paquetes de trabajo para revisar el alcance con el cliente",
+                "Realizar un an\u00e1lisis coste-beneficio para determinar si debemos proceder con la instalaci\u00f3n del pr\u00f3ximo m\u00f3dulo",
+                "Revisar el desempe\u00f1o de un m\u00f3dulo",
+                "Gestionar los cambios en el cronograma del proyecto"
+            ],
+            "verdadera": "Revisar el desempe\u00f1o de un m\u00f3dulo"
+        },
+        {
+            "enunciado": "\u00bfQu\u00e9 necesita para poder recopilar los requisitos de los interesados?",
+            "respuestas": [
+                "Auditor\u00edas",
+                "Verificaci\u00f3n del alcance",
+                "Registro de interesados",
+                "EDT"
+            ],
+            "verdadera": "Registro de interesados"
+        },
+        {
+            "enunciado": "Una\n empresa est\u00e1 operando en un mercado muy din\u00e1mico. \u00bfCu\u00e1l de los \nsiguientes cambios deber\u00eda ser el m\u00e1s importante para el comit\u00e9 del \ncontrol integrado de cambios? Un cambio originado en",
+            "respuestas": [
+                "El alcance del proyecto",
+                "El equipo de trabajo",
+                "La empresa contratista",
+                "El mercado"
+            ],
+            "verdadera": "El mercado"
+        },
+        {
+            "enunciado": "Este\n documento identifica el prop\u00f3sito del proyecto y la descripci\u00f3n del \nproducto e hitos m\u00e1s relevantes, \u00bfde qu\u00e9 documento estamos hablando?",
+            "respuestas": [
+                "El Plan de Direcci\u00f3n del Proyecto",
+                "El Acta de Constituci\u00f3n",
+                "El Enunciado del Trabajo",
+                "El Presupuesto del Proyecto"
+            ],
+            "verdadera": "El Acta de Constituci\u00f3n"
+        },
+        {
+            "enunciado": "En\n un proyecto, el principal entregable y los resultados del plan de \npruebas fueron enviados al cliente para conseguir su aprobaci\u00f3n formal. \nSin embargo, han pasado 25 d\u00edas y el cliente no contesta a ninguna \nsolicitud de nuestra parte. \u00bfQu\u00e9 es lo mejor que puede hacer?",
+            "respuestas": [
+                "Solicitar ayuda a la direcci\u00f3n general",
+                "Detener el proyecto hasta que el cliente apruebe los entregables formalmente",
+                "Documentar los hechos en el registro de problemas",
+                "Ninguna de las anteriores"
+            ],
+            "verdadera": "Solicitar ayuda a la direcci\u00f3n general"
+        },
+        {
+            "enunciado": "El\n acta de constituci\u00f3n del proyecto acaba de ser firmado. Este documento \nha sido formalmente aceptado por el director del proyecto y su equipo de\n trabajo, qui\u00e9nes tambi\u00e9n han firmado el documento. En el acta de \nconstituci\u00f3n hay una descripci\u00f3n del lugar donde va a desarrollarse el \nproyecto como as\u00ed tambi\u00e9n limitaciones de coste y tiempo. Estas \ndescripciones del acta de constituci\u00f3n son",
+            "respuestas": [
+                "Restricciones",
+                "Plan estrat\u00e9gico",
+                "Supuestos",
+                "Compromiso formal de los interesados"
+            ],
+            "verdadera": "Restricciones"
+        },
+        {
+            "enunciado": "Un\n proyecto est\u00e1 sufriendo demasiados cambios en el acta de constituci\u00f3n \ndel proyecto. \u00bfQu\u00eden es el principal responsable para decidir si esos \ncambios son necesarios?",
+            "respuestas": [
+                "Todos los interesados del proyecto",
+                "El interesado principal del proyecto",
+                "El patrocinador",
+                "El director del proyecto"
+            ],
+            "verdadera": "El patrocinador"
+        },
+        {
+            "enunciado": "Una actividad tiene un inicio temprano (ES) del d\u00eda 3, un inicio tard\u00edo (LS) del d\u00eda 13, una finalizaci\u00f3ntemprana (EF) del d\u00eda 9 y una finalizaci\u00f3n tard\u00eda (LF) del d\u00eda 19. La actividad:",
+            "respuestas": [
+                "Tiene un retraso",
+                "No est\u00e1 en la ruta cr\u00edtica",
+                "Est\u00e1 en la ruta cr\u00edtica",
+                "Est\u00e1 avanzando bien"
+            ],
+            "verdadera": "No est\u00e1 en la ruta cr\u00edtica"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l\n de los siguientes procesos incluye preguntarles a los miembros del \nequipo acerca de las estimaciones de tiempo para sus actividades y \nllegar a acuerdos sobre la fecha de calendario para cada actividad?",
+            "respuestas": [
+                "Secuenciar las Actividades",
+                "Desarrollar el Cronograma",
+                "Definir el Alcance",
+                "Desarrollar el Acta de Constituci\u00f3n del Proyecto"
+            ],
+            "verdadera": "Desarrollar el Cronograma"
+        },
+        {
+            "enunciado": "Tu\n plan para la direcci\u00f3n del proyecto resulta en un cronograma del \nproyecto que es demasiado largo. Si el diagrama de red del proyecto no \npuede cambiar pero tienes recursos de personal adicionales, \u00bfqu\u00e9 es lo \nMEJOR que puedes hacer?",
+            "respuestas": [
+                "Realizar el an\u00e1lisis Monte Cario",
+                "Implementar la t\u00e9cnica de ejecuci\u00f3n r\u00e1pida",
+                "Nivelar los recursos",
+                "Implementar la t\u00e9cnica de compresi\u00f3n"
+            ],
+            "verdadera": "Implementar la t\u00e9cnica de compresi\u00f3n"
+        },
+        {
+            "enunciado": "Un\n miembro del equipo de investigaci\u00f3n y desarrollo te dice que su trabajo\n es muy creativo como para proporcionarte un s\u00f3lo estimado fijo para la \nactividad. Entre los dos deciden usar las horas de trabajo promedio para\n desarrollar un prototipo (de proyectos anteriores). \u00bf\u00c9ste es un ejemplo\n de cu\u00e1l de las siguientes?",
+            "respuestas": [
+                "Estimaci\u00f3n por analog\u00eda",
+                "Estimaci\u00f3n param\u00e9trica",
+                "An\u00e1lisis Monte Carlo",
+                "Estimaci\u00f3n por tres valores"
+            ],
+            "verdadera": "Estimaci\u00f3n param\u00e9trica"
+        },
+        {
+            "enunciado": "El presupuesto estimado a su finalizaci\u00f3n (Estimate at Completion, EAC) es una evaluaci\u00f3n peri\u00f3dica de",
+            "respuestas": [
+                "El presupuesto final aprobado inicialmente",
+                "El presupuesto actualizado con las desviaciones hasta la fecha",
+                "El coste del trabajo realizado hasta la fecha",
+                "El valor del trabajo realizado al final del proyecto"
+            ],
+            "verdadera": "El presupuesto actualizado con las desviaciones hasta la fecha"
+        },
+        {
+            "enunciado": "Quiere\n realizar un viaje en autom\u00f3vil y conoce que la distancia a recorrer es \nde 1100 km, que el precio actual de la gasolina es de 1 euro/litro y que\n su veh\u00edculo consume 10 litros cada 100 km. Con esta informaci\u00f3n decide \nestimar el coste en combustible de ese viaje. \u00bfQu\u00e9 t\u00e9cnica de estimaci\u00f3n\n estar\u00eda utilizando?",
+            "respuestas": [
+                "Param\u00e9trica",
+                "Definitiva",
+                "An\u00e1loga",
+                "Por orden de magnitud (ROM)"
+            ],
+            "verdadera": "Param\u00e9trica"
+        },
+        {
+            "enunciado": "El\n director del proyecto junto a su equipo establecieron la l\u00ednea base de \nun proyecto industrial en 105 millones de euros y un plazo estimado de 3\n a\u00f1os. \u00bfEn qu\u00e9 caso ser\u00eda aceptable cambiar la l\u00ednea base cuando el \nproyecto est\u00e9 en ejecuci\u00f3n?",
+            "respuestas": [
+                "La empresa contratista ha incrementado su presupuesto para la gesti\u00f3n de calidad en un 50%",
+                "El cliente y el patrocinador han autorizado un cambio en el alcance del proyecto por 25000 euros",
+                "La productividad en el departamento de ingenier\u00eda est\u00e1 siendo un 30% inferior a lo esperado",
+                "El precio de varios productos que utiliza el proyecto se ha incrementado un 45%"
+            ],
+            "verdadera": "El cliente y el patrocinador han autorizado un cambio en el alcance del proyecto por 25000 euros"
+        },
+        {
+            "enunciado": "Una\n forma simple y r\u00e1pida para calcular la estimaci\u00f3n hasta la conclusi\u00f3n \n(EAC) del proyecto, ser\u00eda tomar el presupuesto hasta la conclusi\u00f3n (BAC)\n y luego dividirlo por",
+            "respuestas": [
+                "\u00cdndice de desempe\u00f1o del trabajo por completar",
+                "\u00cdndice de desempe\u00f1o del coste",
+                "\u00cdndice de desempe\u00f1o del cronograma",
+                "Variaci\u00f3n del coste"
+            ],
+            "verdadera": "\u00cdndice de desempe\u00f1o del coste"
+        },
+        {
+            "enunciado": "Realizando\n el control de los costos de un proyecto que supera los 20 millones de \neuros, el principal resultado que obtendr\u00e1 de este proceso ser\u00e1",
+            "respuestas": [
+                "Presupuesto",
+                "Coste estimado a la conclusi\u00f3n",
+                "Requisitos de financiamiento",
+                "Costes estimados de las actividades"
+            ],
+            "verdadera": "Coste estimado a la conclusi\u00f3n"
+        },
+        {
+            "enunciado": "El\n valor planificado para la actividad A es de 600 euros, est\u00e1 completada \nen un 50% y su coste real es de 200 euros. La actividad B se hab\u00eda \nplanificado con un valor de 400 euros, el avance real es del 75% y su \ncoste real asciende a 350 euros. Por \u00faltimo, la actividad C con un valor\n planificado de 100 euros, ya ha finalizado y su coste real fue de 100 \neuros. \u00bfCu\u00e1l es el \u00edndice de desempe\u00f1o del coste (CPI)?",
+            "respuestas": [
+                "650 / 700",
+                "700 / 1100",
+                "700 / 650",
+                "1100 / 700"
+            ],
+            "verdadera": "700 / 650"
         }
     ]
 }
