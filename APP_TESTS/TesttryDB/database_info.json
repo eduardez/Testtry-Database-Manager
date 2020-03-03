@@ -1,12 +1,12 @@
 {
     "categorias": [
         {
-            "nombre_categoria": "API",
-            "numero_preguntas": 76
-        },
-        {
             "nombre_categoria": "Operativos",
             "numero_preguntas": 236
+        },
+        {
+            "nombre_categoria": "API - Parcial 1",
+            "numero_preguntas": 76
         }
     ],
     "database_id": "9f32f06dae8b0c097227",
