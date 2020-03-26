@@ -1,0 +1,114 @@
+{
+    "Preguntas": [
+        {
+            "enunciado": "\u00bfCu\u00e1l de los siguientes no es un aspecto relevante de dise\u00f1o en el paso de mensajes?",
+            "respuestas": [
+                "Transporte.",
+                "Direccionamiento.",
+                "Disciplina de cola.",
+                "Formato.",
+                "Sincronizaci\u00f3n."
+            ],
+            "verdadera": "Transporte."
+        },
+        {
+            "enunciado": "La coordinaci\u00f3n en el cl\u00e1sico problema de los fumadores de cigarrillos puede modelarse y resolverse de forma \u00f3ptima mediante",
+            "respuestas": [
+                "La utilizaci\u00f3n bloqueante de un gestor de eventos unificado",
+                "Mediante un esquema de recuperaci\u00f3n no selectiva utilizando una \u00fanica cola de mensajes POSIX.",
+                "La aplicaci\u00f3n del patr\u00f3n lightswitch o interruptor.",
+                "Un esquema de recuperaci\u00f3n selectiva utilizando m\u00faltiples buzones.",
+                "Un esquema de recuperaci\u00f3n selectiva utilizando un \u00fanico buz\u00f3n, pero las colas de mensajes POSIX no lo permiten."
+            ],
+            "verdadera": " Un esquema de recuperaci\u00f3n selectiva utilizando \nun \u00fanico buz\u00f3n, pero las colas de mensajes POSIX no lo permiten."
+        },
+        {
+            "enunciado": "El paso de mensajes ...\u00a0",
+            "respuestas": [
+                "Permite sincronizar y comunicar procesos.",
+                "Es m\u00e1s adecuado que la utilizaci\u00f3n de segmentos de memoria compartida en sistemas centralizados.",
+                "Permite sincronizar pero no comunicar procesos.",
+                "Es menos adecuado que la utilizaci\u00f3n de segmentos de memoria compartida en sistemas distribuidos",
+                "Permite comunicar pero no sincronizar procesos."
+            ],
+            "verdadera": "Permite sincronizar y comunicar procesos."
+        },
+        {
+            "enunciado": "En POSIX se puede utilizar mq_notify para que",
+            "respuestas": [
+                "Un\n proceso o hilo, previamente registrado, reciba un mensaje cuando llegue\n un mensaje a la cola de mensajes que haya especificado.",
+                "Un\n proceso o hilo, previamente registrado, reciba una se\u00f1al cuando llegue \nun mensaje a la cola de mensajes que haya especificado.",
+                "Un\n proceso o hilo, previamente registrado, reciba una se\u00f1al cuando llegue \nun mensaje a cualquiera de las colas de mensajes que utiliza para env\u00edo o\n recepci\u00f3n de mensajes.",
+                "Podamos implementar una gesti\u00f3n unificada de los eventos que tienen lugar en un sistema de colas de mensajes.",
+                "Se pueda obtener una soluci\u00f3n general y portable al problema beeper en esquemas de paso de mensajes."
+            ],
+            "verdadera": " Un proceso o hilo, previamente registrado, \nreciba una se\u00f1al cuando llegue un mensaje a la cola de mensajes que haya\n especificado."
+        },
+        {
+            "enunciado": "Una disciplina de cola en un sistema de paso de mensajes",
+            "respuestas": [
+                "Determina qu\u00e9 proceso recibir\u00e1 el siguiente mensaje",
+                "Es una caracter\u00edstica de algunos sistemas de paso de mensajes",
+                "Determina el orden de recepci\u00f3n de los mensajes",
+                "Determina el orden de env\u00edo de los mensajes",
+                "Controla los permisos de env\u00edo y recepci\u00f3n de mensajes en dicha cola"
+            ],
+            "verdadera": "Determina el orden de recepci\u00f3n de los mensajes"
+        },
+        {
+            "enunciado": "La comunicaci\u00f3n mediante paso de mensajes se puede considerar s\u00edncrona cuando el proceso que env\u00eda el mensaje...",
+            "respuestas": [
+                "Lo realiza de manera indirecta, es decir, a trav\u00e9s de un buz\u00f3n.",
+                "Solo prosigue su ejecuci\u00f3n si la cola de mensajes utilizada no est\u00e1 llena.",
+                "S\u00f3lo prosigue su ejecuci\u00f3n cuando el mensaje ha sido recibido por su receptor.",
+                "S\u00f3lo prosigue su ejecuci\u00f3n cuando ha recibido una respuesta del receptor.",
+                "Sigue su ejecuci\u00f3n con independencia de si el mensaje es recibido o no."
+            ],
+            "verdadera": "S\u00f3lo prosigue su ejecuci\u00f3n cuando el mensaje ha sido recibido por su receptor."
+        },
+        {
+            "enunciado": "Con un mecanismo de paso de mensajes mediante comunicaci\u00f3n as\u00edncrona...",
+            "respuestas": [
+                "Directamente se comporta siguiendo el patr\u00f3n rendezvous.",
+                "Directamente se comporta siguiendo el patr\u00f3n mutex",
+                "El proceso que env\u00eda un mensaje sigue su ejecuci\u00f3n con independencia de que alg\u00fan otro proceso reciba o no dicho mensaje.",
+                "El proceso que env\u00eda un mensaje tiene forzosamente que nombrar al proceso receptor.",
+                "El proceso que env\u00eda un mensaje se bloquea hasta que alg\u00fan otro proceso reciba dicho mensaje."
+            ],
+            "verdadera": " El proceso que env\u00eda un mensaje sigue su \nejecuci\u00f3n con independencia de que alg\u00fan otro proceso reciba o no dicho \nmensaje."
+        },
+        {
+            "enunciado": "Un buz\u00f3n beeper",
+            "respuestas": [
+                "S\u00f3lo es posible utilizarlo en algunos sistemas de paso de mensajes",
+                "Permite la utilizaci\u00f3n de un buz\u00f3n por un mayor n\u00famero de procesos",
+                "Convierte las primitivas de recepci\u00f3n no bloqueantes en bloqueantes",
+                "Implementa autom\u00e1ticamente un sistema de prioridad en la recepci\u00f3n de mensajes",
+                "Permite que los procesos conozcan la pr\u00f3xima tarea a realizar"
+            ],
+            "verdadera": "Permite que los procesos conozcan la pr\u00f3xima tarea a realizar"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l de las siguientes alternativas no es una soluci\u00f3n al problema del bloqueo cuando un proceso trabaja con distintos buzones de mensajes?Recuperaci\u00f3n selectiva.",
+            "respuestas": [
+                "Recuperaci\u00f3n selectiva",
+                "Ninguna de las otras respuestas es correcta",
+                "Uso de la primitiva mq_notify().",
+                "Esquema de gestor de eventos unificado",
+                "Esquema beeper"
+            ],
+            "verdadera": "Recuperaci\u00f3n selectiva"
+        },
+        {
+            "enunciado": "\u00bfPor qu\u00e9 los sistemas de paso de mensajes son m\u00e1s adecuados para los sistemas distribuidos que los sistemas basados en el uso de memoria compartida?",
+            "respuestas": [
+                "Es indiferente utilizar paso de mensajes o memoria compartida en un sistema distribuido.",
+                "Porque en un sistema distribuido no es f\u00e1cil tener memoria compartida.",
+                "Porque en un sistema de paso de mensajes no se puede producir interbloqueo.",
+                "Porque el paso de mensajes es m\u00e1s r\u00e1pido que usar memoria compartida.",
+                "Porque el sistema distribuido utiliza de forma autom\u00e1tica memoria compartida para el paso de mensajes."
+            ],
+            "verdadera": "Porque en un sistema distribuido no es f\u00e1cil tener memoria compartida."
+        }
+    ]
+}

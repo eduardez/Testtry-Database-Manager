@@ -7,6 +7,10 @@
         {
             "nombre_categoria": "API - Parcial 1",
             "numero_preguntas": 76
+        },
+        {
+            "nombre_categoria": "Concurrente",
+            "numero_preguntas": 10
         }
     ],
     "database_id": "9f32f06dae8b0c097227",
