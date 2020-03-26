@@ -109,6 +109,830 @@
                 "Porque el sistema distribuido utiliza de forma autom\u00e1tica memoria compartida para el paso de mensajes."
             ],
             "verdadera": "Porque en un sistema distribuido no es f\u00e1cil tener memoria compartida."
+        },
+        {
+            "enunciado": " \u00bfCu\u00e1ntos procesos se desbloquear\u00e1n como consecuencia de ejecutar signalsobre un sem\u00e1foro contador?",
+            "respuestas": [
+                "Tantos como valor interno tenga el sem\u00e1foro.",
+                "Tantos como procesos se encuentren bloqueados en el sem\u00e1foro.",
+                "Cero o uno.",
+                "Al menos uno.",
+                "Uno."
+            ],
+            "verdadera": "Cero o uno."
+        },
+        {
+            "enunciado": " La operaci\u00f3n signal de un sem\u00e1foro se implementa en POSIX con la primitiva\u2026",
+            "respuestas": [
+                "signal_sem",
+                "sem_post",
+                "sem_signal",
+                "signal_set",
+                "sem_unlink"
+            ],
+            "verdadera": "sem_signal"
+        },
+        {
+            "enunciado": " El valor absoluto de un entero negativo asociado a un sem\u00e1foro es",
+            "respuestas": [
+                "Es el m\u00e1ximo numero de procesos que pueden utilizar el sem\u00e1foro sin bloquearse.",
+                "El n\u00famero de procesos bloqueados por dicho sem\u00e1foro.",
+                "Ninguna de las otras respuestas es correcta.",
+                "Un entero negativo nunca esta asociado a un sem\u00e1foro.",
+                "El n\u00famero de procesos que han realizado una operaci\u00f3n wait () sin interrupci\u00f3n actualmente."
+            ],
+            "verdadera": "El n\u00famero de procesos bloqueados por dicho sem\u00e1foro."
+        },
+        {
+            "enunciado": " Indique cu\u00e1l de las siguientes es una similitud entre proceso e hilo",
+            "respuestas": [
+                "No existen similitudes entre ellos.",
+                "Ambos necesitan disponer de su propio valor de contador de programa.",
+                "Ambos propician la misma eficiencia y efectividad en la ejecuci\u00f3n de tareas.",
+                "Ambos se pueden ejecutar en cualquier momento con independencia de algoritmo de planificaci\u00f3n de uso de la CPU del sistema.",
+                "Ambos manejan de forma exclusiva c\u00f3digo, datos y recursos."
+            ],
+            "verdadera": "Ambos necesitan disponer de su propio valor de contador de programa."
+        },
+        {
+            "enunciado": " \u00bfCon qu\u00e9 condici\u00f3n de Coffman asociar\u00eda el desalojo de recursos?",
+            "respuestas": [
+                "Espera ocupada.",
+                "Exclusi\u00f3n mutua.",
+                "Espera circular.",
+                "Retenci\u00f3n y espera.",
+                "No apropiaci\u00f3n."
+            ],
+            "verdadera": "No apropiaci\u00f3n."
+        },
+        {
+            "enunciado": " Un proceso hijo debe esperar la finalizaci\u00f3n de su proceso padre, \u00bfQu\u00e9 primitiva POSIX utilizar\u00e1?",
+            "respuestas": [
+                "pause(void)",
+                "pid_t waitpid (pid_t_pid, int *status, int options)",
+                "pid_t wait3(pid_t_pid, int *status, int options)",
+                "pid_t wait (int *status)",
+                "Ninguna de las otras respuestas es correcta"
+            ],
+            "verdadera": "Ninguna de las otras respuestas es correcta"
+        },
+        {
+            "enunciado": " Indique cual de las siguientes herramientas, m\u00e9todos o t\u00e9cnicas no tiene relaci\u00f3n directa con el tratamiento del interbloqueo",
+            "respuestas": [
+                "Algoritmo del banquero.",
+                "Grafo de asignaci\u00f3n de recursos.",
+                "Algoritmo de seguridad.",
+                "Algoritmo de herencia de prioridad.",
+                "Condiciones de Coffman."
+            ],
+            "verdadera": "Condiciones de Coffman."
+        },
+        {
+            "enunciado": " La finalidad principal de un grafo de asignaci\u00f3n de recursos es",
+            "respuestas": [
+                "La detecci\u00f3n y recuperaci\u00f3n de situaciones de interbloqueo.",
+                "Facilitar el estudio y an\u00e1lisis de posibles situaciones de interbloqueo.",
+                "Servir de elemento fundamental para la implantaci\u00f3n de algoritmos de acotaci\u00f3n de prioridades en sistemas de tiempo real.",
+                "Servir de elemento fundamental para la implantaci\u00f3n del algoritmo del banquero.",
+                "Analizar si se pueden satisfacer los requisitos temporales de un sistema de tiempo real."
+            ],
+            "verdadera": "Facilitar el estudio y an\u00e1lisis de posibles situaciones de interbloqueo."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 soluci\u00f3n al problema de la secci\u00f3n cr\u00edtica combina una estructura de datos representa la intenci\u00f3n de un proceso de acceder a la secci\u00f3n cr\u00edtica con una variable que representa el turno para acceder a la misma?",
+            "respuestas": [
+                "Soluci\u00f3n de Ritchie.",
+                "Soluci\u00f3n de Peterson.",
+                "Soluci\u00f3n de Tanenbaum.",
+                "Soluci\u00f3n de Lamport",
+                "Soluci\u00f3n de Coffman."
+            ],
+            "verdadera": "Soluci\u00f3n de Peterson."
+        },
+        {
+            "enunciado": " Desde una perspectiva te\u00f3rica, \u00bfes posible conocer a priori, y en tiempo de ejecuci\u00f3n, si un proceso puede bloquearse como consecuencia de la ejecuci\u00f3n de una primitiva de tipo wait sobre un sem\u00e1foro?",
+            "respuestas": [
+                "S\u00ed, si primero se hace una operaci\u00f3n de tipo signal.",
+                "S\u00ed, depender\u00e1 del valor de la variable del sem\u00e1foro.",
+                "S\u00ed, pero para ello es necesario utilizar sem\u00e1foros generales.",
+                "No, no es posible.",
+                "S\u00ed, porque el programador siempre puede tener el control de la concurrencia."
+            ],
+            "verdadera": "No, no es posible."
+        },
+        {
+            "enunciado": " Si solo los procesos que est\u00e1n en su secci\u00f3n de entrada deciden quien es el siguiente proceso en ejecutar su secci\u00f3n cr\u00edtica y esta decisi\u00f3n se toma en untiempo limitado se dice que se cumple la condici\u00f3n o condiciones de ",
+            "respuestas": [
+                "Exclusi\u00f3n mutua.",
+                "Progreso y espera limitada.",
+                "Retenci\u00f3n y espera.",
+                "Espera limitada.",
+                "Progreso."
+            ],
+            "verdadera": "Progreso."
+        },
+        {
+            "enunciado": " En un archivo Makefile se utiliza la variable DIREXE para indicar el directorio donde se deben generar los ejecutables de la aplicaci\u00f3n \u00bfC\u00f3mo se accede al valor de esta variable DIREXE en el archivo Makefile?",
+            "respuestas": [
+                "$",
+                "*DIREXE",
+                "DIREXE",
+                "$DIREXE",
+                "$(DIREXE)"
+            ],
+            "verdadera": "$(DIREXE)"
+        },
+        {
+            "enunciado": " Si un proceso ya no necesita utilizar un segmento de memoria compartida (aunque otros procesos puede que necesiten ese segmento) debe usar la primitiva",
+            "respuestas": [
+                "shm_unlink",
+                "ftruncate",
+                "mmap",
+                "munmap",
+                "shm_open con el flag CLOSE"
+            ],
+            "verdadera": "shm_unlink"
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 operaci\u00f3n permite que un proceso pueda acceder de manera efectiva aun segmento de memoria compartida?",
+            "respuestas": [
+                "Desreferencia.",
+                "Mapping.",
+                "Apertura.",
+                "Creaci\u00f3n.",
+                "Desalojo."
+            ],
+            "verdadera": "Apertura."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 patr\u00f3n de sincronizaci\u00f3n usar\u00eda para bloquear el acceso de un conjuntode procesos a una secci\u00f3n cr\u00edtica?",
+            "respuestas": [
+                "Se\u00f1alizaci\u00f3n.",
+                "Barrera.",
+                "Rendezvous.",
+                "Mutex.",
+                "Interruptor."
+            ],
+            "verdadera": "Interruptor."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 nombre recibe el patr\u00f3n de sincronizaci\u00f3n en el que la presencia de untipo de proceso en una secci\u00f3n cr\u00edtica condiciona el acceso a la misma deprocesos de otro tipo?",
+            "respuestas": [
+                "Interruptor.",
+                "Exclusi\u00f3n mutua categ\u00f3rica.",
+                "Mutex.",
+                "Marcador.",
+                "Multiplex."
+            ],
+            "verdadera": "Exclusi\u00f3n mutua categ\u00f3rica."
+        },
+        {
+            "enunciado": " \u00bfCu\u00e1l de las siguientes no es una ventaja de la programaci\u00f3n multihilo?",
+            "respuestas": [
+                "Paralelismo.",
+                "Simplicidad con respecto a la programaci\u00f3n mono-hilo.",
+                "Compartici\u00f3n de recursos.",
+                "Capacidad de respuesta.",
+                "Eficacia respecto a procesos a la hora de cambiar de contexto."
+            ],
+            "verdadera": "Simplicidad con respecto a la programaci\u00f3n mono-hilo."
+        },
+        {
+            "enunciado": " Si las listas de espera asociadas a los sem\u00e1foros se implementasen conestructuras de tipo LIFO (last-in-first-out) lo que suceder\u00eda seria que",
+            "respuestas": [
+                "Se puede producir inanici\u00f3n entre los procesos que compiten poracceder al sem\u00e1foro.",
+                "Se puede producir interbloqueo entre los procesos que compiten poracceder al sem\u00e1foro.",
+                "No se garantiza la exclusi\u00f3n mutua en el acceso a la variable delsem\u00e1foro.",
+                "Ninguna de las dem\u00e1s respuestas es correcta.\fe. No se garantiza la ejecuci\u00f3n de las primitivas wait y signal de formaat\u00f3mica."
+            ],
+            "verdadera": "Se puede producir inanici\u00f3n entre los procesos que compiten poracceder al sem\u00e1foro."
+        },
+        {
+            "enunciado": " La t\u00e9cnica mas usada para tratar el problema del interbloqueo es",
+            "respuestas": [
+                "El algoritmo de Coffman.",
+                "El algoritmo de seguridad.",
+                "El algoritmo del avestruz.",
+                "El algoritmo del banquero.",
+                "El algoritmo de Peterson."
+            ],
+            "verdadera": "El algoritmo del avestruz."
+        },
+        {
+            "enunciado": " Si un proceso hijo quiere mandar la se\u00f1al SIGINT a su proceso padre debe utilizar",
+            "respuestas": [
+                "signal (SIGINT, -1)",
+                "pause (SIGINT)",
+                "kill (getppid (), SIGINT)",
+                "kill (-1, SIGINT)",
+                "signal (getppid (), SIGINT)"
+            ],
+            "verdadera": "kill (getppid (), SIGINT)"
+        },
+        {
+            "enunciado": " Un proceso manager necesita enviar un mensaje a uno de los procesos hijos queha creado, y para ello utiliza una cola de mensajes Suponiendo que la cola demensajes ya ha sido creada usando el descriptor de cola mqHandlerMsg, \u00bfQu\u00e9l\u00ednea de c\u00f3digo debe usar para enviar el mensaje contenido en la variablemy_msg del tipo struct msg_t?",
+            "respuestas": [
+                "mq_send (\u201c/mqHandlerMsg\u201d, (const char *) &my_msg, sizeof (structmsg_t, NULL);",
+                "mq_send (mqHandlerMsg, my_msg, msg_t, 0);",
+                "mq_send (\u201c/mqHandlerMsg\u201d, (const char *) &my_msg, sizeof (structmsg_t, 0);",
+                "mq_send (mqHandlerMsg, (const char *) &my_msg, sizeof (structmsg_t, 0);",
+                "mq_send (mqHandlerMsg, (const char *) &my_msg, sizeof (structmsg_t, &mqAttr);"
+            ],
+            "verdadera": "mq_send (\u201c/mqHandlerMsg\u201d, (const char *) &my_msg, sizeof (structmsg_t, 0);"
+        },
+        {
+            "enunciado": " Los mecanismos de sincronizaci\u00f3n que proporciona un monitor son",
+            "respuestas": [
+                "Guardas o barreras.",
+                "Entries.",
+                "Sem\u00e1foros con sus primitivas wait y signal.",
+                "Variables de condici\u00f3n y sus correspondientes primitivas.",
+                "Mutexes."
+            ],
+            "verdadera": "Mutexes."
+        },
+        {
+            "enunciado": " Un nombre correcto para un buz\u00f3n de mensajes POSIX es",
+            "respuestas": [
+                "queue_",
+                "./queue",
+                "/queue",
+                "~/queue",
+                "_queue"
+            ],
+            "verdadera": "/queue"
+        },
+        {
+            "enunciado": " En Ada, desde un punto de vista conceptual, un entry se puede entender comouna llamada a procedimiento remoto de manera que",
+            "respuestas": [
+                "La tarea que realiza la invocaci\u00f3n continua su ejecuci\u00f3n hasta que latarea invocada le proporciona los resultados de la invocaci\u00f3n.",
+                "Se materializa la implementaci\u00f3ndenominado interruptor.delpatr\u00f3ndesincronizaci\u00f3n",
+                "La tarea receptora se bloquea hasta que la tarea que realiza lainvocaci\u00f3n finaliza su ejecuci\u00f3n.",
+                "La tarea receptora de la llamada ejecuta su c\u00f3digo con los datos de latarea que realiza la invocaci\u00f3n.",
+                "La tarea receptora de la llamada recibe los datos resultantes de lainvocaci\u00f3n."
+            ],
+            "verdadera": "La tarea receptora de la llamada ejecuta su c\u00f3digo con los datos de latarea que realiza la invocaci\u00f3n."
+        },
+        {
+            "enunciado": " Cuando se aplica el protocolo de herencia de prioridad,",
+            "respuestas": [
+                "La prioridad de un proceso es est\u00e1tica y no var\u00eda din\u00e1micamente.",
+                "La prioridad din\u00e1mica de un proceso no esta relacionada con el accesoa secciones cr\u00edticas o con el uso de recursos compartidos.",
+                "La prioridad de un proceso es el m\u00e1ximo de su propia prioridad y lasprioridades de los procesos que dependen de dicho proceso.",
+                "El tiempo de bloqueo del proceso con mas baja prioridad nunca es cero.",
+                "El tiempo de bloqueo del proceso de mayor prioridad siempre es 0."
+            ],
+            "verdadera": "La prioridad de un proceso es el m\u00e1ximo de su propia prioridad y lasprioridades de los procesos que dependen de dicho proceso."
+        },
+        {
+            "enunciado": " Un proceso que invoca a la primitiva mq_send sobre una cola de mensajes nose bloqueara, a menos que",
+            "respuestas": [
+                "Nunca se bloquear\u00e1.",
+                "El tama\u00f1o del buffer de env\u00edo sea mayor que el tama\u00f1o del buz\u00f3n.",
+                "Este llena la cola de mensajes o no este activo el flag O_NONBLOCK.",
+                "Los tama\u00f1os de los buffers de env\u00edo y recepci\u00f3n est\u00e9n maldimensionados.",
+                "El tama\u00f1o del buffer de recepci\u00f3n sea menor que el tama\u00f1o del buz\u00f3n."
+            ],
+            "verdadera": "Este llena la cola de mensajes o no este activo el flag O_NONBLOCK."
+        },
+        {
+            "enunciado": " \u00bfCu\u00e1l es la principal ventaja asociada al hecho de que un lenguaje deprogramaci\u00f3n proporcione un soporte nativo a la concurrencia?",
+            "respuestas": [
+                "Paralelismo.",
+                "Facilidad de uso.",
+                "Eficiencia.",
+                "Portabilidad.",
+                "Computo distribuido."
+            ],
+            "verdadera": "Facilidad de uso."
+        },
+        {
+            "enunciado": " El uso de temporizadores o timeouts en primitivas como sem_timedwait () \u2026",
+            "respuestas": [
+                "Genera un c\u00f3digo m\u00e1s simple y mantenible.",
+                "Proporciona m\u00e1s control al desarrollador.",
+                "Suele estar basado en espera activa u ocupada.",
+                "Es desaconsejable ya que no es una medida que permita acotar eldeadline de un proceso.",
+                "Siempre garantiza un mayor nivel de paralelismo con respecto aprimitivas que no integren temporizadores."
+            ],
+            "verdadera": "Suele estar basado en espera activa u ocupada."
+        },
+        {
+            "enunciado": " Mediante los mecanismos de paso de mensajes, la sincronizaci\u00f3n se materializa",
+            "respuestas": [
+                "En base al formato del mensaje que se env\u00eda/recibe.",
+                "Mediante la utilizaci\u00f3n de colas de mensajes.",
+                "Dependiendo del tipo de esquema de comunicaci\u00f3n que se emplea ydel formato del mensaje.",
+                "En base al contenido que se env\u00eda/recibe.",
+                "Por el propio hecho del env\u00edo o recepci\u00f3n del mensaje, conindependencia del contenido enviado."
+            ],
+            "verdadera": "Dependiendo del tipo de esquema de comunicaci\u00f3n que se emplea ydel formato del mensaje."
+        },
+        {
+            "enunciado": " En un sistema POSIX, un proceso desea recibir solo mensajes con prioridad 5cuyo contenido sea un array con un m\u00e1ximo de 100 enteros (variable connombre msg) de un buz\u00f3n cuyo descriptor de cola es mq En este caso se podr\u00edautilizar",
+            "respuestas": [
+                "Ninguna de las otras respuestas es correcta.",
+                "mq_receive (mq, (int *) &msg, sizeof(msg), NULL)",
+                "mq_receive (mq, (char *) &msg, sizeof (struct msg), NULL)",
+                "mq_receive (mq, (int *) &msg, sizeof(msg), 5)",
+                "mq_receive (mq, (int *) msg, sizeof(msg), 5)"
+            ],
+            "verdadera": "mq_receive (mq, (int *) &msg, sizeof(msg), 5)"
+        },
+        {
+            "enunciado": " Cuando se usan las primitivas POSIX de env\u00edo y recepci\u00f3n de mensajes",
+            "respuestas": [
+                "Solo hay que utilizar un buffer si se va a enviar mensajes de un tama\u00f1omayor a un byte.",
+                "El buffer que se emplea para env\u00edo y para direcci\u00f3n de mensajes tendr\u00e1un tama\u00f1o que depender\u00e1 del n\u00famero de mensajes que queremos quepueda llegar a almacenar la cola de mensajes.",
+                "El buffer de env\u00edo de un mensaje ha de tener un tama\u00f1o mayor o igual amq_msgsize, mientras que el buffer de recepci\u00f3n de mensajes ha detener un tama\u00f1o menor o igual a mq_msgsize.",
+                "El buffer de env\u00edo de un mensaje ha de tener un tama\u00f1o menor o igual amq_msgsize, mientras que el buffer de recepci\u00f3n de mensajes ha detener un tama\u00f1o mayor o igual a mq_msgsize.",
+                "El buffer de env\u00edo de un mensaje ha de tener un tama\u00f1o mayor o igual amsg_len, mientras que el buffer de recepci\u00f3n de mensajes ha de tenerun tama\u00f1o menor o igual a msg_len."
+            ],
+            "verdadera": "El buffer de env\u00edo de un mensaje ha de tener un tama\u00f1o menor o igual amq_msgsize, mientras que el buffer de recepci\u00f3n de mensajes ha detener un tama\u00f1o mayor o igual a mq_msgsize."
+        },
+        {
+            "enunciado": " Considerando el enunciado del ejercicio 46, en base a los requisitos temporalesexpuestos, y suponiendo que ha calculado las prioridades de las tareas, \u00bfQu\u00e9valor tendr\u00eda el tiempo de bloqueo de las tareas?",
+            "respuestas": [
+                "BA = 32, BB = 24, BC = 30, BD = 0",
+                "BA = 44, BB = 29, BC = 31, BD = 0",
+                "BA = 34, BB = 19, BC = 31, BD = 0",
+                "BA = 34, BB = 21, BC = 31, BD = 10",
+                "BA = 24, BB = 19, BC = 32, BD = 0"
+            ],
+            "verdadera": "BA = 34, BB = 19, BC = 31, BD = 0"
+        },
+        {
+            "enunciado": " Considerando el enunciado del ejercicio 46, en base a los requisitos temporalesexpuestos, y suponiendo que ha calculado las prioridades de las tareas y lostiempos de bloqueo, \u00bfQu\u00e9 valor tendr\u00eda el tiempo de respuesta de la tarea C?",
+            "respuestas": [
+                "38",
+                "14",
+                "45",
+                "41",
+                "49"
+            ],
+            "verdadera": "45"
+        },
+        {
+            "enunciado": " Considerando el enunciado del ejercicio 46, en base a los requisitos temporalesexpuestos, y suponiendo que ha calculado las prioridades de las tareas y lostiempos de bloqueo, \u00bfQu\u00e9 valor tendr\u00eda el tiempo de respuesta de la tarea B?",
+            "respuestas": [
+                "55",
+                "49",
+                "33",
+                "45",
+                "39"
+            ],
+            "verdadera": "45"
+        },
+        {
+            "enunciado": " Considerando el enunciado del ejercicio 46, en base a los requisitos temporalesexpuestos, y suponiendo que ha calculado las prioridades de las tareas y lostiempos de bloqueo, \u00bfes el sistema planificable?",
+            "respuestas": [
+                "No, la tarea A no cumple el plazo.",
+                "No, la tarea D no cumple el plazo.",
+                "No, la tarea C no cumple el plazo.",
+                "No, la tarea B no cumple el plazo.",
+                "S\u00ed."
+            ],
+            "verdadera": "S\u00ed."
+        },
+        {
+            "enunciado": " Se pueden producir condiciones de carrera cuando",
+            "respuestas": [
+                "No se utiliza de forma adecuada la liberaci\u00f3n de recursos.",
+                "Se realiza una manipulaci\u00f3n concurrente de datos compartidos sincontrol.",
+                "Se realizan mas llamadas a wait sobre un sem\u00e1foro que las necesarias.",
+                "No se controlan adecuadamente los errores que devuelven las primitivas.",
+                "No se utiliza recuperaci\u00f3n selectiva en un sistema de mensajes."
+            ],
+            "verdadera": "Se realiza una manipulaci\u00f3n concurrente de datos compartidos sincontrol."
+        },
+        {
+            "enunciado": " El algoritmo del avestruz es un m\u00e9todo de tratamiento del deadlock basado en\u2026",
+            "respuestas": [
+                "Evadirlo mediante una pol\u00edtica de asignaci\u00f3n de recursos.",
+                "Detectarlo y recuperarse del mismo.",
+                "Ignorarlo.",
+                "Prevenir que este ocurra.",
+                "El algoritmo del banquero."
+            ],
+            "verdadera": "Ignorarlo."
+        },
+        {
+            "enunciado": " Si se pretende enviar una se\u00f1al desde el c\u00f3digo de un proceso a otro proceso,utilizamos la primitiva\u2026",
+            "respuestas": [
+                "send_kill",
+                "signal_handler",
+                "kill",
+                "send_signal",
+                "signal"
+            ],
+            "verdadera": "kill"
+        },
+        {
+            "enunciado": " La variable de un sem\u00e1foro binario tiene actualmente el valor 1 Si ejecuta unaoperaci\u00f3n wait sobre \u00e9l, \u00bfQu\u00e9 suceder\u00e1?",
+            "respuestas": [
+                "Tras hacer la operaci\u00f3n, el proceso continuara su ejecuci\u00f3n con garant\u00edasin bloquearse si ning\u00fan otro proceso esta tratando de ejecutar unaoperaci\u00f3n wait sobre el mismo sem\u00e1foro.",
+                "El proceso que ejecuta la operaci\u00f3n se bloquea hasta que otro ejecuteuna operaci\u00f3n signal sobre el mismo sem\u00e1foro.",
+                "El proceso continuara su ejecuci\u00f3n sin bloquearse y, si previamenteexist\u00edan procesos bloqueados en dicho sem\u00e1foro, se desbloquear\u00e1alguno de ellos.",
+                "El valor de la variable pasar\u00e1 a ser 0 y el proceso se bloquear\u00e1.",
+                "El valor de la variable no sufre variaci\u00f3n y el proceso no se bloquear\u00e1."
+            ],
+            "verdadera": "Tras hacer la operaci\u00f3n, el proceso continuara su ejecuci\u00f3n con garant\u00edasin bloquearse si ning\u00fan otro proceso esta tratando de ejecutar unaoperaci\u00f3n wait sobre el mismo sem\u00e1foro."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 s\u00edmbolo representa la lista de prerrequisitos o dependencias de una reglaen un makefile?",
+            "respuestas": [
+                "$^",
+                "$*",
+                "$@",
+                "$%",
+                "*.%"
+            ],
+            "verdadera": "$@"
+        },
+        {
+            "enunciado": " En general, las soluciones al problema de la secci\u00f3n cr\u00edtica que se basan eninstrucciones hardware\u2026",
+            "respuestas": [
+                "Realizan consulta y modificaci\u00f3n de valores de registros de formaat\u00f3mica.",
+                "Impiden que se cumpla la condici\u00f3n de espera circular.",
+                "No se basan en espera activa.",
+                "Sirven para todo tipo de sistemas con independencia del n\u00famero deprocesadores que tengan.",
+                "Evitan el interbloqueo."
+            ],
+            "verdadera": "Realizan consulta y modificaci\u00f3n de valores de registros de formaat\u00f3mica."
+        },
+        {
+            "enunciado": " La secci\u00f3n cr\u00edtica es\u2026",
+            "respuestas": [
+                "La parte de c\u00f3digo de un proceso que se encarga de modificar variablesque comparte con otro proceso.",
+                "La parte de c\u00f3digo que hay que ejecutar antes de acceder a lasvariables compartidas.",
+                "La parte de c\u00f3digo de un proceso que se encarga de leer variables quecomparte con otro proceso.",
+                "La parte de c\u00f3digo de un proceso que se ejecuta paralelamente con lade otro.",
+                "La parte de c\u00f3digo que hay que ejecutar necesariamente para que nose produzcan condiciones de carreara."
+            ],
+            "verdadera": "La parte de c\u00f3digo de un proceso que se encarga de modificar variablesque comparte con otro proceso."
+        },
+        {
+            "enunciado": " \u00bfCu\u00e1l de las siguientes opciones permite abrir un segmento de memoriacompartida existente?",
+            "respuestas": [
+                "shm_data = shm_open (SHM_DATA, O_CREAT, 0666);",
+                "shm_data = shm_open (SHM_DATA, O_CREAT | O_RDWR, 0);",
+                "shm_data = shm_open (SHM_DATA, O_RDWR, 0666);",
+                "shm_data = shm_mmap (SHM_DATA, O_RDWR, 0666);",
+                "shm_data = shm_open (O_CREAT, O_RDWR, 0666);"
+            ],
+            "verdadera": "shm_data = shm_open (SHM_DATA, O_RDWR, 0666);"
+        },
+        {
+            "enunciado": " Las primitivas POSIX para la gesti\u00f3n de segmentos de memoria compartida sonindependientes del tipo de dato a manejar",
+            "respuestas": [
+                "Si, porque utilizan un alto nivel de abstracci\u00f3n.",
+                "No, porque al utilizar el lenguaje C es necesario especificar tipos.",
+                "Si, porque se gestionan en bloques.",
+                "Si, porque gestionan zonas de memoria a las que, en el c\u00f3digo delprograma, se le asocia un tipo.",
+                "No, porque hay que especificar un tipo cuando se solicitan."
+            ],
+            "verdadera": "No, porque hay que especificar un tipo cuando se solicitan."
+        },
+        {
+            "enunciado": " En la soluci\u00f3n al problema del Barbero Dormil\u00f3n el control de las sillas libres enla sala de espera se realiza mediante una variable contador compartida y nomediante un sem\u00e1foro general porque",
+            "respuestas": [
+                "Provocar\u00eda interbloqueo.",
+                "No se garantizar\u00eda el acceso seguro a los recursos que se est\u00e1ncompartiendo, es decir, a las sillas de la sala.",
+                "Provocar\u00eda inanici\u00f3n.",
+                "Los sem\u00e1foros generales consumen muchos recursos.",
+                "El proceso que simula el comportamiento del cliente debe finalizar si nohay sillas libres."
+            ],
+            "verdadera": "Provocar\u00eda inanici\u00f3n."
+        },
+        {
+            "enunciado": " La variaci\u00f3n al problema cl\u00e1sico de los fil\u00f3sofos comensales con la colocaci\u00f3nde una bandeja en el centro de la mesa conteniendo cuatro palillos de los quelos fil\u00f3sofos pueden tomar dos cualesquiera, a la vez, para comer\u2026",
+            "respuestas": [
+                "No cumple la condici\u00f3n de progreso.",
+                "Puede provocar situaciones de inanici\u00f3n.",
+                "No presenta interbloqueo.",
+                "Presenta interbloqueo.",
+                "No aprovecha ni asegura la m\u00e1xima concurrencia."
+            ],
+            "verdadera": "No presenta interbloqueo."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 patr\u00f3n de sincronizaci\u00f3n asociar\u00eda a la llegada del valor de una variablede memoria compartida a un determinado limite o umbral?",
+            "respuestas": [
+                "Multiplex",
+                "Marcador.",
+                "Interruptor.",
+                "Ninguna de las otras respuestas es correcta.",
+                "Rendezvous."
+            ],
+            "verdadera": "Marcador."
+        },
+        {
+            "enunciado": " El problema original de los Fil\u00f3sofos Comensales",
+            "respuestas": [
+                "Con sem\u00e1foros no se puede encontrar una soluci\u00f3n al problema.",
+                "Se puede construir una soluci\u00f3n que evite el interbloqueo asegurandoque el acceso a un par de palillos se realiza de forma at\u00f3mica.",
+                "Se produce interbloqueo, aunque se introduzca una bandeja central enla mesa para contener los palillos que se comparten.",
+                "No se puede construir una soluci\u00f3n que evite el interbloqueo.",
+                "La \u00fanica soluci\u00f3n posible que evite el interbloqueo es reducir el n\u00famerode fil\u00f3sofos a 4."
+            ],
+            "verdadera": "Se puede construir una soluci\u00f3n que evite el interbloqueo asegurandoque el acceso a un par de palillos se realiza de forma at\u00f3mica."
+        },
+        {
+            "enunciado": " La primitiva ftruncate se emplea para",
+            "respuestas": [
+                "Ninguna de las dem\u00e1s respuestas es correcta.",
+                "Fijar de forma explicita la longitud de un segmento de memoriacompartida una vez creado.",
+                "Mapear un segmento de memoria compartida al espacio de direccionesdel proceso que la invoca.",
+                "Eliminar un segmento de memoria compartida.",
+                "Fijar de forma explicita la longitud de un segmento de memoriacompartida antes de crearlo."
+            ],
+            "verdadera": "Fijar de forma explicita la longitud de un segmento de memoriacompartida una vez creado."
+        },
+        {
+            "enunciado": " Despu\u00e9s de la ejecuci\u00f3n de fork () \u2026",
+            "respuestas": [
+                "Cualquiera de los dos procesos involucrados puede esperar, usandowait, la finalizaci\u00f3n del otro.",
+                "Se produce la devoluci\u00f3n de un valor que es el mismo para cadaproceso involucrado.",
+                "Cualquiera de los dos procesos involucrados puede obtener el PID delotro.",
+                "Siempre se ejecutar\u00e1 primero el proceso nuevo que se crea tras lallamada fork ().",
+                "Siempre se ejecutar\u00e1 primero el proceso que realiza la llamada fork ()."
+            ],
+            "verdadera": "Cualquiera de los dos procesos involucrados puede obtener el PID delotro."
+        },
+        {
+            "enunciado": " En el problema del productor \u2013 consumidor, la forma adecuada y eficiente paracontrolar si el buffer compartido de N elementos est\u00e1 vac\u00edo es\u2026",
+            "respuestas": [
+                "Utilizar una variable de memoria compartida inicializada a N.",
+                "Utilizar un sem\u00e1foro binario inicializado a 1.",
+                "Utilizar una variable de memoria compartida inicializada a 0.",
+                "Todas las otras respuestas son incorrectas.",
+                "Utilizar un sem\u00e1foro general inicializado a 0."
+            ],
+            "verdadera": "Utilizar una variable de memoria compartida inicializada a N."
+        },
+        {
+            "enunciado": " Para lograr exclusi\u00f3n mutua a una secci\u00f3n critica donde se accede a un recursocompartido con una \u00fanica instancia inicialmente disponible debe\u2026",
+            "respuestas": [
+                "Utilizarse un sem\u00e1foro general inicializado a N.",
+                "Utilizarse un sem\u00e1foro binario inicializado a 0.",
+                "Utilizarse un sem\u00e1foro binario cuya inicializaci\u00f3n depender\u00e1 del recursoque se comparta.",
+                "Utilizarse un sem\u00e1foro binario inicializado a 1.",
+                "Tenerse en cuenta que el problema no se puede solucionar mediante lautilizaci\u00f3n de sem\u00e1foros binarios."
+            ],
+            "verdadera": "Utilizarse un sem\u00e1foro binario inicializado a 1."
+        },
+        {
+            "enunciado": " El mecanismo de sincronizaci\u00f3n mediante paso de mensajes",
+            "respuestas": [
+                "Requiere espacios de memoria conjuntos para los procesos.",
+                "Permite modelar problemas de comunicaci\u00f3n y sincronizaci\u00f3n sinnecesidad de memoria compartida.",
+                "Requiere poca cooperaci\u00f3n por parte del sistema operativo.",
+                "No puede emplearse en sistemas distribuidos.",
+                "Requiere la utilizaci\u00f3n de memoria compartida como mecanismo decomunicaci\u00f3n."
+            ],
+            "verdadera": "Permite modelar problemas de comunicaci\u00f3n y sincronizaci\u00f3n sinnecesidad de memoria compartida."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 t\u00e9cnica permite que un sistema evite una orden err\u00f3nea debida a un fallode programaci\u00f3n?",
+            "respuestas": [
+                "Pruebas unitarias.",
+                "Programaci\u00f3n con N versiones.",
+                "Clausulas try-catch.",
+                "Tanto programaci\u00f3n con N versiones como bloques de recuperaci\u00f3n.",
+                "Bloques de recuperaci\u00f3n."
+            ],
+            "verdadera": "Bloques de recuperaci\u00f3n."
+        },
+        {
+            "enunciado": " Un sistema de tiempo real compuesto por cinco tareas esta encargado delprocesado de la fruta en una planta de producci\u00f3n de mermelada ecol\u00f3gicaDurante la planificaci\u00f3n de dichas tareas se ha establecido el protocolo deherencia de prioridad como el mecanismo mas adecuado a la hora decompartir recursos, teniendo en cuenta los tiempos de respuestas y los costesBajo estas condiciones, indica cual de las siguientes afirmaciones es cierta",
+            "respuestas": [
+                "La interferencia sufrida por la tarea con mayor prioridad es igual al tiempode bloqueo sufrido por la tarea menos prioritaria.",
+                "La interferencia sufrida por la tarea con menos prioridad es igual a cero.",
+                "La interferencia sufrida por la tarea con menor prioridad es igual a cero ycoincide con el tiempo de bloque sufrido por la tarea m\u00e1s prioritaria.",
+                "El tiempo de bloqueo de la tarea con mayor prioridad es igual a cero.",
+                "El protocolo de herencia de prioridad no disminuye la inversi\u00f3n deprioridades generada al compartir recursos."
+            ],
+            "verdadera": "La interferencia sufrida por la tarea con menos prioridad es igual a cero."
+        },
+        {
+            "enunciado": " Cuando un proceso invoca wait sobre una variable de condici\u00f3n de un monitor\u2026",
+            "respuestas": [
+                "Se bloquear\u00e1 hasta que otro proceso invoque signal siempre que el valorde su variable asociada sea menor o igual a 0.",
+                "Se bloquear\u00e1 hasta que otro proceso invoque signal.",
+                "Decrementa en uno el valor de la variable asociada.",
+                "Decrementa en uno el valor de la variable asociada, siempre que estevalor sea positivo.",
+                "Se bloquear\u00e1 durante un tiempo m\u00e1ximo o timeout."
+            ],
+            "verdadera": "Se bloquear\u00e1 hasta que otro proceso invoque signal siempre que el valorde su variable asociada sea menor o igual a 0."
+        },
+        {
+            "enunciado": " Desde el punto de vista del direccionamiento en un contexto de comunicaci\u00f3nmediante paso de mensajes podemos tener las siguientes opciones",
+            "respuestas": [
+                "Basado en prioridades y FIFO.",
+                "Bloqueante y no bloqueante.",
+                "Directo e indirecto.",
+                "Basado en tokens y basado en propiedades espec\u00edficas del mensaje.",
+                "Dependiente del contenido e independiente del contenido."
+            ],
+            "verdadera": "Directo e indirecto."
+        },
+        {
+            "enunciado": " En un sistema de paso de mensajes con direccionamiento indirecto\u2026",
+            "respuestas": [
+                "Se designa de forma expl\u00edcita al proceso receptor.",
+                "Se designa de forma expl\u00edcita al proceso emisor.",
+                "Existe un fuerte acoplamiento entre los emisores y receptores de losmensajes lo que posibilita diversos esquemas de comunicaci\u00f3n ysincronizaci\u00f3n.",
+                "Se designa de forma impl\u00edcita a los procesos emisores y receptores.",
+                "Existe desacoplamiento entre los emisores y receptores de mensajes loque posibilita diversos esquemas de comunicaci\u00f3n y sincronizaci\u00f3n."
+            ],
+            "verdadera": "Existe desacoplamiento entre los emisores y receptores de mensajes loque posibilita diversos esquemas de comunicaci\u00f3n y sincronizaci\u00f3n."
+        },
+        {
+            "enunciado": " \u00bfPara qu\u00e9 sirve la primitiva mq_unlink?",
+            "respuestas": [
+                "Para cerrar un buz\u00f3n de mensajes previamente abierto.",
+                "Para desligar a un proceso de la utilizaci\u00f3n de un buz\u00f3n de mensajes.",
+                "Para mapear un buz\u00f3n de mensajes a un determinado proceso.",
+                "Para liberar la memoria asociada a los mensajes previamente enviadosa un buz\u00f3n de mensajes.",
+                "Para eliminar un buz\u00f3n de mensajes."
+            ],
+            "verdadera": "Para eliminar un buz\u00f3n de mensajes."
+        },
+        {
+            "enunciado": " Una funci\u00f3n protegida de un objeto protegido en Ada 95\u2026",
+            "respuestas": [
+                "Da acceso exclusivo en escritura a los datos privados.",
+                "Da acceso exclusivo en lectura a los datos privados.",
+                "Da acceso concurrente tanto en lectura como escritura a los datosprivados.",
+                "Da acceso concurrente solo en lectura a los datos privados.",
+                "Da acceso concurrente en escritura a los datos privados."
+            ],
+            "verdadera": "Da acceso concurrente solo en lectura a los datos privados."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 primitiva POSIX utilizar\u00eda para abrir una cola de mensajes que solo seutilizar\u00e1 para enviar mensajes?",
+            "respuestas": [
+                "mq_open (\u201c/test\u201d, O_WRONLY | O_CREAT, S_IWUSR | S_IRUSR, &mqAttr)",
+                "mq_open (\u201c/test\u201d, O_WRONLY)",
+                "mq_open (\u201c/test\u201d, O_RDWR | O_CREAT)",
+                "mq_open (\u201c/test\u201d, O_WRONLY | O_CREAT)",
+                "mq_open (\u201c/test\u201d, O_RDWR)"
+            ],
+            "verdadera": "mq_open (\u201c/test\u201d, O_WRONLY)"
+        },
+        {
+            "enunciado": " Respecto a la primitiva mq_open en el contesto del paso de mensajes\u2026",
+            "respuestas": [
+                "No se puede utilizar de manera concurrente.",
+                "Sirve para crear y abrir buzones de mensajes a partir de un nombre.",
+                "Sirve, exclusivamente, para crear un buz\u00f3n de mensajes.",
+                "Sirve, exclusivamente, para abrir un buz\u00f3n de mensajes.",
+                "Sirve para crear y abrir buzones de mensajes a partir de un descriptor delbuz\u00f3n."
+            ],
+            "verdadera": "Sirve para crear y abrir buzones de mensajes a partir de un nombre."
+        },
+        {
+            "enunciado": " Desde un punto de vista general, un monitor se puede definir como\u2026",
+            "respuestas": [
+                "Un tipo abstracto de datos con un conjunto de operaciones que operanen exclusi\u00f3n mutua sobre el propio monitor.",
+                "Un conjunto de variables encapsuladas en una clase a las que solo sepuede acceder mediante los m\u00e9todos definidos en dicha clase.",
+                "Un tipo abstracto de datos compuesto por funciones y procedimientosque no tienen por qu\u00e9 operar en exclusi\u00f3n mutua sobre el propio monitor.",
+                "Una secci\u00f3n cr\u00edtica condicionada con un conjunto de procedimientosque operan en exclusi\u00f3n mutua sobre el propio monitor.",
+                "Un mecanismo de control que permite sincronizar y comunicar procesos."
+            ],
+            "verdadera": "Un tipo abstracto de datos con un conjunto de operaciones que operanen exclusi\u00f3n mutua sobre el propio monitor."
+        },
+        {
+            "enunciado": " En la ejecuci\u00f3n de los retardos en un lenguaje dise\u00f1ado espec\u00edficamente paramodelar sistemas de tiempo real aparece el concepto de deriva local Esteconcepto esta relacionado con el tiempo adicional que debe esperar unproceso tras un retardo Indica cual de los siguientes tiempos pertenecen a estaderiva local",
+            "respuestas": [
+                "El tiempo transcurrido por la inhibici\u00f3n de las interrupciones.",
+                "El tiempo provocado por el error de granularidad.",
+                "Todos los tiempos indicados son componentes de la deriva local.",
+                "El tiempo de retardo programado.",
+                "El tiempo transcurrido entre que se activa la tarea y realmente comienzaa ejecutarse tras el retardo."
+            ],
+            "verdadera": "El tiempo de retardo programado."
+        },
+        {
+            "enunciado": " Se desea que un proceso manager cree una cola de mensajes que se va autilizar para sincronizar la interacci\u00f3n con un \u00fanico proceso symbol_decoder porparte de varios procesos decoder, donde el proceso symbol_decoder trabaja anivel de car\u00e1cter Seleccione el fragmento de c\u00f3digo que se adaptacorrectamente a esta especificaci\u00f3n",
+            "respuestas": [
+                "struct mq_attr *mqAttr;mqAttr -> mq_msgsize = 1;mqAttr -> mq_maxmsg = sizeof (char);",
+                "struct mq_attr mqAttr;mqAttr. mq_maxmsg = n_decoders;mqAttr. mq_msgsize = sizeof (char);",
+                "struct mq_attr mqAttr;mqAttr. mq_maxmsg = 1;mqAttr .mq_msgsize = sizeof (char);",
+                "struct mq_attr mqAttr;mqAttr. mq_maxmsg = 1;mqAttr. mq_msgsize = sizeof (struct mq_attr);",
+                "structmqAttrmqAttrmqAttrmq_attr mqAttr;= malloc (sizeof (struct mq_attr));-> mq_maxmsg = 1;-> mq_msgsize = sizeof (char);"
+            ],
+            "verdadera": "struct mq_attr mqAttr;mqAttr. mq_maxmsg = 1;mqAttr .mq_msgsize = sizeof (char);"
+        },
+        {
+            "enunciado": " Los sem\u00e1foros en POSIX son sem\u00e1foros nombrados debido a que\u2026",
+            "respuestas": [
+                "Es necesario especificar un valor inicial cuando se crean.",
+                "A la hora de manejar las primitivas wait y signal sobre un sem\u00e1forosiempre se proporciona el nombre del mismo.",
+                "Se manipulan utilizando nombres o cadenas de caracteres.",
+                "Es necesario asignar permisos mediante la primitiva sem_open.",
+                "Se manipulan a trav\u00e9s de descriptores de archivos, al igual que losbuzones de mensajes en POISX que tambi\u00e9n son nombrados."
+            ],
+            "verdadera": "A la hora de manejar las primitivas wait y signal sobre un sem\u00e1forosiempre se proporciona el nombre del mismo."
+        },
+        {
+            "enunciado": " Despu\u00e9s de la ejecuci\u00f3n de fork (),",
+            "respuestas": [
+                "Cualquiera de los dos procesos que ejecutan el c\u00f3digo que sigue lallamada al sistema fork () puede obtener el PID del otro.",
+                "Siempre se ejecutar\u00e1 primero el nuevo proceso nuevo creado comoconsecuencia de la llamada fork ().",
+                "Siempre se ejecuta primero el proceso que realizo la llamada fork ().",
+                "Cualquiera d ellos dos procesos involucrados usando wait () o waitpid ()(seg\u00fan corresponda), puede esperar la finalizaci\u00f3n del otro.",
+                "Los dos procesos involucrados reciben un valor que devuelve fork () quees el mismo para ambos."
+            ],
+            "verdadera": "Cualquiera d ellos dos procesos involucrados usando wait () o waitpid ()(seg\u00fan corresponda), puede esperar la finalizaci\u00f3n del otro."
+        },
+        {
+            "enunciado": " Las primitivas en POSIX para la gesti\u00f3n de segmentos de memoria compartidason dependientes del tiempo de dato a manejar",
+            "respuestas": [
+                "No, porque gestionan zonas de memoria desde un punto de vista generaly a nivel de c\u00f3digo se las asocia con un tiempo de datos concreto.",
+                "No, porque se gestionan en bloques.",
+                "No, porque utilizan un alto nivel de abstracci\u00f3n.",
+                "Si, porque al utilizar el lenguaje C es necesario especificar tipos.",
+                "Si, porque hay que especificar un tipo cuando se solicitan."
+            ],
+            "verdadera": "No, porque utilizan un alto nivel de abstracci\u00f3n."
+        },
+        {
+            "enunciado": " En la soluci\u00f3n al problema del barbero dormil\u00f3n el control de las sillas libres enla sala de espera se realiza mediante una variable compartida y no medianteun sem\u00e1foro general porque",
+            "respuestas": [
+                "Provocar\u00eda interbloqueo.",
+                "No se garantizar\u00eda el acceso seguro a los recursos que se est\u00e1ncompartiendo, es decir, a las sillas de la sala.",
+                "Los sem\u00e1foros generales consumen muchos recursos.",
+                "El proceso que simula el comportamiento del cliente debe finalizar si nohay sillas libres.",
+                "Provocar\u00eda inanici\u00f3n."
+            ],
+            "verdadera": "El proceso que simula el comportamiento del cliente debe finalizar si nohay sillas libres."
+        },
+        {
+            "enunciado": " Para asegurar que no se producen errores dependientes del tiempo en elacceso a una secci\u00f3n cr\u00edtica se deben construir soluciones que, al menos,",
+            "respuestas": [
+                "Implemente protocolos de entrada a la secci\u00f3n cr\u00edtica.",
+                "Garanticen que no se produce espera ilimitada.",
+                "Eviten situaciones de espera activa.",
+                "Cumplan las condiciones de Coffman.",
+                "Satisfagan las condiciones de progreso, espera limitada y excusi\u00f3nmutua."
+            ],
+            "verdadera": "Satisfagan las condiciones de progreso, espera limitada y excusi\u00f3nmutua."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 patr\u00f3n de sincronizaci\u00f3n se aplica para garantizar que un proceso noavance hasta que otro proceso alcance un punto concreto del c\u00f3digo?",
+            "respuestas": [
+                "Multiplex.",
+                "Rendezvous.",
+                "Marcador.",
+                "Se\u00f1alizaci\u00f3n.",
+                "Barrera."
+            ],
+            "verdadera": "Se\u00f1alizaci\u00f3n."
+        },
+        {
+            "enunciado": " Un proceso multihilo, con tres hilos de ejecuci\u00f3n, debe contar con espacio dememoria para",
+            "respuestas": [
+                "Tres zonas de pila distintas.",
+                "Una \u00fanica zona para la pila del proceso.",
+                "Un \u00fanico valor de contador de programa.",
+                "Tres zonas de c\u00f3digo distintas.",
+                "Tres zonas distintas de variables y datos globales."
+            ],
+            "verdadera": "Tres zonas de pila distintas."
+        },
+        {
+            "enunciado": " Dos procesos que utilizan secciones cr\u00edticas diferentes e independientes\u2026",
+            "respuestas": [
+                "No pueden acceder al mismo tiempo a sus secciones cr\u00edticas.",
+                "Todas las dem\u00e1s respuestas son incorrectas.",
+                "Pueden acceder concurrentemente a sus secciones cr\u00edticas.",
+                "Pueden acceder al mismo tiempo a sus secciones cr\u00edticas, pero necesitande la utilizaci\u00f3n de alg\u00fan mecanismo de control de concurrencia parasincronizarse entre ellos.",
+                "Pueden acceder al mismo tiempo a sus secciones cr\u00edticas, pero soloutilizando sem\u00e1foros binarios para controlarlo."
+            ],
+            "verdadera": "Pueden acceder concurrentemente a sus secciones cr\u00edticas."
+        },
+        {
+            "enunciado": " Si un proceso ejecuta la sentencia kill (getpid (), SIGINT),",
+            "respuestas": [
+                "Es equivalente a pulsar Ctrl \u2013 C en un Shell donde se ejecute ese proceso.",
+                "Es un error pues un proceso no puede enviarse se\u00f1ales a s\u00ed mismo.",
+                "Se producir\u00e1 un error en la compilaci\u00f3n del programa pues todav\u00eda nose conoce el PID del proceso.",
+                "El proceso se convertir\u00e1 en zombie.",
+                "El proceso recibir\u00e1 una se\u00f1al de alarma."
+            ],
+            "verdadera": "Es equivalente a pulsar Ctrl \u2013 C en un Shell donde se ejecute ese proceso."
+        },
+        {
+            "enunciado": " El algoritmo de Peterson para intentar resolver el problema de la secci\u00f3n cr\u00edtica",
+            "respuestas": [
+                "Requiere una alternancia estricta.",
+                "No garantiza el acceso en t\u00e9rminos de exclusi\u00f3n mutua.",
+                "No satisface la condici\u00f3n de progreso.",
+                "No es v\u00e1lido para m\u00e1s de dos procesos.",
+                "Puede provocar interbloqueo."
+            ],
+            "verdadera": "No es v\u00e1lido para m\u00e1s de dos procesos."
         }
     ]
 }
