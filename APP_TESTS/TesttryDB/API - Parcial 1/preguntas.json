@@ -759,6 +759,446 @@
                 "1100 / 700"
             ],
             "verdadera": "700 / 650"
+        },
+        {
+            "enunciado": "Te acaban de nombrar director de proyecto para el dise\u00f1o y fabricaci\u00f3n de un prototipo de un producto que mejore la movilidad de personas con discapacidad funcional Afortunadamente, o eso te dicen en tu empresa, trabaj\u00e1is en una organizaci\u00f3n orientada a proyectos por lo que los tres ingenieros de proyecto y las dos personas de ventas que forman el equipo de proyecto",
+            "respuestas": [
+                "Ser\u00e1n aut\u00e9nticos coordinadores del proyecto",
+                "Pueden estar preocupadas por d\u00f3nde ir\u00e1n al acabar este proyecto",
+                "Deber\u00e1n rendir cuentas \u00c3\u00banicamente a su director funcional",
+                "Reportar\u00e1n a dos jefes"
+            ],
+            "verdadera": "Pueden estar preocupadas por d\u00f3nde ir\u00e1n al acabar este proyecto"
+        },
+        {
+            "enunciado": "Para poder realizar la validaci\u00f3n del alcance necesito informaci\u00f3n de",
+            "respuestas": [
+                "Controlar el Alcance",
+                "Todas las respuestas son correctas",
+                "Monitorear y controlar el trabajo del proyecto",
+                "Controlar la calidad"
+            ],
+            "verdadera": "Todas las respuestas son correctas"
+        },
+        {
+            "enunciado": "El patrocinador, tras recibir el caso de negocio que justifica el proyecto y el enunciado del trabajo del proyecto necesario para poner en marcha una nueva f\u00e1brica de muebles, se encuentra en la fase de elaborar un documento que autorice formalmente el proyecto y nombre al director del proyecto \u00bfEn qu\u00e9 grupo de procesos y \u00e1rea de conocimiento est\u00e1?",
+            "respuestas": [
+                "Inicio, Integraci\u00f3n",
+                "Planificaci\u00f3n, Comunicaci\u00f3n",
+                "Planificaci\u00f3n, Integraci\u00f3n",
+                "Inicio, Comunicaci\u00f3n"
+            ],
+            "verdadera": "Inicio, Integraci\u00f3n"
+        },
+        {
+            "enunciado": "Est\u00e1s trabajando en un proyecto asumiendo el rol de coordinador, te encuentras en una organizaci\u00f3n",
+            "respuestas": [
+                "Orientadas a proyectos",
+                "Matricial d\u00e9bil",
+                "Matricial fuerte",
+                "Mixta"
+            ],
+            "verdadera": "Matricial d\u00e9bil"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1ntas \u00e1reas de conocimiento tienen un proceso espec\u00edfico para realizar el plan de gesti\u00f3n de dichas \u00e1reas?",
+            "respuestas": [
+                "8",
+                "5",
+                "9",
+                "7"
+            ],
+            "verdadera": "9"
+        },
+        {
+            "enunciado": "Respecto al reparto de los costes a lo largo del tiempo de duraci\u00f3n del proyecto (elija la respuesta incorrecta)",
+            "respuestas": [
+                "Incluye la reserva de gesti\u00f3n",
+                "Requiere como entrada la EDT",
+                "Permite obtener la l\u00ednea base de costes",
+                "Se realiza durante el proceso Determinar el Presupuesto"
+            ],
+            "verdadera": "Requiere como entrada la EDT"
+        },
+        {
+            "enunciado": "En un proyecto para el desarrollo de una app de red social, la realizaci\u00f3n de las pruebas puede comenzar una semana antes de la finalizaci\u00f3n de la implementaci\u00f3n, dado que para entonces se espera contar con m\u00f3dulos implementados disponibles para las pruebas Esto es un ejemplo de",
+            "respuestas": [
+                "Retraso",
+                "Dependencia discrecional",
+                "Adelanto",
+                "Asunci\u00f3n"
+            ],
+            "verdadera": "Adelanto"
+        },
+        {
+            "enunciado": "\u00bfEn qu\u00e9 proceso se obtiene respuestas de los proveedores, se selecciona a un proveedor y se le adjudica un contrato?",
+            "respuestas": [
+                "Planificar las adquisiciones",
+                "Efectuar las adquisiciones",
+                "Controlar las adquisiciones",
+                "Adquirir recursos"
+            ],
+            "verdadera": "Efectuar las adquisiciones"
+        },
+        {
+            "enunciado": "Est\u00e1s dirigiendo un proyecto de dise\u00f1o e instalaci\u00f3n de un sistema para el c\u00e1lculo de secciones de cableado el\u00e9ctrico de los trenes Para poder encargar el material necesit\u00e1is recibir los c\u00e1lculos el\u00e9ctricos por parte del departamento de ingenier\u00eda de tu empresa Este es un ejemplo de dependencia",
+            "respuestas": [
+                "Discrecional",
+                "Externa",
+                "General",
+                "Obligatoria"
+            ],
+            "verdadera": "General"
+        },
+        {
+            "enunciado": "Dado un grafo de dependencias en la que una actividad A precede a otra B Si se establece que la actividad A debe haber comenzado antes de poder concluir la B, estamos hablando de una precedencia de tipo",
+            "respuestas": [
+                "Fin \u00e2\u20ac\u201c Inicio",
+                "Inicio \u00e2\u20ac\u201c Inicio",
+                "Inicio \u00e2\u20ac\u201c Fin",
+                "Fin \u00e2\u20ac\u201c Fin"
+            ],
+            "verdadera": "Inicio \u00e2\u20ac\u201c Fin"
+        },
+        {
+            "enunciado": "Respecto a los interesados en un proyecto es falso que",
+            "respuestas": [
+                "Su influencia sea directamente proporcional al coste de los cambios a lo largo del proyecto",
+                "Se puedan ver afectados negativamente por los resultados del proyecto",
+                "Pueden influir sobre los resultados y objetivos del proyecto",
+                "Exista un \u00e1rea de conocimiento dedicada a su gesti\u00f3n."
+            ],
+            "verdadera": "Se puedan ver afectados negativamente por los resultados del proyecto"
+        },
+        {
+            "enunciado": "Formas parte del equipo de direcci\u00f3n del proyecto y el director te pide que estimes la duraci\u00f3n de la actividad de dise\u00f1o software, para ello considerar\u00e1s los siguientes factores",
+            "respuestas": [
+                "La complejidad del producto software",
+                "La cantidad de recursos necesarios",
+                "Su tipo de jornada de trabajo (parcial/completa)",
+                "Todas las respuestas son correctas"
+            ],
+            "verdadera": "Todas las respuestas son correctas"
+        },
+        {
+            "enunciado": "Con el objetivo de completar la l\u00ednea de base del alcance de tu proyecto est\u00e1s trabajando en la elaboraci\u00f3n de la EDT de tu proyecto de urbanizaci\u00f3n residencial \u00bfCu\u00e1l de las siguientes afirmaciones relativas a la EDT NO es correcta?",
+            "respuestas": [
+                "Lo que no est\u00e1 en la EDT, no forma parte del proyecto y no se ejecuta salvo que se proceda al control integrado de cambios definido en el proyecto",
+                "La suma del trabajo de los niveles inferiores debe corresponder al trabajo total de sus niveles inmediatamente superiores",
+                "La EDT representa todo el trabajo que hay que realizar para ejecutar el proyecto y entregar el producto solicitado.",
+                "La EDT incluye todas las tareas necesarias para realizar la urbanizaci\u00f3n salvo las labores propias de la gesti\u00f3n del proyecto"
+            ],
+            "verdadera": "La EDT incluye todas las tareas necesarias para realizar la urbanizaci\u00f3n salvo las labores propias de la gesti\u00f3n del proyecto"
+        },
+        {
+            "enunciado": "Respecto a la t\u00e9cnica CPM con compresi\u00f3n de la duraci\u00f3n (elija la respuesta incorrecta)",
+            "respuestas": [
+                "Reduce las duraciones actuales a partir de las duraciones en primera aproximaci\u00f3n de un modo iterativo",
+                "Reduce la duraci\u00f3n total del proyecto sin afectar a los costes",
+                "Aumenta los costes actuales a partir de los costes en primera aproximaci\u00f3n de un modo interactivo",
+                "Utiliza m\u00e9todos de programaci\u00f3n lineal."
+            ],
+            "verdadera": "Utiliza m\u00e9todos de programaci\u00f3n lineal."
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l de los siguientes procesos NO forma parte del grupo de procesos de planificaci\u00f3n?",
+            "respuestas": [
+                "Determinar el presupuesto",
+                "Efectuar las adquisiciones",
+                "Estimar los recursos de las actividades",
+                "Secuenciar las actividades"
+            ],
+            "verdadera": "Efectuar las adquisiciones"
+        },
+        {
+            "enunciado": "La compa\u00f1\u00eda para la que est\u00e1is elaborando el plan de direcci\u00f3n de un proyecto os pide un nuevo cambio de alcance Pero como ha ocurrido otras veces, os indica que el trabajo propuesto ya estaba incluido en el alcance del contrato \u00bfQu\u00e9 es lo siguiente qu\u00e9 har\u00edas?",
+            "respuestas": [
+                "Aceptar el cambio indic\u00e1ndole al cliente el impacto en el plazo y coste total",
+                "Iniciar el proceso de control integrado de cambios",
+                "Consultar el enunciado del alcance del proyecto",
+                "Pedirle al patrocinador que intermedie ya que son demasiados cambios"
+            ],
+            "verdadera": "Consultar el enunciado del alcance del proyecto"
+        },
+        {
+            "enunciado": "Trabajas para una empresa con experiencia en instalaci\u00f3n de equipamiento de aulas de formaci\u00f3n y est\u00e1s en una fase muy inicial de un proyecto de una nueva aula, donde cuentas con informaci\u00f3n limitada \u00bfQu\u00e9 t\u00e9cnica de estimaci\u00f3n de costes es mejor aplicar dado este escenario?",
+            "respuestas": [
+                "Estimaci\u00f3n param\u00e9trica",
+                "Estimaci\u00f3n por analog\u00eda",
+                "Estimaci\u00f3n ascendente",
+                "An\u00e1lisis de reserva"
+            ],
+            "verdadera": "Estimaci\u00f3n param\u00e9trica"
+        },
+        {
+            "enunciado": "Respecto a las cuentas de control (elija la respuesta incorrecta)",
+            "respuestas": [
+                "Incluye la reserva de gesti\u00f3n",
+                "Incluye la estimaci\u00f3n de costes de los paquetes de trabajo",
+                "Incluye la reserva para contingencias",
+                "Incluye la estimaci\u00f3n de costes de las actividades"
+            ],
+            "verdadera": "Incluye la reserva de gesti\u00f3n"
+        },
+        {
+            "enunciado": "Te han encargado optimizar los recursos para no exceder sus l\u00edmites predefinidos y decides retrasar ciertas actividades dentro de su holgura total Est\u00e1s aplicando",
+            "respuestas": [
+                "Nivelaci\u00f3n ",
+                "Compresi\u00f3n",
+                "An\u00e1lisis de la variaci\u00f3n",
+                "Suavizado"
+            ],
+            "verdadera": "Nivelaci\u00f3n "
+        },
+        {
+            "enunciado": "Las siguientes son salidas del proceso Dirigir y Gestionar el trabajo del proyecto",
+            "respuestas": [
+                "Entregables, solicitudes de cambio y datos de desempe\u00f1o",
+                "Entregables validados, solicitudes de cambio y datos de desempe\u00f1o",
+                "Entregables, solicitudes de cambio e informes de desempe\u00f1o",
+                "Entregables, solicitudes de cambio aceptadas y datos de desempe\u00f1o."
+            ],
+            "verdadera": "Entregables, solicitudes de cambio y datos de desempe\u00f1o"
+        },
+        {
+            "enunciado": "El \u00e1rea de conocimiento de gesti\u00f3n de riesgos de un proyecto tiene como objetivo (se\u00f1alar la respuesta incorrecta)",
+            "respuestas": [
+                "Minimizar la probabilidad y los efectos de los eventos negativos.",
+                "Maximizar la probabilidad y los efectos de los eventos positivos.",
+                "Identificar, analizar y dar respuesta a los riesgos del proyecto.",
+                "Abordar los incidentes y fomentar el compromiso y el involucramiento adecuado de los interesados."
+            ],
+            "verdadera": "Abordar los incidentes y fomentar el compromiso y el involucramiento adecuado de los interesados."
+        },
+        {
+            "enunciado": "En el proyecto de elaboraci\u00f3n de manuales de formaci\u00f3n de un conocido programa inform\u00e1tico hab\u00e9is tenido que rehacer partes del manual ya escrito y reescribir dos cap\u00edtulos completos ya que no cumpl\u00edan con los par\u00e1metros de dise\u00f1o, enfoque y edici\u00f3n solicitas por el cliente \u00bfCu\u00e1l de estas afirmaciones consideras correcta?",
+            "respuestas": [
+                "El plan de aseguramiento de la calidad funcion\u00f3 correctamente lo que hizo que se detectaran esos errores.",
+                "El plan de gesti\u00f3n de riesgos no ayuda a resolver este tipo de problemas.",
+                "La identificaci\u00f3n de actividades no se hizo de forma correcta.",
+                "Todos estos problemas surgieron por un mal enunciado del alcance del proyecto."
+            ],
+            "verdadera": "Todos estos problemas surgieron por un mal enunciado del alcance del proyecto."
+        },
+        {
+            "enunciado": "\u00bfQu\u00e9 t\u00e9cnica de control de cronograma es utilizada especialmente en metodolog\u00edas \u00e1giles?",
+            "respuestas": [
+                "An\u00e1lisis de escenarios \u00bfQu\u00e9 pasa si\u00e2\u20ac\u00a6?",
+                "Gr\u00e1fica de trabajo pendiente en la iteraci\u00f3n.",
+                "An\u00e1lisis de valor ganado.",
+                "An\u00e1lisis de tendencias."
+            ],
+            "verdadera": "Gr\u00e1fica de trabajo pendiente en la iteraci\u00f3n."
+        },
+        {
+            "enunciado": "\u00bfEn qu\u00e9 proceso se informa a los interesados de los cambios aprobados en relaci\u00f3n con los costes?",
+            "respuestas": [
+                "Controlar los costes",
+                "Controlar las comunicaciones",
+                "Planificar la gesti\u00f3n de los costes.",
+                "Todas las otras respuestas son incorrectas."
+            ],
+            "verdadera": "Controlar las comunicaciones"
+        },
+        {
+            "enunciado": "El PMBOK (se\u00f1alar la respuesta falsa)",
+            "respuestas": [
+                "Ha sido la base para elaborar el est\u00e1ndar ISO 21500",
+                "Es una metodolog\u00eda para la gesti\u00f3n de proyectos de cualquier industria.",
+                "Identifica los procesos de gesti\u00f3n de proyectos que han sido reconocidos como buenas pr\u00e1cticas para la mayor\u00eda de los proyectos, la mayor parte del tiempo.",
+                "Considera la agilidad en la gesti\u00f3n de los proyectos mediante una gu\u00eda espec\u00edfica"
+            ],
+            "verdadera": "Es una metodolog\u00eda para la gesti\u00f3n de proyectos de cualquier industria."
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1ntos procesos forman parte del grupo de procesos de cierre?",
+            "respuestas": [
+                "3",
+                "1",
+                "4",
+                "2"
+            ],
+            "verdadera": "2"
+        },
+        {
+            "enunciado": "La determinaci\u00f3n de dependencias entre actividades es una t\u00e9cnica que se aplica en el proceso",
+            "respuestas": [
+                "Crear la EDT",
+                "Definir las actividades",
+                "Secuenciar las actividades",
+                "Desarrollar el cronograma"
+            ],
+            "verdadera": "Secuenciar las actividades"
+        },
+        {
+            "enunciado": "Un componente del diccionario de la EDT puede incluir (se\u00f1alar la respuesta incorrecta)",
+            "respuestas": [
+                "Criterios de aceptaci\u00f3n",
+                "Estimaci\u00f3n de coste",
+                "Red asociada del cronograma",
+                "Descripci\u00f3n del trabajo."
+            ],
+            "verdadera": "Red asociada del cronograma"
+        },
+        {
+            "enunciado": "El director del proyecto se da cuenta de que antes de obtener la l\u00ednea base de su alcance, necesita ajustar el nivel de descomposici\u00f3n de la EDT, este cambio requiere (se\u00f1alar la respuesta incorrecta)",
+            "respuestas": [
+                "Aplicar descomposici\u00f3n",
+                "Revisar si hay paquetes de trabajo que requieren sobreesfuerzo de gesti\u00f3n para su estimaci\u00f3n.",
+                "Pasar por el control integrado de cambios.",
+                "Revisar si hay paquetes de trabajo que son dif\u00edciles de estimar."
+            ],
+            "verdadera": "Pasar por el control integrado de cambios."
+        },
+        {
+            "enunciado": "Acabas de incorporarte como director de proyectos a una empresa donde se trabaja con una estructura organizativa a proyectos Todos los miembros de tu equipo trabajan en la misma oficina donde tienes gran independencia y autoridad Todas las siguientes son ventajas excepto",
+            "respuestas": [
+                "La organizaci\u00f3n del proyecto es m\u00e1s eficiente",
+                "Los miembros del equipo tienen su puesto fijo al acabar el proyecto.",
+                "Lealtad al proyecto",
+                "La comunicaci\u00f3n es m\u00e1s efectiva."
+            ],
+            "verdadera": "Los miembros del equipo tienen su puesto fijo al acabar el proyecto."
+        },
+        {
+            "enunciado": "Desde el equipo de marketing te solicitan que cambies el color de la p\u00e1gina principal del sitio web de la empresa conservando el resto de los elementos de esa p\u00e1gina Esto es considerado",
+            "respuestas": [
+                "El inicio de un proyecto",
+                "Una operaci\u00f3n",
+                "La ejecuci\u00f3n de un proyecto",
+                "Un proyecto"
+            ],
+            "verdadera": "Una operaci\u00f3n"
+        },
+        {
+            "enunciado": "En qu\u00e9 \u00e1rea de conocimiento el director del proyecto dedica m\u00e1s esfuerzo",
+            "respuestas": [
+                "Integraci\u00f3n",
+                "Alcance",
+                "Tiempos",
+                "Costes"
+            ],
+            "verdadera": "Integraci\u00f3n"
+        },
+        {
+            "enunciado": "Es esencial para un equipo de proyecto y su organizaci\u00f3n elaborar y mantener un presupuesto acordado y realista directamente asociado a un alcance de proyecto bien definido Para que sea realista tendremos que tener en cuenta los riesgos del proyecto y su impacto en los costes La diferencia entre la l\u00ednea de base del coste y el presupuesto de costes se encuentra en",
+            "respuestas": [
+                "Los gastos generales",
+                "La reserva de gesti\u00f3n",
+                "La reserva de contingencias",
+                "La estimaci\u00f3n del coste del proyecto."
+            ],
+            "verdadera": "La reserva de gesti\u00f3n"
+        },
+        {
+            "enunciado": "Est\u00e1s considerando diferentes alternativas de c\u00e1lculo de los costes en un proyecto \u00bfEn qu\u00e9 proceso est\u00e1s?",
+            "respuestas": [
+                "Controlar el presupuesto",
+                "Plan de gesti\u00f3n de los costes",
+                "Determinar el presupuesto",
+                "Estimar los recursos necesarios para cada actividad."
+            ],
+            "verdadera": "Determinar el presupuesto"
+        },
+        {
+            "enunciado": " Gestionar el conocimiento del proyecto pertenece al grupo de procesos de",
+            "respuestas": [
+                "Ejecuci\u00f3n",
+                "Seguimiento y control",
+                "Inicio",
+                "Planificaci\u00f3n"
+            ],
+            "verdadera": "Seguimiento y control"
+        },
+        {
+            "enunciado": "Eres el responsable de un proyecto para el desarrollo de un nuevo producto para ganar cuota de mercado y rentabilidad en el sector de tu empresa Cuando tratas de tomar decisiones sobre el presupuesto y la disponibilidad de recursos, te das cuenta de que tienes muy poca autoridad, lo que te frustra completamente \u00bfEn qu\u00e9 tipo de organizaci\u00f3n consideras que te encontrar\u00edas trabajando?",
+            "respuestas": [
+                "Matricial equilibrada",
+                "Orientada a proyectos",
+                "Funcional",
+                "Matricial fuerte"
+            ],
+            "verdadera": "Funcional"
+        },
+        {
+            "enunciado": "Un hito",
+            "respuestas": [
+                "Todas las otras respuestas son incorrectas",
+                "No forma parte de la l\u00ednea base",
+                "Tiene una representaci\u00f3n de cronograma espec\u00edfica",
+                "Puede consumir recursos"
+            ],
+            "verdadera": "Tiene una representaci\u00f3n de cronograma espec\u00edfica"
+        },
+        {
+            "enunciado": "Est\u00e1s reunido con tu equipo de direcci\u00f3n del proyecto para monitorear y controlar el estado del alcance del producto y del proyecto y gestionar los cambios en la l\u00ednea base del alcance \u00bfCu\u00e1l de las siguientes NO es un resultado de este proceso?",
+            "respuestas": [
+                "Documentos no aceptados por el cliente",
+                "Solicitudes de cambio",
+                "Actualizaciones del Plan de Direcci\u00f3n del Proyecto",
+                "Informaci\u00f3n de desempe\u00f1o del trabajo"
+            ],
+            "verdadera": "Documentos no aceptados por el cliente"
+        },
+        {
+            "enunciado": "El desarrollo de una aproximaci\u00f3n de los recursos monetarios necesarios para completar el trabajo del proyecto se realiza durante",
+            "respuestas": [
+                "La estimaci\u00f3n de recursos",
+                "La determinaci\u00f3n del presupuesto de costes",
+                "La estimaci\u00f3n de costes",
+                "La planificaci\u00f3n de la gesti\u00f3n de costes"
+            ],
+            "verdadera": "La estimaci\u00f3n de costes"
+        },
+        {
+            "enunciado": "Un director de proyectos sabe que los cambios en un proyecto son inevitables, pero debe transmitir a todos los interesados que",
+            "respuestas": [
+                "El coste de los cambios es menor en la fase inicial",
+                "El valor a\u00f1adido de un cambio en la fase inicial es menor",
+                "El coste de los cambios es mayor en la fase final",
+                "El coste del cambio es menor en la fase de ejecuci\u00f3n"
+            ],
+            "verdadera": "El coste de los cambios es mayor en la fase final"
+        },
+        {
+            "enunciado": "Como director del proyecto ya ha transcurrido un mes desde el inicio de su ejecuci\u00f3n, cuando debes realizar un cambio que permita alinear el plan del proyecto con la realidad Estamos hablando de una solicitud de estos posibles tipos",
+            "respuestas": [
+                "Correctiva y Reparaci\u00f3n de defectos",
+                "Preventiva y reparaci\u00f3n de defectos",
+                "Correctiva y preventiva",
+                "Todas las respuestas son correctas."
+            ],
+            "verdadera": "Correctiva y preventiva"
+        },
+        {
+            "enunciado": "Eres el director de un proyecto de lanzamiento de un nuevo producto al mercado Sabes que las horas que os llev\u00f3 realizar el dise\u00f1o de los diez productos anteriores que ya lanzasteis al mercado fue de 2000 Tambi\u00e9n sabes que os llevo 1500 horas organizar la campa\u00f1a de marketing de los diez productos anteriores Y ten\u00e9is datos que indican que fueron casi 2000 horas lo que os llev\u00f3 implementar la log\u00edstica de distribuci\u00f3n de los diez productos anteriores Teniendo en cuenta esta informaci\u00f3n, procedes a estimar los costes del proyecto actual \u00bfqu\u00e9 forma de estimar est\u00e1s utilizando?",
+            "respuestas": [
+                "Estimaci\u00f3n puntual",
+                "Estimaci\u00f3n param\u00e9trica",
+                "Estimaci\u00f3n ascendente",
+                "Estimaci\u00f3n an\u00e1loga"
+            ],
+            "verdadera": "Estimaci\u00f3n param\u00e9trica"
+        },
+        {
+            "enunciado": "\u00bfEn qu\u00e9 procesos de PMBOK se definen las f\u00f3rmulas del valor ganado a usar?",
+            "respuestas": [
+                "Estimar los costes",
+                "Determinar el presupuesto",
+                "Controlar los costes",
+                "Planificar la gesti\u00f3n de costes"
+            ],
+            "verdadera": "Controlar los costes"
+        },
+        {
+            "enunciado": "Te han nombrado director de proyecto para el lanzamiento de una nueva l\u00ednea de productos El proyecto est\u00e1 en marcha y vas a sustituir al anterior director de proyecto que ha dejado la empresa recientemente Cuando te re\u00c3\u00banes con el equipo del proyecto para comprender la situaci\u00f3n actual, ves que aparentemente nadie en el equipo del proyecto tiene claros los objetivos por lo que cuesta ponerse de acuerdo en cu\u00e1l debe ser el alcance real del proyecto \u00bfQu\u00e9 es lo mejor que puede hacer?",
+            "respuestas": [
+                "Consultar el acta de constituci\u00f3n",
+                "Revisar los t\u00e9rminos y condiciones del contrato firmado con el cliente",
+                "Revisar el plan de gesti\u00f3n del alcance",
+                "Convocar una reuni\u00f3n con el cliente y el patrocinador"
+            ],
+            "verdadera": "Consultar el acta de constituci\u00f3n"
         }
     ]
 }

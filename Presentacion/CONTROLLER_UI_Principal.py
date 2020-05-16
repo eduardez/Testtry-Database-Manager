@@ -25,7 +25,7 @@ class Ui_Principal(QtWidgets.QMainWindow, Ui_frm_principal):
 
         # --- Init methods ---
         self.frm_principal = frame
-        self.setupUi(self.frm_principal )
+        self.setupUi(self.frm_principal)
         self.setValues()
         self.setActions()
         
