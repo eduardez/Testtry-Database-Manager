@@ -1,0 +1,344 @@
+{
+    "Preguntas": [
+        {
+            "enunciado": "Una persona ha desarrollado una aplicaci\u00f3n con la \u00fanica finalidad de acceder al servidor de gesti\u00f3n acad\u00e9mica de una universidad con el prop\u00f3sito de modificar expedientes acad\u00e9micos Esa persona estar\u00e1 cometiendo un delito",
+            "respuestas": [
+                "Aunque sea otra persona quien ejecute la aplicaci\u00f3n para modificar esos expedientes acad\u00e9micos",
+                "Aunque la aplicaci\u00f3n nunca se ejecute para modificar los expedientes acad\u00e9micos",
+                "Contra la propiedad intelectual",
+                "Solo si esa persona ejecuta la aplicaci\u00f3n para modificar los expedientes acad\u00e9micos"
+            ],
+            "verdadera": "Aunque sea otra persona quien ejecute la aplicaci\u00f3n para modificar esos expedientes acad\u00e9micos"
+        },
+        {
+            "enunciado": "No es necesario informar en la recogida de datos personales cuando",
+            "respuestas": [
+                "Ninguna de las otras respuestas es correcta",
+                "Se recogen para una administraci\u00f3n p\u00fablica",
+                "Se recogen datos para realizar un censo electoral",
+                "Se recogen datos que son estrictamente para dar el servicio solicitado por la persona"
+            ],
+            "verdadera": "Se recogen datos que son estrictamente para dar el servicio solicitado por la persona"
+        },
+        {
+            "enunciado": "En el caso \"Esp\u00e1tula\" y suponiendo que es aplicable la LOPD \u00bfqu\u00e9 nivel de medidas de seguridad se deben utilizar?",
+            "respuestas": [
+                "Medio, en cualquier caso",
+                "Bajo",
+                "Alto",
+                "Medio suponiendo que se puede inferir el comportamiento de las personas con los datos recogidos"
+            ],
+            "verdadera": "Medio, en cualquier caso"
+        },
+        {
+            "enunciado": "Ser\u00eda necesario utilizar el cifrado de datos TLS v12",
+            "respuestas": [
+                "Cuando se comuniquen datos de salud a trav\u00e9s de una red privada",
+                "Cuando se comuniquen datos acad\u00e9micos a trav\u00e9s de una red p\u00fablica",
+                "Pues utiliza c\u00f3digo de fuentes abiertas a diferencia de otros sistemas de cifrado",
+                "Si hace m\u00e1s de un a\u00f1o que se public\u00f3 la versi\u00f3n 1.2 como \u00faltima versi\u00f3n del protocolo TLS pues se debe utilizar siempre la versi\u00f3n m\u00e1s actual y segura"
+            ],
+            "verdadera": "Cuando se comuniquen datos acad\u00e9micos a trav\u00e9s de una red p\u00fablica"
+        },
+        {
+            "enunciado": "Seg\u00fan la LOPD, la infracci\u00f3n m\u00e1s grave es",
+            "respuestas": [
+                "Realizar una transferencia internacional sin consentimiento",
+                "Tratar datos de car\u00e1cter personal sin registrar el correspondiente fichero de la Agencia Espa\u00f1ola de Datos",
+                "Cesi\u00f3n de datos de nivel b\u00e1sico sin consentimiento",
+                "No informar adecuadamente en la recogida de datos de car\u00e1cter personal"
+            ],
+            "verdadera": "Realizar una transferencia internacional sin consentimiento"
+        },
+        {
+            "enunciado": "La funeraria de un pueblo ha creado un sitio web donde publica el nombre y apellidos y fecha de fallecimiento de personas residentes en ese pueblo En este caso",
+            "respuestas": [
+                "Debe cumplir las medidas de seguridad de nivel medio",
+                "Incumple la LOPD si no tiene el consentimiento de las personas fallecidas",
+                "No es necesario dar de alta ese tratamiento de datas en la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos",
+                "Incumple la LOPD si no tiene el consentimiento de personas fallecidas o representante legal"
+            ],
+            "verdadera": "No es necesario dar de alta ese tratamiento de datas en la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos"
+        },
+        {
+            "enunciado": "NO es exigible en un sistema de gesti\u00f3n de la asistencia de personas que participan voluntariamente en un concurso de televisi\u00f3n (nombre, apellidos, DNI, tel\u00e9fono, edad, sexo, fecha de participaci\u00f3n)",
+            "respuestas": [
+                "Control de acceso f\u00edsico a los locales donde se encuentren ubicados esos datos",
+                "Registro de incidencias de seguridad",
+                "Inventario de soportes con esos datos",
+                "Identificaci\u00f3n personalizada de los usuarios con acceso a esos datos"
+            ],
+            "verdadera": "Control de acceso f\u00edsico a los locales donde se encuentren ubicados esos datos"
+        },
+        {
+            "enunciado": "En una aplicaci\u00f3n web que trata datos de salud, las copias de seguridad de los datos del servidor",
+            "respuestas": [
+                "Deben realizar a diario",
+                "Deben verificarse su buen estado cada semana",
+                "Deben estar en un lugar distinto a donde se encuentre el servidor",
+                "Deben cifrarse"
+            ],
+            "verdadera": "Deben estar en un lugar distinto a donde se encuentre el servidor"
+        },
+        {
+            "enunciado": "En una empresa de desarrollo de software se la encarga a un programador junior la elaboraci\u00f3n del manual de uso de un programa que ha desarrollado un equipo de la empresa ",
+            "respuestas": [
+                "Por defecto son del programador junior",
+                "Terminan a los 15 a\u00f1os de la puesta en explotaci\u00f3n del programa",
+                "Por defecto son de la empresa",
+                "Siempre son del programador junior"
+            ],
+            "verdadera": "Por defecto son de la empresa"
+        },
+        {
+            "enunciado": "Una empresa utiliza un sistema integrado de autenticaci\u00f3n de usuarios donde todas sus aplicaciones utilizan un servidor corporativo para autenticar los usuarios utilizan una \u00fanica contrase\u00f1a para cada usuario independiente del n\u00c2\u00ba de aplicaciones que use cada usuario Indique cual es la respuesta INCORRECTA",
+            "respuestas": [
+                "Si procede, se debe limitar el n\u00c2\u00ba m\u00e1ximo de reintentos de accesos err\u00f3neos por usuario, aunque sea proveniente de aplicaciones distintas",
+                "El servidor y/o las aplicaciones deben obligar a los usuarios a cambiar las contrase\u00f1as, al menos, una vez al a\u00f1o",
+                "Las contrase\u00f1as deben ser \u00fanicas por usuario, aunque sean iguales para todas las aplicaciones  ",
+                "El almacenamiento de las contrase\u00f1as en el servidor puede ser de cualquier clase pues no reside la contrase\u00f1a en el equipo del usuario."
+            ],
+            "verdadera": "Las contrase\u00f1as deben ser \u00fanicas por usuario, aunque sean iguales para todas las aplicaciones  "
+        },
+        {
+            "enunciado": "Todo software debe incluir en su descripci\u00f3n t\u00e9cnica",
+            "respuestas": [
+                "El nivel de medidas de seguridad que permite alcanzar ese software cuando se traten datos de car\u00e1cter personal",
+                "El n\u00c2\u00ba de inscripci\u00f3n del software en la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos",
+                "La identidad de los desarrolladores de la aplicaci\u00f3n",
+                "El precio, indicando si se incluyen los impuestos, de uso o compra de ese software"
+            ],
+            "verdadera": "La identidad de los desarrolladores de la aplicaci\u00f3n"
+        },
+        {
+            "enunciado": "Quien desarrolla un programa de ordenador para falsificar tarjetas de cr\u00e9dito inteligentes",
+            "respuestas": [
+                "Comete un delito de falsedades",
+                "Comete un delito de estafa",
+                "Comete un delito contra la propiedad intelectual",
+                "Solo comete delito quien utiliza el programa con ese fin"
+            ],
+            "verdadera": "Comete un delito de estafa"
+        },
+        {
+            "enunciado": "Una empresa de venta de tel\u00e9fonos m\u00f3viles informa a sus clientes por SMS de las novedades mensuales de estos productos Se podr\u00e1 realizar este env\u00edo",
+            "respuestas": [
+                "Si se incorpora la palabra publicidad en el mensaje",
+                "Todas las respuestas son correctas",
+                "Solo si el receptor ha dado su consentimiento o es un cliente de la empresa",
+                "Si el mensaje indica el m\u00e9todo para no recibir m\u00e1s mensajes con ese tipo de contenido."
+            ],
+            "verdadera": "Todas las respuestas son correctas"
+        },
+        {
+            "enunciado": "Para la entrada en una discoteca, el personal de seguridad solicita que se muestre el DNI para exclusivamente comprobar que somos mayores de edad En este caso, el rporpietario de la discoteca",
+            "respuestas": [
+                "Debe dar de alta un fichero en la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos.",
+                "Debe implementar medidas de seguridad de nivel b\u00e1sico",
+                "No tiene que hacer nada pues no existe tratamiento de datos de car\u00e1cter personal",
+                "Debe implementar medidas de seguridad de nivel medio."
+            ],
+            "verdadera": "No tiene que hacer nada pues no existe tratamiento de datos de car\u00e1cter personal"
+        },
+        {
+            "enunciado": "\u00bfQu\u00e9 falta en el siguiente texto de una papeleta para participar en el sorteo de un coche encontrado a la puerta de un supermercado? Texto: Los datos personales recogidos ser\u00e1n utilizados para comunicarse con el participante en el caso de resultar ganador o para ofrecerles servicios y productos de su inter\u00e9s",
+            "respuestas": [
+                "La identidad, direcci\u00f3n del responsable del tratamiento y donde se ejercen los derechos ARCO y las medidas de seguridad a aplicar",
+                "Ninguna de las otras respuestas es correcta",
+                "La identidad, direcci\u00f3n del responsable del tratamiento y donde se ejercen los derechos ARCO",
+                "El valor del premio"
+            ],
+            "verdadera": "La identidad, direcci\u00f3n del responsable del tratamiento y donde se ejercen los derechos ARCO"
+        },
+        {
+            "enunciado": "En una aplicaci\u00f3n que trata datos de salud, el cambio de contrase\u00f1as de los usuarios de esa aplicaci\u00f3n debe",
+            "respuestas": [
+                "Cambiarse al menos una vez al a\u00f1o",
+                "Cambiarse al menos una vez al semestre",
+                "Cambiarse al menos una vez cada dos a\u00f1os",
+                "Cambiarse al menos una vez al trimestre"
+            ],
+            "verdadera": "Cambiarse al menos una vez al a\u00f1o"
+        },
+        {
+            "enunciado": "Las exigencias de la LSSI a la utilizaci\u00f3n de las cookies se except\u00faan en el caso de",
+            "respuestas": [
+                "Cookies publicitarias an\u00f3nimas",
+                "Cookies persistentes",
+                "Cookies de terceros",
+                "Cookies t\u00e9cnicas"
+            ],
+            "verdadera": "Cookies t\u00e9cnicas"
+        },
+        {
+            "enunciado": "Seg\u00fan la LOPD, el principio de calidad de los datos se cumple cuando (elija la respuesta incorrecta)",
+            "respuestas": [
+                "No se usan para una finalidad incompatible con las indicadas en la recogida",
+                "Se actualizan los datos, aunque no sea a petici\u00f3n del afectado",
+                "Se recogen datos adicionales a los estrictamente necesarios para una finalidad para ser tratados por una administraci\u00f3n p\u00fablica",
+                "Se cancelan los datos, aunque no sea a petici\u00f3n del afectado"
+            ],
+            "verdadera": "Se recogen datos adicionales a los estrictamente necesarios para una finalidad para ser tratados por una administraci\u00f3n p\u00fablica"
+        },
+        {
+            "enunciado": "El ayuntamiento de una capital de provincia ha implementado un sistema de sensores de paso de veh\u00edculos en la calzada de las calles y videoc\u00e1maras en los sem\u00e1foros para mejorar la gesti\u00f3n del tr\u00e1fico en el municipio En este caso, el ayuntamiento",
+            "respuestas": [
+                "Debe informar por escrito a todos los habitantes del municipio",
+                "Debe dar de alta un fichero en la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos",
+                "Debe implementar medidas de seguridad de nivel alto",
+                "No tiene que hacer nada pues es una administraci\u00f3n p\u00fablica y la finalidad es mejorar la seguridad vial"
+            ],
+            "verdadera": "Debe dar de alta un fichero en la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos"
+        },
+        {
+            "enunciado": "Si en un documento electr\u00f3nico se necesita garantizar la integridad del propio documento, se necesita utilizar",
+            "respuestas": [
+                "Firma electr\u00f3nica o firma electr\u00f3nica avanzada",
+                "Cualquier clase de firma electr\u00f3nica",
+                "Firma electr\u00f3nica avanzada o firma electr\u00f3nica reconocida",
+                "Firma electr\u00f3nica"
+            ],
+            "verdadera": "Firma electr\u00f3nica avanzada o firma electr\u00f3nica reconocida"
+        },
+        {
+            "enunciado": "Una vez se ha realizado una auditor\u00eda seg\u00fan el Reglamento del desarrollo de la LOPD",
+            "respuestas": [
+                "Se debe publicar en un bolet\u00edn oficial en el caso de administraciones p\u00fablicas",
+                "No es necesario una nueva auditor\u00eda hasta que no se realicen modificaciones sustanciales en los sistemas de informaci\u00f3n para repercusiones en seguridad",
+                "Ninguna de las otras respuestas es correcta",
+                "Se debe remitir a la Agencia espa\u00f1ola de Protecci\u00f3n de Datos."
+            ],
+            "verdadera": "Se debe remitir a la Agencia espa\u00f1ola de Protecci\u00f3n de Datos."
+        },
+        {
+            "enunciado": "Seg\u00fan la Ley de Propiedad Intelectual, la traducci\u00f3n a una lengua oficial del estado de Espa\u00f1a del manual de usuario de una aplicaci\u00f3n",
+            "respuestas": [
+                "La protecci\u00f3n de todos los manuales de usuario caduca a los 15 a\u00f1os de su publicaci\u00f3n",
+                "No es aplicable la Ley de Propiedad Intelectual",
+                "Ninguna de las otras respuestas es correcta",
+                "Tiene la misma protecci\u00f3n que el manual de usuario original"
+            ],
+            "verdadera": "Tiene la misma protecci\u00f3n que el manual de usuario original"
+        },
+        {
+            "enunciado": "No es aplicable la LOPD cuando se traten datos de personas",
+            "respuestas": [
+                "Menores de 14 a\u00f1os",
+                "P\u00fablicas",
+                "Jur\u00eddicas",
+                "Sin la nacionalidad espa\u00f1ola"
+            ],
+            "verdadera": "Jur\u00eddicas"
+        },
+        {
+            "enunciado": "En el caso \"Esp\u00e1tula\", el centro comercial ha iniciado un nuevo proyecto donde se pretende mejorar el servicio actual y, por ello, va a vincular las compras efectuadas por los clientes con la direcci\u00f3n Ethernet de los dispositivos que se encuentran en la zona de cajas En este caso,",
+            "respuestas": [
+                "Posiblemente se debe dar de alta o modificar el registro de un fichero con datos de car\u00e1cter personal en la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos.",
+                "Es obligatorio que el centro comercial disponga de un responsable de seguridad",
+                "Se debe aumentar al siguiente nivel las medidas de seguridad seg\u00fan el Reglamento de la LOPD",
+                "No es necesario ning\u00fan cambio pues no se solicita ning\u00fan dato de car\u00e1cter personal al comprador"
+            ],
+            "verdadera": "Se debe aumentar al siguiente nivel las medidas de seguridad seg\u00fan el Reglamento de la LOPD"
+        },
+        {
+            "enunciado": "La utilizaci\u00f3n de contrase\u00f1as para autenticar personas en el control de acceso a sistemas con datos de car\u00e1cter personal implica que",
+            "respuestas": [
+                "Se debe limitar el n\u00c2\u00ba de intentos de accesos no autorizados en sistemas con nivel medio de medidas de seguridad",
+                "Con car\u00e1cter general se debe obligar a cambiar las contrase\u00f1as como m\u00ednimo una vez al a\u00f1o y una vez a la semana en sistemas con nivel alto de medidas de seguridad",
+                "Se debe utilizar cifrado en las comunicaciones cuando se transmitan esas contrase\u00f1as",
+                "El tama\u00f1o m\u00ednimo de la contrase\u00f1a debe ser de 8 caracteres"
+            ],
+            "verdadera": "Con car\u00e1cter general se debe obligar a cambiar las contrase\u00f1as como m\u00ednimo una vez al a\u00f1o y una vez a la semana en sistemas con nivel alto de medidas de seguridad"
+        },
+        {
+            "enunciado": "En el caso \"Esp\u00e1tula\", \u00bfse tratan datos de car\u00e1cter personal?",
+            "respuestas": [
+                "Si pues cruzando la direcci\u00f3n Ethernet con otros datos podr\u00edamos identificar a las personas",
+                "No pues no se recogen datos de car\u00e1cter personal",
+                "Si pues el dispositivo es utilizado por una persona",
+                "Si pues todos los datos utilizados por una persona son datos de car\u00e1cter personal"
+            ],
+            "verdadera": "Si pues todos los datos utilizados por una persona son datos de car\u00e1cter personal"
+        },
+        {
+            "enunciado": "Un responsable de fichero seg\u00fan la LOPD es",
+            "respuestas": [
+                "La persona f\u00edsica o jur\u00eddica que decide sobre la finalidad y contenido de un fichero con datos de car\u00e1cter personal",
+                "Cualquier persona que trata los datos personales de un fichero",
+                "La persona que trata los datos personales de un fichero",
+                "La persona que coordina las medidas de seguridad"
+            ],
+            "verdadera": "La persona f\u00edsica o jur\u00eddica que decide sobre la finalidad y contenido de un fichero con datos de car\u00e1cter personal"
+        },
+        {
+            "enunciado": "Seg\u00fan la LSSI, una \"cookie\" puede ser",
+            "respuestas": [
+                "Ninguna de las otras respuestas es correcta",
+                "Una p\u00e1gina Web que se genera din\u00e1micamente cada vez que un usuario la solicita",
+                "Un programa que se descarga a trav\u00e9s de una red de comunicaciones y luego se ejecuta sin necesidad de esa red",
+                "Cualquier cabecera del protocolo HTTP que un cliente Web manda a un servidor"
+            ],
+            "verdadera": "Ninguna de las otras respuestas es correcta"
+        },
+        {
+            "enunciado": "Una aplicaci\u00f3n que trate datos de car\u00e1cter personal",
+            "respuestas": [
+                "No se puede transferir a pa\u00edses fuera de la Uni\u00f3n Europea sin permiso previo de la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos",
+                "Se debe registrar en el Registro de la Propiedad Intelectual",
+                "Debe incluir en su descripci\u00f3n t\u00e9cnica el nivel de medidas de seguridad que implementa seg\u00fan el Reglamenta de la LOPD",
+                "Se debe registrar en la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos"
+            ],
+            "verdadera": "No se puede transferir a pa\u00edses fuera de la Uni\u00f3n Europea sin permiso previo de la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos"
+        },
+        {
+            "enunciado": "Suponga que una empresa inmobiliaria desarrolla una aplicaci\u00f3n para tel\u00e9fonos inteligentes con la finalidad de facilitar a sus clientes la b\u00fasqueda de pisos en alquiler en una ciudad utilizando una red de datos para acceder a la base de datos de pisos en alquiler ",
+            "respuestas": [
+                "No es aplicable la Ley de Servicios de la Sociedad de la Informaci\u00f3n",
+                "Es aplicable la Ley de Servicios de la Sociedad de la Informaci\u00f3n ",
+                "No es aplicable la Ley de Propiedad Intelectual",
+                "Es aplicable la Ley de Firma Electr\u00f3nica si se utiliza una contrase\u00f1a para acceder a los datos de pisos en alquiler"
+            ],
+            "verdadera": "Es aplicable la Ley de Servicios de la Sociedad de la Informaci\u00f3n "
+        },
+        {
+            "enunciado": "El documento de seguridad seg\u00fan el Reglamento de la LOPD es obligatorio",
+            "respuestas": [
+                "En todos los ficheros",
+                "En ficheros con un nivel medio de medidas de seguridad",
+                "En ficheros con un nivel alto de medidas de seguridad",
+                "Cuando tambi\u00e9n sea obligatorio de disponer de un responsable de seguridad"
+            ],
+            "verdadera": "En todos los ficheros"
+        },
+        {
+            "enunciado": "En el caso \"Esp\u00e1tula\" y seg\u00fan la Ley de Servicios de la Sociedad de la Informaci\u00f3n",
+            "respuestas": [
+                "Se debe a\u00f1adir la palabra \"publicidad\" en el inicio de la sesi\u00f3n WiFi de cada visitante",
+                "Se han utilizado \"cookies\" pero no es necesario informar al usuario pues son \"cookies\" t\u00e9cnicas e imprescindibles para dar el servicio.",
+                "No se han utilizado \"cookies\" pues no se ha instalado nada en el dispositivo del visitante",
+                "Antes de usar las \"cookies\" en la conexi\u00f3n WiFi se debe informar al usuario."
+            ],
+            "verdadera": "Se han utilizado \"cookies\" pero no es necesario informar al usuario pues son \"cookies\" t\u00e9cnicas e imprescindibles para dar el servicio."
+        },
+        {
+            "enunciado": "Seg\u00fan la Ley 11/2007 de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos, un servicio de la sede electr\u00f3nica de una empresa suministradora de electricidad en una ciudad es",
+            "respuestas": [
+                "La oferta de empleo de la empresa",
+                "El tabl\u00f3n de anuncios de la empresa",
+                "El bolet\u00edn oficial de la empresa",
+                "Ninguna de las otras respuestas es correcta"
+            ],
+            "verdadera": "El bolet\u00edn oficial de la empresa"
+        },
+        {
+            "enunciado": "Si una empresa utiliza una aplicaci\u00f3n de mensajer\u00eda instant\u00e1nea para enviar a sus clientes mensajes con propaganda de sus productos",
+            "respuestas": [
+                "Entre otros requisitos, se debe incluir los datos de inscripci\u00f3n en el Registro Mercantil o similar de la empresa",
+                "No tiene ninguna limitaci\u00f3n si el cliente autoriz\u00f3 ese env\u00edo",
+                "Entre otros requisitos, se debe informar en el mensaje del origen de los datos personales",
+                "Entre otros requisitos, se debe incluir la palabra \"publicidad\" o \"publi\" en el inicio del mensaje"
+            ],
+            "verdadera": "Entre otros requisitos, se debe incluir la palabra \"publicidad\" o \"publi\" en el inicio del mensaje"
+        }
+    ]
+}
