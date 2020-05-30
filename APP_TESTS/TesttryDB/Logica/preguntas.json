@@ -1,0 +1,564 @@
+{
+    "Preguntas": [
+        {
+            "enunciado": "Sea A\u2261(\u22c0w)(P(x)^H(w)->(Vx)R(x,z)) Se cumple que A{z/x}{x/f(c)} es igual a:",
+            "respuestas": [
+                "(\u22c0w)(P(f(c)) ^ H(w) -> (Vx)R(f(c),f(c))",
+                "(\u22c0w)(P(f(c)) ^ H(w) -> (Vy) R(y,f(c))",
+                "(\u22c0w)(P(f(c)) ^ H(w) -> R(f(c),f(c))",
+                "(\u22c0w)(P(f,(c)) ^ H(w) -> (Vx)R(f(c),x))"
+            ],
+            "verdadera": "(\u22c0w)(P(f,(c)) ^ H(w) -> (Vx)R(f(c),x))"
+        },
+        {
+            "enunciado": "Indicar cu\u00e1l de las siguientes afirmaciones es cierta:",
+            "respuestas": [
+                "Una tautolog\u00eda es un enunciado anal\u00edtico.",
+                "Una fbf verdadera en una interpretaci\u00f3n es un enunciado anal\u00edtico.",
+                "Una fbf que es satisfecha por cualquier valoraci\u00f3n en una interpretaci\u00f3n es un enunciado anal\u00edtico.",
+                "El enunciado \"por un punto exterior a una recta, s\u00f3lo puede pasar una recta paralela a la primera\" es anal\u00edtico."
+            ],
+            "verdadera": "Una tautolog\u00eda es un enunciado anal\u00edtico."
+        },
+        {
+            "enunciado": "Sean las formas enunciativas A\u2261(p^q<->p) y B\u2261((p->q)^(p->r)), y la atribuci\u00f3n teritativa a tal que a(p)=V, a(q)=F y a(r)=VSe cumple que:",
+            "respuestas": [
+                "v(A)=V y v(B)=V.",
+                "v(A)=V y v(B)=F.",
+                "v(A)=F y v(B)=V.",
+                "v(A)=F y v(B)=F."
+            ],
+            "verdadera": "v(A)=F y v(B)=F."
+        },
+        {
+            "enunciado": "Sea A\u2261(\u00ac(p^q)->(\u00acp^\u00acq))Se cumple que:",
+            "respuestas": [
+                "A es una contingencia.",
+                "A es una contradicci\u00f3n.",
+                "A es una tautolog\u00eda.",
+                "Ninguna de las anteriores."
+            ],
+            "verdadera": "A es una contingencia."
+        },
+        {
+            "enunciado": "Cu\u00e1l de las siguientes afirmaciones es falsa:",
+            "respuestas": [
+                "En la l\u00f3gica de proposiciones los enunciados contingentes constituyen un conjunto decidible.",
+                "Las tautolog\u00edas tienen la propiedad de las sustituitividad.",
+                "La ley de intercambio dice que \"si A <-> B y  C(A) entonces C(B)\" y s\u00f3lo es aplicable a enunciados tautol\u00f3gicos.",
+                "La regla modus ponens transmite la tautologicidad, ya que si A y A->B son tautolog\u00edas, su consecuencia B tambi\u00e9 lo ser\u00e1. "
+            ],
+            "verdadera": "La ley de intercambio dice que \"si A <-> B y  C(A) entonces C(B)\" y s\u00f3lo es aplicable a enunciados tautol\u00f3gicos."
+        },
+        {
+            "enunciado": "Indicar cu\u00e1l de las siguientes afirmaciones es falsa:",
+            "respuestas": [
+                "El teorema de la deducci\u00f3n(visi\u00f3n sint\u00e1ctica) permite relacionar los conceptos de deducci\u00f3n y de demostraci\u00f3n.",
+                "El teorema de la deducci\u00f3n(visi\u00f3n sem\u00e1ntica) relaciona los conceptos de validez y consecuencia l\u00f3gica.",
+                "La relaci\u00f3n entre f\u00f3rmula v\u00e1lida y consecuencia l\u00f3gica es comparable a la relaci\u00f3n entre demostrable y deducible.",
+                "En la l\u00f3gica de predicados el teorema de la completitud establece que |- A implica = A siendo A una fbf de L l\u00f3gica."
+            ],
+            "verdadera": "En la l\u00f3gica de predicados el teorema de la completitud establece que |- A implica = A siendo A una fbf de L l\u00f3gica."
+        },
+        {
+            "enunciado": "Sea (\u22c0w)(P(x) ^ H(z) -> (Vx)R(x,w)) una fbf de L Se cumple que:",
+            "respuestas": [
+                "La primera aparici\u00f3n de la variable x aparece ligada. ",
+                "La variable z no aparece ligada y la segunda aparici\u00f3n de la variable w tampoco.",
+                "Todas las apariciones de la variable x aparecen ligadas.",
+                "Todas las variables aparecen en el radio de acci\u00f3n del cuantificador(\u22c0w)"
+            ],
+            "verdadera": "Todas las variables aparecen en el radio de acci\u00f3n del cuantificador(\u22c0w)"
+        },
+        {
+            "enunciado": "Dada una fbf A, A es l\u00f3gicamente v\u00e1lida si y s\u00f3lo si:",
+            "respuestas": [
+                "A es verdadera para toda valoraci\u00f3n v.",
+                "Existe una interpretaci\u00f3n I y toda valoraci\u00f3n v en I, se cumple que v satisface A.",
+                "Para toda interpretaci\u00f3n I y toda valoraci\u00f3n v en I, se cumple que v satisface A.",
+                "Existe una intrepretaci\u00f3n I y una valoraci\u00f3n v en I tal que v satisface A."
+            ],
+            "verdadera": "Para toda interpretaci\u00f3n I y toda valoraci\u00f3n v en I, se cumple que v satisface A."
+        },
+        {
+            "enunciado": "Sea la interpretaci\u00f3n I={Di,J}, donde Di={1,2} y J es la funci\u00f3n de interpretaci\u00f3n que asigna J(a)=1, y J(P)=P, siendo P la relaci\u00f3n definida por la tabla de verdad: P(1,1)=V, P(1,2)=F, P(2,1)=F, P(2,2)=V Dada la f\u00f3rmula A\u2261((\u22c0y)P(a,y)-> (Vx)(\u22c0y)P(x,y)), comprobar si:",
+            "respuestas": [
+                "A es insatisfacible.",
+                "A es verdadera en la interpretaci\u00f3n I.",
+                "A es falsa en al interpretaci\u00f3n I.",
+                "Ninguna de las anteriores."
+            ],
+            "verdadera": "A es falsa en al interpretaci\u00f3n I."
+        },
+        {
+            "enunciado": "Indicar cu\u00e1l de las siguientes afirmaciones relativas a la l\u00f3gica de predicados es falsa:",
+            "respuestas": [
+                "En cualquier circunstancia T|=B si y s\u00f3lo si |=(Ai^...An)->B.",
+                "En cualquier circunstancia T|=B si y solo si T U{\u00acB} es insatisfacible.",
+                "En cualquier circunstancia, si T U {A}|-Kc B entonces T|-Kc(A->B).",
+                "En cualquier circunstancia, si T|-Kc(A->B) entonces T U {A}|-Kc B. donde A y B son fbf's de L y T un conjunto de fbf's de L(que puede ser vac\u00edo). "
+            ],
+            "verdadera": "En cualquier circunstancia, si T U {A}|-Kc B entonces T|-Kc(A->B)."
+        },
+        {
+            "enunciado": " Un c\u00e1lculo deductivo formaliza:",
+            "respuestas": [
+                "Una visi\u00f3n sint\u00e1ctica de la l\u00f3gica.",
+                "Una vision sem\u00e1ntica de la l\u00f3gica.",
+                "Una visi\u00f3n procedural de la l\u00f3gica.",
+                "Una visi\u00f3n sistem\u00e1tica de la l\u00f3gica."
+            ],
+            "verdadera": "Una visi\u00f3n sint\u00e1ctica de la l\u00f3gica."
+        },
+        {
+            "enunciado": "Sea \u04cf un conjunto de fbf de L Se dice que \u04cf es consistente si:",
+            "respuestas": [
+                "Existe una fbf A de L tal qeu \u04cf|-Kc A y \u04cf|-Kc \u00acA.",
+                "Existe una fbf A de L que no puede ser deducida a partir de L. ",
+                "Existe una fbf A de L tal que \u04cf|-Kc A ^\u00acA.",
+                "Ninguna de las anteriores caracterizaciones de la consitencia es correcta. "
+            ],
+            "verdadera": "Existe una fbf A de L que no puede ser deducida a partir de L. "
+        },
+        {
+            "enunciado": "La ley de intercambio consiste en:",
+            "respuestas": [
+                "Cambiar una parte de uan f\u00f3rmula por otra l\u00f3gicamente equivalente.",
+                "Cambiar una parte de uan f\u00f3rmula por otra equivalente mediante la aplicaci\u00f3n de Modus Ponens.",
+                "Cambiar una parte de una f\u00f3rmula por otra equivalnete mediante la aplicaci\u00f3n del teorema de deducci\u00f3n.",
+                "Las tres afirmaciones anteriores son correctas. "
+            ],
+            "verdadera": "Cambiar una parte de uan f\u00f3rmula por otra l\u00f3gicamente equivalente."
+        },
+        {
+            "enunciado": "Sea A\u2261(\u22c0w)(P(x)^H(w)->(Vx)R(x,z)) Se cumple que A{z/x}{x/f(w)} es igual a:",
+            "respuestas": [
+                "(\u22c0w)(P(f(w)) ^H(w)->(Vz)R(f(w),z)",
+                "(\u22c0u)(P(f(w)) ^H(u)-> (Vy)R(y,f(w))",
+                "(\u22c0w)(P(f(w)) ^ H(w) -> (Vx)R(f(w),f(w))",
+                "(\u22c0u)(P(f(w)) ^ H(u) -> (Vx)R(f(w),x))"
+            ],
+            "verdadera": "(\u22c0w)(P(f(w)) ^H(w)->(Vz)R(f(w),z)"
+        },
+        {
+            "enunciado": "La regla de eliminaci\u00f3n del particularizador dice que de (Vx)A se puede inferir B si suponiendo A{x/a} puede alcanzarse B en un n\u00fanmero finito de pasos y se cumple la siguiente restricci\u00f3n:",
+            "respuestas": [
+                " a no debe aparecer en ning\u00fann supuesto previo no cancelado. ",
+                " a no debe aparecer en (Vx)A ni en B ni en ning\u00fann supuesto previo no cancelado.",
+                " a no debe aparecer en (Vx)A ni en B.",
+                " la regla puede aplicarse sin restricciones. "
+            ],
+            "verdadera": " a no debe aparecer en ning\u00fann supuesto previo no cancelado. "
+        },
+        {
+            "enunciado": "La l\u00f3gica proposicional:",
+            "respuestas": [
+                "Se caracteriza por que las relaciones entre sintaxis y sem\u00e1ntica no est\u00e1n bien definidas, al contrario de lo que se sucede en la l\u00f3gica de predicados.",
+                "Realiza un an\u00e1lisis detallado que toma como base los componentes de una proposici\u00f3n t\u00e9rminos, f\u00f3rmulas at\u00f3micas, cuantificadores y conectores.",
+                "A nivel sint\u00e1ctico, utiliza expresiones formadas \u00fannicamente por variables y constantes unidos por conectivas, pero no usa s\u00edmbolos de funci\u00f3n o cuantificadores. ",
+                "Se ocupa de enunciados declarativos simples o proposiciones que se contemplan como un todo indivisible."
+            ],
+            "verdadera": "Se ocupa de enunciados declarativos simples o proposiciones que se contemplan como un todo indivisible."
+        },
+        {
+            "enunciado": " Indicar cu\u00e1l de las siguientes afirmaciones es falsa:",
+            "respuestas": [
+                "Un argumento es correcto si y solamente si no es posible que sus premisas sean verdaderas y su conclusi\u00f3n falsa.",
+                "Es la aritm\u00e9tica, menos por menos es m\u00e1s y, de forma semajante, en al l\u00f3gica falso y falso da verdadero.",
+                "Un enunciado es an\u00e1litico si y solamente si en cualqueir circunstancia concebible es verdadero.",
+                "Existe una fuera conexi\u00f3n entre el concepto de correci\u00f3n y el de analiticidad. "
+            ],
+            "verdadera": "Es la aritm\u00e9tica, menos por menos es m\u00e1s y, de forma semajante, en al l\u00f3gica falso y falso da verdadero."
+        },
+        {
+            "enunciado": " Respecto a la sintaxis de la l\u00f3gica proposicional, que afirmaci\u00f3n es correcta:",
+            "respuestas": [
+                "Utiliza expresiones formadas por cualquier secuencia de variables enunciativas y conectivas, denominadas formas enunciativas.",
+                "De la definici\u00f3n formal de forma enunciativa se desprende que los par\u00e9tesis son una parte constitutiva del vocabulario de la l\u00f3gica de proposiciones.",
+                "Las conectivas conjunci\u00f3n(^) y condicional(->)tienen el mismo nivel de precedencia.",
+                "Podemos medir la complejidad de una forma enunciativa contando el n\u00fanmero de variables enunciativas que contiene, que denominamos grado de la forma enunciativa. "
+            ],
+            "verdadera": "De la definici\u00f3n formal de forma enunciativa se desprende que los par\u00e9tesis son una parte constitutiva del vocabulario de la l\u00f3gica de proposiciones."
+        },
+        {
+            "enunciado": " El enunciado \"p solamente si q\" se formaliza como:",
+            "respuestas": [
+                "p<-> q.",
+                "q->p.",
+                "p->q.",
+                "q<->p."
+            ],
+            "verdadera": "p->q."
+        },
+        {
+            "enunciado": "Dos formas enunciativas son \"l\u00f3gicamente equivalentes\":",
+            "respuestas": [
+                "Siempre que tengan la misma forma sint\u00e1ctica.",
+                "Si sus funciones veritativas son id\u00e9ticas, aunque tengan distinta forma sint\u00e1ctica.",
+                "Si sus funciones de verdad son distintas.",
+                "Siempre que la primera forma enunciativa sea verdadera, la segunda tambi\u00e9 lo sea."
+            ],
+            "verdadera": "Si sus funciones veritativas son id\u00e9ticas, aunque tengan distinta forma sint\u00e1ctica."
+        },
+        {
+            "enunciado": " Indicar cu\u00e1l de las siguientes afiramciones es correcta:",
+            "respuestas": [
+                "La decidibilidad de un sistema formal implica la existencia de dos algoritmos uno para su estudio bajo la l\u00f3gica proposicional y otro para su estudio bajo la l\u00f3gica de predicados.",
+                "La decidibilidad de un sistema formal implica la existencia de un algoritmo capaz de dar contestaci\u00f3n a una clase de preguntas sobre el sistema formal.",
+                "La decidibilidad de un sistema formal, en el caso de la l\u00f3gica cl\u00e1sica, est\u00e1 relacionada con la propiedad de insatifacibilidad.",
+                "Los sistemas formales de la l\u00f3gica cl\u00e1sica don decidibles. "
+            ],
+            "verdadera": "La decidibilidad de un sistema formal implica la existencia de un algoritmo capaz de dar contestaci\u00f3n a una clase de preguntas sobre el sistema formal."
+        },
+        {
+            "enunciado": "El s\u00edmbolo |-L es:",
+            "respuestas": [
+                "Un s\u00edmbolo de L.",
+                "Un metas\u00edmbolo L y una expresi\u00f3n como \"T|-L A\" forma parte del lenguaje L. ",
+                "Un metas\u00edmbolo de L y \"T|-L A\" es el enunciado acerca de L que afirma que fbf A es partir del conjunto de fbfs T.",
+                "Ninguna de las anteriores."
+            ],
+            "verdadera": "Un metas\u00edmbolo de L y \"T|-L A\" es el enunciado acerca de L que afirma que fbf A es partir del conjunto de fbfs T."
+        },
+        {
+            "enunciado": "Indicar cu\u00e1l de las siguientes afirmaciones es correcta:",
+            "respuestas": [
+                "Seg\u00fann la definici\u00f3n formal de deducci\u00f3n, en el sistema L, los teoremas ya probados solamente pueden emplearse como l\u00edneas al principio de una deducci\u00f3n formal. ",
+                "El teorema de intercambio justifica la posibilidad de sustituir ciertas partes constituyentes de la f\u00f3rmula por otras f\u00f3rmulas(posiblemente m\u00e1s simples) que son l\u00f3gicamente equivalentes a las anteriores.",
+                "El rec\u00edproco del teorema de la deducci\u00f3n no se cumple en el sistema formal L. ",
+                "Una demostraci\u00f3n es una secuencia finita de fbfs que cumplen la condici\u00f3n de ser: o bien axiomas de L o bien premisas o bien deducidas de fbfs anteriores por aplicaci\u00f3n de la regla de inferencia modus ponens. "
+            ],
+            "verdadera": "El teorema de intercambio justifica la posibilidad de sustituir ciertas partes constituyentes de la f\u00f3rmula por otras f\u00f3rmulas(posiblemente m\u00e1s simples) que son l\u00f3gicamente equivalentes a las anteriores."
+        },
+        {
+            "enunciado": "Relativo al sistema de deducci\u00f3n natural de Gentzen, indicar cu\u00e1l de las siguientes afirmaciones es correcta:",
+            "respuestas": [
+                "Una fbf se considera probada si aparece en la \u00fanltima l\u00ednea de una deducci\u00f3n.",
+                "Una prueba condicional conciste en probar que el consecuente del condicional es un enunciado verdadero.",
+                "Los suspuestos provisionales o subsidiarios pueden introducirse en cualquier punto de una deducci\u00f3n y deben cancelarse antes de concluir la deducci\u00f3n.",
+                "Adem\u00e1s de los axiomas se distinguen dos clases de reglas: Las reglas de inferencia y las regals de construcci\u00f3n de una deducci\u00f3n"
+            ],
+            "verdadera": "Adem\u00e1s de los axiomas se distinguen dos clases de reglas: Las reglas de inferencia y las regals de construcci\u00f3n de una deducci\u00f3n"
+        },
+        {
+            "enunciado": "Dada la cadena de s\u00edmbolos(Vx)(\u22c0x)(Q(x) v P(R(y))) del alfabeto de L:",
+            "respuestas": [
+                "Es una fbf abierta de L.",
+                "Es una fbf cerrada de L.",
+                "Solamente ser\u00eda una fbf abierta de L si no estuviera el cuantificador existencial.",
+                "No es una fbf de L."
+            ],
+            "verdadera": "No es una fbf de L."
+        },
+        {
+            "enunciado": " Dada la interpretaci\u00f3n I ={Di,J} donde Di es el conjunto de los seres humanos y J es la funci\u00f3n de interpretaci\u00f3n qeu asigna: J(P) = es_padre_de Ind\u00edquese cu\u00e1l de las siguientes afirmaciones es cierta respecto de la fbf A\u2261(\u22c0y)(Vx)P(x,y) -> (Vx)(\u22c0y)P(x,y):",
+            "respuestas": [
+                "La interpretaci\u00f3n I es modelo de A.",
+                "La interpretaci\u00f3n I no s\u00f3lo es modelo de A sino que adem\u00e1s A es l\u00f3gicamente v\u00e1lida.",
+                "A es falsa en la interpretaci\u00f3n I.",
+                "A es satisfacible en al interpretaci\u00f3n I."
+            ],
+            "verdadera": "La interpretaci\u00f3n I no s\u00f3lo es modelo de A sino que adem\u00e1s A es l\u00f3gicamente v\u00e1lida."
+        },
+        {
+            "enunciado": "Ind\u00edquese cu\u00e1l de las siguientes afirmaciones relativas a la l\u00f3gica de predicados es falsa:",
+            "respuestas": [
+                "Es consistente, correcta, completa y semidecidible para ciertos subconjuntos de esa l\u00f3gica.",
+                "Es posible demostrar la equivalencia entre los conceptos de deducibilidad y de consecuencia l\u00f3gica.",
+                "Tanto el teorema de la deducci\u00f3n como su rec\u00edproco se cumplen sin restricciones.",
+                "El hecho de que sea correcta y completa nos permite decir que el razonamiento que se lleva a efecto en el plano real(el nivel del conocimiento) es reproducido por el c\u00e1lculo en el nivel simb\u00f3lico."
+            ],
+            "verdadera": "Tanto el teorema de la deducci\u00f3n como su rec\u00edproco se cumplen sin restricciones."
+        },
+        {
+            "enunciado": "Indicar cu\u00e1l es el resultado de aplicar a la fbf A = (\u22c0y)(H(y,z)^P(a) -> (Vx)R(y,x)) la sustituci\u00f3n {y/f(x),z/g(f(x)),x/z}:",
+            "respuestas": [
+                "(\u22c0y)(H(y,x)^P(a)-> (Vx)R(y,x))",
+                "(\u22c0y)((H(y,g(f(x))) ^P(a) -> (Vx)R(y,x))",
+                "(\u22c0y)((H(y,g(f(x))) ^P(a) -> (Vx)R(f(x),x))",
+                "(\u22c0y)((H(f(x),g(f(x))) ^P(a) -> (Vx)R(f(x),z))"
+            ],
+            "verdadera": "(\u22c0y)((H(f(x),g(f(x))) ^P(a) -> (Vx)R(f(x),z))"
+        },
+        {
+            "enunciado": "Sea A\u2261((\u00acp->q)->(p->\u00acq)) Se cumple que:",
+            "respuestas": [
+                "A es una contingencia.",
+                "A es una tautolog\u00eda.",
+                "A es una contradici\u00f3n.",
+                "Ninguna de las anteriores."
+            ],
+            "verdadera": "A es una contingencia."
+        },
+        {
+            "enunciado": "Indicar cu\u00e1l es el resultado de aplicar a la fbf A = (\u22c0y)(H(y,z) ^P(a) -> (Vx)R(y,x)) la sustituci\u00f3n {y/f(x),z/g(f(x)),x/z}",
+            "respuestas": [
+                "(\u22c0y)(H(y,x) ^ P(a) -> (Vx)R(y,x))",
+                "(\u22c0y)(H(y,g(f(x))) ^ P(a) -> (Vx)R(f(x),x))",
+                "(\u22c0y)(H(f(x),g(f(x))) ^ P(a) -> (Vx)R(f(x),z))",
+                "(\u22c0y)(H(y,g(f(x))) ^ P(a) -> (Vx)R(y,x))"
+            ],
+            "verdadera": "(\u22c0y)(H(f(x),g(f(x))) ^ P(a) -> (Vx)R(f(x),z))"
+        },
+        {
+            "enunciado": "En un sistema de deducci\u00f3n natural un teorema se puede probar a priori:",
+            "respuestas": [
+                "S\u00f3lo mediante deducci\u00f3n directa.",
+                "S\u00f3lo mediante deducci\u00f3n indirecta.",
+                "Mediante deducci\u00f3n directa o indirecta.",
+                "No se pueden probar."
+            ],
+            "verdadera": "Mediante deducci\u00f3n directa o indirecta."
+        },
+        {
+            "enunciado": "Un argumento es correcto si y solamente si:",
+            "respuestas": [
+                "Establece un pensamiento completo.",
+                "Sus premisas son verdaderas y su conclusi\u00f3n tambi\u00e9 es verdadera.",
+                "No es posible que sus premisas sean verdaderas y su conclusi\u00f3n falsa.",
+                "Sus premisas son verdaderas y su conclusi\u00f3n falsa."
+            ],
+            "verdadera": "No es posible que sus premisas sean verdaderas y su conclusi\u00f3n falsa."
+        },
+        {
+            "enunciado": "Dada una interpretaci\u00f3n I y una fbf A:",
+            "respuestas": [
+                "I ser\u00e1 modelo de la fbf A si y s\u00f3lo si existe una valoraci\u00f3n v en I que satisface A.",
+                "A ser\u00e1 l\u00f3gicamente verdadera si y s\u00f3lo si para toda interpretaci\u00f3n I, existe una valoraci\u00f3n v en I que satisface A.",
+                "A ser\u00e1 verdadera en I si y s\u00f3lo si existe una valoraci\u00f3n v en I que satisface A.",
+                "A ser\u00e1 falsa en I si y s\u00f3lo si no existe valoraci\u00f3n v en I que satisfaga A."
+            ],
+            "verdadera": "A ser\u00e1 falsa en I si y s\u00f3lo si no existe valoraci\u00f3n v en I que satisfaga A."
+        },
+        {
+            "enunciado": "Indicar cu\u00e1l de la siguientes afirmaciones es correcta:",
+            "respuestas": [
+                "Seg\u00fann la definici\u00f3n formal de deducci\u00f3n, en el sistema L, los teoremas ya probados solamente pueden emplearse como l\u00edneas al principio de una deducci\u00f3n formal.",
+                "El teorema de intercambio justifica la posibilidad de sustituir ciertas partes constituyentes de una f\u00f3rmula por otras f\u00f3rmulas(posiblemente m\u00e1s simples) que son l\u00f3gicamente equivalentes a las anteriores.",
+                "El rec\u00edproco del teorema de la deducci\u00f3n no se cumple en el sistema formal L.",
+                " Una demostraci\u00f3n es una secuencia finita de fbfs que cumplen la condici\u00f3n de ser: o bien axiomas de L o bien premisas o bien deducidas de fbfs anteriores por aplicaci\u00f3n de la regla de inferencia modus ponens."
+            ],
+            "verdadera": "El teorema de intercambio justifica la posibilidad de sustituir ciertas partes constituyentes de una f\u00f3rmula por otras f\u00f3rmulas(posiblemente m\u00e1s simples) que son l\u00f3gicamente equivalentes a las anteriores."
+        },
+        {
+            "enunciado": "Dada la interpretaci\u00f3n I = {Di,J} d\u00f3nde Di={1,2} y  J es la funci\u00f3n de interpretaci\u00f3n que asigna J(a) = 1, J(f)= f, J(P)= P y J(Q)= Q, siendo f(1) =2; f(2)=1; P(1)=F; P(2)=V; Q(1,1)=V; Q(1,2)=V; Q(2,1)=F; Q(2,2)=V; Indica cual de las siguientes f\u00f3rmulas es modelo I:",
+            "respuestas": [
+                "Vx(P(x) ^Q(x,a))",
+                "Vx(P(f(x)) ^Q(x,f(a)))",
+                "\u22c0xVy(P(x) ^ Q(x,y))",
+                "\u22c0x\u22c0y(P(x) -> Q(x,y))"
+            ],
+            "verdadera": "Vx(P(f(x)) ^Q(x,f(a)))"
+        },
+        {
+            "enunciado": "Sea \u04cf un conjunto de f\u00f3rmulas cerradas de un lenguaje de primer orden L Se dice que \u04cf es satisfacible si:",
+            "respuestas": [
+                "Cada interpretacion de L es modelo de \u04cf.",
+                "L tiene una intepretaci\u00f3n que es modelo de \u04cf.",
+                "Ninguna interpretaci\u00f3n de L es modelo de \u04cf.",
+                "L tiene una interpretaci\u00f3n que no es modelo de \u04cf."
+            ],
+            "verdadera": "L tiene una intepretaci\u00f3n que es modelo de \u04cf."
+        },
+        {
+            "enunciado": "Cu\u00e1l de las sguientes afirmaciones es falsa: ",
+            "respuestas": [
+                "Todos los casos particulares de los esqeumas de axioma de L son f\u00f3rmulas l\u00f3gicamente verdaderas.",
+                "Si A es una tautolog\u00eda de L entonces es teorema de L.",
+                "El ssitema L es consistente pero es indecidible en el caso gneral.",
+                "En general, en el sistema L, el teorema de la deducci\u00f3n se aplica sin restricciones."
+            ],
+            "verdadera": "El ssitema L es consistente pero es indecidible en el caso gneral."
+        },
+        {
+            "enunciado": "Cu\u00e1l de las siguientes afirmaciones es cierta:",
+            "respuestas": [
+                "A es l\u00f3gicamente v\u00e1lida si y s\u00f3lo si para toda valroaci\u00f3n v, en una interpretaci\u00f3n I, v satisface A.",
+                "Siendo T un conjunto de fbf's cerradas de L, A es consecuencia l\u00f3gica de T si y s\u00f3lo si apra toda interpretaci\u00f3n I de L, si I es modelo de T entonces I es modelo de A.",
+                "Dada una fbf A de L, A es satisfacible si y s\u00f3lo si existe una interpretaci\u00f3n I tal que, A es verdadera en I.",
+                "Siendo T un conjunto de fbf's de L, T es insatisfacible si y s\u00f3lo si para toda interpretaci\u00f3n I existe una valoraci\u00f3n que no satisface ninguna de las fbf's del conjunto T."
+            ],
+            "verdadera": "Siendo T un conjunto de fbf's cerradas de L, A es consecuencia l\u00f3gica de T si y s\u00f3lo si apra toda interpretaci\u00f3n I de L, si I es modelo de T entonces I es modelo de A."
+        },
+        {
+            "enunciado": "Para probar la correci\u00f3n de un sistema formal en la l\u00f3gica de predicados, se debe probar que:",
+            "respuestas": [
+                "Todo teorema del sistema es una tautolog\u00eda.",
+                "Todo teorema del sistema es uan f\u00f3rmula l\u00f3gicamente verdadera.",
+                "Todo teorema del sistema es una f\u00f3rmula bien formada verdadera.",
+                "Toda f\u00f3rmula l\u00f3gicamente verdadera esun teorema del sistema.antificadores."
+            ],
+            "verdadera": "Todo teorema del sistema es uan f\u00f3rmula l\u00f3gicamente verdadera."
+        },
+        {
+            "enunciado": "Cu\u00e1l de las siguientes definiciones es falsa:",
+            "respuestas": [
+                "A es l\u00f3gicamente v\u00e1lida si y s\u00f3lo si para toda intepretaci\u00f3n I, A es verdadera en I.",
+                "Siendo T un conjunto de fbf's cerradas de L, A es consecuencia l\u00f3gica de T si y s\u00f3lo si para toda interpretaci\u00f3n I de L, si I es modelo de T entonces I es modelo de A.",
+                "A es insatisfacible si y s\u00f3lo si existe una intepretaci\u00f3n I para la cual A es falsa en I.",
+                "Siendo T un conjunto de fbf's cerradas de L, T es v\u00e1lido si y s\u00f3lo si para toda interpretaci\u00f3n I es modelo T."
+            ],
+            "verdadera": "Siendo T un conjunto de fbf's cerradas de L, A es consecuencia l\u00f3gica de T si y s\u00f3lo si para toda interpretaci\u00f3n I de L, si I es modelo de T entonces I es modelo de A."
+        },
+        {
+            "enunciado": "Dada la interpretaci\u00f3n I={Di,J} donde Di=N y J es la funci\u00f3n de interpetaci\u00f3no que asigna J(a)=2; J(f)=suc, la funci\u00f3n sucesor en el dominio de los anturales, definida como suc(n)=n+1; J(g)=+;J(h)=x;J(P)=Par, donde Par(n)=V si n es par, F en otro caso; y J(R)= =, donde = es la relaci\u00f3n identidadIndicar para cu\u00e1l de las siguientes f\u00f3rmulas es modelo I:",
+            "respuestas": [
+                "(\u22c0x)R(a,f(x))",
+                "(\u22c0x)(\u22c0y)R(g(x,y),h(y,x))",
+                "(\u22c0x)(\u22c0y)R(g(f(x),y),f(g(x,y)))",
+                "(\u22c0x)(P(x) -> P(f(x))"
+            ],
+            "verdadera": "(\u22c0x)(\u22c0y)R(g(f(x),y),f(g(x,y)))"
+        },
+        {
+            "enunciado": "Una sustituci\u00f3n es:",
+            "respuestas": [
+                "Una fbf que puede colocarse en lugar de un t\u00e9rmino cualquiera.",
+                "Una aplicaci\u00f3n que asigna a cada variable, un t\u00e9rmino.",
+                "Una aplicaci\u00f3n que asigna a cada t\u00e9rmino, una variable.",
+                "Una aplicaci\u00f3n que asignaa cada variable, un elemento del universo de discurso."
+            ],
+            "verdadera": "Una aplicaci\u00f3n que asigna a cada variable, un t\u00e9rmino."
+        },
+        {
+            "enunciado": "Respecto al sistema de deducci\u00f3n natural del c\u00e1lculo de predicados, cu\u00e1l de las siguientes afiramciones es falsa:",
+            "respuestas": [
+                "contiene dos pares de reglas b\u00e1sicas para tratar los s\u00edmbolos propios de al l\u00f3gica de predicados.",
+                "contiene reglas de introducci\u00f3n de los cuantificadores.",
+                "contiene reglas de eliminaci\u00f3n de los cuantificadores.",
+                "contiene axiomas para las conectivas y tambi\u00e9 para los cu"
+            ],
+            "verdadera": "contiene axiomas para las conectivas y tambi\u00e9 para los cu"
+        },
+        {
+            "enunciado": "Existen muchos posibles lenguajes de prmer orden diferentes y esto depende: ",
+            "respuestas": [
+                "de los s\u00edmbolos peculiares, los cuantificadores y los functores y relatores que se definan.",
+                "de los s\u00edmbolos peculiares, los cuantificadores y las conectivas qeu se definan.",
+                "de los cuantificadores y los s\u00edmbolos peculiares qeu se definan.",
+                "solamente de los s\u00edmbolos peculiares que se definan."
+            ],
+            "verdadera": "solamente de los s\u00edmbolos peculiares que se definan."
+        },
+        {
+            "enunciado": "Se\u00c3\u00b1ale cu\u00e1l de las siguientes afirmaciones es falsa:",
+            "respuestas": [
+                "Una fbf A es insatisfacible si y solo si, existe una valoraci\u00f3n \u00cf\u2020 en una interpretaci\u00f3n I, tal que \u00cf\u2020 no satisface A.",
+                "La fbf A es l\u00f3gicamente equivalente a la fbf B, si y solo si, ocurre que la fbf ArightleftarrowB es logicamente v\u00e1lida.",
+                "Una fbf A es l\u00f3gicamente v\u00f3lida si y s\u00f3lo si para toda interpretaci\u00f3n I, resulta qeu A es verdadera en I.",
+                "Si A y B son fbfs y tanto A como A->B son l\u00f3gicamente v\u00e1lidas, entonces B es l\u00f3gicamente v\u00e1lida."
+            ],
+            "verdadera": "Una fbf A es insatisfacible si y solo si, existe una valoraci\u00f3n \u00cf\u2020 en una interpretaci\u00f3n I, tal que \u00cf\u2020 no satisface A."
+        },
+        {
+            "enunciado": "La l\u00f3gica puede presentarse a dos niveles de formalizaci\u00f3n:",
+            "respuestas": [
+                "sint\u00e1ctica o sem\u00e1ntica",
+                "proposicional o predicados",
+                "inductiva o deductiva",
+                "deducci\u00f3n natural o axiom\u00e1tica."
+            ],
+            "verdadera": "proposicional o predicados"
+        },
+        {
+            "enunciado": "En el contexto de la l\u00f3gica proposicional, el enunciado \"No aprobar\u00e9 la asignatura de L\u00f3gica a menos que estudie\" se podr\u00eda formalizar c\u00f3mo:",
+            "respuestas": [
+                "r<->s",
+                "r->s",
+                "s->r",
+                "Todas las anteriores"
+            ],
+            "verdadera": "r->s"
+        },
+        {
+            "enunciado": "La disyunci\u00f3n exclusiva e dos formas enunciativas p y q es verdadera:",
+            "respuestas": [
+                "Si p y q son verdaderas.",
+                "Si el valor de verdad de p y q es distinto.",
+                "Si p y q son falsas.",
+                "Si p o q son falsas."
+            ],
+            "verdadera": "Si el valor de verdad de p y q es distinto."
+        },
+        {
+            "enunciado": "El sistema formal L de la l\u00f3gica de enunciados es decidibleEsto significa que:",
+            "respuestas": [
+                "Toda tautolog\u00eda es un teorema en L.",
+                "No es posible deducir en \u00e9l A y \u00acA, siendo A cualquier forma enunciativa.",
+                "Es posible saber si una forma enunciativa A es un teorema.",
+                "Todas las fbfs que son teoremas en L tambi\u00e9 son tautolog\u00edas."
+            ],
+            "verdadera": "Todas las fbfs que son teoremas en L tambi\u00e9 son tautolog\u00edas."
+        },
+        {
+            "enunciado": "Determinar cu\u00e1l de las siguientes afirmaciones,relativas a las formas enunciativas A y B, es falsa:",
+            "respuestas": [
+                "son demostrablemente equivalentes si y s\u00f3lo si son l\u00f3gicamente equivalentes.",
+                "son demostrablemente equivalentes si y s\u00f3lo si |-L A <->B.",
+                "son demostrablemente equivalentes si y s\u00f3lo si |-L A ->B y |-L B->A.",
+                "son l\u00f3gicamente equivalentes si y s\u00f3lo si para toda valoraci\u00f3n v, v(A) = V siempre que v(B)=V."
+            ],
+            "verdadera": "son demostrablemente equivalentes si y s\u00f3lo si |-L A <->B."
+        },
+        {
+            "enunciado": "En la l\u00f3gica de proposicione, una atribuci\u00f3n veritativa es:",
+            "respuestas": [
+                "Una aplicaci\u00f3n alpha: {p1,p2,...pn} -> {V,F}, donde {p1,p2,...,pn} es el conjunto de las variables enunciativas de una forma enunciativa A.",
+                "Una funci\u00f3n v cuyo dominio es el conjunto de las formas enunciativas y cuyo rango es el conjunto de los valores de verdad {V,F}.",
+                "Una definici\u00f3n inductiva que caracteriza el concepto de verdad en la l\u00f3gica de proposiciones.",
+                "Ninguna de las anteriores."
+            ],
+            "verdadera": "Una aplicaci\u00f3n alpha: {p1,p2,...pn} -> {V,F}, donde {p1,p2,...,pn} es el conjunto de las variables enunciativas de una forma enunciativa A."
+        },
+        {
+            "enunciado": " Indicar cu\u00e1l de las siguientes expresiones de L no es una fbf cerrada:",
+            "respuestas": [
+                "(Vx)P^2(x,a) ^ (Vy)\u00acp^2 (x,y)",
+                "(Vx)(R^2(x,fo^2(x,b))",
+                "P^2(a,g(n))",
+                "(Vx)(\u22c0y)(P^2(x,h(c)) -> Q(y))"
+            ],
+            "verdadera": "(Vx)P^2(x,a) ^ (Vy)\u00acp^2 (x,y)"
+        },
+        {
+            "enunciado": "Un sistema formal para la l\u00f3gica de predicados define:",
+            "respuestas": [
+                "Un dominio y una asignaci\u00f3n de 'significado' a todos los s\u00edmbolos del formalismo.",
+                "Una sint\u00e1xis, con un vocabulario y reglas precisas para la construcci\u00f3n de expresiones bien formadas, y un c\u00e1lculo deductivo.",
+                "Un conjunto de f\u00f3rmulas l\u00f3gicamente v\u00e1lidas y un conjunto de axiomas.",
+                "Un dominio de apilcaci\u00f3n con el que realizar deducciones. "
+            ],
+            "verdadera": "Una sint\u00e1xis, con un vocabulario y reglas precisas para la construcci\u00f3n de expresiones bien formadas, y un c\u00e1lculo deductivo."
+        },
+        {
+            "enunciado": "Dada una f\u00f3rmula cerrada A, indicar cu\u00e1l de las siguientes afiramciones es falsa:",
+            "respuestas": [
+                "A es insatisfacible si A es una contradicci\u00f3n. ",
+                "A es v\u00e1lida si \u00acA es insatisfacible.",
+                "A es una consecuencia l\u00f3gica de un conjunto de fbfs{A1,...An} si \u00acA es insatisfacible",
+                "A es una consecuencia l\u00f3gica de un conjunto de fbfs{A1...An} si {\u00ac(A1^....\u00c3\u201an)v A} es v\u00e1lida."
+            ],
+            "verdadera": "A es una consecuencia l\u00f3gica de un conjunto de fbfs{A1...An} si {\u00ac(A1^....\u00c3\u201an)v A} es v\u00e1lida."
+        },
+        {
+            "enunciado": "Dada una interpretaci\u00f3n I y una fbf cerrada A, ind\u00edquese cu\u00e1l de las siguientes afirmaciones es falsa:",
+            "respuestas": [
+                "I ser\u00e1 modelo de la fbf A si y solo si para toda valoraci\u00f3n v en I, v satisface A.",
+                "A ser\u00e1 falsa en I si y s\u00f3lo si no existe valoraci\u00f3n v en I que satisface A.",
+                "A ser\u00e1 verdadera en I si y s\u00f3lo si existe una valoraci\u00f3n v en I que satisface A.",
+                "A ser\u00e1 satisfacible en I si y s\u00f3lo si existe una valoraci\u00f3n v en I que satisface A. "
+            ],
+            "verdadera": "A ser\u00e1 verdadera en I si y s\u00f3lo si existe una valoraci\u00f3n v en I que satisface A."
+        },
+        {
+            "enunciado": "Dada la interpretaci\u00f3n I = {Di,J}, donde Di={1,2} y J es la funci\u00f3n de interpretaci\u00f3n que asigna: J(a)=1,J(f)= f, J(P)=P y J(Q)=Q Siendo: f(1)=2; f(2)=1;P(1)=F;P(2)=V;Q(1,1)=V;Q(2,1)=F;Q(2,2)=V",
+            "respuestas": [
+                "La valoraci\u00f3n v en I, tal que v(x)=1 satisface la fbf Q(a,f(x))",
+                "La valoraci\u00f3n v en I, tal que v(x)=1 satisface la fbf(Vx)P(f(x))",
+                "I es modelo de la fbf(Vy)(\u22c0x)\u00acQ(y,f(x))",
+                "I es modelo d la fbf(\u22c0x)(P(x)->Q(f(x),a))"
+            ],
+            "verdadera": "La valoraci\u00f3n v en I, tal que v(x)=1 satisface la fbf(Vx)P(f(x))"
+        }
+    ]
+}

@@ -15,6 +15,10 @@
         {
             "nombre_categoria": "API - Parcial 3",
             "numero_preguntas": 34
+        },
+        {
+            "nombre_categoria": "Logica",
+            "numero_preguntas": 56
         }
     ],
     "database_id": "9f32f06dae8b0c097227",

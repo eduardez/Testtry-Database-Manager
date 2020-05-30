@@ -6,3 +6,5 @@ Presentacion/__pycache__/
 Presentacion/borrar.py
 
 Utils/__pycache__/
+
+*.pyc
