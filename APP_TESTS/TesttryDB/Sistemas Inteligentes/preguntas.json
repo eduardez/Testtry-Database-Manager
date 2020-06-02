@@ -141,7 +141,7 @@
             "verdadera": " MVR es por lo general una guia poderosa a la hora de elegir la siguiente variable, pero el Grado Heur\u00edstico puede ser \u00fatil como desempate en caso de que las variables tengan el mismo n\u00famero de valores tengan el mismo n\u00famero de valores legales."
         },
         {
-            "enunciado": " \u00BFQu\u00e9 diferencia existe entre un plan de orden parcial y otro de orden total?",
+            "enunciado": " \u00bfQu\u00e9 diferencia existe entre un plan de orden parcial y otro de orden total?",
             "respuestas": [
                 " En un plan de orden total, los planes est\u00e1n formados por varias listas de pasos.",
                 " Un plan de orden parcial se diferencia del plan de orden total en el que en lugar de especificar planes con acciones totalmente ordenadas de forma lineal, se especifican planes con acciones parcialmente ordenadas.",
@@ -171,7 +171,7 @@
             "verdadera": " La heur\u00edstica 'm\u00ednimo grado restante' (grado heur\u00edstico) selecciona la variable (de las no asignadas) que est\u00e9 implicada en el mayor n\u00famero de restricciones."
         },
         {
-            "enunciado": " \u00BFCu\u00e1l de las siguientes afirmaciones relacionadas con PSR y tipos de b\u00fasquedas es falsa?",
+            "enunciado": " \u00bfCu\u00e1l de las siguientes afirmaciones relacionadas con PSR y tipos de b\u00fasquedas es falsa?",
             "respuestas": [
                 " La b\u00fasqueda con vuelta atr\u00e1s es un tipo de b\u00fasqueda primero en profundidad.",
                 " En los problemas de satisfacci\u00f3n de restricciones (PSRs) se puede representar su estructura mediante un grafo de restricciones.",
@@ -180,8 +180,8 @@
             ],
             "verdadera": " Las heur\u00edsticas de m\u00ednimos valores restantes y m\u00ednimo grado restante no son mecanismos independientes del dominio a la hora de decidir qu\u00e9 variable elegir en una b\u00fasqueda con vuelta atr\u00e1s."
         },
-         {
-            "enunciado": " Nos encontramos en un nodo MIN con alpha = 3, beta = 1000, v = 1000, y los sucesores 2, 4,6 (el orden en el cual se exponen anteriormente no tiene por qu\u00e9 equivaler al orden de exploraci\u00f3n), \u00BFCu\u00e1l de las siguientes afirmaci\u00f3n es cierta?",
+        {
+            "enunciado": " Nos encontramos en un nodo MIN con alpha = 3, beta = 1000, v = 1000, y los sucesores 2, 4,6 (el orden en el cual se exponen anteriormente no tiene por qu\u00e9 equivaler al orden de exploraci\u00f3n), \u00bfCu\u00e1l de las siguientes afirmaci\u00f3n es cierta?",
             "respuestas": [
                 " EL orden de exploraci\u00f3n no es conocido con los datos proporcionados, pero lo \u00f3ptimo para esta situaci\u00f3n ser\u00eda 2, 4, 6.",
                 " El orden de exploraci\u00f3n ser\u00e1 2, 4, 6.",
@@ -201,7 +201,7 @@
             "verdadera": " Proporciona un m\u00e9todo r\u00e1pido de propagaci\u00f3n de restricciones considerablemente m\u00e1s potente que la comprobaci\u00f3n hacia delante."
         },
         {
-            "enunciado": "\u00BFQu\u00e9 entendemos por 'soluci\u00f3n' en un problema de satisfacci\u00f3n de restricciones (PSR)?",
+            "enunciado": "\u00bfQu\u00e9 entendemos por 'soluci\u00f3n' en un problema de satisfacci\u00f3n de restricciones (PSR)?",
             "respuestas": [
                 " Una asignaci\u00f3n completa.",
                 " La defici\u00f3n de un dominio D no vac\u00edo de valores posibles.",
@@ -211,7 +211,7 @@
             "verdadera": " Una asignaci\u00f3n completa."
         },
         {
-            "enunciado": " En el dominio de los PSR, \u00BFQu\u00e9 entendemos por una asignaci\u00f3n consistente?",
+            "enunciado": " En el dominio de los PSR, \u00bfQu\u00e9 entendemos por una asignaci\u00f3n consistente?",
             "respuestas": [
                 " Una asignaci\u00f3n que no viola ninguna restricci\u00f3n.",
                 " Una asignaci\u00f3n de valores a un conjunto m\u00ednimo de variables.",
@@ -223,25 +223,15 @@
         {
             "enunciado": " Nos proponemos ense\u00c3\u00b1ar a nuestro robot a conducir, para ello en primer lugar le ense\u00c3\u00b1amos a cmabiar de marcha Contando con que el coche est\u00e1 arrancado y el robot est\u00e1 sentado como conductor, seleccione la opci\u00f3n correcta que corresponda con un enlace causar correcto:",
             "respuestas": [
-                " Embrague -EmbraguePisado-\u00BF Marcha",
+                " Embrague -EmbraguePisado-\u00bf Marcha",
                 " PisarEmbrague.",
-                " PisarEmbrague -MeterMarcha-\u00BF MarchaMetida",
+                " PisarEmbrague -MeterMarcha-\u00bf MarchaMetida",
                 " Ninguna de las anteriores."
             ],
-            "verdadera": " Embrague -EmbraguePisado-\u00BF Marcha"
+            "verdadera": " Embrague -EmbraguePisado-\u00bf Marcha"
         },
         {
-            "enunciado": " Una condici\u00f3n abierta",
-            "respuestas": [
-                " Es aquella que establece enlaces de etapas anteriores con precondiciones de etapas temporales posteriores.",
-                " Finaliza un plan.",
-                " Es una precondici\u00f3n de una etapa que no est\u00e1 liga a a ning\u00fan enlace causal.",
-                " Determina si un plan est\u00e1 completo."
-            ],
-            "verdadera": " Es una precondici\u00f3n de una etapa que no est\u00e1 liga a a ning\u00fan enlace causal."
-        },
-        {
-            "enunciado": " \u00BFEn qu\u00e9 partes se divide un esquema de acci\u00f3n?",
+            "enunciado": " \u00bfEn qu\u00e9 partes se divide un esquema de acci\u00f3n?",
             "respuestas": [
                 " acci\u00f3n, efectoy nombre.",
                 " precondici\u00f3n, efecto y par\u00e1metros.",
@@ -279,7 +269,8 @@
                 " La estrategia de elegir la variable con menor n\u00famero de restricciones."
             ],
             "verdadera": " La estrategia de elegir la variable con menor n\u00famero de valores legales."
-        },  {
+        },
+        {
             "enunciado": " Sea una poblaci\u00f3n de palabras ['trarsWas', 'trsSaaWr', 'WaratsrS', 'Warts'] y una funci\u00f3n objetivo (fitness) que eval\u00faa el n\u00famero de letras colocadas en su posici\u00f3n correcta con respecto a la palabra StarWars \u00bfQu\u00e9 palabra ser\u00eda seleccionada, seg\u00fan el m\u00e9todo de la ruleta, para un valor aleatorio de 0635?",
             "respuestas": [
                 " trsSaaWr",
@@ -378,384 +369,16 @@
                 " rtarsWSa"
             ],
             "verdadera": " WtrrasaS"
-        },{
-            "enunciado": " A la t\u00e9cnica de b\u00fasqueda de ascensi\u00f3n de colinas se le suele llamar:",
-            "respuestas": [
-                " B\u00fasqueda local voraz.",
-                " B\u00fasqueda de m\u00e1ximos.",
-                " B\u00fasqueda de m\u00ednimos.",
-                " B\u00fasqueda por haz."
-            ],
-            "verdadera": " B\u00fasqueda local voraz."
-        },
-        {
-            "enunciado": " Un problema de satisfacci\u00f3n de restricciones viene definido por:",
-            "respuestas": [
-                " Un conjunto de dominios de variables y restricciones de relaciones entre ellas.",
-                " Un conjunto de valores v\u00e1lidos y relaciones entre ellos.",
-                " Un conjunto de restricciones de posibles variables para la soluci\u00f3n del problema.",
-                " Un conjunto de variables y un conjunto de restricciones de valores v\u00e1lidos de dichas variables."
-            ],
-            "verdadera": " Un conjunto de variables y un conjunto de restricciones de valores v\u00e1lidos de dichas variables."
-        },
-        {
-            "enunciado": "En \u00e1rbol mini-max la complejidad temporal es equivalente al de una b\u00fasqueda",
-            "respuestas": [
-                " A la profundidad de la cota",
-                " Intermedia entre la profundidad de la cota y la de anchura acotada.",
-                " La cota factorial.",
-                " Anchura de profundidad acotada."
-            ],
-            "verdadera": " Anchura de profundidad acotada."
-        },
-        {
-            "enunciado": " en un algoritmo gen\u00e9tico las etapas que se han de realizar para la obtenci\u00f3n de una nueva generaci\u00f3n son las siguientes y se han de realizar en el orden establecido:",
-            "respuestas": [
-                " Cruce y Selecci\u00f3n.",
-                " Selecci\u00f3n y cruce.",
-                " Elegir al mejor, duplicaci\u00f3n y mutaci\u00f3n.",
-                " Selecci\u00f3n, cruce y mutaci\u00f3n."
-            ],
-            "verdadera": " Selecci\u00f3n, cruce y mutaci\u00f3n."
-        },
-        {
-            "enunciado": " Se denomina heur\u00edstica de m\u00ednimos valores restantes (MVR) a",
-            "respuestas": [
-                " La estrategia de elegir a la variable con mayor n\u00famero de restricciones.",
-                " La heur\u00edstica de elegir la variable con menos n\u00famero de valores posibles.",
-                " La heur\u00edstica de elegir la variable de menor compromiso.",
-                " La estrategia de elegir la variable con menor n\u00famero de valores legales."
-            ],
-            "verdadera": " La estrategia de elegir la variable con menor n\u00famero de valores legales."
-        },
-        {
-            "enunciado": "La idea del arco consistente proporciona un mecanismo r\u00e1pido para",
-            "respuestas": [
-                " La resoluci\u00f3n de problemas de PSR.",
-                " La b\u00fasqueda en profundidad en PSR.",
-                " Satisfacer precondiciones abiertas.",
-                " La propagaci\u00f3n de restricciones."
-            ],
-            "verdadera": " La propagaci\u00f3n de restricciones."
-        },
-        {
-            "enunciado": " Para minimizar el costo en el temple simulado (annealing) la soluci\u00f3n local es intercambiada por una vecina si:",
-            "respuestas": [
-                " Cuando T es cercana a 0.",
-                " Incremento de coste es positivo.",
-                " Si un valor de e^(-Variaci\u00f3n E/T) es mayor que un valor aleatorio uniforme U.",
-                " Si el valor de e^(-Variaci\u00f3n E/T) es menor que un valor aleatorio uniforme U."
-            ],
-            "verdadera": " Si un valor de e^(-Variaci\u00f3n E/T) es mayor que un valor aleatorio uniforme U."
-        },
-        {
-            "enunciado": " La probabilidad de intercambiar una soluci\u00f3n por otra peor en el enfriamiento simulado",
-            "respuestas": [
-                " Aumenta conforme avanza el algoritmo.",
-                " Aumenta proporcional al empeoramiento.",
-                " Disminuye con la precisi\u00f3n de T.",
-                " Disminuye conforme pasa el tiempo y empeora la soluci\u00f3n alternativa."
-            ],
-            "verdadera": " Disminuye conforme pasa el tiempo y empeora la soluci\u00f3n alternativa."
-        },
-        {
-            "enunciado": " Definimos un plan consistente como:",
-            "respuestas": [
-                " Un plan en el cual no hay ciclos en las restricciones ordenadas.",
-                " Un plan en el cual no hay ciclos en las restricciones ordenadas y no existen conflictos con los enlaces causales.",
-                " Un plan en el que se ha mencionado cada variable y adem\u00e1s cumple con todas las restricciones (el equivalente de soluci\u00f3n para el tema de planificaci\u00f3n).",
-                " U plan en el que se ha mencionado cada variable (el equivalente de asignaci\u00f3n completa para el tema de planificaci\u00f3n)."
-            ],
-            "verdadera": " Un plan en el cual no hay ciclos en las restricciones ordenadas."
-        },
-        {
-            "enunciado": " La idea del arco consistente proporciona un mecanismo r\u00e1pido para:",
-            "respuestas": [
-                " El manejo de restricciones especiales.",
-                " La propagaci\u00f3n de restricciones.",
-                " La b\u00fasqueda con vuelta atr\u00e1s para PSR.",
-                " La comprobaci\u00f3n hacia adelante."
-            ],
-            "verdadera": " La propagaci\u00f3n de restricciones."
-        },
-        {
-            "enunciado": " Una condici\u00f3n abierta",
-            "respuestas": [
-                " Es una precondici\u00f3n de una etapa que no est\u00e1 ligada a ning\u00fan enlace casual.",
-                " Es aquella que establece enlaces de etapas anteriores con precondiciones de etapas temporales posteriores.",
-                " Finaliza un plan.",
-                " Determina si un plan est\u00e1 completo."
-            ],
-            "verdadera": " Es una precondici\u00f3n de una etapa que no est\u00e1 ligada a ning\u00fan enlace casual."
-        },
-        {
-            "enunciado": " Marque la opci\u00f3n FALSA con respecto al algoritmo minimax (jugadores MAX y MIN) y la t\u00e9cnica de poda alfa-beta:",
-            "respuestas": [
-                " beta es el valor de la mejor opci\u00f3n (valor m\u00e1s bajo) hasta el momento a lo largo del camino para MIN.",
-                " La poda alfa-beta es una t\u00e9cnica de b\u00fasqueda que reduce el n\u00famero de nodos evaluados en un \u00e1rbol de juego por el algoritmo minimax.",
-                " La t\u00e9cnica de poda alfa-beta, al podar ramas del \u00e1rbol de juego, hace que var\u00ede la decisi\u00f3n final tomada.",
-                " Alfa es el valor de la mejor opci\u00f3n (valor m\u00e1s alto) hasta el momento a lo largo del camino para MAX."
-            ],
-            "verdadera": " La t\u00e9cnica de poda alfa-beta, al podar ramas del \u00e1rbol de juego, hace que var\u00ede la decisi\u00f3n final tomada."
-        },
-        {
-            "enunciado": " Si la profundidad m\u00e1xima del \u00e1rbol 'm' y hay 'b' movimientos legales, la complejidad temporal de un algoritmo MINIMAX es:",
-            "respuestas": [
-                " O(b^m)",
-                " O(bm).",
-                " O(n)",
-                " Ninguna de las anteriores."
-            ],
-            "verdadera": " O(b^m)"
-        },
-        {
-            "enunciado": " De las heur\u00edsticas estudiadas en el tema, que nos ayudan a mejorar la eficiencia del Backtracking (M\u00ednimos Valores Restantes, GRado Heur\u00edstico y Valor M\u00e1s Restringido), marca la opci\u00f3n verdadera",
-            "respuestas": [
-                " MVR es por lo general una guia poderosa a la hora de elegir la siguiente variable, pero el Grado Heur\u00edstico puede ser \u00fatil como desempate en caso de que las variables tengan el mismo n\u00famero de valores tengan el mismo n\u00famero de valores legales.",
-                " VMR nos ayuda en la elecci\u00f3n de variable, puesto que su funcionamiento se basa en elegir la variable m\u00e1s restringida, es decir, con menos valores legales posibles para asignar.",
-                " Grado Heur\u00edstico nos ayuda a decidir el orden para examinar los valores que asignar a una variable una vez elegida.",
-                " MVR siempre nos ayuda en la elecci\u00f3n de variable, puesto que su funcionamiento se basa en elegir la variable m\u00e1s restringida, es decir, con menos valores legales posibles para asignar"
-            ],
-            "verdadera": " MVR es por lo general una guia poderosa a la hora de elegir la siguiente variable, pero el Grado Heur\u00edstico puede ser \u00fatil como desempate en caso de que las variables tengan el mismo n\u00famero de valores tengan el mismo n\u00famero de valores legales."
-        },
-        {
-            "enunciado": " \u00BFQu\u00e9 diferencia existe entre un plan de orden parcial y otro de orden total?",
-            "respuestas": [
-                " En un plan de orden total, los planes est\u00e1n formados por varias listas de pasos.",
-                " Un plan de orden parcial se diferencia del plan de orden total en el que en lugar de especificar planes con acciones totalmente ordenadas de forma lineal, se especifican planes con acciones parcialmente ordenadas.",
-                " Un plan totalmente ordenado es como un conjunto de planes parcialmente ordenadas.",
-                " Un plan de orden parcial considera de forma simult\u00e1nea dos planes totalmente ordenados."
-            ],
-            "verdadera": " Un plan de orden parcial se diferencia del plan de orden total en el que en lugar de especificar planes con acciones totalmente ordenadas de forma lineal, se especifican planes con acciones parcialmente ordenadas."
-        },
-        {
-            "enunciado": " Sobre el algoritmo MINIMAX marcar la opci\u00f3n verdadera:",
-            "respuestas": [
-                " El algoritmo MINIMAX realiza un b\u00fasqueda primero en profundidad completa del \u00e1rbol de juegos.",
-                " Si la profundiad m\u00e1ximas del \u00e1rbol es m, y hay b movimientos legales en cada punto, entonces la complejidad en espacio del algoritmo MINIMAX es O(b^m).",
-                " Si la profunndidad m\u00e1xima del \u00e1rbol es m, y hay b movimientos legales en cada punto, entonces la complejidad en tiempo del algoritmo MINIMAX es O(b*m)",
-                " El algoritmo MINIMAX realiza una b\u00fasqueda primero en anchura completa del \u00e1rbol de juego."
-            ],
-            "verdadera": " El algoritmo MINIMAX realiza un b\u00fasqueda primero en profundidad completa del \u00e1rbol de juegos."
-        },
-        {
-            "enunciado": " Seleccione la opci\u00f3n verdadera:",
-            "respuestas": [
-                " La heur\u00edstica MVR (M\u00ednimos valores restantes') selecciona la variable (de las no asignadas) que menor probabilidad de fallar pronto tenga.",
-                " La heur\u00edstica 'valor menos restringido' escoge la variable (de las o asignadas) que con mayor probabilidad causar\u00e1 pronto un fallo.",
-                " La heur\u00edstica 'm\u00ednimo grado restante' (grado heur\u00edstico) selecciona la variable (de las no asignadas) que est\u00e9 implicada en el mayor n\u00famero de restricciones.",
-                " En un PSR, una soluci\u00f3n tiene que satisfacer todas las restricciones, pero no hace falta que sea completa."
-            ],
-            "verdadera": " La heur\u00edstica 'm\u00ednimo grado restante' (grado heur\u00edstico) selecciona la variable (de las no asignadas) que est\u00e9 implicada en el mayor n\u00famero de restricciones."
-        },
-        {
-            "enunciado": " \u00BFCu\u00e1l de las siguientes afirmaciones relacionadas con PSR y tipos de b\u00fasquedas es falsa?",
-            "respuestas": [
-                " La b\u00fasqueda con vuelta atr\u00e1s es un tipo de b\u00fasqueda primero en profundidad.",
-                " En los problemas de satisfacci\u00f3n de restricciones (PSRs) se puede representar su estructura mediante un grafo de restricciones.",
-                " Las heur\u00edsticas de m\u00ednimos valores restantes y m\u00ednimo grado restante no son mecanismos independientes del dominio a la hora de decidir qu\u00e9 variable elegir en una b\u00fasqueda con vuelta atr\u00e1s.",
-                " La comprobaci\u00f3n hacia delante es el m\u00e9todo m\u00e1s simple para reducir en gran medida el factor ramificaci\u00f3n."
-            ],
-            "verdadera": " Las heur\u00edsticas de m\u00ednimos valores restantes y m\u00ednimo grado restante no son mecanismos independientes del dominio a la hora de decidir qu\u00e9 variable elegir en una b\u00fasqueda con vuelta atr\u00e1s."
-        },
-         {
-            "enunciado": " Nos encontramos en un nodo MIN con alpha = 3, beta = 1000, v = 1000, y los sucesores 2, 4,6 (el orden en el cual se exponen anteriormente no tiene por qu\u00e9 equivaler al orden de exploraci\u00f3n), \u00BFCu\u00e1l de las siguientes afirmaci\u00f3n es cierta?",
-            "respuestas": [
-                " EL orden de exploraci\u00f3n no es conocido con los datos proporcionados, pero lo \u00f3ptimo para esta situaci\u00f3n ser\u00eda 2, 4, 6.",
-                " El orden de exploraci\u00f3n ser\u00e1 2, 4, 6.",
-                " El orden no implica ninguna mejora en la eficiencia.",
-                " El orden de exploraci\u00f3n ser\u00e1 6, 4, 2."
-            ],
-            "verdadera": " EL orden de exploraci\u00f3n no es conocido con los datos proporcionados, pero lo \u00f3ptimo para esta situaci\u00f3n ser\u00eda 2, 4, 6."
-        },
-        {
-            "enunciado": " Un arco consistente",
-            "respuestas": [
-                " Se caracteriza porque el arco inverso tambi\u00e9n es consistente.",
-                " Es un arco no dirigido.",
-                " Proporciona un m\u00e9todo r\u00e1pido de propagaci\u00f3n de restricciones considerablemente m\u00e1s potente que la comprobaci\u00f3n hacia delante.",
-                " proporciona un m\u00e9todo r\u00e1pido de propagaci\u00f3n de restricciones considerablemente menos eficaz que la comprobaci\u00f3n hacia delante."
-            ],
-            "verdadera": " Proporciona un m\u00e9todo r\u00e1pido de propagaci\u00f3n de restricciones considerablemente m\u00e1s potente que la comprobaci\u00f3n hacia delante."
-        },
-        {
-            "enunciado": "\u00BFQu\u00e9 entendemos por 'soluci\u00f3n' en un problema de satisfacci\u00f3n de restricciones (PSR)?",
-            "respuestas": [
-                " Una asignaci\u00f3n completa.",
-                " La defici\u00f3n de un dominio D no vac\u00edo de valores posibles.",
-                " Camino que lleva a la asignaci\u00f3n de un nodo del problema.",
-                " Un nodo asignado correctamente que permite llegar a la asignaci\u00f3n completa de todos los nodos restantes."
-            ],
-            "verdadera": " Una asignaci\u00f3n completa."
-        },
-        {
-            "enunciado": " En el dominio de los PSR, \u00BFQu\u00e9 entendemos por una asignaci\u00f3n consistente?",
-            "respuestas": [
-                " Una asignaci\u00f3n que no viola ninguna restricci\u00f3n.",
-                " Una asignaci\u00f3n de valores a un conjunto m\u00ednimo de variables.",
-                " Una asignaci\u00f3n que satisface todas las restricciones.",
-                " Una asignaci\u00f3n de valores a todas las variables."
-            ],
-            "verdadera": " Una asignaci\u00f3n que no viola ninguna restricci\u00f3n."
         },
         {
             "enunciado": " Nos proponemos ense\u00f1ar a nuestro robot a conducir, para ello en primer lugar le ense\u00f1amos a cmabiar de marcha Contando con que el coche est\u00e1 arrancado y el robot est\u00e1 sentado como conductor, seleccione la opci\u00f3n correcta que corresponda con un enlace causar correcto:",
             "respuestas": [
-                " Embrague -EmbraguePisado-\u00BF Marcha",
+                " Embrague -EmbraguePisado-\u00bf Marcha",
                 " PisarEmbrague.",
-                " PisarEmbrague -MeterMarcha-\u00BF MarchaMetida",
+                " PisarEmbrague -MeterMarcha-\u00bf MarchaMetida",
                 " Ninguna de las anteriores."
             ],
-            "verdadera": " Embrague -EmbraguePisado-\u00BF Marcha"
-        },
-        {
-            "enunciado": " Una condici\u00f3n abierta",
-            "respuestas": [
-                " Es aquella que establece enlaces de etapas anteriores con precondiciones de etapas temporales posteriores.",
-                " Finaliza un plan.",
-                " Es una precondici\u00f3n de una etapa que no est\u00e1 liga a a ning\u00fan enlace causal.",
-                " Determina si un plan est\u00e1 completo."
-            ],
-            "verdadera": " Es una precondici\u00f3n de una etapa que no est\u00e1 liga a a ning\u00fan enlace causal."
-        },
-        {
-            "enunciado": " \u00BFEn qu\u00e9 partes se divide un esquema de acci\u00f3n?",
-            "respuestas": [
-                " acci\u00f3n, efectoy nombre.",
-                " precondici\u00f3n, efecto y par\u00e1metros.",
-                " precondici\u00f3n, par\u00e1metros y acci\u00f3n.",
-                " precondici\u00f3n, efecto y acci\u00f3n."
-            ],
-            "verdadera": " precondici\u00f3n, efecto y acci\u00f3n."
-        },
-        {
-            "enunciado": " De las heur\u00edsticas estudiadas en el tema, que nos ayudan a mejorar la eficiencia del Backtracking (M\u00ednimos valores restantes, grado heur\u00edstico y valor m\u00e1s restringido), marca la opci\u00f3n verdadera:",
-            "respuestas": [
-                "Grado Heur\u00edstico nos ayuda a decidir el orden para examinar los valores que asignar a una variable una vez elegida.",
-                " MVR es por lo general una gu\u00eda poderosa a la hora de elegir la siguiente variable, pero el Grado Heur\u00edstico puede ser \u00fatil como desempate en caso de que las variables tengan el mismo n\u00famero de valores legales.",
-                "MVR siempre nos ayuda en la elecci\u00f3n de variable, puesto que su funcionamiento se basa en elegir la variable m\u00e1s restringida, es decir, con menos valores legales posibles para asignar.",
-                " VMR nos ayuda en la elecci\u00f3n de variable, puesto que su funcionamiento se basa en elegir la variable m\u00e1s restringida, es decir, con menos valores legales posibles para asignar."
-            ],
-            "verdadera": " MVR es por lo general una gu\u00eda poderosa a la hora de elegir la siguiente variable, pero el Grado Heur\u00edstico puede ser \u00fatil como desempate en caso de que las variables tengan el mismo n\u00famero de valores legales."
-        },
-        {
-            "enunciado": " En los problemas de planificaci\u00f3n, la b\u00fasqueda hacia atr\u00e1s tiene la ventaja de que:",
-            "respuestas": [
-                " Nunca falla.",
-                " Nos permite considerar solamente acciones relevantes.",
-                " Ninguna de las anteriores.",
-                " Llegamos antes a la soluci\u00f3n."
-            ],
-            "verdadera": " Nos permite considerar solamente acciones relevantes."
-        },
-        {
-            "enunciado": " Definimos la heur\u00edstica de m\u00ednimos valores (MVR) como:",
-            "respuestas": [
-                " La estrategia de elegir la variable con mayor n\u00famero de valores legales.",
-                " La estrategia de elegir la variable con menor n\u00famero de valores legales.",
-                " La estrategia de elegir la variable con mayor n\u00famero de restricciones.",
-                " La estrategia de elegir la variable con menor n\u00famero de restricciones."
-            ],
-            "verdadera": " La estrategia de elegir la variable con menor n\u00famero de valores legales."
-        },  {
-            "enunciado": " Sea una poblaci\u00f3n de palabras ['trarsWas', 'trsSaaWr', 'WaratsrS', 'Warts'] y una funci\u00f3n objetivo (fitness) que eval\u00faa el n\u00famero de letras colocadas en su posici\u00f3n correcta con respecto a la palabra StarWars \u00bfQu\u00e9 palabra ser\u00eda seleccionada, seg\u00fan el m\u00e9todo de la ruleta, para un valor aleatorio de 0635?",
-            "respuestas": [
-                " trsSaaWr",
-                " WaratsrS.",
-                " WartsSar",
-                " trarsWaS"
-            ],
-            "verdadera": " trsSaaWr"
-        },
-        {
-            "enunciado": " Sea un mundo grid de 3x4 (filas x columnas) con un muro en la casilla (1,1), donde se recibe en refuerzo R de -004 en todas las casillas excepto en la casilla (0,3) que es 1 y -1 en (1,3) Sea un modelo de transici\u00f3n con una probabilidad de 08 de realizar un movimiento (arriba, abajo, izquierda y derecha) y 01 sus movimientos perpendiculares Si el movimiento sale del grid o choca contra el muro, el agente se mantiene en la misma casilla Madiante la iteraci\u00f3n de valor calcular Ut(00) sabiendo que gamma == 09, Ut-1(0,0) es 03776, Ut-q(1,0) es 01557 y Ut-1(,1) es 06215",
-            "respuestas": [
-                " 0.3519",
-                " 0.2519",
-                " 0.5519",
-                " 0.4519"
-            ],
-            "verdadera": " 0.4519"
-        },
-        {
-            "enunciado": " En problema de satisfacci\u00f3n de restricciones",
-            "respuestas": [
-                " En un nivel x del \u00e1rbol de b\u00fasqueda, est\u00e1n presentes las posibles asignaciones para todas las variables del problema.",
-                " La profundidad del \u00e1rbol de b\u00fasqueda es el n\u00famero de variables multiplicado por el numero de valores de cada dominio.",
-                " La m\u00e1xima ramificaci\u00f3n es igual al n\u00famero de variables.",
-                " La profundidad del \u00e1rbol de b\u00fasqueda es la misma que el n\u00famero de variables del problema."
-            ],
-            "verdadera": " La profundidad del \u00e1rbol de b\u00fasqueda es la misma que el n\u00famero de variables del problema."
-        },
-        {
-            "enunciado": " Dado un \u00e1rbol de juego, con un nodo MAX con unos valores V=6, alpha=8, beta= 10 Seg\u00fan el algoritmo de poda alpha-beta \u00bfqu\u00e9 valor de sus hijos producir\u00e1 una poda?",
-            "respuestas": [
-                " 5",
-                " 13",
-                " 9",
-                " 8"
-            ],
-            "verdadera": " 13"
-        },
-        {
-            "enunciado": " Dado un \u00e1rbol de juego, con un nodo MIN con unos valores V=2, alpha = 4, beta = 6 Seg\u00fan el algoritmo de poda alpha-beta, \u00bfqu\u00e9 valor de sus hijos producir\u00e1 una poda?",
-            "respuestas": [
-                " 4",
-                " 5",
-                " 6",
-                " 1"
-            ],
-            "verdadera": " 1"
-        },
-        {
-            "enunciado": " Dado un algoritmo de Enfriamiento Simulado con T=26 y una soluci\u00f3n candidata con una diferencia de valoraci\u00f3n con respecto a la actual igual a -5 \u00bfCu\u00e1l de los siguientes valores de una variable aleatoria uniforme produce un intercambio con la soluci\u00f3n actual?",
-            "respuestas": [
-                " 0.835",
-                " 0.845 ",
-                " 0.815",
-                " 0.855"
-            ],
-            "verdadera": " 0.815"
-        },
-        {
-            "enunciado": " Dado un arco X --> Y que refleja la relaci\u00f3n X < Y Marque los dominios que lo hacen consistente",
-            "respuestas": [
-                " X = [10, 5, 2], Y = [9, 2, 6]",
-                " X = [11, 4, 3, 9], Y = [10, 5, 6]",
-                " X = [8, 9, 3, 6], Y = [8, 9, 10]",
-                " X = [7, 9, 5, 11], Y = [8, 9, 10]"
-            ],
-            "verdadera": " X = [8, 9, 3, 6], Y = [8, 9, 10]"
-        },
-        {
-            "enunciado": " Un algoritmo gen\u00e9tico",
-            "respuestas": [
-                " La poblaci\u00f3n crece exponencialmente.",
-                " Utiliza un conjunto de soluciones y usa selecci\u00f3n, cruce, y mutaci\u00f3n de individuos.",
-                " Utiliza un conjunto de estados y usa selecci\u00f3n, cruce y mutaci\u00f3n de individuos.",
-                " No es una t\u00e9cnica de mejora de soluciones."
-            ],
-            "verdadera": " Utiliza un conjunto de soluciones y usa selecci\u00f3n, cruce, y mutaci\u00f3n de individuos."
-        },
-        {
-            "enunciado": "Dado un arco X --> Y que refleja la relaci\u00f3n X < Y Marque los dominios que lo hacen inconsistente",
-            "respuestas": [
-                " X = [0, 9, 7], Y = [10, 6]",
-                " X = [3, 4, 6, 7], Y = [7, 9, 10, 0]",
-                " X = [9, 1, 7], Y = [9, 10]",
-                " X = [3, 4, 10], Y = [9, 4]"
-            ],
-            "verdadera": " X = [3, 4, 10], Y = [9, 4]"
-        },
-        {
-            "enunciado": " Sea una poblaci\u00f3n de palabras ['rtarsWSa', 'WtrrasaA', 'straarWS', 'arWsSatr'] y una funci\u00f3n objetivo fitness que eval\u00faa el n\u00famero de letras colocadas en su posici\u00f3n correcta con respecto a la palabra StarWars \u00bfQu\u00e9 palabra ser\u00e1 seleccionada, seg\u00fan el m\u00e9todo de la ruleta, para un valor aleatorio de 0636?",
-            "respuestas": [
-                " WtrrasaS",
-                " straarWS",
-                " arWsSatr",
-                " rtarsWSa"
-            ],
-            "verdadera": " WtrrasaS"
+            "verdadera": " Embrague -EmbraguePisado-\u00bf Marcha"
         }
     ]
 }

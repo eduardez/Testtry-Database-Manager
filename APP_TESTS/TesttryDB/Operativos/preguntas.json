@@ -2595,6 +2595,72 @@
                 "Entrada y salida"
             ],
             "verdadera": "Entrada, salida, estado y control"
+        },
+        {
+            "enunciado": "Los dos tipos de sistemas operativos de tiempo real son",
+            "respuestas": [
+                "Sistemas de tiempo real duro que necesitan hardware espec\u00edfico y sistemas de tiempo real blando que operan en hardware de prop\u00f3sito general",
+                "Sistemas de alta disponibilidad y sistemas de disponibilidad normal",
+                "Sistemas de tiempo real duro que garantiza que las tareas cr\u00edticas se terminar\u00e1n a tiempo y sistemas de tiempo real blando, en los que una tarea de tiempo real cr\u00edtica goza de prioridad respecto a otras tareas",
+                "Sistemas con un reloj de precisi\u00f3n de nanosegundos y sistemas con un reloj de precisi\u00f3n de milisegundos",
+                "Sistemas con almacenamiento permanente y sistemas con almacenamiento temporal"
+            ],
+            "verdadera": "Sistemas de tiempo real duro que garantiza que las tareas cr\u00edticas se terminar\u00e1n a tiempo y sistemas de tiempo real blando, en los que una tarea de tiempo real cr\u00edtica goza de prioridad respecto a otras tareas"
+        },
+        {
+            "enunciado": "El sistema operativo da servicio",
+            "respuestas": [
+                "Al int\u00e9rprete de comandos utilizado por los usuarios",
+                "Al hardware del computador",
+                "A las bibliotecas de interfaz de llamadas al sistema",
+                "A las aplicaciones y al hardware del computador",
+                "A las aplicaciones"
+            ],
+            "verdadera": "A las aplicaciones y al hardware del computador"
+        },
+        {
+            "enunciado": "Si al generar un ejecutable a partir del archivo fuente ejemplo.c presente en nuestro directorio de trabajo actual necesitamos enlazar una biblioteca denominada libex.a presente en el directorio dirlib la orden que debemos ejecutar es",
+            "respuestas": [
+                "gcc -L dirlib -o ejemplo ejemplo.c -lex",
+                "gcc -I dirlib -o ejemplo ejemplo.c -l libex.a",
+                "gcc -L dirlib -o ejemplo ejemplo.c -l libex.a",
+                "gcc -S dirlib ejemplo.c -l libex.a",
+                "gcc -I dirlib -o ejemplo ejemplo.c -lex"
+            ],
+            "verdadera": "gcc -L dirlib -o ejemplo ejemplo.c -lex"
+        },
+        {
+            "enunciado": "En una planificaci\u00f3n de turno rotatorio, si se reduce demasiado el quantum de tiempo",
+            "respuestas": [
+                "Se tienen caracter\u00edsticas semejantes a la planificaci\u00f3n de promedio exponencial",
+                "La eficiencia de uso del procesador se reduce",
+                "La eficiencia de uso del procesador aumenta",
+                "Se tienen caracter\u00edsticas semejantes a la planificaci\u00f3n SRTF",
+                "Se tienen caracter\u00edsticas semejantes a la planificaci\u00f3n FCFS"
+            ],
+            "verdadera": "La eficiencia de uso del procesador se reduce"
+        },
+        {
+            "enunciado": "Un computador tiene suficiente espacio para contener cuatro programas en su memoria principal. Si se ejecutan en solitario, cada uno de estos programas est\u00e1 ocioso la mitad del tiempo esperando una entrada/salida. \u00bfQu\u00e9 fracci\u00f3n del tiempo de CPU se desperdicia?",
+            "respuestas": [
+                "12,5%",
+                "6,25%",
+                "100%",
+                "25%",
+                "50%"
+            ],
+            "verdadera": "6,25%"
+        },
+        {
+            "enunciado": "El campo st_nlink de la estructura de tipo stat representa",
+            "respuestas": [
+                "El n\u00famero de enlaces f\u00edsicos del nodo",
+                "El n\u00famero de usuarios que est\u00e1n enlazados al nodo en un momento dado",
+                "El n\u00famero de enlaces del nodo sin importar su tipo",
+                "El campo st_nlink no es un campo v\u00e1lido de las estructuras de tipo stat",
+                "El n\u00famero de usuarios del grupo del nodo enlazados al nodo en un momento dado"
+            ],
+            "verdadera": "El n\u00famero de enlaces f\u00edsicos del nodo"
         }
     ]
 }

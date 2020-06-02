@@ -2,7 +2,7 @@
     "categorias": [
         {
             "nombre_categoria": "Operativos",
-            "numero_preguntas": 236
+            "numero_preguntas": 242
         },
         {
             "nombre_categoria": "API - Parcial 1",
@@ -22,7 +22,7 @@
         },
         {
             "nombre_categoria": "Sistemas Inteligentes",
-            "numero_preguntas": 76
+            "numero_preguntas": 38
         }
     ],
     "database_id": "9f32f06dae8b0c097227",
