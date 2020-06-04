@@ -379,6 +379,546 @@
                 " Ninguna de las anteriores."
             ],
             "verdadera": " Embrague -EmbraguePisado-\u00bf Marcha"
+        },
+        {
+            "enunciado": " \u00bfCu\u00e1l de las siguientes afirmaciones es falsa?",
+            "respuestas": [
+                " La racionalidad requiere en la mayor\u00eda de los casos la omniscencia. Ya que se puede dise\u00f1ar un agente que siempre actue de la mejor manera posible.",
+                " Tener autonom\u00eda significa no tomar decisiones solo en funci\u00f3n del conocimiento proporcionado por el dise\u00f1ador, sino tambi\u00e9n por el conocimiento adquirido con el tiempo del entorno.",
+                " Para poder modificar percepciones futuras un agente podr\u00eda hacerlo atrav\u00e9s de la exploraci\u00f3n siendo un m\u00e9todo de recopilaci\u00f3n de informaci\u00f3n.",
+                " La racionalidad depende exclusivamente del conocimiento del medio en el que habita."
+            ],
+            "verdadera": " La racionalidad requiere en la mayor\u00eda de los casos la omniscencia. Ya que se puede dise\u00f1ar un agente que siempre actue de la mejor manera posible."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 afirmaci\u00f3n es correcta con respecto a las b\u00fasquedas primero en anchura y profundidad iterativa?, siendo b factor de ramificaci\u00f3n y d la profundidad:",
+            "respuestas": [
+                " Las dos son completas si el arbol es infinito.",
+                " La profundidad iterativa es mejor con respecto a la complejidad espacial.",
+                " Las dos tienen complejidad temporal O(d*b).",
+                " Son \u00f3ptimas en cualquier circunstancia."
+            ],
+            "verdadera": " Las dos tienen complejidad temporal O(d*b)."
+        },
+        {
+            "enunciado": "\u00bfMediante qu\u00e9 par\u00e1metros podemos especificar un problema del mundo real?",
+            "respuestas": [
+                " Estados, estado inicial, funci\u00f3n sucesor y test objetivo.",
+                " Estados, estado inicial, estado final, funci\u00f3n sucesor, test objetivo y costo.",
+                " Estados, estado inicial, funci\u00f3n sucesor, test objetivo y costo.",
+                " Ninguna es correcta, depende del problema."
+            ],
+            "verdadera": " Estados, estado inicial, funci\u00f3n sucesor, test objetivo y costo."
+        },
+        {
+            "enunciado": " La b\u00fasqueda voraz primero el mejor",
+            "respuestas": [
+                " Trata de expedir el nodo m\u00e1s cercano al objetivo, alegando que probablemente conduzca r\u00e1pidamente a una soluci\u00f3n.",
+                " Espande el nodo m\u00e1s profundo en la frontera actual. ",
+                " Explora de forma aleatoria hasta dar con el objetivo.",
+                " Eval\u00faa los nodos combinando g(n), el coste para alcanzar el nodo y h(n)."
+            ],
+            "verdadera": " Trata de expedir el nodo m\u00e1s cercano al objetivo, alegando que probablemente conduzca r\u00e1pidamente a una soluci\u00f3n."
+        },
+        {
+            "enunciado": " Cuando hablamos de agentes basados en utilidad nos referimos a:",
+            "respuestas": [
+                " Agentes que emplean una funci\u00f3n que permite tomar decisiones racionales donde las metas son inadecuadas.",
+                " Agentes que necesitan informaci\u00f3n sobre su meta que describa las situaciones que son deseables.",
+                " Agentes que seleccionan las acciones sobre la base de las percepciones actuales, ignorando el resto de las percepciones hist\u00f3ricas.",
+                " Agentes que mantienen un estado interno que les permite seguir el rastro de aspectos del mundo que no son evidentes seg\u00fan la percepciones actuales."
+            ],
+            "verdadera": " Agentes que emplean una funci\u00f3n que permite tomar decisiones racionales donde las metas son inadecuadas."
+        },
+        {
+            "enunciado": " Dado un problema con cuatro variables A, B, C y D De las que A y B pueden tomar 2 valores y C y D pueden tomar 4 valores cada una \u00bfCu\u00e1ntos estados tiene el problema?",
+            "respuestas": [
+                " 32",
+                " 20",
+                " 64",
+                " 128"
+            ],
+            "verdadera": " 64"
+        },
+        {
+            "enunciado": " Un problema  es un problema con menos restricciones en las acciones",
+            "respuestas": [
+                " Dominante.",
+                " Relajado.",
+                " Consistente.",
+                " Inductivo."
+            ],
+            "verdadera": " Relajado."
+        },
+        {
+            "enunciado": " Competitivo y Cooperativo son dos tipos de entorno ",
+            "respuestas": [
+                " Estoc\u00e1stico.",
+                " Secuencial.",
+                " Individual.",
+                " Multiagente."
+            ],
+            "verdadera": " Multiagente."
+        },
+        {
+            "enunciado": " \u00bfC\u00f3mo se define una funci\u00f3n heur\u00edstica (h(n))?",
+            "respuestas": [
+                " Se define como un tiempo estimado del camino m\u00e1s corto desde el nodo objetivo a un nodo final.",
+                " Se define como el coste estimado del camino m\u00e1s barato desde el nodo n a un objetivo.",
+                " Se define como el coste estimado del camino m\u00e1s caro desde el nodo n a un nodo objetivo.",
+                " Se define como el tiempo estimado del camino  m\u00e1s largo desde el nodo objetivo a un nodo final."
+            ],
+            "verdadera": " Se define como el coste estimado del camino m\u00e1s barato desde el nodo n a un objetivo."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 es un agente racional?",
+            "respuestas": [
+                " Un agente racional es aquel que est\u00e1 dise\u00f1ado para ir aprendiendo cosas de su entorno.",
+                " Es aquel que realiza sus acciones sin que nadie se lo diga.",
+                " Un agente racional es aquel que est\u00e1 dise\u00f1ado para ser totalmente independiente y no poder ir aprendiendo cosas de su entorno, para poder ir mejorando.",
+                " Un agente racional es aquel que est\u00e1 dise\u00f1ado para ser totalmente independiente y poder ir aprediendo cosas de su entorno, para poder ir mejorando."
+            ],
+            "verdadera": " Un agente racional es aquel que est\u00e1 dise\u00f1ado para ser totalmente independiente y poder ir aprediendo cosas de su entorno, para poder ir mejorando."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 elemento es parte del entorno de trabajo de un agente?",
+            "respuestas": [
+                " Actuadores",
+                " Todas las respuestas.",
+                " Entorno",
+                " Rendimiento"
+            ],
+            "verdadera": " Todas las respuestas."
+        },
+        {
+            "enunciado": " Si d es la profundidad de la soluci\u00f3n y b es el nivel de ramificaci\u00f3n, la complejidad espacial/memoria de una estrategia en profundidad es:",
+            "respuestas": [
+                " d x b",
+                " b^(d+1)",
+                " d^d",
+                " d^b"
+            ],
+            "verdadera": " d x b"
+        },
+        {
+            "enunciado": " Indique la afirmaci\u00f3n correcta referente a la definici\u00f3n de problemas",
+            "respuestas": [
+                " Un estado es una estructura de datos que es parte de un \u00e1rbol de b\u00fasqueda. As\u00ed, el nodo representa la configuraci\u00f3n de una situaci\u00f3n real.",
+                " En los problemas con contingencia podemos establecer una secuencia de acciones r\u00edgida que nos permita llegar a una soluci\u00f3n.",
+                " En los problemas conformados (conformes o sin sensores), el agente no sabe exactamente el estado del mundo (no es totalmente observable) y tiene que decidir sobre conjuntos de estados.",
+                " Una soluci\u00f3n es una secuencia de estados que dirigen al sistema desde una acci\u00f3n inicial a un estado cuyo coste sea el menor posible."
+            ],
+            "verdadera": " En los problemas conformados (conformes o sin sensores), el agente no sabe exactamente el estado del mundo (no es totalmente observable) y tiene que decidir sobre conjuntos de estados."
+        },
+        {
+            "enunciado": " Si los sensores del agente le proporcionan acceso al estado completo del medio en cada momento, estamos ante un entorno:",
+            "respuestas": [
+                " Totalmente observable.",
+                " Discreto.",
+                " Est\u00e1tico.",
+                " Determinista."
+            ],
+            "verdadera": " Totalmente observable."
+        },
+        {
+            "enunciado": " Una funci\u00f3n que proyecta un estado (o una secuencia de estados) en un n\u00famero real, que representa el nivel de felicidad de un agente es",
+            "respuestas": [
+                " Ninguna de las respuestas",
+                " Funci\u00f3n de rendimiento.",
+                " Funci\u00f3n objetivo.",
+                " Funci\u00f3n de utilidad."
+            ],
+            "verdadera": " Funci\u00f3n de utilidad."
+        },
+        {
+            "enunciado": " Indique la afirmaci\u00f3n correcta referente a Agentes Inteligentes",
+            "respuestas": [
+                " La secuencia de percepciones del agente debe ser una descripci\u00f3n abstracta, definida mediante el programa del agente.",
+                " FIPA define la estructura de los elementos que forman las plataformas de agentes buscando maximizar la eficiencia en las comunicaciones entre agentes.",
+                " La funci\u00f3n del agente que mapea la secuencia de Percepciones en acciones puede representarse en forma de tabla, que puede tener tama\u00f1o infinito.",
+                " Ante las mismas percepciones, las diferencias en el comportamiento de dos agentes vendr\u00e1n reflejadas en la definici\u00f3n de la funci\u00f3n del agente."
+            ],
+            "verdadera": " Ante las mismas percepciones, las diferencias en el comportamiento de dos agentes vendr\u00e1n reflejadas en la definici\u00f3n de la funci\u00f3n del agente."
+        },
+        {
+            "enunciado": " Si d es la profundidad de la soluci\u00f3n, y b es el nivel de ramificaci\u00f3n, la complejidad temporal de una estrategia en anchura es:",
+            "respuestas": [
+                " d^b",
+                " b^d",
+                " b^(d+1)",
+                " d x b"
+            ],
+            "verdadera": " b^(d+1)"
+        },
+        {
+            "enunciado": " El concepto de estado, no es parte de un agente",
+            "respuestas": [
+                " Es de todos los modelos.",
+                " Reactivo simple.",
+                " Basado en modelos.",
+                " Dirigido por objetivos."
+            ],
+            "verdadera": " Reactivo simple."
+        },
+        {
+            "enunciado": " La medida de rendimiento",
+            "respuestas": [
+                " Define la racionalidad de un agente.",
+                " Valora la optimalidad de las acciones.",
+                " Eval\u00faa el comportamiento del agente en un medio.",
+                " Comprueba el conjunto de percepciones."
+            ],
+            "verdadera": " Eval\u00faa el comportamiento del agente en un medio."
+        },
+        {
+            "enunciado": " Indique la afirmaci\u00f3n correcta:",
+            "respuestas": [
+                "El test de Turing es superado sin dificultad en la actualidad.",
+                " Para alcanzar comportamiento racional resulta necesario un modelo de pensamiento formal.",
+                " DEfinimos comportamiento racional como aquel que se basa deliberaci\u00f3n l\u00f3gica.",
+                " Los silogismos son esquemas de argumentaci\u00f3n mediante los cuales se llegan a conclusiones correctas si se parte de las premisas correctas."
+            ],
+            "verdadera": " Los silogismos son esquemas de argumentaci\u00f3n mediante los cuales se llegan a conclusiones correctas si se parte de las premisas correctas."
+        },
+        {
+            "enunciado": " Elige la respuesta incorrecta:",
+            "respuestas": [
+                " El mayor problema de la b\u00fasqueda costo uniforme es el espacio por encima del tiempo.",
+                " La b\u00fasqueda costo uniforme es \u00f3ptima si los nodos se expanden en orden creciente de g(n).",
+                " La b\u00fasqueda en anchura es \u00f3ptima si coste es igual a 1 por acci\u00f3n.",
+                " La b\u00fasqueda costo uniforme y la b\u00fasqueda en anchura pueden ser completas si se cumple algunos requisitos."
+            ],
+            "verdadera": " El mayor problema de la b\u00fasqueda costo uniforme es el espacio por encima del tiempo."
+        },
+        {
+            "enunciado": " Disponemos de un sistema de alumbrado p\u00fablico que gasta excesiva energ\u00eda ya que se encuentran encendidas en algunas calles donde no existe transito Se ha dise\u00f1ado un peque\u00f1o programa que nos permite el ahorro de energ\u00eda bas\u00e1ndose en un sensor de proximidad que tienen las farolas, y que almacena cuando fue la \u00faltima detecci\u00f3n de movimiento permitiendo as\u00ed apagar el alumbrado cuando pase 1 hora sin detecci\u00f3n de movimiento Este agente es:",
+            "respuestas": [
+                " Para que fuese un agente reactivo basado en modelos deber\u00eda tener memoria.",
+                " Agente reactivo simple.",
+                " Ninguno de los anteriores.",
+                " Agente reactivo basado en modelos."
+            ],
+            "verdadera": " Agente reactivo basado en modelos."
+        },
+        {
+            "enunciado": " A la hora de resolver los problemas mediante b\u00fasqueda nos encontramos con algunos tipos de incompletitud que conducen a diferentes tipos de problema, como los problemas de contingencia, en los que",
+            "respuestas": [
+                " Se desconocen los estados y las acciones del entorno, teniendo el agente que actuar para descubrirlos.",
+                " No existen este tipo de problemas.",
+                " El agente no tiene ning\u00fan sensor y, por lo que sabe, podr\u00eda estar en cualquier estado inicial. Sus acciones podr\u00edan conducirle a cualquier estado sucesor.",
+                " El entorno es parcialmente observable o las acciones inciertas, pero las percepciones del agente, despu\u00e9s de cada acci\u00f3n, proporcionan informaci\u00f3n."
+            ],
+            "verdadera": " El entorno es parcialmente observable o las acciones inciertas, pero las percepciones del agente, despu\u00e9s de cada acci\u00f3n, proporcionan informaci\u00f3n."
+        },
+        {
+            "enunciado": " \u00bfCu\u00e1les de \u00e9stos factores NO depende la racionalidad en un momento determinado?",
+            "respuestas": [
+                " La medida de rendimiento que define el criterio de \u00e9xito.",
+                " El conocimiento del medio en el que habita acumulado por el agente.",
+                " Las acciones que el agente puede llevar a cabo.",
+                " La secuencia de acciones del agente hasta este momento."
+            ],
+            "verdadera": " La secuencia de acciones del agente hasta este momento."
+        },
+        {
+            "enunciado": " El principal inconveniente de la b\u00fasqueda primero en anchura es:",
+            "respuestas": [
+                " Complejidad en tiempo y estado.",
+                " Dificil de implementar.",
+                " No es \u00f3ptimo para costos unidad.",
+                " No completo."
+            ],
+            "verdadera": " Complejidad en tiempo y estado."
+        },
+        {
+            "enunciado": " Disponemos del siguiente tablero 4x4 en el cual una figura solo puede moverse una posici\u00f3n hacia delante, atr\u00e1s, izquierda o derecha y tiene como meta salir del tablero \u00bfCu\u00e1l de las siguientes funciones nos dar\u00e1 si hemos salido del tablero y los posibles estados a los que podemos optar?",
+            "respuestas": [
+                " Test objetivo y funci\u00f3n sucesor.",
+                " Estado inicial y test objetivo.",
+                " Ninguna de las anteriores.",
+                " Test objetivo y costo camino."
+            ],
+            "verdadera": " Test objetivo y funci\u00f3n sucesor."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 significa que un problema sea completo?",
+            "respuestas": [
+                " Que no tenga soluci\u00f3n.",
+                " Que tenga soluci\u00f3n.",
+                " Que encuentre todas las soluciones posibles.",
+                " Que si existe alguna soluci\u00f3n, es encontrada."
+            ],
+            "verdadera": " Que si existe alguna soluci\u00f3n, es encontrada."
+        },
+        {
+            "enunciado": " A un problema con menos restricciones en las acciones se le llama:",
+            "respuestas": [
+                " Problema supervisado.",
+                " Problema relajado.",
+                " Subproblema.",
+                " Problema simplificado."
+            ],
+            "verdadera": " Problema relajado."
+        },
+        {
+            "enunciado": " Respecto a la b\u00fasqueda con profundidad iterativa, selecciones la opci\u00f3n correcta:",
+            "respuestas": [
+                " Ninguna de las anteriores es correcta.",
+                " Generalmente consume la misma memoria que la b\u00fasqueda primero en anchura.",
+                " Se suele evitar su uso cuando hay un espacio grande de b\u00fasqueda y no se conoce la profundidad de la soluci\u00f3n.",
+                " Siempre es \u00f3ptima."
+            ],
+            "verdadera": " Ninguna de las anteriores es correcta."
+        },
+        {
+            "enunciado": " Marque la afirmaci\u00f3n falsa Sobre el algoritmo de b\u00fasqueda A-estrella:",
+            "respuestas": [
+                " Opci\u00f3n A: No siempre es \u00f3ptimo.",
+                " Opci\u00f3n B: Eval\u00faa los nodos combinando g(n), coste al nodo, y h(n), coste al objetivo.",
+                " Opci\u00f3n C: Solo A y C son ciertas.",
+                " Opci\u00f3n D: Es una forma de b\u00fasqueda primero el mejor."
+            ],
+            "verdadera": " Opci\u00f3n C: Solo A y C son ciertas."
+        },
+        {
+            "enunciado": " \u00bfCu\u00e1les son propiedades de un entorno de trabajo?",
+            "respuestas": [
+                " Totalmente observable, Epis\u00f3dico, Est\u00e1tico y Serializable.",
+                " Epis\u00f3dico, Est\u00e1tico, Discreto y Determinista.",
+                " Estoc\u00e1stico, Serializable, Paralelizable y Continuo.",
+                " Est\u00e1tico, Epis\u00f3dico, Parialmente Observable y Paralelizable."
+            ],
+            "verdadera": " Epis\u00f3dico, Est\u00e1tico, Discreto y Determinista."
+        },
+        {
+            "enunciado": " \u00bfPodemos decir que en una heur\u00edstica es admisible siempre qu\u00e9?",
+            "respuestas": [
+                " La estimaci\u00f3n contenga menos nodos que el camino real para alcanzar el objetivo.",
+                "La estimaci\u00f3n sea igual al coste de alcanzar el nodo objetivo.",
+                " La estimaci\u00f3n sea mayor que el coste real de alcanzar el objetivo.",
+                " La estimaci\u00f3n sea menor que el coste real de alcanzar el objetivo."
+            ],
+            "verdadera": " La estimaci\u00f3n sea menor que el coste real de alcanzar el objetivo."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 devuelve la funci\u00f3n heur\u00edstica 'h(n)'?",
+            "respuestas": [
+                " El coste que supone expandir el nodo n.",
+                " El coste estimado del camino desde un nodo n a un nodo objetivo.",
+                " El coste acumulado del recorrido desde el nodo origen hasta el nodo n.",
+                " El siguiente nodo a expandir."
+            ],
+            "verdadera": " El coste estimado del camino desde un nodo n a un nodo objetivo."
+        },
+        {
+            "enunciado": " Se\u00f1ala la opci\u00f3n que consideres correcta",
+            "respuestas": [
+                " A no es informado y A* es heur\u00edstico.",
+                " El algoritmo A* es una mezcla entre primero en anchura y primero en profundidad.",
+                " El algoritmo A* es no completo.",
+                " A no tiene bucles, A* podr\u00eda tenerlos."
+            ],
+            "verdadera": " El algoritmo A* es una mezcla entre primero en anchura y primero en profundidad."
+        },
+        {
+            "enunciado": " La siguiente secuencia l\u00f3gica es t\u00edpica de: Obtenci\u00f3n de informaci\u00f3n (sensores), revisi\u00f3n de estado interno, actualizaci\u00f3n de estado interno, deducci\u00f3n del mundo actual, toma de decisi\u00f3n",
+            "respuestas": [
+                " Agente basados en utilidad.",
+                " Agente reactivo simple.",
+                " Agente basado en modelos.",
+                " Agente basado en objetivos."
+            ],
+            "verdadera": " Agente basado en modelos."
+        },
+        {
+            "enunciado": " Si consideramos Variaci\u00f3n e < 0, como la diferencia de valoraci\u00f3n entre una soluci\u00f3n candidata y la soluci\u00f3n actual, y T el tiempo que tarda para seguir con un algoritmo de enfriamiento simulado (Annealing) para minimizar la valoraci\u00f3n de la soluci\u00f3n y si obtenemos un valor aleatorio U e [0,1] entonces la soluci\u00f3n actual se actualiza por la soluci\u00f3n candidata si:",
+            "respuestas": [
+                " Siempre",
+                " U < e ^(variaci\u00f3n e / T).",
+                " U < e ^(- variaci\u00f3n e / T).",
+                " Nunca."
+            ],
+            "verdadera": " Siempre"
+        },
+        {
+            "enunciado": " Se define a un agente racional como:",
+            "respuestas": [
+                " Programa que resuelve un problema.",
+                " Ente con la capacidad de obtener  un resultado.",
+                " Agente con la capacidad de actuar con la intenci\u00f3n de alcanzar el mejor resultado o al menos en casos de incertidumbre el mejor resultado esperado.",
+                " Conjunto de elementos capaces de realizar un c\u00e1lculo matem\u00e1tico complejo."
+            ],
+            "verdadera": " Agente con la capacidad de actuar con la intenci\u00f3n de alcanzar el mejor resultado o al menos en casos de incertidumbre el mejor resultado esperado."
+        },
+        {
+            "enunciado": " \u00bfCu\u00e1l es el significado de un entorno de trabajo 'REAS'?",
+            "respuestas": [
+                " Rendimiento, Entorno, Actuadores y Sensores.",
+                " Retorno, Entorno, Actuadores y Sensores.",
+                " Ninguna de las anteriores.",
+                " Rendimiento, Entorno, Actuadores y Sencillos."
+            ],
+            "verdadera": " Rendimiento, Entorno, Actuadores y Sensores."
+        },
+        {
+            "enunciado": " Las fases por las que pasa cada nueva generaci\u00f3n de una poblaci\u00f3n en un algoritmo gen\u00e9tico son:",
+            "respuestas": [
+                " Ordenaci\u00f3n por la funci\u00f3n de desempe\u00f1o, selecci\u00f3n del menor e intercambio.",
+                " Selecci\u00f3n, cruce y mutaci\u00f3n.",
+                " Adecuaci\u00f3n, selecci\u00f3n y proyecci\u00f3n.",
+                " Selecci\u00f3n y cruce."
+            ],
+            "verdadera": " Selecci\u00f3n, cruce y mutaci\u00f3n."
+        },
+        {
+            "enunciado": "En ls b\u00fasqueda primero el mejor (voraz), el nodo se expande (selecciona la correcta):",
+            "respuestas": [
+                " Siempre es el que tiene menor heur\u00edstica.",
+                " Siempre es el que tiene menor costo.",
+                " Siempre es el que tiene mayor distancia al objetivo.",
+                " Siempre es el que tiene mayor costo."
+            ],
+            "verdadera": " Siempre es el que tiene menor heur\u00edstica."
+        },
+        {
+            "enunciado": " En un algoritmo A*:",
+            "respuestas": [
+                " Si h'(x)=0 y g(x)=k, siendo k una constante no negativa, entonces A* es primero en anchura.",
+                " Si h'(x)=0 y g(x)=0 el algoritmo se bloquea.",
+                " Si h'(x)=0 y g(x)= -k, siendo k una constante, A* es primero en profundidad.",
+                " Las otras respuestas son falsas."
+            ],
+            "verdadera": " Si h'(x)=0 y g(x)=k, siendo k una constante no negativa, entonces A* es primero en anchura."
+        },
+        {
+            "enunciado": " \u00bfQu\u00e9 afirmaci\u00f3n es falsa respecto al algoritmo de b\u00fasqueda voraz?",
+            "respuestas": [
+                " Es un suptipo del algoritmo general A.",
+                "Puede quedarse atascada en bucles.",
+                " Su funci\u00f3n de evaluaci\u00f3n sigue la forma f(n) = h(n) + g(n) donde g(n)=0 siempre.",
+                " Es \u00f3ptima."
+            ],
+            "verdadera": " Es \u00f3ptima."
+        },
+        {
+            "enunciado": "\u00bfA qu\u00e9 llamamos soluci\u00f3n de un problema?",
+            "respuestas": [
+                " Secuencia de acciones que dirigen el sistema desde el estado inicial hasta el objetivo.",
+                " Estado que verifica la funci\u00f3n \"meta\".",
+                " Secuencia de nodos que forman el camino hasta la soluci\u00f3n en el \u00e1rbol de b\u00fasqueda.",
+                " \u00daltimo nodo a\u00f1adido al \u00e1rbol de b\u00fasqueda desde el que reconstruimos el camino."
+            ],
+            "verdadera": " Secuencia de acciones que dirigen el sistema desde el estado inicial hasta el objetivo."
+        },
+        {
+            "enunciado": " Llamamos frontera a",
+            "respuestas": [
+                " La colecci\u00f3n de caminos que se han generado.",
+                " La colecci\u00f3n de nodos que se han generado pero todav\u00eda no se han expandido.",
+                " La colecci\u00f3n de nodos que se han generado y se han expandido.",
+                " La colecci\u00f3n de nodos que no se pueden generar."
+            ],
+            "verdadera": " La colecci\u00f3n de nodos que se han generado pero todav\u00eda no se han expandido."
+        },
+        {
+            "enunciado": " Un \"entorno de trabajo\" para un agente racional es",
+            "respuestas": [
+                " el rendimiento, el entorno y los actuadores y sensores del agente",
+                " el rendimiento, el entorno y las acciones y sensores del agente (REAS).",
+                " el \"problema\" para el que un agente racional es la \"soluci\u00f3n\".",
+                " Un elemento cuyas posibilidades no afectan al dise\u00f1o del agente."
+            ],
+            "verdadera": " el rendimiento, el entorno y los actuadores y sensores del agente"
+        },
+        {
+            "enunciado": " Un taxista no se mueve en un entorno",
+            "respuestas": [
+                " Estoc\u00e1stico.",
+                " Secuencial.",
+                " Din\u00e1mico.",
+                " Discreto."
+            ],
+            "verdadera": " Discreto."
+        },
+        {
+            "enunciado": " Seleccione la opci\u00f3n falsa sobre las estrategias de b\u00fasqueda no informada",
+            "respuestas": [
+                " La b\u00fasqueda primero en profundidad ofrece completitud.",
+                " En las b\u00fasquedas de costo uniforme se pueden producir bucles infinitos.",
+                " En las b\u00fasquedas primero en profundidad, cuando un nodo se ha expandido y todos sus descendientes se han explorado, se elimina de memoria.",
+                " En este tipo de estrategias, la \u00fanica informaci\u00f3n que se tiene acerca de los estados es la que proporciona el problema."
+            ],
+            "verdadera": " La b\u00fasqueda primero en profundidad ofrece completitud."
+        },
+        {
+            "enunciado": " Una funci\u00f3n heur\u00edstica h(n) es admisible cuando:",
+            "respuestas": [
+                " Siempre y cuando h(n) nunca sobrestime el coste de alcanzar el objetivo.",
+                " Siempre que h(n) tenga el mismo valor que el objetivo a alcanzar.",
+                " Cuando h(n) sea a veces menor que el coste de alcanzar el objetivo.",
+                " Las otras respuestas son falsas."
+            ],
+            "verdadera": " Siempre y cuando h(n) nunca sobrestime el coste de alcanzar el objetivo."
+        },
+        {
+            "enunciado": " Dada una constante K y una funci\u00f3n de costo c(n) para un nodo n Una estrategia de b\u00fasqueda en anchura es:",
+            "respuestas": [
+                " Sub\u00f3ptima.",
+                " \u00d3ptima si c(n) es c(padre(n))+K.",
+                " \u00d3ptima.",
+                " \u00d3ptima si c(n) es c(padre(n))+h(n)."
+            ],
+            "verdadera": " \u00d3ptima si c(n) es c(padre(n))+K."
+        },
+        {
+            "enunciado": " Las medidas de rendimiento de un agente incluyen:",
+            "respuestas": [
+                " el conjunto de estados accesibles",
+                " Los criterios que determinan el \u00e9xito en el comportamiento.",
+                " La funci\u00f3n de operaci\u00f3n del agente.",
+                " El valor m\u00e1ximo alcanzado."
+            ],
+            "verdadera": " Los criterios que determinan el \u00e9xito en el comportamiento."
+        },
+        {
+            "enunciado": " El entorno de trabajo no viene definido por:",
+            "respuestas": [
+                " Actuadores.",
+                " Sensores.",
+                " El rendimiento del agente.",
+                " El espacio de estados."
+            ],
+            "verdadera": " El espacio de estados."
+        },
+        {
+            "enunciado": " La cr\u00edtica a las acciones realizadas es una funcionalidad propia de agentes:",
+            "respuestas": [
+                " Agentes reactivos simples.",
+                " Agentes reactivos basados en modelos.",
+                " Agentes basados en objetivos.",
+                " Agentes que aprenden."
+            ],
+            "verdadera": " Agentes que aprenden."
+        },
+        {
+            "enunciado": " Un agente con una representaci\u00f3n y conocimiento de los efectos que provocan sus acciones y como evoluciona el mundo es un:",
+            "respuestas": [
+                " Agente reactivo simple.",
+                " Agente basado en objetivos.",
+                " Agente basado en la utilidad.",
+                " Agente reactivo basado en modelos."
+            ],
+            "verdadera": " Agente reactivo basado en modelos."
+        },
+        {
+            "enunciado": " En general, un agente tomar\u00e1 una decisi\u00f3n en un momento dado:",
+            "respuestas": [
+                " dependiendo de la percepci\u00f3n actual.",
+                " Dependiendo solo de su funci\u00f3n meta.",
+                " Dependiendo de la secuencia completa de percepciones hasta ese instante.",
+                " Dependiendo de la percepci\u00f3n anterior y el estado actual."
+            ],
+            "verdadera": " Dependiendo de la secuencia completa de percepciones hasta ese instante."
         }
     ]
 }
