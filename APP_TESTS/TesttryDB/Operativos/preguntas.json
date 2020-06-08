@@ -2914,6 +2914,314 @@
                 " Activa la recepci\u00f3n de se\u00f1ales bloqueadas o ignoradas \nf. S\u00f3lo puede ser ejecutada por un proceso con las se\u00f1ales bloqueadas "
             ],
             "verdadera": "on: S\u00f3lo puede ser ejecutada por un proceso con uid, 0"
+        },
+        {
+            "enunciado": "Los primeros sistemas de computaci\u00f3n se caracterizaban por",
+            "respuestas": [
+                "La utilizaci\u00f3n de operadores como intermediarios de los usuarios con el sistema",
+                "La utilizaci\u00f3n de drivers de dispositivos proporcionados por los fabricantes de \u00e9stos",
+                "El uso exclusivo de sistemas operativos monoprogramados",
+                "La baja velocidad del procesador respecto a los dispositivos de entrada/salida",
+                "No disponer de ning\u00fan software de apoyo al programador/operador"
+            ],
+            "verdadera": "No disponer de ning\u00fan software de apoyo al programador/operador"
+        },
+        {
+            "enunciado": "El spooling de disco permite",
+            "respuestas": [
+                "El concepto de archivo",
+                "La multiprogramaci\u00f3n",
+                "Solapar el c\u00e1lculo de varios trabajos",
+                "Solapar el c\u00e1lculo de un trabajo con la entrada/salida de otro trabajo",
+                "Solapar la entrada/salida de varios trabajos"
+            ],
+            "verdadera": "Solapar el c\u00e1lculo de un trabajo con la entrada/salida de otro trabajo"
+        },
+        {
+            "enunciado": "De las siguientes l\u00edneas de salida del comando ls -l \u00bfcu\u00e1l describe un enlace simb\u00f3lico a un fichero?",
+            "respuestas": [
+                "drwxr-xr-x 2 santiago informa 4096 2004-10-27 08:11 sindicato...",
+                "srwxr-xr-x 2 santiago informa 40960 2004-10-27 08:11 otro...",
+                "-rw------- 1 santiago informa 121861 2004-09-22 13:52 seguridad...",
+                "brwxr--r-- 2 santiago informa 1532 2004-11-15 19:57 test...",
+                "lrwxr-xr-x 2 santiago informa 40960 2004-10-27 08:11 docu..."
+            ],
+            "verdadera": "lrwxr-xr-x 2 santiago informa 40960 2004-10-27 08:11 docu..."
+        },
+        {
+            "enunciado": "En un sistema operativo multiprogramado gen\u00e9rico",
+            "respuestas": [
+                "De un programa pueden generarse n procesos concurrentes y un proceso s\u00f3lo puede estar asociado a un programa",
+                "S\u00f3lo los programas con m\u00faltiples pilas de memoria pueden generar n procesos concurrentes",
+                "De un programa pueden generarse n procesos concurrentes y un proceso puede estar asociado a n programas",
+                "De un programa s\u00f3lo se puede generar un proceso concurrente y un proceso s\u00f3lo puede estar asociado a un programa",
+                "S\u00f3lo los programas multihilo pueden generar n procesos concurrentes y un proceso multihilo puede estar asociado a n programas"
+            ],
+            "verdadera": "De un programa pueden generarse n procesos concurrentes y un proceso s\u00f3lo puede estar asociado a un programa"
+        },
+        {
+            "enunciado": "La fragmentaci\u00f3n interna",
+            "respuestas": [
+                "Aumenta utilizando un sistema de segmentaci\u00f3n de memoria",
+                "Es la memoria disponible no utilizada porque est\u00e1 dispersa",
+                "Es la divisi\u00f3n interna de la memoria asignada a un proceso en las zonas de c\u00f3digo, datos y pila",
+                "Es la memoria libre dentro de una partici\u00f3n asignada a un proceso",
+                "Se reduce compactando los huecos libres"
+            ],
+            "verdadera": "Es la memoria libre dentro de una partici\u00f3n asignada a un proceso"
+        },
+        {
+            "enunciado": "Supongamos que el tiempo medio que el brazo de un disco tarda en cambiar de posici\u00f3n desde una pista a otra adyacente es 1 ms. El disco tiene 200 pistas numeradas de 0 a 199. El brazo del disco se encuentra colocado sobre la pista 50 y la \u00faltima vez se ha movido en sentido ascendente (hacia las pistas de \u00edndice mayor). Al manejador del disco le han llegado, por este orden, peticiones para operaciones en las pistas siguientes: 30, 90 y 150. \u00bfCu\u00e1l es el tiempo total necesario para satisfacer todas las operaciones con el algoritmo de planificaci\u00f3n LOOK?",
+            "respuestas": [
+                "378 ms",
+                "318 ms",
+                "170 ms",
+                "140 ms",
+                "220 ms"
+            ],
+            "verdadera": "220 ms"
+        },
+        {
+            "enunciado": "Si el propietario del archivo ejemplo.tab quiere otorgarle los permisos r---w-rw- deber\u00e1 ejecutar la llamada al sistema",
+            "respuestas": [
+                "chmod(\"ejemplo.tab\", 624)",
+                "chmod(\"ejemplo.tab\", 426)",
+                "chmod(\"ejemplo.tab\", 246)",
+                "chmod(\"ejemplo.tab\", 278)",
+                "Ninguna de las otras respuestas es correcta"
+            ],
+            "verdadera": "chmod(\"ejemplo.tab\", 278)"
+        },
+        {
+            "enunciado": "La orden del depurador gdb que permite poner un breakpoint en la l\u00ednea n\u00famero 17 del archivo fuente problema.c es",
+            "respuestas": [
+                "bk problema.c - 17",
+                "br problema.c - 17",
+                "br problema.c:17",
+                "run problema.c - 17",
+                "bp problema.c:17"
+            ],
+            "verdadera": "br problema.c:17"
+        },
+        {
+            "enunciado": "El objetivo principal de un sistema operativo es",
+            "respuestas": [
+                "Proporcionar comodidad en el uso del computador de una forma eficiente",
+                "Gestionar \u00fanicamente los recursos f\u00edsicos del computador",
+                "Definir un interfaz de servicios para las aplicaciones",
+                "Definir un interfaz de servicios para los usuarios",
+                "Aumentar la velocidad de ejecuci\u00f3n de las aplicaciones"
+            ],
+            "verdadera": "Proporcionar comodidad en el uso del computador de una forma eficiente"
+        },
+        {
+            "enunciado": "La independencia de dispositivos",
+            "respuestas": [
+                "Es la adaptaci\u00f3n del sistema a las distintas velocidades de los dispositivos",
+                "Permite cambiar los dispositivos de un sistema sin cambiar el c\u00f3digo de las aplicaciones",
+                "Es la capacidad del sistema de instalar o desinstalar dispositivos sin apagar el sistema",
+                "Es la capacidad del sistema de gestionar dispositivos semejantes de distintos fabricantes",
+                "Permite utilizar dispositivos de otros sistemas como dispositivos locales"
+            ],
+            "verdadera": "Permite cambiar los dispositivos de un sistema sin cambiar el c\u00f3digo de las aplicaciones"
+        },
+        {
+            "enunciado": "La capacidad de cambiar los dispositivos de entrada/salida sin modificar el c\u00f3digo de las aplicaciones",
+            "respuestas": [
+                "Se consigui\u00f3 por primera vez con la t\u00e9cnica de spooling",
+                "Se consigue con el mecanismo de interrupciones hardware",
+                "Se denomina independencia de dispositivos",
+                "Se denomina bufferingl",
+                "Se consigue exclusivamentecon un sistema operativo multiprogramado"
+            ],
+            "verdadera": "Se denomina independencia de dispositivos"
+        },
+        {
+            "enunciado": "Qu\u00e9 genera la orden  gcc -O2 prueba.c",
+            "respuestas": [
+                "Un archivo ejecutable a.out con un nivel 2 de optimizaci\u00f3n",
+                "El compilador pedir\u00e1 que le demos el nombre del fichero objeto para poder compilar",
+                "Nada. Se producir\u00e1 un error de compilaci\u00f3n",
+                "S\u00f3lo se obtiene el fichero prueba.o pero no el ejecutable",
+                "Un fichero ejecutable a.out ignorando los errores de nivel 2"
+            ],
+            "verdadera": "Un archivo ejecutable a.out con un nivel 2 de optimizaci\u00f3n"
+        },
+        {
+            "enunciado": "Si al utilizar el gestor de compilaci\u00f3n gcc para procesar un archivo fuente ejemplo.c necesitamos obtener una salida que sea el c\u00f3digo ensamblador equivalente pero no el archivo objeto, debemos usar la(s) opci\u00f3n(es)",
+            "respuestas": [
+                "-std",
+                "-S",
+                "-O",
+                "-g -o",
+                "-I -l"
+            ],
+            "verdadera": "-S"
+        },
+        {
+            "enunciado": "En UNIX cuando un proceso padre termina",
+            "respuestas": [
+                "Todos sus procesos hijos terminan",
+                "El proceso pasa al estado zombie hasta que todos sus procesos hijos terminen",
+                "El sistema operativo hace que todos sus procesos hijos sean adoptados por el proceso init (pid = 1)",
+                "Todos sus procesos hijos reciben la se\u00f1al SIGCHLD",
+                "El proceso recibe la se\u00f1al SIGCHLD si tiene alg\u00fan proceso hijo"
+            ],
+            "verdadera": "El sistema operativo hace que todos sus procesos hijos sean adoptados por el proceso init (pid = 1)"
+        },
+        {
+            "enunciado": "El efecto convoy en una planificaci\u00f3n del procesador",
+            "respuestas": [
+                "Es el algoritmo \u00f3ptimo respecto al tiempo de respuesta para cualquier carga de trabajo",
+                "No se produce en los planificadores que usan el algoritmo FCFS",
+                "Consiste en un aumento del tiempo medio de espera y de retorno si se ejecutan las r\u00e1fagas largas antes que las cortas",
+                "Se produce por una carga de trabajo con muchos procesos acotados por el procesador",
+                "Aumenta el tiempo medio de espera y de retorno pero disminuye el tiempo medio de respuesta"
+            ],
+            "verdadera": "Consiste en un aumento del tiempo medio de espera y de retorno si se ejecutan las r\u00e1fagas largas antes que las cortas"
+        },
+        {
+            "enunciado": "La unidad de gesti\u00f3n de memoria principal (MMU)",
+            "respuestas": [
+                "Es el dispositivo f\u00edsico encargado de traducir las direcciones l\u00f3gicas a direcciones f\u00edsicas",
+                "Es la parte del n\u00facleo del sistema operativo encargado de traducir las direcciones l\u00f3gicas a direcciones f\u00edsicas",
+                "Es el componente que realiza la traducci\u00f3n de direcciones l\u00f3gicas a direcciones f\u00edsicas en la carga en memoria de un programa",
+                "Cualquiera de las otras respuestas es correcta en funci\u00f3n del sistema operativo y el hardware del computador utilizado",
+                "Es el componente de la unidad aritm\u00e9tico-l\u00f3gica encargado de traducir las direcciones l\u00f3gicas a direcciones f\u00edsicas"
+            ],
+            "verdadera": "Es el dispositivo f\u00edsico encargado de traducir las direcciones l\u00f3gicas a direcciones f\u00edsicas"
+        },
+        {
+            "enunciado": "La llamada al sistema creat",
+            "respuestas": [
+                "Bloquea el acceso al nuevo archivo a otros procesos hasta que el proceso creador cierre el archivo",
+                "Permite truncar archivos seg\u00fan los flags utilizados",
+                "Devuelve 0 en caso de \u00e9xito o -1 en caso de error",
+                "Especifica los permisos de acceso al archivo creado seg\u00fan la m\u00e1scara de creaci\u00f3n de archivos del proceso solicitante",
+                "Permite crear duplicados de archivos seg\u00fan los flags utilizados"
+            ],
+            "verdadera": "Especifica los permisos de acceso al archivo creado seg\u00fan la m\u00e1scara de creaci\u00f3n de archivos del proceso solicitante"
+        },
+        {
+            "enunciado": "Un sistema con m\u00faltiples tipos de archivos permite",
+            "respuestas": [
+                "Un acceso concurrente a los archivos m\u00e1s eficiente",
+                "Asignar m\u00faltiples nombres a un archivo",
+                "Simplificar la implementaci\u00f3n del sistema de archivos",
+                "Adecuar el proceso del archivo con la finalidad de \u00e9ste",
+                "Cambiar la estructura interna del archivo seg\u00fan las necesidades de los procesos"
+            ],
+            "verdadera": "Adecuar el proceso del archivo con la finalidad de \u00e9ste"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1ntos procesos de usuario pueden como m\u00e1ximo estar simult\u00e1neamente en el estado de ejecuci\u00f3n?",
+            "respuestas": [
+                "El n\u00ba de procesadores o n\u00facleos de ejecuci\u00f3n del sistema",
+                "Todos los procesos menos el n\u00ba de procesadores o n\u00facleos de ejecuci\u00f3n del sistema",
+                "Un solo proceso",
+                "Todos los procesos",
+                "Todos los procesos menos el n\u00ba de procesos expulsados temporalmente de memoria principal"
+            ],
+            "verdadera": "El n\u00ba de procesadores o n\u00facleos de ejecuci\u00f3n del sistema"
+        },
+        {
+            "enunciado": "Dada la siguiente carga de trabajo (las unidades de tiempo son arbitrarias y la E/S puede ser realizada por varios procesos simult\u00e1neamente) y utilizando una planificaci\u00f3n SJF no apropiativa\n\n\nTrabajoT. de LlegadaRf. 1 de CPURf. de E/SRf. 2 de CPU\n\n1\n0\n3\n3\n1\n\n\n2\n1\n1\n3\n1\n\n\n3\n2\n1\n2\n3\n\n\n\n \u00bfCu\u00e1l es el tiempo de espera del trabajo 2?",
+            "respuestas": [
+                "3",
+                "2",
+                "4",
+                "1",
+                "2"
+            ],
+            "verdadera": "2"
+        },
+        {
+            "enunciado": "En un sistema UNIX, un proceso que desee enviar datos a un dispositivo de entrada/salida debe utilizar la siguiente llamada al sistema",
+            "respuestas": [
+                "ioctl",
+                "read",
+                "iowrite",
+                "write",
+                "sendmsg"
+            ],
+            "verdadera": "write"
+        },
+        {
+            "enunciado": "El modelo de programaci\u00f3n de entrada/salida controlada por programa",
+            "respuestas": [
+                "Permite el manejo de m\u00faltiples dispositivos de forma natural",
+                "Necesita de un hardware especializado para su utilizaci\u00f3n por el sistema operativo",
+                "Tiene un bucle de espera activa para comprobar la finalizaci\u00f3n de la entrada/salida",
+                "Tiene un alto rendimiento de utilizaci\u00f3n del procesador",
+                "Es adecuado para sistemas operativos multiprogramados"
+            ],
+            "verdadera": "Tiene un bucle de espera activa para comprobar la finalizaci\u00f3n de la entrada/salida"
+        },
+        {
+            "enunciado": "La m\u00e1scara de creaci\u00f3n de archivos en UNIX permite",
+            "respuestas": [
+                "Desactivar algunos permisos solicitados por el proceso creador de un archivo",
+                "Activar algunos permisos aunque no sean solicitados por el proceso creador de un archivo",
+                "Activar el control de acceso obligatorio para el archivo creado",
+                "Desactivar el acceso al archivo para otros usuarios distintos al usuario propietario",
+                "Ocultar el archivo creado para el uso exclusivo del usuario propietario"
+            ],
+            "verdadera": "Desactivar algunos permisos solicitados por el proceso creador de un archivo"
+        },
+        {
+            "enunciado": "Un programa de sistema se define como",
+            "respuestas": [
+                "Un interfaz de programaci\u00f3n del sistema operativo para las aplicaciones",
+                "Una biblioteca de subrutinas que permite a las aplicaciones solicitar servicios al sistema operativo",
+                "El cargador de programas del sistema operativo",
+                "Cualquier programa que permita desarrollar otros programas (por ejemplo, un compilador, un enlazador, un depurador, etc.)",
+                "Una aplicaci\u00f3n de utilidad que se suministra con el sistema operativo pero no forma parte de \u00e9l"
+            ],
+            "verdadera": "Una aplicaci\u00f3n de utilidad que se suministra con el sistema operativo pero no forma parte de \u00e9l"
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l de los siguientes enunciados corresponde a una caracter\u00edstica de los sistemas distribuidos?",
+            "respuestas": [
+                "Ausencia de memoria com\u00fan",
+                "No existe paralelismo real",
+                "Son independientes de los sistemas de comunicaci\u00f3n",
+                "La potencia de c\u00e1lculo es un recurso cr\u00edtico",
+                "No permiten un crecimiento incremental de los recursos"
+            ],
+            "verdadera": "Ausencia de memoria com\u00fan"
+        },
+        {
+            "enunciado": "Una diferencia entre el mecanismo de una llamada a funci\u00f3n y una llamada al sistema es",
+            "respuestas": [
+                "Ninguna de las otras respuestas es correcta",
+                "La llamada a funci\u00f3n no cambia el modo de ejecuci\u00f3n del procesador",
+                "Las llamadas al sistema alteran la pila del programa",
+                "Las llamadas a funci\u00f3n no conocen la direcci\u00f3n de la subrutina llamada",
+                "La llamada al sistema no cambia el modo de ejecuci\u00f3n del procesador"
+            ],
+            "verdadera": "La llamada a funci\u00f3n no cambia el modo de ejecuci\u00f3n del procesador"
+        },
+        {
+            "enunciado": "Un objetivo de la tabla de archivos abiertos es",
+            "respuestas": [
+                "Evitar que se asignen dos nombres de archivos id\u00e9nticos en un mismo directorio",
+                "Evitar los m\u00faltiples accesos a la estructura de directorios en las operaciones con un archivo",
+                "Implementar el m\u00e9todo de acceso indexado a los archivos",
+                "Evitar que varios procesos accedan simult\u00e1neamente a un archivo",
+                "Gestionar el espacio libre de los dispositivos de almacenamiento"
+            ],
+            "verdadera": "Evitar los m\u00faltiples accesos a la estructura de directorios en las operaciones con un archivo"
+        },
+        {
+            "enunciado": "El problema de la inanici\u00f3n en la planificaci\u00f3n por prioridad",
+            "respuestas": [
+                "S\u00f3lo se produce en la planificaci\u00f3n apropiativa",
+                "S\u00f3lo se produce en sistemas con procesos acotados por el procesador",
+                "S\u00f3lo se produce en la planificaci\u00f3n no apropiativa",
+                "S\u00f3lo se produce cuando las prioridades asignadas son constantes",
+                "S\u00f3lo se produce en las planificaciones con una \u00fanica cola de procesos preparados"
+            ],
+            "verdadera": "S\u00f3lo se produce cuando las prioridades asignadas son constantes"
         }
     ]
 }
