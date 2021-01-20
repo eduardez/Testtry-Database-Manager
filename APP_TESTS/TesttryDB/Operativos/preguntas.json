@@ -5542,6 +5542,226 @@
                 "-gt 0"
             ],
             "verdadera": "-z"
+        },
+        {
+            "enunciado": "Si mediante un programa se pretende redireccionar stdout a un archivo, de entre las siguientes sentencias, indique cu\u00e1l es la que primero se deber\u00eda ejecutar",
+            "respuestas": [
+                "dup(1)",
+                "dup(stdout)",
+                "close(0)",
+                "close(1)",
+                "dup(0)"
+            ],
+            "verdadera": "close(1)"
+        },
+        {
+            "enunciado": "Supongamos que el tiempo medio que el brazo de un disco tarda en cambiar de posici\u00f3n desde una mista a otra adyacente es de 1ms El disco tiene 100 pistas numeradas de 0 a 99 El brazo del disco se encuentra colocado sobre la pista 80 y la \u00faltima vez se ha movido en sentido ascendente(hacia las pistas de \u00edndice mayor) al manejador de disco le han llegado, por este orden, peticiones para operaciones en las pistas siguientes: 70, 80, 90\u00bfCu\u00e1l es el tiempo total necesario para satisfacer todas las operaciones con el algoritmo de planificaci\u00f3n C-SCAN?",
+            "respuestas": [
+                "188ms.",
+                "30 ms",
+                "20 ms ",
+                "48 ms",
+                "170 ms"
+            ],
+            "verdadera": "188ms."
+        },
+        {
+            "enunciado": "\u00bfCu\u00e1l es la principal aportaci\u00f3n de la primitiva mkfifo con respecto a pipe?",
+            "respuestas": [
+                "Est\u00e1 incluida como funci\u00f3n del propio lenguaje C, por lo que es m\u00e1s probable que pipe.",
+                "Permite crear tuber\u00edas en bloque",
+                "Crea una tuber\u00eda que se puede manipular mediante un  nombre bien conocido.",
+                "Permite definir el orden de escritura y lectura de informaci\u00f3n.",
+                "Limita el uso del mecanismo de comunicaci\u00f3n a un subconjunto de procesos hijos."
+            ],
+            "verdadera": "Crea una tuber\u00eda que se puede manipular mediante un  nombre bien conocido."
+        },
+        {
+            "enunciado": "Considerando la primitiva stat,int stat(const char *file_name, struct stat *buf); \u00bfcu\u00e1l esl el principal problema del siguiente fragmento de c\u00f3digo?struct stat statbuf;stat(\"test/work1\", statbuf);if(S_ISDIR(statbufst_mode)){\t/**/}",
+            "respuestas": [
+                "statbuf no se est\u00e1 pasando por referencia en la llamada stat",
+                "No se reserva memoria para statbuf",
+                "No es posible pasar directamente una cadena literal como primer argumento de stat",
+                "statbuf deber\u00eda ser un array de dos elementos",
+                "el uso de S_ISDIR no es correcto"
+            ],
+            "verdadera": "statbuf no se est\u00e1 pasando por referencia en la llamada stat"
+        },
+        {
+            "enunciado": "NO es cierto respecto al software independiente de los dispositivos de entrada/salida en UNIX:",
+            "respuestas": [
+                "Se asocia el dispositivo a un nodo del sistema de archivos.",
+                "El modo de asignaci\u00f3n exclusivo o compartido es independiente del tipo de dispositivo",
+                "Los aspectos de protecci\u00f3n siguen las mismas reglas qeu el resto de nodos del sistema de archivos.",
+                "La asignaci\u00f3n de nombres se resuelve mediante un nombre de archivo",
+                "Lainterfaz con el manejador del dispositivo se realiza mediante primitivas del sistema de archivos."
+            ],
+            "verdadera": "El modo de asignaci\u00f3n exclusivo o compartido es independiente del tipo de dispositivo"
+        },
+        {
+            "enunciado": "Utilizando la primitiva ssize_t read(int fd, void *buf, size_t count); y siendo fd1 una variable qeu cotiene un descriptor de archivo abierto  que c es una variable de tipo char Indique cu\u00e1l de las siguientes sentencias representa la forma m\u00e1s adecuada de leer un car\u00e1cter del archivo identificado por fd1",
+            "respuestas": [
+                "read(fd1,&c,strlen(c)+1)",
+                "read(fd1,&c, sizeof(char))",
+                "read(fd1,c,sizeof(char))",
+                "read(fd1,&c,sizeof(fd1))",
+                "read(fd1,c,sizeof(c))"
+            ],
+            "verdadera": "read(fd1,&c, sizeof(char))"
+        },
+        {
+            "enunciado": "Tras la ejecuci\u00f3n de la primitiva fork, para conocer el PID del proceso padre",
+            "respuestas": [
+                "Es obtenido mediante el valor devuleto por la propia llamada fork",
+                "Lo obtiene el padre mediante la primitiva getppid",
+                "Lo obtiene el hijo mediante la primitiva getpid",
+                " Ninguna de las otras respuestas es correcta",
+                "No es posible obtener el PID del padre, s\u00f3lo el del hijo reci\u00e9n creado."
+            ],
+            "verdadera": " Ninguna de las otras respuestas es correcta"
+        },
+        {
+            "enunciado": "Un sistema con gesti\u00f3n de memoria paginada y con soporte de memoria virtual ",
+            "respuestas": [
+                "No permite la compartici\u00f3n de datos en memoria entre distintos procesos",
+                "Teine una disminuci\u00f3n de la fragmentaci\u00f3n interna",
+                "Permite disminuir el grado de multiprogramaci\u00f3n del sistema",
+                "Permite aumentar el grado de multiprogramaci\u00f3n del sistema.",
+                " Tiene un aumento de la fragmentaci\u00f3n externa"
+            ],
+            "verdadera": "Permite aumentar el grado de multiprogramaci\u00f3n del sistema."
+        },
+        {
+            "enunciado": "En un sistema UNIX, si un proceso desea leer dato sde un dispositivo de entrada/salida orientado a bloques debe ",
+            "respuestas": [
+                "Utilizar la llamada al sistema read",
+                "Utilizar la llamada al sistema mkblk",
+                "Utilizar la llamada al sistema dup para redirigir la entrada de datos del dispositivo al proceso",
+                "Utilizar la llamada al sistema readblk",
+                "Tener permiso de ejecuci\u00f3n en el nodo dle sistema de archivos asociado al proceso"
+            ],
+            "verdadera": "Utilizar la llamada al sistema read"
+        },
+        {
+            "enunciado": "en la organizaci\u00f3 nde un sistema de entrada/salida, la reactivaci\u00f3n del manejador de dispositivos al completarse la operaci\u00f3n de entrada/salida, es responsabilidad de:",
+            "respuestas": [
+                "El manejador de interrupciones",
+                "El manejador del dispositivo",
+                "El software independiente del dispositivo",
+                "El proceso del usuario",
+                "El controlador DMA"
+            ],
+            "verdadera": "El manejador de interrupciones"
+        },
+        {
+            "enunciado": " Dadop el siguiente programa que acepta como argumetnos un comando UNIx con sus respectivos argumentos, \u00bfque imprimir\u00e1 el programa al ejecutarse?int main(int argc, char *argv[]){\texecvp(argv[1], &argv[1]);\tprintf(argv[1]);\treturn 1;}",
+            "respuestas": [
+                "Si hay errores en execvp, no se imprimir\u00e1 nada",
+                "Si no hay errores, se imprime la salida del comando ejecutado y luego el nombre del comando.",
+                "Si no hay errores, se imprime \u00fanicamente la salida del comando ejecutado.",
+                "Si hay errores en execvp, s\u00f3lo se imprimir\u00e1 la salida del comando ejecutado.",
+                "Si no hay errores, se imprime el nombre del comando y luego la salida del comando ejecutado."
+            ],
+            "verdadera": "Si no hay errores, se imprime \u00fanicamente la salida del comando ejecutado."
+        },
+        {
+            "enunciado": "Se pretende compartir una zona de memoria entre tres procesos El sistema de gesti\u00f3n de memoria se basa en paginaci\u00f3n Como consecuencia:",
+            "respuestas": [
+                "La MMU necesita un soporte adicional para poder ofrecer esta funcionalidad.",
+                "Habr\u00eda que cambiar a un modelo basado en segmentaci\u00f3n para poder soportarlo",
+                "Los tres procesos compartir\u00e1n la tabla de p\u00e1ginas",
+                "Habr\u00e1 entradas en la tabla de p\u00e1ginas de cada proceso que hacen referencia a los mismos marcos.",
+                "Es necesario un m\u00ednimo de tres registros de reubicaci\u00f3n."
+            ],
+            "verdadera": "Habr\u00e1 entradas en la tabla de p\u00e1ginas de cada proceso que hacen referencia a los mismos marcos."
+        },
+        {
+            "enunciado": " Considere un sistema de gesti\u00f3n de memoria paginada con una tabla de p\u00e1ginas de un \u00fanico nivel que tambi\u00e9n se almacena en memoria principal IS una referencia a memoria f\u00edsica se resuelve en 20 nanosegundos, \u00bfcu\u00e1ntos nanosegundos llevar\u00e1 el acceso a una posici\u00f3n indicada medianteuna direcci\u00f3n de memoria paginada?",
+            "respuestas": [
+                "40",
+                "50",
+                "80",
+                "30",
+                "10"
+            ],
+            "verdadera": "40"
+        },
+        {
+            "enunciado": "El modo transparente de funcionamiento de un controlador DMA:",
+            "respuestas": [
+                "S\u00f3lo roba ciclos cuando la CPU no necesita el bus",
+                "S\u00f3lo puede funcionar en el modo de sincronizaci\u00f3n polling",
+                "Avisa a la CPU mediante unainstrucci\u00f3n cuando una operaci\u00f3n de entrada/salida comienza.",
+                "Puede funcionar por r\u00e1fagas o por robo de ciclos",
+                "Soluciona el problema de la variedad de velocidades de transferencia de dispositivos de entrada/salida."
+            ],
+            "verdadera": "S\u00f3lo roba ciclos cuando la CPU no necesita el bus"
+        },
+        {
+            "enunciado": "La fragmentaci\u00f3n externa de memoria:",
+            "respuestas": [
+                "Es la memoria libre dentro de una partici\u00f3n asignada a un proceso",
+                "Ninguna de las otras respuestas es correcta",
+                "Se reduce dividiendo los huecos libres de memoria",
+                "Disminuye utilizando un sistema de segmentaci\u00f3n de memoria",
+                "Es la divisi\u00f3n interna de la memoria asignada a un proceso en las zonas de c\u00f3digo, datos y pila."
+            ],
+            "verdadera": "Ninguna de las otras respuestas es correcta"
+        },
+        {
+            "enunciado": "Considere una memoria con un espacio de direcciones l\u00f3gicas de 32 p\u00e1ginas de 1024 palabras que se traducen a una memoria f\u00edsica de un tama\u00f1o m\u00e1ximo de 64 marcos\u00bfCu\u00e1ntos bits debe tener una direccion del espacio l\u00f3gico de direcciones?",
+            "respuestas": [
+                "6",
+                "10",
+                "16",
+                "5",
+                "15"
+            ],
+            "verdadera": "15"
+        },
+        {
+            "enunciado": "La planificaci\u00f3n del procesador no apropiativa",
+            "respuestas": [
+                "Es caracter\u00edstica en la planificaci\u00f3n SJF",
+                "Ninguna de las otras respuestas es correcta",
+                "Es caracter\u00edstica del planificador a largo plazo",
+                "Es m\u00e1s com\u00fan en planificaci\u00f3n de tipo SJF que en FCFS",
+                "Es caracter\u00edstica de los sistemas multiprogramados"
+            ],
+            "verdadera": "Ninguna de las otras respuestas es correcta"
+        },
+        {
+            "enunciado": "En relaci\u00f3n con el Bloque de Control de Procesos(PCB)",
+            "respuestas": [
+                "Sirve como dep\u00f3sito de la informaci\u00f3n que comparten los procesos existentes en un momento dado.",
+                "Ninguna de las otras respuestas es correcta",
+                "El sistema operativo mantiene una lista de PCBs correspondientes a los procesos activos en un momento dado",
+                "Est\u00e1 formado, entre otros, por el c\u00f3digo de programa, la pila de proceso y las variables est\u00e1ticas.",
+                "Es el encargado de realizar el cambio de procesos y realiza el paso a modo usuario."
+            ],
+            "verdadera": "El sistema operativo mantiene una lista de PCBs correspondientes a los procesos activos en un momento dado"
+        },
+        {
+            "enunciado": " Si se pretende mejorar el control del grado de multiprogramaci\u00f3n del sistema deber\u00e1 actuarse sobre",
+            "respuestas": [
+                "El planificador a largo plazo del procesador",
+                "El planificador a corto plazo del procesador",
+                "El planificador a medio plazo del procesador",
+                "La prioridad de los procesos",
+                "El valor del quantum de la planificaci\u00f3n por turno rotatorio."
+            ],
+            "verdadera": "El planificador a largo plazo del procesador"
+        },
+        {
+            "enunciado": "Cuando un proceso lee de uan tuber\u00eda, los datos que obtiene",
+            "respuestas": [
+                "Puede provocar un bloqueo en el proceso lector si no son del tipo adecuado.",
+                "Presentan un orden inverso con respecto al orden en el que fueron escritos en la tuber\u00eda.",
+                "Presentan un orden aleatorio, pero se corresponden con los datos escritos por alg\u00fan otro proceso.",
+                "Mantienen el mismo orden en ele que fueron escritos en la tuber\u00eda.",
+                "Hay que convertirlos convenientemente mediante las correspondientes funciones."
+            ],
+            "verdadera": "Mantienen el mismo orden en ele que fueron escritos en la tuber\u00eda."
         }
     ]
 }

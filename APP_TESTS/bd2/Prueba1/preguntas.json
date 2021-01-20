@@ -1026,6 +1026,506 @@
                 "La ruta cr\u00edtica se incrementar\u00eda 12 horas"
             ],
             "verdadera": "La ruta cr\u00edtica ser\u00eda Inicio, A, C, E, F, Final"
+        },
+        {
+            "enunciado": "T03-114 El nivel 2 de madurez est\u00e1 compuesto por:",
+            "respuestas": [
+                "1 proceso de acuerdo, 5 procesos organizacionales de proyecto, 7 procesos de gesti\u00f3n t\u00e9cnica y 8 procesos t\u00e9cnicos.",
+                "1 proceso de acuerdo, 3 procesos organizacionales de proyecto, 7 procesos de gesti\u00f3n t\u00e9cnica y 7 procesos t\u00e9cnicos.",
+                "1 proceso de acuerdo, 4 proceso organizacional de proyecto, 7 procesos de gesti\u00f3n t\u00e9cnica y 7 procesos t\u00e9cnicos.",
+                "1 proceso de acuerdo, 1 proceso organizacional de proyecto, 5 procesos de gesti\u00f3n t\u00e9cnica y 2 procesos t\u00e9cnicos."
+            ],
+            "verdadera": " 1 proceso de acuerdo, 1 proceso organizacional \nde proyecto, 5 procesos de gesti\u00f3n t\u00e9cnica y 2 procesos t\u00e9cnicos."
+        },
+        {
+            "enunciado": "T01-165 El Product Backlog cuenta con las siguientes cualidades",
+            "respuestas": [
+                "Grado de detalle adecuado, estimado, emergente y priorizado.",
+                "Grado de detalle adecuado, estimado, priorizado y final.",
+                "Grado de detalle estimado, emergente, priorizado y final.",
+                "Grado de detalle adecuado, estimado, emergente, priorizado y final."
+            ],
+            "verdadera": "Grado de detalle adecuado, estimado, emergente y priorizado."
+        },
+        {
+            "enunciado": "T02-42 \u00bfCu\u00e1l de las siguientes disciplinas de ingenier\u00eda del software debe ser cubierta por la gesti\u00f3n de la configuraci\u00f3n?",
+            "respuestas": [
+                "Testing",
+                "An\u00e1lisis",
+                "Todas las respuestas son disciplinas cubiertas por la gesti\u00f3n de configuraci\u00f3n",
+                "Dise\u00f1o"
+            ],
+            "verdadera": "An\u00e1lisis"
+        },
+        {
+            "enunciado": "T05-03 El est\u00e1ndar ISO 12207:2017:",
+            "respuestas": [
+                "Describe los procesos del ciclo de vida del software.",
+                "Describe el proceso de mantenimiento en detalle.",
+                "Son los requisitos de calidad y su evaluaci\u00f3n.",
+                "Todas las respuestas anteriores pertenecen al est\u00e1ndar ISO/IEC 25000:2014."
+            ],
+            "verdadera": "Describe los procesos del ciclo de vida del software."
+        },
+        {
+            "enunciado": "T02-76 Donde se desarrollan ramas de caracter\u00edsticas",
+            "respuestas": [
+                "La develop",
+                "Ninguna de las otras respuestas son correctas",
+                "Ramas paralelas.",
+                "La master."
+            ],
+            "verdadera": "Ramas paralelas."
+        },
+        {
+            "enunciado": "T01-61 En un modelo en cascada, \u00bfcu\u00e1ndo se genera la documentaci\u00f3n?:",
+            "respuestas": [
+                "No se genera documentaci\u00f3n",
+                "Al final del proyecto",
+                "Al final de cada incremento",
+                "Al final de cada fase"
+            ],
+            "verdadera": "Al final de cada fase"
+        },
+        {
+            "enunciado": "T03-62 Sobre los modelos de referencia de procesos, indica cual es cierta:",
+            "respuestas": [
+                "Permiten juzgar y decidir sobre la capacidad de los procesos y la madurez de las organizaciones que est\u00e1n sujetas a an\u00e1lisis.",
+                "Establecen mecanismos para hacer que los procesos sean mejores.",
+                "Todas son falsas.",
+                "Establecen un camino a seguir describiendo las caracter\u00edsticas de los buenos procesos en diferentes aspectos organizacionales."
+            ],
+            "verdadera": " Establecen un camino a seguir describiendo las \ncaracter\u00edsticas de los buenos procesos en diferentes aspectos \norganizacionales."
+        },
+        {
+            "enunciado": "T02-79  Que significa el concepto release menor",
+            "respuestas": [
+                "Modificaciones a problemas graves del producto.",
+                "Ninguna de las otras respuestas es correcta",
+                "Modificaciones detectadas por el equipo de mantenimiento.",
+                "Modificaciones o parches a problemas informados por el cliente."
+            ],
+            "verdadera": "Modificaciones o parches a problemas informados por el cliente."
+        },
+        {
+            "enunciado": "T04-23 \u00bfCu\u00e1l de las siguientes no es una estrategia de combinaci\u00f3n?",
+            "respuestas": [
+                "AETG (Automatic Efficient Test Generator)",
+                "Random",
+                "Antirandom",
+                "PR (Pairwise with Restictions)"
+            ],
+            "verdadera": "PR (Pairwise with Restictions)"
+        },
+        {
+            "enunciado": "T02-09 El concepto de L\u00ednea Base o Baseline se puede definir como...",
+            "respuestas": [
+                "Producto desarrollado por medio de la metodolog\u00eda en cascada",
+                "Metodolog\u00eda en la que no se puede pasar a la siguiente fase si la anterior no est\u00e1 completamente terminada",
+                "Requisitos m\u00ednimos que el cliente especifica directamente al jefe del proyecto",
+                "Producto formalmente revisado y que puede servir de base para futuros desarrollos"
+            ],
+            "verdadera": "Producto formalmente revisado y que puede servir de base para futuros desarrollos"
+        },
+        {
+            "enunciado": "T02-21\n Completa la frase: \u201cLa CM establece y protege la _____ de un producto o\n de los componentes de un producto a trav\u00e9s de su vida \u00fatil...\u201d",
+            "respuestas": [
+                "tolerancia a fallos",
+                "integridad",
+                "confidencialidad",
+                "disponibilidad"
+            ],
+            "verdadera": "integridad"
+        },
+        {
+            "enunciado": "T01-91 En el modelo de Ciclo de Vida en cascada\u2026",
+            "respuestas": [
+                "El proceso de desarrollo se divide en un conjunto de etapas y es posible desarrollarlas de forma paralela.",
+                "El sistema se desarrolla en incrementos y el sistema es el resultado de la integraci\u00f3n de todos los componentes",
+                "Se genera un solo documento al final del proyecto",
+                "Se\n divide el proceso de desarrollo en un conjunto de etapas secuenciales, y\n por lo tanto una etapa no empieza hasta que no termina la anterior."
+            ],
+            "verdadera": " Se divide el proceso de desarrollo en un \nconjunto de etapas secuenciales, y por lo tanto una etapa no empieza \nhasta que no termina la anterior."
+        },
+        {
+            "enunciado": "T05-52\n En las actividades de mantenimiento, \u00bfqu\u00e9 nombre recibe la prueba que \nsomete el software modificado a casos de pruebas previamente almacenados\n y por los que ya pas\u00f3?",
+            "respuestas": [
+                "Pruebas de regresi\u00f3n.",
+                "Pruebas de integraci\u00f3n.",
+                "Pruebas de aceptaci\u00f3n.",
+                "Ninguna de las respuestas es correcta."
+            ],
+            "verdadera": "Pruebas de regresi\u00f3n."
+        },
+        {
+            "enunciado": "T04-31 \u00bfQu\u00e9 tipos de pruebas existen en la gesti\u00f3n de pruebas?",
+            "respuestas": [
+                "Caja negra y caja blanca.",
+                "Caja gris.",
+                "Caja blanca.",
+                "Caja negra."
+            ],
+            "verdadera": "Caja negra y caja blanca."
+        },
+        {
+            "enunciado": "T04-56 \u00bfCu\u00e1l de las siguientes es una ventaja de las pruebas de mutaci\u00f3n?",
+            "respuestas": [
+                "Todas las otras respuestas son correctas.",
+                "Permite mejorar los conjuntos de casos de prueba en un proceso iterativo.",
+                "Permite descubrir ambig\u00fcedades en el c\u00f3digo fuente probado.",
+                "Se puede usar como indicador de lo bueno o malo que es un conjunto de casos de prueba."
+            ],
+            "verdadera": "Todas las otras respuestas son correctas."
+        },
+        {
+            "enunciado": "T05-47 \u00bfEn qu\u00e9 consiste el c\u00f3digo heredado?",
+            "respuestas": [
+                "C\u00f3digo que se desarrolla r\u00e1pidamente y que ser\u00e1 reemplazo por c\u00f3digo probado posteriormente.",
+                "M\u00e9todos que dejamos en blanco para que otro equipo de desarrollo especializado lo complete.",
+                "C\u00f3digo con herencia entre clases.",
+                "C\u00f3digo de aplicaciones desarrolladas hace alg\u00fan tiempo."
+            ],
+            "verdadera": "C\u00f3digo de aplicaciones desarrolladas hace alg\u00fan tiempo."
+        },
+        {
+            "enunciado": "T05-60 \u00bfQu\u00e9 hace posible la reingenier\u00eda del software?",
+            "respuestas": [
+                "Llevar a cabo el mantenimiento evolutivo de sistemas de informaci\u00f3n existentes.",
+                "Poder\n hacer cambios en las primeras etapas del desarrollo del software sin \nque ello suponga un coste desmesurado para el proyecto.",
+                "Obtener el dise\u00f1o del software a partir de la implementaci\u00f3n.",
+                "Poder repetir una iteraci\u00f3n si los resultados obtenidos no son los esperados."
+            ],
+            "verdadera": "Llevar a cabo el mantenimiento evolutivo de sistemas de informaci\u00f3n existentes."
+        },
+        {
+            "enunciado": "T02-57 La gesti\u00f3n de versiones es ...:",
+            "respuestas": [
+                "Procesos de administrar l\u00edneas de c\u00f3digo y l\u00ednea bases",
+                "Procesos de adjudicar l\u00edneas de c\u00f3digo y l\u00ednea bases.",
+                "Procesos para visualizar l\u00edneas de c\u00f3digo y l\u00ednea bases.",
+                "Procesos de complementar l\u00edneas de c\u00f3digo y l\u00ednea bases."
+            ],
+            "verdadera": "Procesos de administrar l\u00edneas de c\u00f3digo y l\u00ednea bases"
+        },
+        {
+            "enunciado": "T03-43 \u00bfQu\u00e9 implica que un producto software tenga completitud funcional?",
+            "respuestas": [
+                "Que todos los requisitos son relevantes.",
+                "Que todos los requisitos implementados se ejecutan bien.",
+                "Que incluya todos los requisitos establecidos en el contrato.",
+                "Esa cualidad no se valora en un producto software."
+            ],
+            "verdadera": "Que incluya todos los requisitos establecidos en el contrato."
+        },
+        {
+            "enunciado": "T03-27 \u00bfCu\u00e1l no es un objetivo de la Mejora de Proceso?",
+            "respuestas": [
+                "Controlar el proceso",
+                "Definir el proceso",
+                "Calcular el proceso",
+                "Mejorar el proceso"
+            ],
+            "verdadera": "Calcular el proceso"
+        },
+        {
+            "enunciado": "T02-62 La gesti\u00f3n de configuraci\u00f3n pretende asegurar\u2026",
+            "respuestas": [
+                "El acceso al del producto",
+                "La seguridad del producto",
+                "La integridad y calidad del producto durante su desarrollo",
+                "La modificaci\u00f3n del producto"
+            ],
+            "verdadera": "La integridad y calidad del producto durante su desarrollo"
+        },
+        {
+            "enunciado": "T01-15 \u00bfQu\u00e9 son los Stakeholders?",
+            "respuestas": [
+                "Los resultados finales del software desarrollado.",
+                "Los pasos que se deben seguir para realizar un proyecto ordenado y que siga unas buenas pr\u00e1cticas.",
+                "Las personas y/u organizaciones que est\u00e1n implicadas en el proyecto.",
+                "\u00danicamente las personas que trabajan en el proyecto."
+            ],
+            "verdadera": "Las personas y/u organizaciones que est\u00e1n implicadas en el proyecto."
+        },
+        {
+            "enunciado": "T03-71 \u00bfCu\u00e1l de los siguientes tipos de proceso no engloba ISO 12207:2017?",
+            "respuestas": [
+                "Procesos de gesti\u00f3n t\u00e9cnica.",
+                "Procesos t\u00e9cnicos.",
+                "Procesos de acuerdo.",
+                "Procesos de calidad de gesti\u00f3n."
+            ],
+            "verdadera": "Procesos de calidad de gesti\u00f3n."
+        },
+        {
+            "enunciado": "T04-29 Behaviour-driven development (BDD)\u2026",
+            "respuestas": [
+                "Es similar a TDD pero trabaja a m\u00e1s bajo nivel de desarrollo.",
+                "Ninguna de las otras respuestas es correcta",
+                "No es similar a TDD",
+                "Es similar a TDD pero trabaja a m\u00e1s alto nivel de abstracci\u00f3n."
+            ],
+            "verdadera": "Es similar a TDD pero trabaja a m\u00e1s alto nivel de abstracci\u00f3n."
+        },
+        {
+            "enunciado": "T02-41 \u00bfQu\u00e9 es una rel\u00e9ase?",
+            "respuestas": [
+                "Tipo espec\u00edfico de repositorio para el mantenimiento de la informaci\u00f3n de la gesti\u00f3n de configuraci\u00f3n",
+                "Cualquier\n persona o grupo designado que vaya a ser responsable de que las \nactividades de la gesti\u00f3n de configuraci\u00f3n se planifiquen y se ejecuten",
+                "Un plan que describe que porciones de las funcionalidades de un sistema ser\u00e1n implementadas en los fundamentos de cada release",
+                "Conjunto software liberado o publicado de una aplicaci\u00f3n, que puede contener toda la aplicaci\u00f3n o parte de ella"
+            ],
+            "verdadera": " Conjunto software liberado o publicado de una \naplicaci\u00f3n, que puede contener toda la aplicaci\u00f3n o parte de ella"
+        },
+        {
+            "enunciado": "T01-196 \u00bfCu\u00e1les son las 2 principales caracter\u00edsticas de Scrum?",
+            "respuestas": [
+                "Todas las otras respuestas son falsas",
+                "El desarrollo software se realiza de forma incremental, y se celebran reuniones de coordinaci\u00f3n a lo largo del proyecto",
+                "El\n desarrollo software se realiza mediante iteraciones incrementales, y se\n celebran reuniones de coordinaci\u00f3n a lo largo del proyecto",
+                "El desarrollo software se realiza mediante iteraciones, y se celebran reuniones de coordinaci\u00f3n al final del proyecto"
+            ],
+            "verdadera": " El desarrollo software se realiza mediante \niteraciones incrementales, y se celebran reuniones de coordinaci\u00f3n a lo \nlargo del proyecto"
+        },
+        {
+            "enunciado": "T03-102 Cu\u00e1les son las caracter\u00edsticas del concepto de calidad:",
+            "respuestas": [
+                "multidimensional, no es absoluto, tiene restricciones, ligada a compromisos aceptables y los criterios no son independientes.",
+                "multidimensional, relativo, sin restricciones, con compromisos aceptables y criterios independientes.",
+                "unidimensional, absoluto, sin restricciones, sin compromisos y criterios independientes.",
+                "Ninguna de las otras respuestas es ciertaes correcta."
+            ],
+            "verdadera": " multidimensional, no es absoluto, tiene \nrestricciones, ligada a compromisos aceptables y los criterios no son \nindependientes."
+        },
+        {
+            "enunciado": "T01-17 Las 3C significan\u2026",
+            "respuestas": [
+                "Control, comunicaci\u00f3n, colaboraci\u00f3n.",
+                "Control, cambio, combinaci\u00f3n.",
+                "Comunicaci\u00f3n, combinaci\u00f3n, colaboraci\u00f3n.",
+                "Comunicaci\u00f3n, cambio, colaboraci\u00f3n."
+            ],
+            "verdadera": "Control, comunicaci\u00f3n, colaboraci\u00f3n."
+        },
+        {
+            "enunciado": "T01-152 Las filosof\u00edas estructuradas y \u00e1giles son\u2026",
+            "respuestas": [
+                "Incrementales.",
+                "Cascada.",
+                "Iterativas.",
+                "Iterativas e incrementales."
+            ],
+            "verdadera": "Iterativas e incrementales."
+        },
+        {
+            "enunciado": "T04-7 Un or\u00e1culo en gesti\u00f3n de pruebas se define como:",
+            "respuestas": [
+                "Desv\u00edo respecto al comportamiento requerido del sistema.",
+                "La necesidad de conocer cuando el programa falla para un conjunto de datos dado.",
+                "La necesidad de conocer la salida esperada.",
+                "La necesidad de conocer cuando el programa fallar\u00e1 para un subconjunto de datos dados."
+            ],
+            "verdadera": "La necesidad de conocer cuando el programa falla para un conjunto de datos dado."
+        },
+        {
+            "enunciado": "T02-29\n En un software cuya versi\u00f3n inicial es la 1.3.2 sufre una alteraci\u00f3n de\n en el c\u00f3digo provocando una actualizaci\u00f3n a la 1.3.3 \u00bfQu\u00e9 tipo de \nmodificaci\u00f3n se ha realizado?",
+            "respuestas": [
+                "Un arreglo para solventar un comportamiento err\u00f3neo, siendo compatible con la versi\u00f3n anterior.",
+                "Un arreglo para solventar un comportamiento err\u00f3neo, sin ser compatible con la versi\u00f3n anterior.",
+                "Ninguna de las otras respuestas son correctas.",
+                "Cuando el cambio no es compatible con la versi\u00f3n de la API Publica."
+            ],
+            "verdadera": "Un arreglo para solventar un comportamiento err\u00f3neo, siendo compatible con la versi\u00f3n anterior."
+        },
+        {
+            "enunciado": "T04-2 \u00bfCu\u00e1les son los niveles de pruebas?",
+            "respuestas": [
+                "Pruebas de caja negra, pruebas de caja blanca, pruebas de integraci\u00f3n, pruebas de sistema, pruebas de aceptaci\u00f3n.",
+                "Pruebas\n de caja negra, pruebas de caja blanca, pruebas unitarias, pruebas de \nintegraci\u00f3n, pruebas de sistema, pruebas de aceptaci\u00f3n.",
+                "Pruebas de caja negra, pruebas de caja blanca, pruebas unitarias, pruebas de integraci\u00f3n, pruebas de aceptaci\u00f3n.",
+                "Pruebas\n de caja negra, pruebas de caja blanca, pruebas unitarias, pruebas de \nintegraci\u00f3n, pruebas de sistema, pruebas de cobertura."
+            ],
+            "verdadera": " Pruebas de caja negra, pruebas de caja blanca, \npruebas unitarias, pruebas de integraci\u00f3n, pruebas de sistema, pruebas \nde aceptaci\u00f3n."
+        },
+        {
+            "enunciado": "T04-6 En las pruebas exhaustivas se requiere probar:",
+            "respuestas": [
+                "Todas las respuestas son correctas.",
+                "Todas las combinaciones v\u00e1lidas e inv\u00e1lidas.",
+                "Todos los puntos de entrada de ejecuci\u00f3n.",
+                "Todos los estados posibles del programa."
+            ],
+            "verdadera": "Todas las respuestas son correctas."
+        },
+        {
+            "enunciado": "T03-18 \u00bfCu\u00e1l no es una caracter\u00edstica de seguridad?",
+            "respuestas": [
+                "No repudio.",
+                "Interoperabilidad.",
+                "Confidencialidad.",
+                "Integridad."
+            ],
+            "verdadera": "Interoperabilidad."
+        },
+        {
+            "enunciado": "T04-52\n En una cobertura de sentencia de la parte de c\u00f3digo, usando por ejemplo\n el plugin de Ecclema en verde y el c\u00f3digo en rojo reflejan:",
+            "respuestas": [
+                "Ninguna de las otras respuestas es correcta",
+                "La parte verde es la parte probada y la roja son los casos de prueba que no son suficientes para esas partes.",
+                "La parte roja es la parte probada y la verde son los casos de prueba que no son suficientes para esas partes.",
+                "La parte verde es la parte que implementa correctamente y la roja son los errores del c\u00f3digo."
+            ],
+            "verdadera": " La parte verde es la parte probada y la roja son\n los casos de prueba que no son suficientes para esas partes."
+        },
+        {
+            "enunciado": "T03-106 Las fases de SCAMPI son:",
+            "respuestas": [
+                "Planificaci\u00f3n y preparaci\u00f3n de la evaluaci\u00f3n e informe de los resultados.",
+                "Realizaci\u00f3n de la evaluaci\u00f3n e informa de los resultados.",
+                "Planificaci\u00f3n y preparaci\u00f3n de la evaluaci\u00f3n, realizaci\u00f3n de la evaluaci\u00f3n, informe de los resultados.",
+                "Planificaci\u00f3n y preparaci\u00f3n de la evaluaci\u00f3n y realizaci\u00f3n de la evaluaci\u00f3n."
+            ],
+            "verdadera": "Planificaci\u00f3n y preparaci\u00f3n de la evaluaci\u00f3n, realizaci\u00f3n de la evaluaci\u00f3n, informe de los resultados."
+        },
+        {
+            "enunciado": "T05-73\u00a0 Sobre el c\u00f3digo heredado heredado se podr\u00eda decir que:",
+            "respuestas": [
+                "Todas las posibles respuestas son correctas",
+                "Se\n tiene la opci\u00f3n de desechar este software y reescribirlo para adaptarlo\n a las nuevas tecnolog\u00edas o cambios en la especificaci\u00f3n de muchas veces\n inadecuada",
+                "La mayor parte del software esta formado por c\u00f3digo antiguo heredado",
+                "Es el c\u00f3digo de aplicaciones desarrolladas hace alg\u00fan tiempo"
+            ],
+            "verdadera": "Todas las posibles respuestas son correctas"
+        },
+        {
+            "enunciado": "T05-09 \u00bfCu\u00e1ntos principios existen en mantenibilidad Clean Code?",
+            "respuestas": [
+                "8.",
+                "6.",
+                "5.",
+                "7."
+            ],
+            "verdadera": "7."
+        },
+        {
+            "enunciado": "T05-33 \u00bfCu\u00e1l es el principio del Boy Scout?",
+            "respuestas": [
+                "Ninguna de las anteriores es correcta.",
+                "Dejar el c\u00f3digo m\u00e1s simple de c\u00f3mo lo encontraste.",
+                "Aprovecha todo lo que tengas a tu alrededor.",
+                "Trabaja siempre en equipo."
+            ],
+            "verdadera": "Dejar el c\u00f3digo m\u00e1s simple de c\u00f3mo lo encontraste."
+        },
+        {
+            "enunciado": "T01-151 En cada iteraci\u00f3n o mini proyecto, \u00bfQu\u00e9 fases hay que seguir?",
+            "respuestas": [
+                "Dise\u00f1o, implementaci\u00f3n, pruebas y mantenimiento.",
+                "An\u00e1lisis, dise\u00f1o, implementaci\u00f3n, pruebas y mantenimiento.",
+                "Requisitos, an\u00e1lisis, dise\u00f1o, implementaci\u00f3n, pruebas y mantenimiento.",
+                "Requisitos, an\u00e1lisis, dise\u00f1o, implementaci\u00f3n y pruebas."
+            ],
+            "verdadera": "Requisitos, an\u00e1lisis, dise\u00f1o, implementaci\u00f3n y pruebas."
+        },
+        {
+            "enunciado": "T05-04 La reusabilidad es el:",
+            "respuestas": [
+                "Grado en que un activo puede ser utilizado en m\u00e1s de un sistema software o en la construcci\u00f3n de otros activos.",
+                "Grado\n con el que un producto o sistema puede ser modificado de forma efectiva\n y eficiente sin introducir defectos o degradar la calidad de producto \nexistente",
+                "Grado\n en que un sistema o programa de ordenador est\u00e1 compuesto de componentes\n discretos de forma tal que un cambio en un componente tenga un impacto \nm\u00ednimo en los dem\u00e1s.",
+                "Grado\n en que un sistema o programa de ordenador est\u00e1 compuesto de componentes\n discretos de forma tal que un cambio en un componente tenga un impacto \nm\u00ednimo en los dem\u00e1s."
+            ],
+            "verdadera": " Grado en que un activo puede ser utilizado en \nm\u00e1s de un sistema software o en la construcci\u00f3n de otros activos."
+        },
+        {
+            "enunciado": "T04-15 La cobertura de condiciones \u2026",
+            "respuestas": [
+                "Se satisface cuando cada condici\u00f3n y decisi\u00f3n se eval\u00faa a true y a false al menos una vez.",
+                "Se satisface cuando cada condici\u00f3n se eval\u00faa a true y a false al menos una vez.",
+                "Se satisface cuando una condici\u00f3n se eval\u00faa a true y a false al menos una vez.",
+                "Se satisface cuando cada condici\u00f3n se eval\u00faa a true o a false al menos una vez."
+            ],
+            "verdadera": "Se satisface cuando cada condici\u00f3n se eval\u00faa a true y a false al menos una vez."
+        },
+        {
+            "enunciado": "T03-127 \u00bfCu\u00e1les son los 5 niveles de madurez que puede tener un modelo de Referencia CMMI:",
+            "respuestas": [
+                "No aplica, inicial, gestionado, definido, gestionado cuantitativamente, en optimizaci\u00f3n.",
+                "Ninguna de las otras respuestas es cierta.",
+                "Incompleto, b\u00e1sico, intermedio, avanzado y terminado.",
+                "Nada maduro, poco maduro, maduro, extremadamente maduro y totalmente maduro."
+            ],
+            "verdadera": "No aplica, inicial, gestionado, definido, gestionado cuantitativamente, en optimizaci\u00f3n."
+        },
+        {
+            "enunciado": "T01-41 \u00bfCu\u00e1ndo se empieza a hablar del concepto de ingenier\u00eda del software?",
+            "respuestas": [
+                "En los a\u00f1os de la d\u00e9cada de 1990.",
+                "En los a\u00f1os de la d\u00e9cada de 1960, m\u00e1s concretamente en 1968 con la NATO.",
+                "En los a\u00f1os de la d\u00e9cada de 1970, m\u00e1s concretamente en 1970 con el modelo de cascada de Royce.",
+                "En los a\u00f1os de la d\u00e9cada de 1980."
+            ],
+            "verdadera": "En los a\u00f1os de la d\u00e9cada de 1960, m\u00e1s concretamente en 1968 con la NATO."
+        },
+        {
+            "enunciado": "T02-05 El producto m\u00ednimo viable es:",
+            "respuestas": [
+                "Primera fase del software, donde se comienzan las pruebas.",
+                "Versi\u00f3n del producto con caracter\u00edsticas m\u00ednimas pero suficientes.",
+                "Fase secundaria para comenzar pruebas.",
+                "Versi\u00f3n operativa del sistema o componente."
+            ],
+            "verdadera": "Versi\u00f3n del producto con caracter\u00edsticas m\u00ednimas pero suficientes."
+        },
+        {
+            "enunciado": "T03-47 \u00bfQu\u00e9 proporciona la ISO/IEC 25030:2007?",
+            "respuestas": [
+                "Proporciona requisitos y recomendaciones para la especificaci\u00f3n de los requisitos de calidad software.",
+                "Todas las opciones son correctas.",
+                "Proporciona una explicaci\u00f3n introductoria y un modelo de referencia com\u00fan a los elementos de medici\u00f3n de calidad",
+                "Proporciona una definici\u00f3n espec\u00edfica de las m\u00e9tricas para realizar la medici\u00f3n de la calidad de datos."
+            ],
+            "verdadera": "Proporciona requisitos y recomendaciones para la especificaci\u00f3n de los requisitos de calidad software."
+        },
+        {
+            "enunciado": "T05-75 Gesti\u00f3n de la calidad en el mantenimiento implica...",
+            "respuestas": [
+                "Aumento de los recursos humanos y econ\u00f3micos dedicados al mantenimiento",
+                "Constituir un grupo separado de ingenieros dedicados al mantenimiento software",
+                "Raramente encuentran y corrigen defectos",
+                "Recursos fundamental es el humano"
+            ],
+            "verdadera": "Aumento de los recursos humanos y econ\u00f3micos dedicados al mantenimiento"
+        },
+        {
+            "enunciado": "T01-71 \u00bfEn qu\u00e9 consiste la Metodolog\u00eda orientada a objeto?",
+            "respuestas": [
+                "Propone\n que los sistemas pueden ser vistos como un conjunto de objetos o \nentidades con una identidad y comportamiento propio, las cuales \ninteract\u00faan entre s\u00ed para alcanzar el objetivo com\u00fan del sistema",
+                "Estas metodolog\u00edas toman como base la idea de que los datos, adem\u00e1s de fluir y tener un contenido, tienen una estructura",
+                "Es\n un modelo gr\u00e1fico, particionado, descendente y jer\u00e1rquico de los \nprocesos del sistema y de los datos utilizados por los procesos.",
+                "Ninguna es correcta"
+            ],
+            "verdadera": " Propone que los sistemas pueden ser vistos como \nun conjunto de objetos o entidades con una identidad y comportamiento \npropio, las cuales interact\u00faan entre s\u00ed para alcanzar el objetivo com\u00fan \ndel sistema"
+        },
+        {
+            "enunciado": "T05-38 \u00bfCu\u00e1l NO es un cambio al que debe adaptarse el mantenimiento adaptativo?",
+            "respuestas": [
+                "Software.",
+                "Legal.",
+                "Sistema Operativo.",
+                "Hardware."
+            ],
+            "verdadera": "Sistema Operativo."
+        },
+        {
+            "enunciado": "T04-39 Las pruebas exhaustivas requieren probar:",
+            "respuestas": [
+                "Todas las combinaciones v\u00e1lidas e inv\u00e1lidas.",
+                "Solo las combinaciones v\u00e1lidas.",
+                "Ninguna de las otras respuestas es correcta",
+                "Solo las combinaciones inv\u00e1lidas."
+            ],
+            "verdadera": "Todas las combinaciones v\u00e1lidas e inv\u00e1lidas."
         }
     ]
 }

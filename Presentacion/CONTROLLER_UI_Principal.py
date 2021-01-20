@@ -183,7 +183,7 @@ class Ui_Principal(QtWidgets.QMainWindow, Ui_frm_principal):
 
     def addQuestionToTable(self, table, question):
         num_fila = table.rowCount()
-        info = [question.get('enunciado'), str(question.get('respuestas')), question.get('verdadera')]
+        info = [question['enunciado'], str(question['respuestas']), question['verdadera']]
         new_row = QtWidgets.QTableWidgetItem()
         new_row.setText(str(num_fila))
         table.setVerticalHeaderItem(num_fila, new_row)

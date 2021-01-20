@@ -25,7 +25,22 @@ def crawlHTMLfile(path):
     preguntas = findQuestionDIV(soup)
     return preguntas
         
+
 def findQuestionDIV(soup):
+    question_list = []
+    div_list = soup.findAll("div", {"class": "multichoice"})
+    for divi in div_list:
+        try:
+            enunciado = divi.find("div", {"class": "qtext"}).text
+            opciones = procesarOpciones(divi.find("div", {"class": "answer"}))
+            correcta = divi.find("div", {"class": "rightanswer"}).text
+            correcta = removeLARESPUESTACORRECTAES(correcta)
+            question_list.append(Pregunta(enunciado, opciones, correcta))
+        except Exception:
+            pass
+    return question_list
+
+def findQuestionDIV___OLD(soup):
     div_list = []
     question_list = []
     for number in range(0,20):
