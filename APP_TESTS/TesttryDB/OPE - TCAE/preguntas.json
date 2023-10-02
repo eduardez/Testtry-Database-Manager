@@ -1,0 +1,164 @@
+{
+    "Preguntas": [
+        {
+            "enunciado": "¿Cómo se aplican las terapias de calor seco?",
+            "respuestas": [
+                "a) Con baños terapéuticos.",
+                "b) Con manta térmica.",
+                "c) Con bolsa de agua caliente.",
+                "d) B y C son correctas."
+            ],
+            "verdadera": "d) B y C son correctas."
+        },
+        {
+            "enunciado": "Dentro de las medidas de prevención de eficacia probada se incluyen:",
+            "respuestas": [
+                "a) Quimioprofilaxis en cirugía limpia.",
+                "b) Empleo de guantes.",
+                "c) Procedimientos de aislamiento.",
+                "d) Desinfección de suelo y paredes."
+            ],
+            "verdadera": "b) Empleo de guantes."
+        },
+        {
+            "enunciado": "¿En cuál de las siguientes vías de administración de un fármaco, este no tiene que absorberse?",
+            "respuestas": [
+                "a) Vía intravascular.",
+                "b) Vía intramuscular.",
+                "c) Vía subcutánea.",
+                "d) Vía intradérmica."
+            ],
+            "verdadera": "d) Vía intradérmica."
+        },
+        {
+            "enunciado": "El volumen de aire que entra y sale del aparato respiratorio en un minuto se conoce como:",
+            "respuestas": [
+                "a) Frecuencia respiratoria.",
+                "b) Volumen de reserva espiratoria.",
+                "c) Capacidad vital.",
+                "d) Ventilación pulmonar."
+            ],
+            "verdadera": "a) Frecuencia respiratoria."
+        },
+        {
+            "enunciado": "¿Cómo se denomina el sistema de información utilizado en el Sistema Sanitario de Atención Hospitalaria de Castilla-La Mancha?",
+            "respuestas": [
+                "a) Turriano.",
+                "b) Fierabrás.",
+                "c) Turriano SITRAP.",
+                "d) Mambrino XXI."
+            ],
+            "verdadera": "c) Turriano SITRAP."
+        },
+        {
+            "enunciado": "De acuerdo con lo dispuesto en el artículo 82, del Estatuto de Personal No Facultativo de la Seguridad Social ¿Cuál de las siguientes funciones corresponde al auxiliar de enfermería en el Servicio de Farmacia?",
+            "respuestas": [
+                "a) La limpieza y ordenación del material utilizado en la Unidad, bajo la supervisión del Personal Auxiliar Sanitario Titulado.",
+                "b) Contribuir al transporte de los preparados y efectos sanitarios siempre que su volumen y su peso no excedan de los límites establecidos en la legislación vigente.",
+                "c) La recepción de volantes y documentos para la asistencia de los enfermos.",
+                "d) Preparación y dispensación de citostáticos."
+            ],
+            "verdadera": "d) Preparación y dispensación de citostáticos."
+        },
+        {
+            "enunciado": "Al cese de la respiración se le llama:",
+            "respuestas": [
+                "a) Bradipnea.",
+                "b) Disnea.",
+                "c) Ortopnea.",
+                "d) Apnea."
+            ],
+            "verdadera": "d) Apnea."
+        },
+        {
+            "enunciado": "¿Cuál es la estructura física desde la que se prestan las actividades de atención primaria de la Zona de Salud?",
+            "respuestas": [
+                "a) El Distrito de Salud.",
+                "b) La Zona Básica de Salud.",
+                "c) La Gerencia del Área.",
+                "d) El Centro de Salud."
+            ],
+            "verdadera": "b) La Zona Básica de Salud."
+        },
+        {
+            "enunciado": "El movimiento de separación del miembro inferior derecho del plano medio sagital se conoce como movimiento de:",
+            "respuestas": [
+                "a) Abducción.",
+                "b) Aducción.",
+                "c) Rotación.",
+                "d) Flexión."
+            ],
+            "verdadera": "a) Abducción."
+        },
+        {
+            "enunciado": "En relación con la conservación de muestras biológicas, señala la que se puede mantener a temperatura ambiente o a 37ºC",
+            "respuestas": [
+                "a) Exudados.",
+                "b) Líquido seminal.",
+                "c) Esputos.",
+                "d) Líquido cefaloraquídeo."
+            ],
+            "verdadera": "a) Exudados."
+        },
+        {
+            "enunciado": "En un paciente encamado en el que no existe ninguna contraindicación para el lavado de cabeza, lo colocaremos en posición de:",
+            "respuestas": [
+                "a) Roser.",
+                "b) Morestin.",
+                "c) Proetz.",
+                "d) A y C son correctas."
+            ],
+            "verdadera": "d) A y C son correctas."
+        },
+        {
+            "enunciado": "Los “Derechos fundamentales y Libertades Públicas”, regulados en los artículos 15 al 29 de la Constitución Española:",
+            "respuestas": [
+                "a) No pueden ser objeto de reforma constitucional.",
+                "b) No son de aplicación directa, y precisan de ley que los desarrolle.",
+                "c) Solo pueden ser desarrollados por Ley Orgánica.",
+                "d) Solo pueden ser desarrollados por reglamentos."
+            ],
+            "verdadera": "b) No son de aplicación directa, y precisan de ley que los desarrolle."
+        },
+        {
+            "enunciado": "¿Qué fase del duelo se caracteriza por la dificultad en la toma de decisiones, la exhibición de sufrimiento, miedo y en algunas ocasiones ira y la sensación de incredulidad e imposibilidad respecto a la muerte de esa persona?",
+            "respuestas": [
+                "a) Resolución.",
+                "b) Desorientación y desorganización.",
+                "c) Aturdimiento.",
+                "d) Resolución y organización."
+            ],
+            "verdadera": "c) Aturdimiento."
+        },
+        {
+            "enunciado": "En el shock hipovolémico:",
+            "respuestas": [
+                "a) No llega suficiente sangre al corazón.",
+                "b) Hay una patología que no permite al corazón trabajar.",
+                "c) El corazón bombea sangre adecuadamente.",
+                "d) El corazón no trabaja adecuadamente."
+            ],
+            "verdadera": "a) No llega suficiente sangre al corazón."
+        },
+        {
+            "enunciado": "Por definición el pronóstico de vida en la enfermedad terminal es:",
+            "respuestas": [
+                "a) Menor de tres meses.",
+                "b) Mayor de un mes.",
+                "c) De aproximadamente ocho semanas.",
+                "d) Inferior a seis meses."
+            ],
+            "verdadera": "a) Menor de tres meses."
+        },
+        {
+            "enunciado": "Las pulsaciones por minuto (ppm) normales en un adulto sano oscilan entre:",
+            "respuestas": [
+                "a) 60 y 80 ppm.",
+                "b) 90 y 100 ppm.",
+                "c) 40 y 50 ppm.",
+                "d) 110 y 120 ppm."
+            ],
+            "verdadera": "a) 60 y 80 ppm."
+        }
+    ]
+}

@@ -27,6 +27,10 @@
         {
             "nombre_categoria": "ISO2",
             "numero_preguntas": 321	    
+        },
+        {
+            "nombre_categoria": "OPE - TCAE",
+            "numero_preguntas": 16	    
         }
     ],
     "database_id": "9f32f06dae8b0c097227",
