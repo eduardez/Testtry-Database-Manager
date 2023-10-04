@@ -3,32 +3,32 @@
         {
             "enunciado": "¿Cómo se aplican las terapias de calor seco?",
             "respuestas": [
-                "a) Con baños terapéuticos.",
-                "b) Con manta térmica.",
+                "a) Con ba\u00f1os terap\u00e9uticos.",
+                "b) Con manta t\u00e9rmica.",
                 "c) Con bolsa de agua caliente.",
                 "d) B y C son correctas."
             ],
             "verdadera": "d) B y C son correctas."
         },
         {
-            "enunciado": "Dentro de las medidas de prevención de eficacia probada se incluyen:",
+            "enunciado": "Dentro de las medidas de prevenci\u00f3n de eficacia probada se incluyen:",
             "respuestas": [
-                "a) Quimioprofilaxis en cirugía limpia.",
+                "a) Quimioprofilaxis en cirug\u00eda limpia.",
                 "b) Empleo de guantes.",
                 "c) Procedimientos de aislamiento.",
-                "d) Desinfección de suelo y paredes."
+                "d) Desinfecci\u00f3n de suelo y paredes."
             ],
             "verdadera": "b) Empleo de guantes."
         },
         {
-            "enunciado": "¿En cuál de las siguientes vías de administración de un fármaco, este no tiene que absorberse?",
+            "enunciado": "¿En cu\u00e1l de las siguientes v\u00edas de administraci\u00f3n de un f\u00e1rmaco, este no tiene que absorberse?",
             "respuestas": [
-                "a) Vía intravascular.",
-                "b) Vía intramuscular.",
-                "c) Vía subcutánea.",
-                "d) Vía intradérmica."
+                "a) V\u00eda intravascular.",
+                "b) V\u00eda intramuscular.",
+                "c) V\u00eda subcut\u00e1nea.",
+                "d) V\u00eda intrad\u00e9rmica."
             ],
-            "verdadera": "d) Vía intradérmica."
+            "verdadera": "d) V\u00eda intrad\u00e9rmica."
         },
         {
             "enunciado": "El volumen de aire que entra y sale del aparato respiratorio en un minuto se conoce como:",
@@ -36,32 +36,32 @@
                 "a) Frecuencia respiratoria.",
                 "b) Volumen de reserva espiratoria.",
                 "c) Capacidad vital.",
-                "d) Ventilación pulmonar."
+                "d) Ventilaci\u00f3n pulmonar."
             ],
             "verdadera": "a) Frecuencia respiratoria."
         },
         {
-            "enunciado": "¿Cómo se denomina el sistema de información utilizado en el Sistema Sanitario de Atención Hospitalaria de Castilla-La Mancha?",
+            "enunciado": "¿C\u00f3mo se denomina el sistema de informaci\u00f3n utilizado en el Sistema Sanitario de Atenci\u00f3n Hospitalaria de Castilla-La Mancha?",
             "respuestas": [
                 "a) Turriano.",
-                "b) Fierabrás.",
+                "b) Fierabr\u00e1s.",
                 "c) Turriano SITRAP.",
                 "d) Mambrino XXI."
             ],
             "verdadera": "c) Turriano SITRAP."
         },
         {
-            "enunciado": "De acuerdo con lo dispuesto en el artículo 82, del Estatuto de Personal No Facultativo de la Seguridad Social ¿Cuál de las siguientes funciones corresponde al auxiliar de enfermería en el Servicio de Farmacia?",
+            "enunciado": "De acuerdo con lo dispuesto en el art\u00edculo 82, del Estatuto de Personal No Facultativo de la Seguridad Social \u00bfCu\u00e1l de las siguientes funciones corresponde al auxiliar de enfermer\u00eda en el Servicio de Farmacia?",
             "respuestas": [
-                "a) La limpieza y ordenación del material utilizado en la Unidad, bajo la supervisión del Personal Auxiliar Sanitario Titulado.",
-                "b) Contribuir al transporte de los preparados y efectos sanitarios siempre que su volumen y su peso no excedan de los límites establecidos en la legislación vigente.",
-                "c) La recepción de volantes y documentos para la asistencia de los enfermos.",
-                "d) Preparación y dispensación de citostáticos."
+                "a) La limpieza y ordenaci\u00f3n del material utilizado en la Unidad, bajo la supervisi\u00f3n del Personal Auxiliar Sanitario Titulado.",
+                "b) Contribuir al transporte de los preparados y efectos sanitarios siempre que su volumen y su peso no excedan de los l\u00edmites establecidos en la legislaci\u00f3n vigente.",
+                "c) La recepci\u00f3n de volantes y documentos para la asistencia de los enfermos.",
+                "d) Preparaci\u00f3n y dispensaci\u00f3n de citost\u00e1ticos."
             ],
-            "verdadera": "d) Preparación y dispensación de citostáticos."
+            "verdadera": "d) Preparaci\u00f3n y dispensaci\u00f3n de citost\u00e1ticos."
         },
         {
-            "enunciado": "Al cese de la respiración se le llama:",
+            "enunciado": "Al cese de la respiraci\u00f3n se le llama:",
             "respuestas": [
                 "a) Bradipnea.",
                 "b) Disnea.",
@@ -71,37 +71,37 @@
             "verdadera": "d) Apnea."
         },
         {
-            "enunciado": "¿Cuál es la estructura física desde la que se prestan las actividades de atención primaria de la Zona de Salud?",
+            "enunciado": "¿Cu\u00e1l es la estructura f\u00edsica desde la que se prestan las actividades de atenci\u00f3n primaria de la Zona de Salud?",
             "respuestas": [
                 "a) El Distrito de Salud.",
-                "b) La Zona Básica de Salud.",
-                "c) La Gerencia del Área.",
+                "b) La Zona B\u00e1sica de Salud.",
+                "c) La Gerencia del \u00c1rea.",
                 "d) El Centro de Salud."
             ],
-            "verdadera": "b) La Zona Básica de Salud."
+            "verdadera": "b) La Zona B\u00e1sica de Salud."
         },
         {
-            "enunciado": "El movimiento de separación del miembro inferior derecho del plano medio sagital se conoce como movimiento de:",
+            "enunciado": "El movimiento de separaci\u00f3n del miembro inferior derecho del plano medio sagital se conoce como movimiento de:",
             "respuestas": [
-                "a) Abducción.",
-                "b) Aducción.",
-                "c) Rotación.",
-                "d) Flexión."
+                "a) Abducci\u00f3n.",
+                "b) Aducci\u00f3n.",
+                "c) Rotaci\u00f3n.",
+                "d) Flexi\u00f3n."
             ],
-            "verdadera": "a) Abducción."
+            "verdadera": "a) Abducci\u00f3n."
         },
         {
-            "enunciado": "En relación con la conservación de muestras biológicas, señala la que se puede mantener a temperatura ambiente o a 37ºC",
+            "enunciado": "En relaci\u00f3n con la conservaci\u00f3n de muestras biol\u00f3gicas, se\u00f1ala la que se puede mantener a temperatura ambiente o a 37\u00baC",
             "respuestas": [
                 "a) Exudados.",
-                "b) Líquido seminal.",
+                "b) L\u00edquido seminal.",
                 "c) Esputos.",
-                "d) Líquido cefaloraquídeo."
+                "d) L\u00edquido cefaloraqu\u00eddeo."
             ],
             "verdadera": "a) Exudados."
         },
         {
-            "enunciado": "En un paciente encamado en el que no existe ninguna contraindicación para el lavado de cabeza, lo colocaremos en posición de:",
+            "enunciado": "En un paciente encamado en el que no existe ninguna contraindicaci\u00f3n para el lavado de cabeza, lo colocaremos en posici\u00f3n de:",
             "respuestas": [
                 "a) Roser.",
                 "b) Morestin.",
@@ -111,37 +111,37 @@
             "verdadera": "d) A y C son correctas."
         },
         {
-            "enunciado": "Los “Derechos fundamentales y Libertades Públicas”, regulados en los artículos 15 al 29 de la Constitución Española:",
+            "enunciado": "Los \u201cDerechos fundamentales y Libertades P\u00fablicas\u201d, regulados en los art\u00edculos 15 al 29 de la Constituci\u00f3n Espa\u00f1ola:",
             "respuestas": [
                 "a) No pueden ser objeto de reforma constitucional.",
-                "b) No son de aplicación directa, y precisan de ley que los desarrolle.",
-                "c) Solo pueden ser desarrollados por Ley Orgánica.",
+                "b) No son de aplicaci\u00f3n directa, y precisan de ley que los desarrolle.",
+                "c) Solo pueden ser desarrollados por Ley Org\u00e1nica.",
                 "d) Solo pueden ser desarrollados por reglamentos."
             ],
-            "verdadera": "b) No son de aplicación directa, y precisan de ley que los desarrolle."
+            "verdadera": "b) No son de aplicaci\u00f3n directa, y precisan de ley que los desarrolle."
         },
         {
-            "enunciado": "¿Qué fase del duelo se caracteriza por la dificultad en la toma de decisiones, la exhibición de sufrimiento, miedo y en algunas ocasiones ira y la sensación de incredulidad e imposibilidad respecto a la muerte de esa persona?",
+            "enunciado": "¿Qu\u00e9 fase del duelo se caracteriza por la dificultad en la toma de decisiones, la exhibici\u00f3n de sufrimiento, miedo y en algunas ocasiones ira y la sensaci\u00f3n de incredulidad e imposibilidad respecto a la muerte de esa persona?",
             "respuestas": [
-                "a) Resolución.",
-                "b) Desorientación y desorganización.",
+                "a) Resoluci\u00f3n.",
+                "b) Desorientaci\u00f3n y desorganizaci\u00f3n.",
                 "c) Aturdimiento.",
-                "d) Resolución y organización."
+                "d) Resoluci\u00f3n y organizaci\u00f3n."
             ],
             "verdadera": "c) Aturdimiento."
         },
         {
-            "enunciado": "En el shock hipovolémico:",
+            "enunciado": "En el shock hipovol\u00e9mico:",
             "respuestas": [
-                "a) No llega suficiente sangre al corazón.",
-                "b) Hay una patología que no permite al corazón trabajar.",
-                "c) El corazón bombea sangre adecuadamente.",
-                "d) El corazón no trabaja adecuadamente."
+                "a) No llega suficiente sangre al coraz\u00f3n.",
+                "b) Hay una patolog\u00eda que no permite al coraz\u00f3n trabajar.",
+                "c) El coraz\u00f3n bombea sangre adecuadamente.",
+                "d) El coraz\u00f3n no trabaja adecuadamente."
             ],
-            "verdadera": "a) No llega suficiente sangre al corazón."
+            "verdadera": "a) No llega suficiente sangre al coraz\u00f3n."
         },
         {
-            "enunciado": "Por definición el pronóstico de vida en la enfermedad terminal es:",
+            "enunciado": "Por definici\u00f3n el pron\u00f3stico de vida en la enfermedad terminal es:",
             "respuestas": [
                 "a) Menor de tres meses.",
                 "b) Mayor de un mes.",
